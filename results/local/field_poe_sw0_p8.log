@@ -1,0 +1,1349 @@
+[poe K=4] ideal RMSE med 3.960 dB p90 5.383; log10 weight range per instance: median 0.7, N_eff median 2.38 (23 s)
+  poe K=   4 M= 1 PSNR=   0 genie         RMSE med   11.378 p90     19.669  sat 0.000
+  poe K=   4 M= 1 PSNR=   0 ladder        RMSE med   13.129 p90     21.318  sat 0.000
+  poe K=   4 M= 1 PSNR=   0 fixed         RMSE med   18.007 p90     23.493  sat 0.197
+  poe K=   4 M= 1 PSNR=   0 ladder_hybrid RMSE med    9.790 p90     19.558  sat 0.000
+  poe K=   4 M= 1 PSNR=   0 genie_hybrid  RMSE med    8.463 p90     17.064  sat 0.000
+  poe K=   4 M= 1 PSNR=   0 ladder_chk    RMSE med    9.774 p90     19.112  sat 0.000
+  poe K=   4 M= 1 PSNR=   0 ladderdet     RMSE med   10.224 p90     14.783  sat 0.556
+  poe K=   4 M= 1 PSNR=   0 ladderdet_chk RMSE med    7.958 p90     11.291  sat 0.557
+  poe K=   4 M= 1 PSNR=   0 ladder_trunc  RMSE med   10.252 p90     16.506  sat 0.000
+  poe K=   4 M= 1 PSNR=   0 ladder_hybrid_trunc RMSE med    7.946 p90     11.857  sat 0.000
+  poe K=   4 M= 1 PSNR=   0 ladderdet_trunc RMSE med    8.558 p90     12.790  sat 0.625
+  poe K=   4 M= 1 PSNR=   0 ladderdet_chk_trunc RMSE med    7.232 p90     10.736  sat 0.620
+  poe K=   4 M= 1 PSNR=   0 awa           RMSE med   11.916 p90     69.895
+  poe K=   4 M= 1 PSNR=   0 pure          RMSE med   25.415 p90    130.981
+  poe K=   4 M= 1 PSNR=   0 simple        RMSE med    7.869 p90     17.245
+  poe K=   4 M= 1 PSNR=   0 airmoe        RMSE med    6.497 p90      9.142  sat 1.000
+  poe K=   4 M= 1 PSNR=   0 airmoe_hybrid RMSE med    6.162 p90      8.621  sat 1.000
+  poe K=   4 M= 1 PSNR=   0 airmoe_eff    RMSE med    6.208 p90      8.400  sat 1.000
+  poe K=   4 M= 1 PSNR=   0 ladder_eff@kap0.3 RMSE med    7.308 p90     11.877  sat 0.986
+  poe K=   4 M= 1 PSNR=   0 ladder_eff@kap1 RMSE med    6.855 p90     10.446  sat 1.000
+  poe K=   4 M= 1 PSNR=   0 ladderdet_eff RMSE med    8.492 p90     12.254  sat 0.561
+  poe K=   4 M= 1 PSNR=   0 ladderdet_eff@kap0.3 RMSE med    7.849 p90     11.167  sat 0.692
+  poe K=   4 M= 1 PSNR=   0 ladderdet_eff@kap1 RMSE med    7.583 p90     10.695  sat 0.762
+  poe K=   4 M= 1 PSNR=   0 ladderdet_eff_trunc@kap1 RMSE med    7.194 p90     10.765  sat 0.698
+  poe K=   4 M= 1 PSNR=   5 genie         RMSE med    7.211 p90     14.457  sat 0.000
+  poe K=   4 M= 1 PSNR=   5 ladder        RMSE med    8.355 p90     16.297  sat 0.000
+  poe K=   4 M= 1 PSNR=   5 fixed         RMSE med   11.386 p90     16.360  sat 0.197
+  poe K=   4 M= 1 PSNR=   5 ladder_hybrid RMSE med    6.565 p90     12.439  sat 0.000
+  poe K=   4 M= 1 PSNR=   5 genie_hybrid  RMSE med    6.000 p90     11.293  sat 0.000
+  poe K=   4 M= 1 PSNR=   5 ladder_chk    RMSE med    6.499 p90     13.017  sat 0.000
+  poe K=   4 M= 1 PSNR=   5 ladderdet     RMSE med    7.154 p90     14.046  sat 0.316
+  poe K=   4 M= 1 PSNR=   5 ladderdet_chk RMSE med    6.332 p90     11.102  sat 0.316
+  poe K=   4 M= 1 PSNR=   5 ladder_trunc  RMSE med    7.113 p90     11.768  sat 0.000
+  poe K=   4 M= 1 PSNR=   5 ladder_hybrid_trunc RMSE med    6.036 p90      8.823  sat 0.000
+  poe K=   4 M= 1 PSNR=   5 ladderdet_trunc RMSE med    6.682 p90     11.303  sat 0.293
+  poe K=   4 M= 1 PSNR=   5 ladderdet_chk_trunc RMSE med    6.104 p90      9.092  sat 0.311
+  poe K=   4 M= 1 PSNR=   5 awa           RMSE med    7.250 p90     26.805
+  poe K=   4 M= 1 PSNR=   5 pure          RMSE med   20.009 p90    106.108
+  poe K=   4 M= 1 PSNR=   5 simple        RMSE med    6.583 p90     10.998
+  poe K=   4 M= 1 PSNR=   5 airmoe        RMSE med    5.583 p90      7.993  sat 1.000
+  poe K=   4 M= 1 PSNR=   5 airmoe_hybrid RMSE med    5.478 p90      7.499  sat 1.000
+  poe K=   4 M= 1 PSNR=   5 airmoe_eff    RMSE med    5.364 p90      7.309  sat 1.000
+  poe K=   4 M= 1 PSNR=   5 ladder_eff@kap0.3 RMSE med    5.746 p90      8.699  sat 0.875
+  poe K=   4 M= 1 PSNR=   5 ladder_eff@kap1 RMSE med    5.574 p90      8.130  sat 0.988
+  poe K=   4 M= 1 PSNR=   5 ladderdet_eff RMSE med    6.281 p90     11.197  sat 0.315
+  poe K=   4 M= 1 PSNR=   5 ladderdet_eff@kap0.3 RMSE med    5.696 p90      8.425  sat 0.916
+  poe K=   4 M= 1 PSNR=   5 ladderdet_eff@kap1 RMSE med    5.615 p90      7.873  sat 0.991
+  poe K=   4 M= 1 PSNR=   5 ladderdet_eff_trunc@kap1 RMSE med    5.565 p90      7.720  sat 0.985
+  poe K=   4 M= 1 PSNR=  10 genie         RMSE med    5.307 p90     10.629  sat 0.000
+  poe K=   4 M= 1 PSNR=  10 ladder        RMSE med    5.767 p90     11.683  sat 0.000
+  poe K=   4 M= 1 PSNR=  10 fixed         RMSE med    7.068 p90     10.205  sat 0.197
+  poe K=   4 M= 1 PSNR=  10 ladder_hybrid RMSE med    5.083 p90      8.374  sat 0.000
+  poe K=   4 M= 1 PSNR=  10 genie_hybrid  RMSE med    4.857 p90      7.665  sat 0.000
+  poe K=   4 M= 1 PSNR=  10 ladder_chk    RMSE med    5.082 p90      8.391  sat 0.000
+  poe K=   4 M= 1 PSNR=  10 ladderdet     RMSE med    5.757 p90     11.594  sat 0.000
+  poe K=   4 M= 1 PSNR=  10 ladderdet_chk RMSE med    5.142 p90      8.414  sat 0.001
+  poe K=   4 M= 1 PSNR=  10 ladder_trunc  RMSE med    5.452 p90      8.319  sat 0.000
+  poe K=   4 M= 1 PSNR=  10 ladder_hybrid_trunc RMSE med    4.877 p90      6.870  sat 0.000
+  poe K=   4 M= 1 PSNR=  10 ladderdet_trunc RMSE med    5.370 p90      8.471  sat 0.001
+  poe K=   4 M= 1 PSNR=  10 ladderdet_chk_trunc RMSE med    4.905 p90      6.874  sat 0.001
+  poe K=   4 M= 1 PSNR=  10 awa           RMSE med    6.163 p90     11.001
+  poe K=   4 M= 1 PSNR=  10 pure          RMSE med   13.119 p90     78.201
+  poe K=   4 M= 1 PSNR=  10 simple        RMSE med    6.071 p90      8.924
+  poe K=   4 M= 1 PSNR=  10 airmoe        RMSE med    4.857 p90      6.897  sat 1.000
+  poe K=   4 M= 1 PSNR=  10 airmoe_hybrid RMSE med    4.801 p90      6.607  sat 1.000
+  poe K=   4 M= 1 PSNR=  10 airmoe_eff    RMSE med    4.681 p90      6.427  sat 1.000
+  poe K=   4 M= 1 PSNR=  10 ladder_eff@kap0.3 RMSE med    4.838 p90      6.931  sat 0.674
+  poe K=   4 M= 1 PSNR=  10 ladder_eff@kap1 RMSE med    4.803 p90      6.821  sat 0.882
+  poe K=   4 M= 1 PSNR=  10 ladderdet_eff RMSE med    5.118 p90      8.392  sat 0.001
+  poe K=   4 M= 1 PSNR=  10 ladderdet_eff@kap0.3 RMSE med    4.885 p90      6.940  sat 0.674
+  poe K=   4 M= 1 PSNR=  10 ladderdet_eff@kap1 RMSE med    4.808 p90      6.746  sat 0.882
+  poe K=   4 M= 1 PSNR=  10 ladderdet_eff_trunc@kap1 RMSE med    4.728 p90      6.550  sat 0.853
+  poe K=   4 M= 1 PSNR=  15 genie         RMSE med    4.520 p90      6.744  sat 0.000
+  poe K=   4 M= 1 PSNR=  15 ladder        RMSE med    4.678 p90      7.302  sat 0.000
+  poe K=   4 M= 1 PSNR=  15 fixed         RMSE med    5.094 p90      6.905  sat 0.197
+  poe K=   4 M= 1 PSNR=  15 ladder_hybrid RMSE med    4.476 p90      6.382  sat 0.000
+  poe K=   4 M= 1 PSNR=  15 genie_hybrid  RMSE med    4.394 p90      6.148  sat 0.000
+  poe K=   4 M= 1 PSNR=  15 ladder_chk    RMSE med    4.518 p90      6.482  sat 0.000
+  poe K=   4 M= 1 PSNR=  15 ladderdet     RMSE med    4.648 p90      7.297  sat 0.000
+  poe K=   4 M= 1 PSNR=  15 ladderdet_chk RMSE med    4.517 p90      6.583  sat 0.000
+  poe K=   4 M= 1 PSNR=  15 ladder_trunc  RMSE med    4.572 p90      6.405  sat 0.000
+  poe K=   4 M= 1 PSNR=  15 ladder_hybrid_trunc RMSE med    4.391 p90      6.095  sat 0.000
+  poe K=   4 M= 1 PSNR=  15 ladderdet_trunc RMSE med    4.572 p90      6.533  sat 0.000
+  poe K=   4 M= 1 PSNR=  15 ladderdet_chk_trunc RMSE med    4.468 p90      6.237  sat 0.000
+  poe K=   4 M= 1 PSNR=  15 awa           RMSE med    5.447 p90     19.856
+  poe K=   4 M= 1 PSNR=  15 pure          RMSE med    6.741 p90     39.341
+  poe K=   4 M= 1 PSNR=  15 simple        RMSE med    5.812 p90      8.050
+  poe K=   4 M= 1 PSNR=  15 airmoe        RMSE med    4.399 p90      6.077  sat 1.000
+  poe K=   4 M= 1 PSNR=  15 airmoe_hybrid RMSE med    4.415 p90      5.985  sat 1.000
+  poe K=   4 M= 1 PSNR=  15 airmoe_eff    RMSE med    4.289 p90      5.877  sat 1.000
+  poe K=   4 M= 1 PSNR=  15 ladder_eff@kap0.3 RMSE med    4.347 p90      6.067  sat 0.481
+  poe K=   4 M= 1 PSNR=  15 ladder_eff@kap1 RMSE med    4.370 p90      5.964  sat 0.685
+  poe K=   4 M= 1 PSNR=  15 ladderdet_eff RMSE med    4.471 p90      6.476  sat 0.000
+  poe K=   4 M= 1 PSNR=  15 ladderdet_eff@kap0.3 RMSE med    4.384 p90      6.104  sat 0.481
+  poe K=   4 M= 1 PSNR=  15 ladderdet_eff@kap1 RMSE med    4.364 p90      6.029  sat 0.684
+  poe K=   4 M= 1 PSNR=  15 ladderdet_eff_trunc@kap1 RMSE med    4.299 p90      5.889  sat 0.665
+  poe K=   4 M= 1 PSNR=  20 genie         RMSE med    4.196 p90      5.839  sat 0.000
+  poe K=   4 M= 1 PSNR=  20 ladder        RMSE med    4.312 p90      5.988  sat 0.000
+  poe K=   4 M= 1 PSNR=  20 fixed         RMSE med    4.311 p90      5.815  sat 0.197
+  poe K=   4 M= 1 PSNR=  20 ladder_hybrid RMSE med    4.176 p90      5.815  sat 0.000
+  poe K=   4 M= 1 PSNR=  20 genie_hybrid  RMSE med    4.117 p90      5.654  sat 0.000
+  poe K=   4 M= 1 PSNR=  20 ladder_chk    RMSE med    4.169 p90      5.827  sat 0.000
+  poe K=   4 M= 1 PSNR=  20 ladderdet     RMSE med    4.283 p90      6.035  sat 0.000
+  poe K=   4 M= 1 PSNR=  20 ladderdet_chk RMSE med    4.226 p90      5.820  sat 0.000
+  poe K=   4 M= 1 PSNR=  20 ladder_trunc  RMSE med    4.215 p90      5.848  sat 0.000
+  poe K=   4 M= 1 PSNR=  20 ladder_hybrid_trunc RMSE med    4.185 p90      5.751  sat 0.000
+  poe K=   4 M= 1 PSNR=  20 ladderdet_trunc RMSE med    4.219 p90      5.797  sat 0.000
+  poe K=   4 M= 1 PSNR=  20 ladderdet_chk_trunc RMSE med    4.165 p90      5.747  sat 0.000
+  poe K=   4 M= 1 PSNR=  20 awa           RMSE med    4.594 p90      7.635
+  poe K=   4 M= 1 PSNR=  20 pure          RMSE med    4.919 p90     16.638
+  poe K=   4 M= 1 PSNR=  20 simple        RMSE med    5.649 p90      7.782
+  poe K=   4 M= 1 PSNR=  20 airmoe        RMSE med    4.150 p90      5.647  sat 1.000
+  poe K=   4 M= 1 PSNR=  20 airmoe_hybrid RMSE med    4.169 p90      5.630  sat 1.000
+  poe K=   4 M= 1 PSNR=  20 airmoe_eff    RMSE med    4.118 p90      5.597  sat 1.000
+  poe K=   4 M= 1 PSNR=  20 ladder_eff@kap0.3 RMSE med    4.165 p90      5.609  sat 0.315
+  poe K=   4 M= 1 PSNR=  20 ladder_eff@kap1 RMSE med    4.140 p90      5.614  sat 0.490
+  poe K=   4 M= 1 PSNR=  20 ladderdet_eff RMSE med    4.202 p90      5.845  sat 0.000
+  poe K=   4 M= 1 PSNR=  20 ladderdet_eff@kap0.3 RMSE med    4.152 p90      5.679  sat 0.314
+  poe K=   4 M= 1 PSNR=  20 ladderdet_eff@kap1 RMSE med    4.142 p90      5.611  sat 0.490
+  poe K=   4 M= 1 PSNR=  20 ladderdet_eff_trunc@kap1 RMSE med    4.124 p90      5.643  sat 0.490
+  poe K=   4 M= 1 PSNR=  25 genie         RMSE med    4.032 p90      5.513  sat 0.000
+  poe K=   4 M= 1 PSNR=  25 ladder        RMSE med    4.108 p90      5.592  sat 0.000
+  poe K=   4 M= 1 PSNR=  25 fixed         RMSE med    4.118 p90      5.618  sat 0.197
+  poe K=   4 M= 1 PSNR=  25 ladder_hybrid RMSE med    4.041 p90      5.559  sat 0.000
+  poe K=   4 M= 1 PSNR=  25 genie_hybrid  RMSE med    4.007 p90      5.488  sat 0.000
+  poe K=   4 M= 1 PSNR=  25 ladder_chk    RMSE med    4.067 p90      5.515  sat 0.000
+  poe K=   4 M= 1 PSNR=  25 ladderdet     RMSE med    4.086 p90      5.637  sat 0.000
+  poe K=   4 M= 1 PSNR=  25 ladderdet_chk RMSE med    4.047 p90      5.551  sat 0.000
+  poe K=   4 M= 1 PSNR=  25 ladder_trunc  RMSE med    4.097 p90      5.521  sat 0.000
+  poe K=   4 M= 1 PSNR=  25 ladder_hybrid_trunc RMSE med    4.079 p90      5.550  sat 0.000
+  poe K=   4 M= 1 PSNR=  25 ladderdet_trunc RMSE med    4.084 p90      5.549  sat 0.000
+  poe K=   4 M= 1 PSNR=  25 ladderdet_chk_trunc RMSE med    4.043 p90      5.498  sat 0.000
+  poe K=   4 M= 1 PSNR=  25 awa           RMSE med    4.294 p90      6.294
+  poe K=   4 M= 1 PSNR=  25 pure          RMSE med    4.366 p90      6.974
+  poe K=   4 M= 1 PSNR=  25 simple        RMSE med    5.603 p90      7.675
+  poe K=   4 M= 1 PSNR=  25 airmoe        RMSE med    4.048 p90      5.496  sat 1.000
+  poe K=   4 M= 1 PSNR=  25 airmoe_hybrid RMSE med    4.055 p90      5.477  sat 1.000
+  poe K=   4 M= 1 PSNR=  25 airmoe_eff    RMSE med    4.029 p90      5.451  sat 1.000
+  poe K=   4 M= 1 PSNR=  25 ladder_eff@kap0.3 RMSE med    4.034 p90      5.492  sat 0.198
+  poe K=   4 M= 1 PSNR=  25 ladder_eff@kap1 RMSE med    4.041 p90      5.461  sat 0.321
+  poe K=   4 M= 1 PSNR=  25 ladderdet_eff RMSE med    4.077 p90      5.535  sat 0.000
+  poe K=   4 M= 1 PSNR=  25 ladderdet_eff@kap0.3 RMSE med    4.044 p90      5.495  sat 0.198
+  poe K=   4 M= 1 PSNR=  25 ladderdet_eff@kap1 RMSE med    4.051 p90      5.466  sat 0.321
+  poe K=   4 M= 1 PSNR=  25 ladderdet_eff_trunc@kap1 RMSE med    4.035 p90      5.454  sat 0.321
+  poe K=   4 M= 1 PSNR=  30 genie         RMSE med    3.995 p90      5.421  sat 0.000
+  poe K=   4 M= 1 PSNR=  30 ladder        RMSE med    3.996 p90      5.438  sat 0.000
+  poe K=   4 M= 1 PSNR=  30 fixed         RMSE med    4.095 p90      5.506  sat 0.197
+  poe K=   4 M= 1 PSNR=  30 ladder_hybrid RMSE med    3.989 p90      5.443  sat 0.000
+  poe K=   4 M= 1 PSNR=  30 genie_hybrid  RMSE med    3.983 p90      5.422  sat 0.000
+  poe K=   4 M= 1 PSNR=  30 ladder_chk    RMSE med    3.977 p90      5.445  sat 0.000
+  poe K=   4 M= 1 PSNR=  30 ladderdet     RMSE med    4.002 p90      5.446  sat 0.000
+  poe K=   4 M= 1 PSNR=  30 ladderdet_chk RMSE med    4.008 p90      5.427  sat 0.000
+  poe K=   4 M= 1 PSNR=  30 ladder_trunc  RMSE med    4.036 p90      5.460  sat 0.000
+  poe K=   4 M= 1 PSNR=  30 ladder_hybrid_trunc RMSE med    3.994 p90      5.415  sat 0.000
+  poe K=   4 M= 1 PSNR=  30 ladderdet_trunc RMSE med    4.023 p90      5.470  sat 0.000
+  poe K=   4 M= 1 PSNR=  30 ladderdet_chk_trunc RMSE med    4.017 p90      5.484  sat 0.000
+  poe K=   4 M= 1 PSNR=  30 awa           RMSE med    4.129 p90      5.699
+  poe K=   4 M= 1 PSNR=  30 pure          RMSE med    4.145 p90      5.870
+  poe K=   4 M= 1 PSNR=  30 simple        RMSE med    5.591 p90      7.599
+  poe K=   4 M= 1 PSNR=  30 airmoe        RMSE med    3.987 p90      5.422  sat 1.000
+  poe K=   4 M= 1 PSNR=  30 airmoe_hybrid RMSE med    4.002 p90      5.412  sat 1.000
+  poe K=   4 M= 1 PSNR=  30 airmoe_eff    RMSE med    3.981 p90      5.397  sat 1.000
+  poe K=   4 M= 1 PSNR=  30 ladder_eff@kap0.3 RMSE med    3.993 p90      5.405  sat 0.122
+  poe K=   4 M= 1 PSNR=  30 ladder_eff@kap1 RMSE med    3.987 p90      5.406  sat 0.203
+  poe K=   4 M= 1 PSNR=  30 ladderdet_eff RMSE med    3.999 p90      5.423  sat 0.000
+  poe K=   4 M= 1 PSNR=  30 ladderdet_eff@kap0.3 RMSE med    4.009 p90      5.421  sat 0.122
+  poe K=   4 M= 1 PSNR=  30 ladderdet_eff@kap1 RMSE med    4.010 p90      5.421  sat 0.203
+  poe K=   4 M= 1 PSNR=  30 ladderdet_eff_trunc@kap1 RMSE med    3.996 p90      5.434  sat 0.203
+  poe K=   4 M= 4 PSNR=   0 genie         RMSE med    6.966 p90     12.709  sat 0.000
+  poe K=   4 M= 4 PSNR=   0 ladder        RMSE med    8.158 p90     14.491  sat 0.000
+  poe K=   4 M= 4 PSNR=   0 fixed         RMSE med    9.761 p90     13.954  sat 0.228
+  poe K=   4 M= 4 PSNR=   0 ladder_hybrid RMSE med    6.350 p90      9.872  sat 0.000
+  poe K=   4 M= 4 PSNR=   0 genie_hybrid  RMSE med    5.833 p90      8.724  sat 0.000
+  poe K=   4 M= 4 PSNR=   0 ladder_chk    RMSE med    6.363 p90     10.005  sat 0.000
+  poe K=   4 M= 4 PSNR=   0 ladderdet     RMSE med    6.457 p90      9.108  sat 0.658
+  poe K=   4 M= 4 PSNR=   0 ladderdet_chk RMSE med    5.939 p90      8.126  sat 0.658
+  poe K=   4 M= 4 PSNR=   0 ladder_trunc  RMSE med    7.754 p90     14.087  sat 0.000
+  poe K=   4 M= 4 PSNR=   0 ladder_hybrid_trunc RMSE med    6.274 p90      9.966  sat 0.000
+  poe K=   4 M= 4 PSNR=   0 ladderdet_trunc RMSE med    6.487 p90     13.721  sat 0.632
+  poe K=   4 M= 4 PSNR=   0 ladderdet_chk_trunc RMSE med    5.887 p90      8.021  sat 0.660
+  poe K=   4 M= 4 PSNR=   0 awa           RMSE med    6.586 p90     11.341
+  poe K=   4 M= 4 PSNR=   0 pure          RMSE med   20.311 p90    121.543
+  poe K=   4 M= 4 PSNR=   0 simple        RMSE med    6.367 p90      9.354
+  poe K=   4 M= 4 PSNR=   0 airmoe        RMSE med    5.847 p90      8.391  sat 1.000
+  poe K=   4 M= 4 PSNR=   0 airmoe_hybrid RMSE med    5.567 p90      7.606  sat 1.000
+  poe K=   4 M= 4 PSNR=   0 airmoe_eff    RMSE med    5.455 p90      7.446  sat 1.000
+  poe K=   4 M= 4 PSNR=   0 ladder_eff@kap0.3 RMSE med    5.693 p90      8.186  sat 0.915
+  poe K=   4 M= 4 PSNR=   0 ladder_eff@kap1 RMSE med    5.561 p90      7.747  sat 0.999
+  poe K=   4 M= 4 PSNR=   0 ladderdet_eff RMSE med    5.868 p90      8.045  sat 0.657
+  poe K=   4 M= 4 PSNR=   0 ladderdet_eff@kap0.3 RMSE med    5.846 p90      7.978  sat 0.757
+  poe K=   4 M= 4 PSNR=   0 ladderdet_eff@kap1 RMSE med    5.864 p90      8.004  sat 0.805
+  poe K=   4 M= 4 PSNR=   0 ladderdet_eff_trunc@kap1 RMSE med    5.893 p90      7.907  sat 0.806
+  poe K=   4 M= 4 PSNR=   5 genie         RMSE med    5.122 p90      8.164  sat 0.000
+  poe K=   4 M= 4 PSNR=   5 ladder        RMSE med    5.545 p90      9.527  sat 0.000
+  poe K=   4 M= 4 PSNR=   5 fixed         RMSE med    6.271 p90      8.819  sat 0.228
+  poe K=   4 M= 4 PSNR=   5 ladder_hybrid RMSE med    4.964 p90      6.953  sat 0.000
+  poe K=   4 M= 4 PSNR=   5 genie_hybrid  RMSE med    4.712 p90      6.598  sat 0.000
+  poe K=   4 M= 4 PSNR=   5 ladder_chk    RMSE med    4.953 p90      7.008  sat 0.000
+  poe K=   4 M= 4 PSNR=   5 ladderdet     RMSE med    5.475 p90      8.583  sat 0.314
+  poe K=   4 M= 4 PSNR=   5 ladderdet_chk RMSE med    5.087 p90      7.206  sat 0.316
+  poe K=   4 M= 4 PSNR=   5 ladder_trunc  RMSE med    5.523 p90      9.525  sat 0.000
+  poe K=   4 M= 4 PSNR=   5 ladder_hybrid_trunc RMSE med    4.952 p90      7.026  sat 0.000
+  poe K=   4 M= 4 PSNR=   5 ladderdet_trunc RMSE med    5.458 p90      8.341  sat 0.317
+  poe K=   4 M= 4 PSNR=   5 ladderdet_chk_trunc RMSE med    5.167 p90      7.202  sat 0.315
+  poe K=   4 M= 4 PSNR=   5 awa           RMSE med    5.679 p90      8.824
+  poe K=   4 M= 4 PSNR=   5 pure          RMSE med   12.449 p90     66.151
+  poe K=   4 M= 4 PSNR=   5 simple        RMSE med    5.832 p90      8.091
+  poe K=   4 M= 4 PSNR=   5 airmoe        RMSE med    4.930 p90      6.978  sat 1.000
+  poe K=   4 M= 4 PSNR=   5 airmoe_hybrid RMSE med    4.807 p90      6.627  sat 1.000
+  poe K=   4 M= 4 PSNR=   5 airmoe_eff    RMSE med    4.665 p90      6.370  sat 1.000
+  poe K=   4 M= 4 PSNR=   5 ladder_eff@kap0.3 RMSE med    4.698 p90      6.491  sat 0.673
+  poe K=   4 M= 4 PSNR=   5 ladder_eff@kap1 RMSE med    4.717 p90      6.495  sat 0.924
+  poe K=   4 M= 4 PSNR=   5 ladderdet_eff RMSE med    5.093 p90      7.143  sat 0.316
+  poe K=   4 M= 4 PSNR=   5 ladderdet_eff@kap0.3 RMSE med    5.000 p90      6.840  sat 0.779
+  poe K=   4 M= 4 PSNR=   5 ladderdet_eff@kap1 RMSE med    4.985 p90      6.854  sat 0.950
+  poe K=   4 M= 4 PSNR=   5 ladderdet_eff_trunc@kap1 RMSE med    4.952 p90      6.794  sat 0.949
+  poe K=   4 M= 4 PSNR=  10 genie         RMSE med    4.332 p90      6.068  sat 0.000
+  poe K=   4 M= 4 PSNR=  10 ladder        RMSE med    4.469 p90      6.408  sat 0.000
+  poe K=   4 M= 4 PSNR=  10 fixed         RMSE med    4.648 p90      6.440  sat 0.228
+  poe K=   4 M= 4 PSNR=  10 ladder_hybrid RMSE med    4.374 p90      5.918  sat 0.000
+  poe K=   4 M= 4 PSNR=  10 genie_hybrid  RMSE med    4.218 p90      5.753  sat 0.000
+  poe K=   4 M= 4 PSNR=  10 ladder_chk    RMSE med    4.338 p90      5.947  sat 0.000
+  poe K=   4 M= 4 PSNR=  10 ladderdet     RMSE med    4.532 p90      6.450  sat 0.001
+  poe K=   4 M= 4 PSNR=  10 ladderdet_chk RMSE med    4.355 p90      5.948  sat 0.000
+  poe K=   4 M= 4 PSNR=  10 ladder_trunc  RMSE med    4.549 p90      6.542  sat 0.000
+  poe K=   4 M= 4 PSNR=  10 ladder_hybrid_trunc RMSE med    4.355 p90      5.940  sat 0.000
+  poe K=   4 M= 4 PSNR=  10 ladderdet_trunc RMSE med    4.519 p90      6.483  sat 0.000
+  poe K=   4 M= 4 PSNR=  10 ladderdet_chk_trunc RMSE med    4.321 p90      6.118  sat 0.000
+  poe K=   4 M= 4 PSNR=  10 awa           RMSE med    4.951 p90      8.393
+  poe K=   4 M= 4 PSNR=  10 pure          RMSE med    6.355 p90     27.454
+  poe K=   4 M= 4 PSNR=  10 simple        RMSE med    5.708 p90      7.750
+  poe K=   4 M= 4 PSNR=  10 airmoe        RMSE med    4.394 p90      6.035  sat 1.000
+  poe K=   4 M= 4 PSNR=  10 airmoe_hybrid RMSE med    4.356 p90      5.919  sat 1.000
+  poe K=   4 M= 4 PSNR=  10 airmoe_eff    RMSE med    4.253 p90      5.836  sat 1.000
+  poe K=   4 M= 4 PSNR=  10 ladder_eff@kap0.3 RMSE med    4.259 p90      5.818  sat 0.428
+  poe K=   4 M= 4 PSNR=  10 ladder_eff@kap1 RMSE med    4.295 p90      5.795  sat 0.685
+  poe K=   4 M= 4 PSNR=  10 ladderdet_eff RMSE med    4.349 p90      5.927  sat 0.001
+  poe K=   4 M= 4 PSNR=  10 ladderdet_eff@kap0.3 RMSE med    4.287 p90      5.781  sat 0.428
+  poe K=   4 M= 4 PSNR=  10 ladderdet_eff@kap1 RMSE med    4.305 p90      5.857  sat 0.684
+  poe K=   4 M= 4 PSNR=  10 ladderdet_eff_trunc@kap1 RMSE med    4.314 p90      5.825  sat 0.684
+  poe K=   4 M= 4 PSNR=  15 genie         RMSE med    4.100 p90      5.571  sat 0.000
+  poe K=   4 M= 4 PSNR=  15 ladder        RMSE med    4.168 p90      5.666  sat 0.000
+  poe K=   4 M= 4 PSNR=  15 fixed         RMSE med    4.206 p90      5.682  sat 0.228
+  poe K=   4 M= 4 PSNR=  15 ladder_hybrid RMSE med    4.102 p90      5.519  sat 0.000
+  poe K=   4 M= 4 PSNR=  15 genie_hybrid  RMSE med    4.015 p90      5.533  sat 0.000
+  poe K=   4 M= 4 PSNR=  15 ladder_chk    RMSE med    4.089 p90      5.521  sat 0.000
+  poe K=   4 M= 4 PSNR=  15 ladderdet     RMSE med    4.120 p90      5.729  sat 0.000
+  poe K=   4 M= 4 PSNR=  15 ladderdet_chk RMSE med    4.114 p90      5.588  sat 0.000
+  poe K=   4 M= 4 PSNR=  15 ladder_trunc  RMSE med    4.178 p90      5.765  sat 0.000
+  poe K=   4 M= 4 PSNR=  15 ladder_hybrid_trunc RMSE med    4.112 p90      5.526  sat 0.000
+  poe K=   4 M= 4 PSNR=  15 ladderdet_trunc RMSE med    4.153 p90      5.603  sat 0.000
+  poe K=   4 M= 4 PSNR=  15 ladderdet_chk_trunc RMSE med    4.113 p90      5.731  sat 0.000
+  poe K=   4 M= 4 PSNR=  15 awa           RMSE med    4.367 p90      6.130
+  poe K=   4 M= 4 PSNR=  15 pure          RMSE med    4.714 p90      8.703
+  poe K=   4 M= 4 PSNR=  15 simple        RMSE med    5.608 p90      7.596
+  poe K=   4 M= 4 PSNR=  15 airmoe        RMSE med    4.093 p90      5.597  sat 1.000
+  poe K=   4 M= 4 PSNR=  15 airmoe_hybrid RMSE med    4.130 p90      5.564  sat 1.000
+  poe K=   4 M= 4 PSNR=  15 airmoe_eff    RMSE med    4.078 p90      5.510  sat 1.000
+  poe K=   4 M= 4 PSNR=  15 ladder_eff@kap0.3 RMSE med    4.069 p90      5.518  sat 0.251
+  poe K=   4 M= 4 PSNR=  15 ladder_eff@kap1 RMSE med    4.091 p90      5.508  sat 0.437
+  poe K=   4 M= 4 PSNR=  15 ladderdet_eff RMSE med    4.090 p90      5.565  sat 0.000
+  poe K=   4 M= 4 PSNR=  15 ladderdet_eff@kap0.3 RMSE med    4.074 p90      5.535  sat 0.251
+  poe K=   4 M= 4 PSNR=  15 ladderdet_eff@kap1 RMSE med    4.079 p90      5.547  sat 0.437
+  poe K=   4 M= 4 PSNR=  15 ladderdet_eff_trunc@kap1 RMSE med    4.087 p90      5.555  sat 0.437
+  poe K=   4 M= 4 PSNR=  20 genie         RMSE med    3.997 p90      5.442  sat 0.000
+  poe K=   4 M= 4 PSNR=  20 ladder        RMSE med    4.011 p90      5.455  sat 0.000
+  poe K=   4 M= 4 PSNR=  20 fixed         RMSE med    4.095 p90      5.573  sat 0.228
+  poe K=   4 M= 4 PSNR=  20 ladder_hybrid RMSE med    4.001 p90      5.446  sat 0.000
+  poe K=   4 M= 4 PSNR=  20 genie_hybrid  RMSE med    4.009 p90      5.407  sat 0.000
+  poe K=   4 M= 4 PSNR=  20 ladder_chk    RMSE med    4.008 p90      5.409  sat 0.000
+  poe K=   4 M= 4 PSNR=  20 ladderdet     RMSE med    4.008 p90      5.477  sat 0.000
+  poe K=   4 M= 4 PSNR=  20 ladderdet_chk RMSE med    4.006 p90      5.444  sat 0.000
+  poe K=   4 M= 4 PSNR=  20 ladder_trunc  RMSE med    4.017 p90      5.482  sat 0.000
+  poe K=   4 M= 4 PSNR=  20 ladder_hybrid_trunc RMSE med    4.007 p90      5.406  sat 0.000
+  poe K=   4 M= 4 PSNR=  20 ladderdet_trunc RMSE med    4.000 p90      5.461  sat 0.000
+  poe K=   4 M= 4 PSNR=  20 ladderdet_chk_trunc RMSE med    4.014 p90      5.444  sat 0.000
+  poe K=   4 M= 4 PSNR=  20 awa           RMSE med    4.160 p90      5.698
+  poe K=   4 M= 4 PSNR=  20 pure          RMSE med    4.201 p90      5.955
+  poe K=   4 M= 4 PSNR=  20 simple        RMSE med    5.587 p90      7.576
+  poe K=   4 M= 4 PSNR=  20 airmoe        RMSE med    4.003 p90      5.456  sat 1.000
+  poe K=   4 M= 4 PSNR=  20 airmoe_hybrid RMSE med    4.025 p90      5.445  sat 1.000
+  poe K=   4 M= 4 PSNR=  20 airmoe_eff    RMSE med    3.992 p90      5.449  sat 1.000
+  poe K=   4 M= 4 PSNR=  20 ladder_eff@kap0.3 RMSE med    4.031 p90      5.414  sat 0.145
+  poe K=   4 M= 4 PSNR=  20 ladder_eff@kap1 RMSE med    4.003 p90      5.424  sat 0.258
+  poe K=   4 M= 4 PSNR=  20 ladderdet_eff RMSE med    4.015 p90      5.457  sat 0.000
+  poe K=   4 M= 4 PSNR=  20 ladderdet_eff@kap0.3 RMSE med    4.013 p90      5.438  sat 0.145
+  poe K=   4 M= 4 PSNR=  20 ladderdet_eff@kap1 RMSE med    4.006 p90      5.458  sat 0.258
+  poe K=   4 M= 4 PSNR=  20 ladderdet_eff_trunc@kap1 RMSE med    4.025 p90      5.590  sat 0.251
+  poe K=   4 M= 4 PSNR=  25 genie         RMSE med    3.980 p90      5.393  sat 0.000
+  poe K=   4 M= 4 PSNR=  25 ladder        RMSE med    3.974 p90      5.370  sat 0.000
+  poe K=   4 M= 4 PSNR=  25 fixed         RMSE med    4.034 p90      5.477  sat 0.228
+  poe K=   4 M= 4 PSNR=  25 ladder_hybrid RMSE med    3.994 p90      5.409  sat 0.000
+  poe K=   4 M= 4 PSNR=  25 genie_hybrid  RMSE med    3.963 p90      5.389  sat 0.000
+  poe K=   4 M= 4 PSNR=  25 ladder_chk    RMSE med    3.979 p90      5.391  sat 0.000
+  poe K=   4 M= 4 PSNR=  25 ladderdet     RMSE med    3.984 p90      5.402  sat 0.000
+  poe K=   4 M= 4 PSNR=  25 ladderdet_chk RMSE med    3.978 p90      5.392  sat 0.000
+  poe K=   4 M= 4 PSNR=  25 ladder_trunc  RMSE med    4.012 p90      5.548  sat 0.000
+  poe K=   4 M= 4 PSNR=  25 ladder_hybrid_trunc RMSE med    3.975 p90      5.397  sat 0.000
+  poe K=   4 M= 4 PSNR=  25 ladderdet_trunc RMSE med    3.983 p90      5.407  sat 0.000
+  poe K=   4 M= 4 PSNR=  25 ladderdet_chk_trunc RMSE med    3.984 p90      5.384  sat 0.000
+  poe K=   4 M= 4 PSNR=  25 awa           RMSE med    4.073 p90      5.589
+  poe K=   4 M= 4 PSNR=  25 pure          RMSE med    4.060 p90      5.533
+  poe K=   4 M= 4 PSNR=  25 simple        RMSE med    5.584 p90      7.568
+  poe K=   4 M= 4 PSNR=  25 airmoe        RMSE med    3.959 p90      5.413  sat 1.000
+  poe K=   4 M= 4 PSNR=  25 airmoe_hybrid RMSE med    3.968 p90      5.395  sat 1.000
+  poe K=   4 M= 4 PSNR=  25 airmoe_eff    RMSE med    3.967 p90      5.388  sat 1.000
+  poe K=   4 M= 4 PSNR=  25 ladder_eff@kap0.3 RMSE med    3.966 p90      5.397  sat 0.083
+  poe K=   4 M= 4 PSNR=  25 ladder_eff@kap1 RMSE med    3.972 p90      5.415  sat 0.149
+  poe K=   4 M= 4 PSNR=  25 ladderdet_eff RMSE med    3.971 p90      5.394  sat 0.000
+  poe K=   4 M= 4 PSNR=  25 ladderdet_eff@kap0.3 RMSE med    3.966 p90      5.384  sat 0.083
+  poe K=   4 M= 4 PSNR=  25 ladderdet_eff@kap1 RMSE med    3.978 p90      5.399  sat 0.149
+  poe K=   4 M= 4 PSNR=  25 ladderdet_eff_trunc@kap1 RMSE med    3.967 p90      5.393  sat 0.149
+  poe K=   4 M= 4 PSNR=  30 genie         RMSE med    3.958 p90      5.377  sat 0.000
+  poe K=   4 M= 4 PSNR=  30 ladder        RMSE med    3.960 p90      5.380  sat 0.000
+  poe K=   4 M= 4 PSNR=  30 fixed         RMSE med    4.018 p90      5.486  sat 0.228
+  poe K=   4 M= 4 PSNR=  30 ladder_hybrid RMSE med    3.963 p90      5.380  sat 0.000
+  poe K=   4 M= 4 PSNR=  30 genie_hybrid  RMSE med    3.967 p90      5.391  sat 0.000
+  poe K=   4 M= 4 PSNR=  30 ladder_chk    RMSE med    3.969 p90      5.367  sat 0.000
+  poe K=   4 M= 4 PSNR=  30 ladderdet     RMSE med    3.961 p90      5.400  sat 0.000
+  poe K=   4 M= 4 PSNR=  30 ladderdet_chk RMSE med    3.960 p90      5.386  sat 0.000
+  poe K=   4 M= 4 PSNR=  30 ladder_trunc  RMSE med    3.971 p90      5.394  sat 0.000
+  poe K=   4 M= 4 PSNR=  30 ladder_hybrid_trunc RMSE med    3.964 p90      5.400  sat 0.000
+  poe K=   4 M= 4 PSNR=  30 ladderdet_trunc RMSE med    3.956 p90      5.399  sat 0.000
+  poe K=   4 M= 4 PSNR=  30 ladderdet_chk_trunc RMSE med    3.963 p90      5.396  sat 0.000
+  poe K=   4 M= 4 PSNR=  30 awa           RMSE med    3.989 p90      5.424
+  poe K=   4 M= 4 PSNR=  30 pure          RMSE med    3.997 p90      5.458
+  poe K=   4 M= 4 PSNR=  30 simple        RMSE med    5.580 p90      7.567
+  poe K=   4 M= 4 PSNR=  30 airmoe        RMSE med    3.956 p90      5.367  sat 1.000
+  poe K=   4 M= 4 PSNR=  30 airmoe_hybrid RMSE med    3.958 p90      5.379  sat 1.000
+  poe K=   4 M= 4 PSNR=  30 airmoe_eff    RMSE med    3.965 p90      5.396  sat 1.000
+  poe K=   4 M= 4 PSNR=  30 ladder_eff@kap0.3 RMSE med    3.946 p90      5.375  sat 0.047
+  poe K=   4 M= 4 PSNR=  30 ladder_eff@kap1 RMSE med    3.967 p90      5.382  sat 0.085
+  poe K=   4 M= 4 PSNR=  30 ladderdet_eff RMSE med    3.958 p90      5.385  sat 0.000
+  poe K=   4 M= 4 PSNR=  30 ladderdet_eff@kap0.3 RMSE med    3.952 p90      5.394  sat 0.047
+  poe K=   4 M= 4 PSNR=  30 ladderdet_eff@kap1 RMSE med    3.962 p90      5.392  sat 0.085
+  poe K=   4 M= 4 PSNR=  30 ladderdet_eff_trunc@kap1 RMSE med    3.997 p90      5.522  sat 0.082
+[poe K=8] ideal RMSE med 4.731 dB p90 6.453; log10 weight range per instance: median 0.7, N_eff median 4.76 (99 s)
+  poe K=   8 M= 1 PSNR=   0 genie         RMSE med    8.388 p90     15.431  sat 0.000
+  poe K=   8 M= 1 PSNR=   0 ladder        RMSE med    9.308 p90     16.479  sat 0.000
+  poe K=   8 M= 1 PSNR=   0 fixed         RMSE med   11.894 p90     16.223  sat 0.203
+  poe K=   8 M= 1 PSNR=   0 ladder_hybrid RMSE med    8.491 p90     15.615  sat 0.000
+  poe K=   8 M= 1 PSNR=   0 genie_hybrid  RMSE med    7.543 p90     13.860  sat 0.000
+  poe K=   8 M= 1 PSNR=   0 ladder_chk    RMSE med    8.426 p90     15.530  sat 0.000
+  poe K=   8 M= 1 PSNR=   0 ladderdet     RMSE med    6.694 p90      9.427  sat 0.801
+  poe K=   8 M= 1 PSNR=   0 ladderdet_chk RMSE med    6.642 p90      9.156  sat 0.800
+  poe K=   8 M= 1 PSNR=   0 ladder_trunc  RMSE med    7.750 p90     11.868  sat 0.000
+  poe K=   8 M= 1 PSNR=   0 ladder_hybrid_trunc RMSE med    6.921 p90      9.757  sat 0.000
+  poe K=   8 M= 1 PSNR=   0 ladderdet_trunc RMSE med    6.512 p90      9.004  sat 0.789
+  poe K=   8 M= 1 PSNR=   0 ladderdet_chk_trunc RMSE med    6.404 p90      8.845  sat 0.760
+  poe K=   8 M= 1 PSNR=   0 awa           RMSE med    8.356 p90     35.148
+  poe K=   8 M= 1 PSNR=   0 pure          RMSE med   22.160 p90    123.120
+  poe K=   8 M= 1 PSNR=   0 simple        RMSE med    7.483 p90     12.168
+  poe K=   8 M= 1 PSNR=   0 airmoe        RMSE med    6.031 p90      8.387  sat 1.000
+  poe K=   8 M= 1 PSNR=   0 airmoe_hybrid RMSE med    6.261 p90      8.628  sat 1.000
+  poe K=   8 M= 1 PSNR=   0 airmoe_eff    RMSE med    6.010 p90      8.172  sat 1.000
+  poe K=   8 M= 1 PSNR=   0 ladder_eff@kap0.3 RMSE med    6.427 p90      9.130  sat 0.991
+  poe K=   8 M= 1 PSNR=   0 ladder_eff@kap1 RMSE med    6.205 p90      8.563  sat 1.000
+  poe K=   8 M= 1 PSNR=   0 ladderdet_eff RMSE med    6.498 p90      9.049  sat 0.804
+  poe K=   8 M= 1 PSNR=   0 ladderdet_eff@kap0.3 RMSE med    6.298 p90      8.760  sat 0.971
+  poe K=   8 M= 1 PSNR=   0 ladderdet_eff@kap1 RMSE med    6.347 p90      8.584  sat 0.990
+  poe K=   8 M= 1 PSNR=   0 ladderdet_eff_trunc@kap1 RMSE med    6.294 p90      8.619  sat 0.989
+  poe K=   8 M= 1 PSNR=   5 genie         RMSE med    6.274 p90     10.826  sat 0.000
+  poe K=   8 M= 1 PSNR=   5 ladder        RMSE med    6.671 p90     11.876  sat 0.000
+  poe K=   8 M= 1 PSNR=   5 fixed         RMSE med    7.754 p90     10.624  sat 0.203
+  poe K=   8 M= 1 PSNR=   5 ladder_hybrid RMSE med    6.287 p90     10.390  sat 0.000
+  poe K=   8 M= 1 PSNR=   5 genie_hybrid  RMSE med    5.933 p90      9.514  sat 0.000
+  poe K=   8 M= 1 PSNR=   5 ladder_chk    RMSE med    6.318 p90     10.408  sat 0.000
+  poe K=   8 M= 1 PSNR=   5 ladderdet     RMSE med    6.467 p90     11.000  sat 0.298
+  poe K=   8 M= 1 PSNR=   5 ladderdet_chk RMSE med    6.207 p90      9.755  sat 0.296
+  poe K=   8 M= 1 PSNR=   5 ladder_trunc  RMSE med    6.017 p90      8.900  sat 0.000
+  poe K=   8 M= 1 PSNR=   5 ladder_hybrid_trunc RMSE med    5.752 p90      7.916  sat 0.000
+  poe K=   8 M= 1 PSNR=   5 ladderdet_trunc RMSE med    5.986 p90      8.684  sat 0.297
+  poe K=   8 M= 1 PSNR=   5 ladderdet_chk_trunc RMSE med    5.826 p90      8.007  sat 0.298
+  poe K=   8 M= 1 PSNR=   5 awa           RMSE med    6.963 p90     14.453
+  poe K=   8 M= 1 PSNR=   5 pure          RMSE med   16.198 p90     78.652
+  poe K=   8 M= 1 PSNR=   5 simple        RMSE med    6.791 p90     10.060
+  poe K=   8 M= 1 PSNR=   5 airmoe        RMSE med    5.510 p90      7.598  sat 1.000
+  poe K=   8 M= 1 PSNR=   5 airmoe_hybrid RMSE med    5.761 p90      7.908  sat 1.000
+  poe K=   8 M= 1 PSNR=   5 airmoe_eff    RMSE med    5.518 p90      7.433  sat 1.000
+  poe K=   8 M= 1 PSNR=   5 ladder_eff@kap0.3 RMSE med    5.609 p90      7.864  sat 0.908
+  poe K=   8 M= 1 PSNR=   5 ladder_eff@kap1 RMSE med    5.593 p90      7.614  sat 0.992
+  poe K=   8 M= 1 PSNR=   5 ladderdet_eff RMSE med    6.124 p90      9.451  sat 0.294
+  poe K=   8 M= 1 PSNR=   5 ladderdet_eff@kap0.3 RMSE med    5.720 p90      7.897  sat 0.939
+  poe K=   8 M= 1 PSNR=   5 ladderdet_eff@kap1 RMSE med    5.825 p90      7.883  sat 0.995
+  poe K=   8 M= 1 PSNR=   5 ladderdet_eff_trunc@kap1 RMSE med    5.728 p90      7.879  sat 0.990
+  poe K=   8 M= 1 PSNR=  10 genie         RMSE med    5.327 p90      8.164  sat 0.000
+  poe K=   8 M= 1 PSNR=  10 ladder        RMSE med    5.534 p90      8.436  sat 0.000
+  poe K=   8 M= 1 PSNR=  10 fixed         RMSE med    5.847 p90      7.853  sat 0.203
+  poe K=   8 M= 1 PSNR=  10 ladder_hybrid RMSE med    5.486 p90      7.935  sat 0.000
+  poe K=   8 M= 1 PSNR=  10 genie_hybrid  RMSE med    5.271 p90      7.570  sat 0.000
+  poe K=   8 M= 1 PSNR=  10 ladder_chk    RMSE med    5.423 p90      7.992  sat 0.000
+  poe K=   8 M= 1 PSNR=  10 ladderdet     RMSE med    5.560 p90      8.593  sat 0.001
+  poe K=   8 M= 1 PSNR=  10 ladderdet_chk RMSE med    5.390 p90      8.052  sat 0.001
+  poe K=   8 M= 1 PSNR=  10 ladder_trunc  RMSE med    5.294 p90      7.292  sat 0.000
+  poe K=   8 M= 1 PSNR=  10 ladder_hybrid_trunc RMSE med    5.210 p90      7.057  sat 0.000
+  poe K=   8 M= 1 PSNR=  10 ladderdet_trunc RMSE med    5.301 p90      7.405  sat 0.001
+  poe K=   8 M= 1 PSNR=  10 ladderdet_chk_trunc RMSE med    5.190 p90      7.116  sat 0.000
+  poe K=   8 M= 1 PSNR=  10 awa           RMSE med    6.421 p90      9.607
+  poe K=   8 M= 1 PSNR=  10 pure          RMSE med    8.668 p90     48.390
+  poe K=   8 M= 1 PSNR=  10 simple        RMSE med    6.487 p90      9.113
+  poe K=   8 M= 1 PSNR=  10 airmoe        RMSE med    5.159 p90      6.996  sat 1.000
+  poe K=   8 M= 1 PSNR=  10 airmoe_hybrid RMSE med    5.307 p90      7.238  sat 1.000
+  poe K=   8 M= 1 PSNR=  10 airmoe_eff    RMSE med    5.152 p90      7.048  sat 1.000
+  poe K=   8 M= 1 PSNR=  10 ladder_eff@kap0.3 RMSE med    5.160 p90      7.193  sat 0.744
+  poe K=   8 M= 1 PSNR=  10 ladder_eff@kap1 RMSE med    5.194 p90      7.038  sat 0.914
+  poe K=   8 M= 1 PSNR=  10 ladderdet_eff RMSE med    5.420 p90      8.084  sat 0.001
+  poe K=   8 M= 1 PSNR=  10 ladderdet_eff@kap0.3 RMSE med    5.157 p90      7.181  sat 0.744
+  poe K=   8 M= 1 PSNR=  10 ladderdet_eff@kap1 RMSE med    5.160 p90      7.055  sat 0.913
+  poe K=   8 M= 1 PSNR=  10 ladderdet_eff_trunc@kap1 RMSE med    5.174 p90      6.990  sat 0.901
+  poe K=   8 M= 1 PSNR=  15 genie         RMSE med    4.980 p90      7.016  sat 0.000
+  poe K=   8 M= 1 PSNR=  15 ladder        RMSE med    5.040 p90      7.294  sat 0.000
+  poe K=   8 M= 1 PSNR=  15 fixed         RMSE med    5.100 p90      6.947  sat 0.203
+  poe K=   8 M= 1 PSNR=  15 ladder_hybrid RMSE med    4.996 p90      6.987  sat 0.000
+  poe K=   8 M= 1 PSNR=  15 genie_hybrid  RMSE med    4.931 p90      6.773  sat 0.000
+  poe K=   8 M= 1 PSNR=  15 ladder_chk    RMSE med    5.008 p90      6.959  sat 0.000
+  poe K=   8 M= 1 PSNR=  15 ladderdet     RMSE med    5.041 p90      7.253  sat 0.000
+  poe K=   8 M= 1 PSNR=  15 ladderdet_chk RMSE med    4.982 p90      6.990  sat 0.000
+  poe K=   8 M= 1 PSNR=  15 ladder_trunc  RMSE med    4.942 p90      6.809  sat 0.000
+  poe K=   8 M= 1 PSNR=  15 ladder_hybrid_trunc RMSE med    4.947 p90      6.674  sat 0.000
+  poe K=   8 M= 1 PSNR=  15 ladderdet_trunc RMSE med    4.924 p90      6.750  sat 0.000
+  poe K=   8 M= 1 PSNR=  15 ladderdet_chk_trunc RMSE med    4.920 p90      6.687  sat 0.000
+  poe K=   8 M= 1 PSNR=  15 awa           RMSE med    5.599 p90      8.844
+  poe K=   8 M= 1 PSNR=  15 pure          RMSE med    5.930 p90     23.158
+  poe K=   8 M= 1 PSNR=  15 simple        RMSE med    6.351 p90      8.804
+  poe K=   8 M= 1 PSNR=  15 airmoe        RMSE med    4.932 p90      6.727  sat 1.000
+  poe K=   8 M= 1 PSNR=  15 airmoe_hybrid RMSE med    4.998 p90      6.841  sat 1.000
+  poe K=   8 M= 1 PSNR=  15 airmoe_eff    RMSE med    4.909 p90      6.671  sat 1.000
+  poe K=   8 M= 1 PSNR=  15 ladder_eff@kap0.3 RMSE med    4.908 p90      6.748  sat 0.562
+  poe K=   8 M= 1 PSNR=  15 ladder_eff@kap1 RMSE med    4.931 p90      6.747  sat 0.752
+  poe K=   8 M= 1 PSNR=  15 ladderdet_eff RMSE med    5.027 p90      7.025  sat 0.000
+  poe K=   8 M= 1 PSNR=  15 ladderdet_eff@kap0.3 RMSE med    4.922 p90      6.726  sat 0.562
+  poe K=   8 M= 1 PSNR=  15 ladderdet_eff@kap1 RMSE med    4.940 p90      6.752  sat 0.752
+  poe K=   8 M= 1 PSNR=  15 ladderdet_eff_trunc@kap1 RMSE med    4.919 p90      6.747  sat 0.752
+  poe K=   8 M= 1 PSNR=  20 genie         RMSE med    4.826 p90      6.670  sat 0.000
+  poe K=   8 M= 1 PSNR=  20 ladder        RMSE med    4.882 p90      6.709  sat 0.000
+  poe K=   8 M= 1 PSNR=  20 fixed         RMSE med    4.909 p90      6.678  sat 0.203
+  poe K=   8 M= 1 PSNR=  20 ladder_hybrid RMSE med    4.855 p90      6.682  sat 0.000
+  poe K=   8 M= 1 PSNR=  20 genie_hybrid  RMSE med    4.839 p90      6.600  sat 0.000
+  poe K=   8 M= 1 PSNR=  20 ladder_chk    RMSE med    4.853 p90      6.735  sat 0.000
+  poe K=   8 M= 1 PSNR=  20 ladderdet     RMSE med    4.852 p90      6.725  sat 0.000
+  poe K=   8 M= 1 PSNR=  20 ladderdet_chk RMSE med    4.837 p90      6.701  sat 0.000
+  poe K=   8 M= 1 PSNR=  20 ladder_trunc  RMSE med    4.806 p90      6.615  sat 0.000
+  poe K=   8 M= 1 PSNR=  20 ladder_hybrid_trunc RMSE med    4.810 p90      6.598  sat 0.000
+  poe K=   8 M= 1 PSNR=  20 ladderdet_trunc RMSE med    4.829 p90      6.625  sat 0.000
+  poe K=   8 M= 1 PSNR=  20 ladderdet_chk_trunc RMSE med    4.805 p90      6.633  sat 0.000
+  poe K=   8 M= 1 PSNR=  20 awa           RMSE med    5.100 p90      7.892
+  poe K=   8 M= 1 PSNR=  20 pure          RMSE med    5.175 p90      8.901
+  poe K=   8 M= 1 PSNR=  20 simple        RMSE med    6.323 p90      8.540
+  poe K=   8 M= 1 PSNR=  20 airmoe        RMSE med    4.810 p90      6.569  sat 1.000
+  poe K=   8 M= 1 PSNR=  20 airmoe_hybrid RMSE med    4.837 p90      6.587  sat 1.000
+  poe K=   8 M= 1 PSNR=  20 airmoe_eff    RMSE med    4.795 p90      6.546  sat 1.000
+  poe K=   8 M= 1 PSNR=  20 ladder_eff@kap0.3 RMSE med    4.821 p90      6.591  sat 0.397
+  poe K=   8 M= 1 PSNR=  20 ladder_eff@kap1 RMSE med    4.820 p90      6.567  sat 0.570
+  poe K=   8 M= 1 PSNR=  20 ladderdet_eff RMSE med    4.856 p90      6.717  sat 0.000
+  poe K=   8 M= 1 PSNR=  20 ladderdet_eff@kap0.3 RMSE med    4.810 p90      6.541  sat 0.397
+  poe K=   8 M= 1 PSNR=  20 ladderdet_eff@kap1 RMSE med    4.803 p90      6.544  sat 0.569
+  poe K=   8 M= 1 PSNR=  20 ladderdet_eff_trunc@kap1 RMSE med    4.828 p90      6.629  sat 0.454
+  poe K=   8 M= 1 PSNR=  25 genie         RMSE med    4.756 p90      6.497  sat 0.000
+  poe K=   8 M= 1 PSNR=  25 ladder        RMSE med    4.773 p90      6.489  sat 0.000
+  poe K=   8 M= 1 PSNR=  25 fixed         RMSE med    4.831 p90      6.591  sat 0.203
+  poe K=   8 M= 1 PSNR=  25 ladder_hybrid RMSE med    4.783 p90      6.579  sat 0.000
+  poe K=   8 M= 1 PSNR=  25 genie_hybrid  RMSE med    4.760 p90      6.494  sat 0.000
+  poe K=   8 M= 1 PSNR=  25 ladder_chk    RMSE med    4.778 p90      6.535  sat 0.000
+  poe K=   8 M= 1 PSNR=  25 ladderdet     RMSE med    4.773 p90      6.524  sat 0.000
+  poe K=   8 M= 1 PSNR=  25 ladderdet_chk RMSE med    4.777 p90      6.555  sat 0.000
+  poe K=   8 M= 1 PSNR=  25 ladder_trunc  RMSE med    4.780 p90      6.615  sat 0.000
+  poe K=   8 M= 1 PSNR=  25 ladder_hybrid_trunc RMSE med    4.791 p90      6.608  sat 0.000
+  poe K=   8 M= 1 PSNR=  25 ladderdet_trunc RMSE med    4.759 p90      6.506  sat 0.000
+  poe K=   8 M= 1 PSNR=  25 ladderdet_chk_trunc RMSE med    4.745 p90      6.476  sat 0.000
+  poe K=   8 M= 1 PSNR=  25 awa           RMSE med    4.847 p90      6.833
+  poe K=   8 M= 1 PSNR=  25 pure          RMSE med    4.903 p90      7.088
+  poe K=   8 M= 1 PSNR=  25 simple        RMSE med    6.299 p90      8.583
+  poe K=   8 M= 1 PSNR=  25 airmoe        RMSE med    4.774 p90      6.500  sat 1.000
+  poe K=   8 M= 1 PSNR=  25 airmoe_hybrid RMSE med    4.792 p90      6.526  sat 1.000
+  poe K=   8 M= 1 PSNR=  25 airmoe_eff    RMSE med    4.769 p90      6.487  sat 1.000
+  poe K=   8 M= 1 PSNR=  25 ladder_eff@kap0.3 RMSE med    4.753 p90      6.486  sat 0.261
+  poe K=   8 M= 1 PSNR=  25 ladder_eff@kap1 RMSE med    4.771 p90      6.510  sat 0.404
+  poe K=   8 M= 1 PSNR=  25 ladderdet_eff RMSE med    4.771 p90      6.503  sat 0.000
+  poe K=   8 M= 1 PSNR=  25 ladderdet_eff@kap0.3 RMSE med    4.776 p90      6.515  sat 0.261
+  poe K=   8 M= 1 PSNR=  25 ladderdet_eff@kap1 RMSE med    4.768 p90      6.484  sat 0.404
+  poe K=   8 M= 1 PSNR=  25 ladderdet_eff_trunc@kap1 RMSE med    4.755 p90      6.514  sat 0.404
+  poe K=   8 M= 1 PSNR=  30 genie         RMSE med    4.744 p90      6.484  sat 0.000
+  poe K=   8 M= 1 PSNR=  30 ladder        RMSE med    4.742 p90      6.487  sat 0.000
+  poe K=   8 M= 1 PSNR=  30 fixed         RMSE med    4.810 p90      6.552  sat 0.203
+  poe K=   8 M= 1 PSNR=  30 ladder_hybrid RMSE med    4.744 p90      6.503  sat 0.000
+  poe K=   8 M= 1 PSNR=  30 genie_hybrid  RMSE med    4.741 p90      6.478  sat 0.000
+  poe K=   8 M= 1 PSNR=  30 ladder_chk    RMSE med    4.752 p90      6.481  sat 0.000
+  poe K=   8 M= 1 PSNR=  30 ladderdet     RMSE med    4.741 p90      6.495  sat 0.000
+  poe K=   8 M= 1 PSNR=  30 ladderdet_chk RMSE med    4.748 p90      6.482  sat 0.000
+  poe K=   8 M= 1 PSNR=  30 ladder_trunc  RMSE med    4.762 p90      6.599  sat 0.000
+  poe K=   8 M= 1 PSNR=  30 ladder_hybrid_trunc RMSE med    4.763 p90      6.506  sat 0.000
+  poe K=   8 M= 1 PSNR=  30 ladderdet_trunc RMSE med    4.761 p90      6.585  sat 0.000
+  poe K=   8 M= 1 PSNR=  30 ladderdet_chk_trunc RMSE med    4.765 p90      6.609  sat 0.000
+  poe K=   8 M= 1 PSNR=  30 awa           RMSE med    4.829 p90      6.693
+  poe K=   8 M= 1 PSNR=  30 pure          RMSE med    4.765 p90      6.627
+  poe K=   8 M= 1 PSNR=  30 simple        RMSE med    6.290 p90      8.521
+  poe K=   8 M= 1 PSNR=  30 airmoe        RMSE med    4.752 p90      6.477  sat 1.000
+  poe K=   8 M= 1 PSNR=  30 airmoe_hybrid RMSE med    4.755 p90      6.476  sat 1.000
+  poe K=   8 M= 1 PSNR=  30 airmoe_eff    RMSE med    4.753 p90      6.450  sat 1.000
+  poe K=   8 M= 1 PSNR=  30 ladder_eff@kap0.3 RMSE med    4.752 p90      6.477  sat 0.166
+  poe K=   8 M= 1 PSNR=  30 ladder_eff@kap1 RMSE med    4.725 p90      6.472  sat 0.266
+  poe K=   8 M= 1 PSNR=  30 ladderdet_eff RMSE med    4.758 p90      6.488  sat 0.000
+  poe K=   8 M= 1 PSNR=  30 ladderdet_eff@kap0.3 RMSE med    4.743 p90      6.490  sat 0.166
+  poe K=   8 M= 1 PSNR=  30 ladderdet_eff@kap1 RMSE med    4.734 p90      6.466  sat 0.266
+  poe K=   8 M= 1 PSNR=  30 ladderdet_eff_trunc@kap1 RMSE med    4.760 p90      6.482  sat 0.190
+  poe K=   8 M= 4 PSNR=   0 genie         RMSE med    6.441 p90      9.849  sat 0.000
+  poe K=   8 M= 4 PSNR=   0 ladder        RMSE med    7.020 p90     11.408  sat 0.000
+  poe K=   8 M= 4 PSNR=   0 fixed         RMSE med    8.033 p90     10.960  sat 0.184
+  poe K=   8 M= 4 PSNR=   0 ladder_hybrid RMSE med    6.417 p90      9.465  sat 0.000
+  poe K=   8 M= 4 PSNR=   0 genie_hybrid  RMSE med    5.962 p90      8.511  sat 0.000
+  poe K=   8 M= 4 PSNR=   0 ladder_chk    RMSE med    6.366 p90      9.275  sat 0.000
+  poe K=   8 M= 4 PSNR=   0 ladderdet     RMSE med    6.196 p90      8.435  sat 0.808
+  poe K=   8 M= 4 PSNR=   0 ladderdet_chk RMSE med    6.151 p90      8.538  sat 0.802
+  poe K=   8 M= 4 PSNR=   0 ladder_trunc  RMSE med    6.652 p90     10.252  sat 0.000
+  poe K=   8 M= 4 PSNR=   0 ladder_hybrid_trunc RMSE med    6.110 p90      8.769  sat 0.000
+  poe K=   8 M= 4 PSNR=   0 ladderdet_trunc RMSE med    6.173 p90      8.592  sat 0.798
+  poe K=   8 M= 4 PSNR=   0 ladderdet_chk_trunc RMSE med    6.185 p90      8.578  sat 0.798
+  poe K=   8 M= 4 PSNR=   0 awa           RMSE med    6.725 p90      9.863
+  poe K=   8 M= 4 PSNR=   0 pure          RMSE med   17.568 p90    101.452
+  poe K=   8 M= 4 PSNR=   0 simple        RMSE med    6.634 p90      9.239
+  poe K=   8 M= 4 PSNR=   0 airmoe        RMSE med    5.770 p90      7.823  sat 1.000
+  poe K=   8 M= 4 PSNR=   0 airmoe_hybrid RMSE med    5.962 p90      8.047  sat 1.000
+  poe K=   8 M= 4 PSNR=   0 airmoe_eff    RMSE med    5.707 p90      7.776  sat 1.000
+  poe K=   8 M= 4 PSNR=   0 ladder_eff@kap0.3 RMSE med    5.773 p90      7.854  sat 0.952
+  poe K=   8 M= 4 PSNR=   0 ladder_eff@kap1 RMSE med    5.746 p90      7.882  sat 1.000
+  poe K=   8 M= 4 PSNR=   0 ladderdet_eff RMSE med    6.058 p90      8.269  sat 0.798
+  poe K=   8 M= 4 PSNR=   0 ladderdet_eff@kap0.3 RMSE med    6.219 p90      8.429  sat 0.952
+  poe K=   8 M= 4 PSNR=   0 ladderdet_eff@kap1 RMSE med    6.263 p90      8.486  sat 0.984
+  poe K=   8 M= 4 PSNR=   0 ladderdet_eff_trunc@kap1 RMSE med    6.227 p90      8.607  sat 0.983
+  poe K=   8 M= 4 PSNR=   5 genie         RMSE med    5.342 p90      7.577  sat 0.000
+  poe K=   8 M= 4 PSNR=   5 ladder        RMSE med    5.565 p90      8.146  sat 0.000
+  poe K=   8 M= 4 PSNR=   5 fixed         RMSE med    5.906 p90      8.029  sat 0.184
+  poe K=   8 M= 4 PSNR=   5 ladder_hybrid RMSE med    5.419 p90      7.444  sat 0.000
+  poe K=   8 M= 4 PSNR=   5 genie_hybrid  RMSE med    5.212 p90      7.048  sat 0.000
+  poe K=   8 M= 4 PSNR=   5 ladder_chk    RMSE med    5.371 p90      7.412  sat 0.000
+  poe K=   8 M= 4 PSNR=   5 ladderdet     RMSE med    5.572 p90      7.989  sat 0.305
+  poe K=   8 M= 4 PSNR=   5 ladderdet_chk RMSE med    5.527 p90      7.545  sat 0.301
+  poe K=   8 M= 4 PSNR=   5 ladder_trunc  RMSE med    5.503 p90      7.789  sat 0.000
+  poe K=   8 M= 4 PSNR=   5 ladder_hybrid_trunc RMSE med    5.357 p90      7.330  sat 0.000
+  poe K=   8 M= 4 PSNR=   5 ladderdet_trunc RMSE med    5.577 p90      7.780  sat 0.303
+  poe K=   8 M= 4 PSNR=   5 ladderdet_chk_trunc RMSE med    5.480 p90      7.554  sat 0.303
+  poe K=   8 M= 4 PSNR=   5 awa           RMSE med    6.185 p90     11.823
+  poe K=   8 M= 4 PSNR=   5 pure          RMSE med    9.287 p90     50.083
+  poe K=   8 M= 4 PSNR=   5 simple        RMSE med    6.392 p90      8.750
+  poe K=   8 M= 4 PSNR=   5 airmoe        RMSE med    5.300 p90      7.170  sat 1.000
+  poe K=   8 M= 4 PSNR=   5 airmoe_hybrid RMSE med    5.389 p90      7.415  sat 1.000
+  poe K=   8 M= 4 PSNR=   5 airmoe_eff    RMSE med    5.259 p90      7.082  sat 1.000
+  poe K=   8 M= 4 PSNR=   5 ladder_eff@kap0.3 RMSE med    5.200 p90      7.067  sat 0.758
+  poe K=   8 M= 4 PSNR=   5 ladder_eff@kap1 RMSE med    5.304 p90      7.148  sat 0.957
+  poe K=   8 M= 4 PSNR=   5 ladderdet_eff RMSE med    5.485 p90      7.482  sat 0.301
+  poe K=   8 M= 4 PSNR=   5 ladderdet_eff@kap0.3 RMSE med    5.437 p90      7.428  sat 0.840
+  poe K=   8 M= 4 PSNR=   5 ladderdet_eff@kap1 RMSE med    5.489 p90      7.590  sat 0.970
+  poe K=   8 M= 4 PSNR=   5 ladderdet_eff_trunc@kap1 RMSE med    5.486 p90      7.547  sat 0.971
+  poe K=   8 M= 4 PSNR=  10 genie         RMSE med    4.912 p90      6.767  sat 0.000
+  poe K=   8 M= 4 PSNR=  10 ladder        RMSE med    5.034 p90      6.855  sat 0.000
+  poe K=   8 M= 4 PSNR=  10 fixed         RMSE med    5.121 p90      6.944  sat 0.184
+  poe K=   8 M= 4 PSNR=  10 ladder_hybrid RMSE med    4.957 p90      6.775  sat 0.000
+  poe K=   8 M= 4 PSNR=  10 genie_hybrid  RMSE med    4.874 p90      6.673  sat 0.000
+  poe K=   8 M= 4 PSNR=  10 ladder_chk    RMSE med    4.966 p90      6.793  sat 0.000
+  poe K=   8 M= 4 PSNR=  10 ladderdet     RMSE med    5.009 p90      6.863  sat 0.000
+  poe K=   8 M= 4 PSNR=  10 ladderdet_chk RMSE med    4.953 p90      6.812  sat 0.001
+  poe K=   8 M= 4 PSNR=  10 ladder_trunc  RMSE med    4.992 p90      6.800  sat 0.000
+  poe K=   8 M= 4 PSNR=  10 ladder_hybrid_trunc RMSE med    4.909 p90      6.811  sat 0.000
+  poe K=   8 M= 4 PSNR=  10 ladderdet_trunc RMSE med    5.011 p90      6.954  sat 0.000
+  poe K=   8 M= 4 PSNR=  10 ladderdet_chk_trunc RMSE med    4.971 p90      6.724  sat 0.001
+  poe K=   8 M= 4 PSNR=  10 awa           RMSE med    5.405 p90      7.639
+  poe K=   8 M= 4 PSNR=  10 pure          RMSE med    5.952 p90     17.070
+  poe K=   8 M= 4 PSNR=  10 simple        RMSE med    6.320 p90      8.625
+  poe K=   8 M= 4 PSNR=  10 airmoe        RMSE med    4.964 p90      6.774  sat 1.000
+  poe K=   8 M= 4 PSNR=  10 airmoe_hybrid RMSE med    5.028 p90      6.856  sat 1.000
+  poe K=   8 M= 4 PSNR=  10 airmoe_eff    RMSE med    4.944 p90      6.757  sat 1.000
+  poe K=   8 M= 4 PSNR=  10 ladder_eff@kap0.3 RMSE med    4.921 p90      6.714  sat 0.520
+  poe K=   8 M= 4 PSNR=  10 ladder_eff@kap1 RMSE med    4.980 p90      6.729  sat 0.770
+  poe K=   8 M= 4 PSNR=  10 ladderdet_eff RMSE med    4.998 p90      6.790  sat 0.000
+  poe K=   8 M= 4 PSNR=  10 ladderdet_eff@kap0.3 RMSE med    4.914 p90      6.714  sat 0.520
+  poe K=   8 M= 4 PSNR=  10 ladderdet_eff@kap1 RMSE med    4.967 p90      6.761  sat 0.770
+  poe K=   8 M= 4 PSNR=  10 ladderdet_eff_trunc@kap1 RMSE med    4.941 p90      6.802  sat 0.749
+  poe K=   8 M= 4 PSNR=  15 genie         RMSE med    4.755 p90      6.502  sat 0.000
+  poe K=   8 M= 4 PSNR=  15 ladder        RMSE med    4.852 p90      6.592  sat 0.000
+  poe K=   8 M= 4 PSNR=  15 fixed         RMSE med    4.886 p90      6.667  sat 0.184
+  poe K=   8 M= 4 PSNR=  15 ladder_hybrid RMSE med    4.814 p90      6.506  sat 0.000
+  poe K=   8 M= 4 PSNR=  15 genie_hybrid  RMSE med    4.768 p90      6.486  sat 0.000
+  poe K=   8 M= 4 PSNR=  15 ladder_chk    RMSE med    4.788 p90      6.547  sat 0.000
+  poe K=   8 M= 4 PSNR=  15 ladderdet     RMSE med    4.814 p90      6.534  sat 0.000
+  poe K=   8 M= 4 PSNR=  15 ladderdet_chk RMSE med    4.803 p90      6.549  sat 0.000
+  poe K=   8 M= 4 PSNR=  15 ladder_trunc  RMSE med    4.846 p90      6.629  sat 0.000
+  poe K=   8 M= 4 PSNR=  15 ladder_hybrid_trunc RMSE med    4.791 p90      6.572  sat 0.000
+  poe K=   8 M= 4 PSNR=  15 ladderdet_trunc RMSE med    4.825 p90      6.590  sat 0.000
+  poe K=   8 M= 4 PSNR=  15 ladderdet_chk_trunc RMSE med    4.821 p90      6.514  sat 0.000
+  poe K=   8 M= 4 PSNR=  15 awa           RMSE med    5.037 p90      7.039
+  poe K=   8 M= 4 PSNR=  15 pure          RMSE med    5.146 p90      7.956
+  poe K=   8 M= 4 PSNR=  15 simple        RMSE med    6.298 p90      8.523
+  poe K=   8 M= 4 PSNR=  15 airmoe        RMSE med    4.796 p90      6.553  sat 1.000
+  poe K=   8 M= 4 PSNR=  15 airmoe_hybrid RMSE med    4.865 p90      6.625  sat 1.000
+  poe K=   8 M= 4 PSNR=  15 airmoe_eff    RMSE med    4.812 p90      6.574  sat 1.000
+  poe K=   8 M= 4 PSNR=  15 ladder_eff@kap0.3 RMSE med    4.785 p90      6.517  sat 0.326
+  poe K=   8 M= 4 PSNR=  15 ladder_eff@kap1 RMSE med    4.806 p90      6.574  sat 0.530
+  poe K=   8 M= 4 PSNR=  15 ladderdet_eff RMSE med    4.835 p90      6.521  sat 0.000
+  poe K=   8 M= 4 PSNR=  15 ladderdet_eff@kap0.3 RMSE med    4.803 p90      6.533  sat 0.326
+  poe K=   8 M= 4 PSNR=  15 ladderdet_eff@kap1 RMSE med    4.817 p90      6.526  sat 0.530
+  poe K=   8 M= 4 PSNR=  15 ladderdet_eff_trunc@kap1 RMSE med    4.797 p90      6.569  sat 0.530
+  poe K=   8 M= 4 PSNR=  20 genie         RMSE med    4.741 p90      6.511  sat 0.000
+  poe K=   8 M= 4 PSNR=  20 ladder        RMSE med    4.754 p90      6.479  sat 0.000
+  poe K=   8 M= 4 PSNR=  20 fixed         RMSE med    4.839 p90      6.591  sat 0.184
+  poe K=   8 M= 4 PSNR=  20 ladder_hybrid RMSE med    4.740 p90      6.465  sat 0.000
+  poe K=   8 M= 4 PSNR=  20 genie_hybrid  RMSE med    4.744 p90      6.453  sat 0.000
+  poe K=   8 M= 4 PSNR=  20 ladder_chk    RMSE med    4.740 p90      6.493  sat 0.000
+  poe K=   8 M= 4 PSNR=  20 ladderdet     RMSE med    4.760 p90      6.456  sat 0.000
+  poe K=   8 M= 4 PSNR=  20 ladderdet_chk RMSE med    4.753 p90      6.504  sat 0.000
+  poe K=   8 M= 4 PSNR=  20 ladder_trunc  RMSE med    4.757 p90      6.474  sat 0.000
+  poe K=   8 M= 4 PSNR=  20 ladder_hybrid_trunc RMSE med    4.748 p90      6.456  sat 0.000
+  poe K=   8 M= 4 PSNR=  20 ladderdet_trunc RMSE med    4.778 p90      6.453  sat 0.000
+  poe K=   8 M= 4 PSNR=  20 ladderdet_chk_trunc RMSE med    4.744 p90      6.494  sat 0.000
+  poe K=   8 M= 4 PSNR=  20 awa           RMSE med    4.858 p90      6.796
+  poe K=   8 M= 4 PSNR=  20 pure          RMSE med    4.850 p90      6.792
+  poe K=   8 M= 4 PSNR=  20 simple        RMSE med    6.312 p90      8.542
+  poe K=   8 M= 4 PSNR=  20 airmoe        RMSE med    4.748 p90      6.513  sat 1.000
+  poe K=   8 M= 4 PSNR=  20 airmoe_hybrid RMSE med    4.753 p90      6.497  sat 1.000
+  poe K=   8 M= 4 PSNR=  20 airmoe_eff    RMSE med    4.739 p90      6.463  sat 1.000
+  poe K=   8 M= 4 PSNR=  20 ladder_eff@kap0.3 RMSE med    4.764 p90      6.498  sat 0.192
+  poe K=   8 M= 4 PSNR=  20 ladder_eff@kap1 RMSE med    4.765 p90      6.465  sat 0.334
+  poe K=   8 M= 4 PSNR=  20 ladderdet_eff RMSE med    4.766 p90      6.491  sat 0.000
+  poe K=   8 M= 4 PSNR=  20 ladderdet_eff@kap0.3 RMSE med    4.744 p90      6.445  sat 0.192
+  poe K=   8 M= 4 PSNR=  20 ladderdet_eff@kap1 RMSE med    4.738 p90      6.527  sat 0.334
+  poe K=   8 M= 4 PSNR=  20 ladderdet_eff_trunc@kap1 RMSE med    4.758 p90      6.537  sat 0.333
+  poe K=   8 M= 4 PSNR=  25 genie         RMSE med    4.738 p90      6.464  sat 0.000
+  poe K=   8 M= 4 PSNR=  25 ladder        RMSE med    4.736 p90      6.428  sat 0.000
+  poe K=   8 M= 4 PSNR=  25 fixed         RMSE med    4.805 p90      6.523  sat 0.184
+  poe K=   8 M= 4 PSNR=  25 ladder_hybrid RMSE med    4.726 p90      6.451  sat 0.000
+  poe K=   8 M= 4 PSNR=  25 genie_hybrid  RMSE med    4.724 p90      6.448  sat 0.000
+  poe K=   8 M= 4 PSNR=  25 ladder_chk    RMSE med    4.740 p90      6.436  sat 0.000
+  poe K=   8 M= 4 PSNR=  25 ladderdet     RMSE med    4.727 p90      6.468  sat 0.000
+  poe K=   8 M= 4 PSNR=  25 ladderdet_chk RMSE med    4.745 p90      6.475  sat 0.000
+  poe K=   8 M= 4 PSNR=  25 ladder_trunc  RMSE med    4.743 p90      6.492  sat 0.000
+  poe K=   8 M= 4 PSNR=  25 ladder_hybrid_trunc RMSE med    4.733 p90      6.469  sat 0.000
+  poe K=   8 M= 4 PSNR=  25 ladderdet_trunc RMSE med    4.724 p90      6.441  sat 0.000
+  poe K=   8 M= 4 PSNR=  25 ladderdet_chk_trunc RMSE med    4.742 p90      6.471  sat 0.000
+  poe K=   8 M= 4 PSNR=  25 awa           RMSE med    4.794 p90      6.548
+  poe K=   8 M= 4 PSNR=  25 pure          RMSE med    4.732 p90      6.532
+  poe K=   8 M= 4 PSNR=  25 simple        RMSE med    6.291 p90      8.488
+  poe K=   8 M= 4 PSNR=  25 airmoe        RMSE med    4.727 p90      6.466  sat 1.000
+  poe K=   8 M= 4 PSNR=  25 airmoe_hybrid RMSE med    4.738 p90      6.486  sat 1.000
+  poe K=   8 M= 4 PSNR=  25 airmoe_eff    RMSE med    4.732 p90      6.454  sat 1.000
+  poe K=   8 M= 4 PSNR=  25 ladder_eff@kap0.3 RMSE med    4.728 p90      6.464  sat 0.110
+  poe K=   8 M= 4 PSNR=  25 ladder_eff@kap1 RMSE med    4.730 p90      6.478  sat 0.197
+  poe K=   8 M= 4 PSNR=  25 ladderdet_eff RMSE med    4.729 p90      6.442  sat 0.000
+  poe K=   8 M= 4 PSNR=  25 ladderdet_eff@kap0.3 RMSE med    4.739 p90      6.452  sat 0.110
+  poe K=   8 M= 4 PSNR=  25 ladderdet_eff@kap1 RMSE med    4.732 p90      6.458  sat 0.197
+  poe K=   8 M= 4 PSNR=  25 ladderdet_eff_trunc@kap1 RMSE med    4.735 p90      6.438  sat 0.197
+  poe K=   8 M= 4 PSNR=  30 genie         RMSE med    4.733 p90      6.450  sat 0.000
+  poe K=   8 M= 4 PSNR=  30 ladder        RMSE med    4.722 p90      6.449  sat 0.000
+  poe K=   8 M= 4 PSNR=  30 fixed         RMSE med    4.803 p90      6.548  sat 0.184
+  poe K=   8 M= 4 PSNR=  30 ladder_hybrid RMSE med    4.736 p90      6.440  sat 0.000
+  poe K=   8 M= 4 PSNR=  30 genie_hybrid  RMSE med    4.733 p90      6.456  sat 0.000
+  poe K=   8 M= 4 PSNR=  30 ladder_chk    RMSE med    4.723 p90      6.453  sat 0.000
+  poe K=   8 M= 4 PSNR=  30 ladderdet     RMSE med    4.744 p90      6.445  sat 0.000
+  poe K=   8 M= 4 PSNR=  30 ladderdet_chk RMSE med    4.734 p90      6.454  sat 0.000
+  poe K=   8 M= 4 PSNR=  30 ladder_trunc  RMSE med    4.733 p90      6.434  sat 0.000
+  poe K=   8 M= 4 PSNR=  30 ladder_hybrid_trunc RMSE med    4.732 p90      6.453  sat 0.000
+  poe K=   8 M= 4 PSNR=  30 ladderdet_trunc RMSE med    4.730 p90      6.461  sat 0.000
+  poe K=   8 M= 4 PSNR=  30 ladderdet_chk_trunc RMSE med    4.727 p90      6.465  sat 0.000
+  poe K=   8 M= 4 PSNR=  30 awa           RMSE med    4.734 p90      6.478
+  poe K=   8 M= 4 PSNR=  30 pure          RMSE med    4.719 p90      6.454
+  poe K=   8 M= 4 PSNR=  30 simple        RMSE med    6.305 p90      8.515
+  poe K=   8 M= 4 PSNR=  30 airmoe        RMSE med    4.730 p90      6.470  sat 1.000
+  poe K=   8 M= 4 PSNR=  30 airmoe_hybrid RMSE med    4.726 p90      6.455  sat 1.000
+  poe K=   8 M= 4 PSNR=  30 airmoe_eff    RMSE med    4.724 p90      6.459  sat 1.000
+  poe K=   8 M= 4 PSNR=  30 ladder_eff@kap0.3 RMSE med    4.733 p90      6.465  sat 0.062
+  poe K=   8 M= 4 PSNR=  30 ladder_eff@kap1 RMSE med    4.721 p90      6.466  sat 0.113
+  poe K=   8 M= 4 PSNR=  30 ladderdet_eff RMSE med    4.733 p90      6.459  sat 0.000
+  poe K=   8 M= 4 PSNR=  30 ladderdet_eff@kap0.3 RMSE med    4.721 p90      6.446  sat 0.062
+  poe K=   8 M= 4 PSNR=  30 ladderdet_eff@kap1 RMSE med    4.726 p90      6.462  sat 0.113
+  poe K=   8 M= 4 PSNR=  30 ladderdet_eff_trunc@kap1 RMSE med    4.729 p90      6.460  sat 0.113
+[poe K=16] ideal RMSE med 5.523 dB p90 7.536; log10 weight range per instance: median 0.7, N_eff median 10.33 (183 s)
+  poe K=  16 M= 1 PSNR=   0 genie         RMSE med    7.198 p90     11.744  sat 0.000
+  poe K=  16 M= 1 PSNR=   0 ladder        RMSE med    7.620 p90     12.969  sat 0.000
+  poe K=  16 M= 1 PSNR=   0 fixed         RMSE med    8.282 p90     11.122  sat 0.205
+  poe K=  16 M= 1 PSNR=   0 ladder_hybrid RMSE med    7.557 p90     12.516  sat 0.000
+  poe K=  16 M= 1 PSNR=   0 genie_hybrid  RMSE med    7.067 p90     11.219  sat 0.000
+  poe K=  16 M= 1 PSNR=   0 ladder_chk    RMSE med    7.489 p90     12.370  sat 0.000
+  poe K=  16 M= 1 PSNR=   0 ladderdet     RMSE med    6.533 p90      8.860  sat 0.914
+  poe K=  16 M= 1 PSNR=   0 ladderdet_chk RMSE med    6.562 p90      9.001  sat 0.914
+  poe K=  16 M= 1 PSNR=   0 ladder_trunc  RMSE med    6.691 p90      9.252  sat 0.000
+  poe K=  16 M= 1 PSNR=   0 ladder_hybrid_trunc RMSE med    6.404 p90      8.703  sat 0.000
+  poe K=  16 M= 1 PSNR=   0 ladderdet_trunc RMSE med    6.477 p90      8.786  sat 0.899
+  poe K=  16 M= 1 PSNR=   0 ladderdet_chk_trunc RMSE med    6.561 p90      8.994  sat 0.914
+  poe K=  16 M= 1 PSNR=   0 awa           RMSE med    7.446 p90     15.444
+  poe K=  16 M= 1 PSNR=   0 pure          RMSE med   17.468 p90     91.012
+  poe K=  16 M= 1 PSNR=   0 simple        RMSE med    7.192 p90     10.476
+  poe K=  16 M= 1 PSNR=   0 airmoe        RMSE med    6.340 p90      8.542  sat 1.000
+  poe K=  16 M= 1 PSNR=   0 airmoe_hybrid RMSE med    6.538 p90      8.862  sat 1.000
+  poe K=  16 M= 1 PSNR=   0 airmoe_eff    RMSE med    6.265 p90      8.548  sat 1.000
+  poe K=  16 M= 1 PSNR=   0 ladder_eff@kap0.3 RMSE med    6.302 p90      8.413  sat 0.995
+  poe K=  16 M= 1 PSNR=   0 ladder_eff@kap1 RMSE med    6.317 p90      8.483  sat 1.000
+  poe K=  16 M= 1 PSNR=   0 ladderdet_eff RMSE med    6.476 p90      8.890  sat 0.913
+  poe K=  16 M= 1 PSNR=   0 ladderdet_eff@kap0.3 RMSE med    6.568 p90      8.846  sat 0.999
+  poe K=  16 M= 1 PSNR=   0 ladderdet_eff@kap1 RMSE med    6.601 p90      8.939  sat 0.999
+  poe K=  16 M= 1 PSNR=   0 ladderdet_eff_trunc@kap1 RMSE med    6.567 p90      8.871  sat 0.999
+  poe K=  16 M= 1 PSNR=   5 genie         RMSE med    6.200 p90      8.907  sat 0.000
+  poe K=  16 M= 1 PSNR=   5 ladder        RMSE med    6.469 p90      9.547  sat 0.000
+  poe K=  16 M= 1 PSNR=   5 fixed         RMSE med    6.578 p90      8.788  sat 0.205
+  poe K=  16 M= 1 PSNR=   5 ladder_hybrid RMSE med    6.328 p90      9.449  sat 0.000
+  poe K=  16 M= 1 PSNR=   5 genie_hybrid  RMSE med    6.156 p90      8.748  sat 0.000
+  poe K=  16 M= 1 PSNR=   5 ladder_chk    RMSE med    6.397 p90      9.373  sat 0.000
+  poe K=  16 M= 1 PSNR=   5 ladderdet     RMSE med    6.298 p90      9.085  sat 0.291
+  poe K=  16 M= 1 PSNR=   5 ladderdet_chk RMSE med    6.308 p90      9.059  sat 0.291
+  poe K=  16 M= 1 PSNR=   5 ladder_trunc  RMSE med    6.045 p90      8.364  sat 0.000
+  poe K=  16 M= 1 PSNR=   5 ladder_hybrid_trunc RMSE med    5.960 p90      8.070  sat 0.000
+  poe K=  16 M= 1 PSNR=   5 ladderdet_trunc RMSE med    6.305 p90      9.187  sat 0.291
+  poe K=  16 M= 1 PSNR=   5 ladderdet_chk_trunc RMSE med    6.055 p90      8.219  sat 0.281
+  poe K=  16 M= 1 PSNR=   5 awa           RMSE med    6.905 p90     11.639
+  poe K=  16 M= 1 PSNR=   5 pure          RMSE med    9.831 p90     54.130
+  poe K=  16 M= 1 PSNR=   5 simple        RMSE med    6.910 p90      9.630
+  poe K=  16 M= 1 PSNR=   5 airmoe        RMSE med    6.007 p90      8.208  sat 1.000
+  poe K=  16 M= 1 PSNR=   5 airmoe_hybrid RMSE med    6.171 p90      8.380  sat 1.000
+  poe K=  16 M= 1 PSNR=   5 airmoe_eff    RMSE med    6.020 p90      8.123  sat 1.000
+  poe K=  16 M= 1 PSNR=   5 ladder_eff@kap0.3 RMSE med    5.973 p90      8.068  sat 0.939
+  poe K=  16 M= 1 PSNR=   5 ladder_eff@kap1 RMSE med    5.987 p90      8.164  sat 0.995
+  poe K=  16 M= 1 PSNR=   5 ladderdet_eff RMSE med    6.254 p90      8.891  sat 0.286
+  poe K=  16 M= 1 PSNR=   5 ladderdet_eff@kap0.3 RMSE med    6.088 p90      8.290  sat 0.959
+  poe K=  16 M= 1 PSNR=   5 ladderdet_eff@kap1 RMSE med    6.148 p90      8.370  sat 0.996
+  poe K=  16 M= 1 PSNR=   5 ladderdet_eff_trunc@kap1 RMSE med    6.163 p90      8.343  sat 0.992
+  poe K=  16 M= 1 PSNR=  10 genie         RMSE med    5.769 p90      8.072  sat 0.000
+  poe K=  16 M= 1 PSNR=  10 ladder        RMSE med    5.889 p90      8.308  sat 0.000
+  poe K=  16 M= 1 PSNR=  10 fixed         RMSE med    5.868 p90      7.914  sat 0.205
+  poe K=  16 M= 1 PSNR=  10 ladder_hybrid RMSE med    5.895 p90      8.260  sat 0.000
+  poe K=  16 M= 1 PSNR=  10 genie_hybrid  RMSE med    5.745 p90      8.030  sat 0.000
+  poe K=  16 M= 1 PSNR=  10 ladder_chk    RMSE med    5.918 p90      8.255  sat 0.000
+  poe K=  16 M= 1 PSNR=  10 ladderdet     RMSE med    5.884 p90      8.226  sat 0.001
+  poe K=  16 M= 1 PSNR=  10 ladderdet_chk RMSE med    5.862 p90      8.240  sat 0.000
+  poe K=  16 M= 1 PSNR=  10 ladder_trunc  RMSE med    5.736 p90      7.756  sat 0.000
+  poe K=  16 M= 1 PSNR=  10 ladder_hybrid_trunc RMSE med    5.652 p90      7.751  sat 0.000
+  poe K=  16 M= 1 PSNR=  10 ladderdet_trunc RMSE med    5.732 p90      7.854  sat 0.000
+  poe K=  16 M= 1 PSNR=  10 ladderdet_chk_trunc RMSE med    5.762 p90      7.795  sat 0.000
+  poe K=  16 M= 1 PSNR=  10 awa           RMSE med    6.341 p90     12.541
+  poe K=  16 M= 1 PSNR=  10 pure          RMSE med    6.885 p90     24.882
+  poe K=  16 M= 1 PSNR=  10 simple        RMSE med    6.780 p90      9.336
+  poe K=  16 M= 1 PSNR=  10 airmoe        RMSE med    5.757 p90      7.872  sat 1.000
+  poe K=  16 M= 1 PSNR=  10 airmoe_hybrid RMSE med    5.885 p90      8.019  sat 1.000
+  poe K=  16 M= 1 PSNR=  10 airmoe_eff    RMSE med    5.756 p90      7.847  sat 1.000
+  poe K=  16 M= 1 PSNR=  10 ladder_eff@kap0.3 RMSE med    5.701 p90      7.786  sat 0.808
+  poe K=  16 M= 1 PSNR=  10 ladder_eff@kap1 RMSE med    5.777 p90      7.874  sat 0.943
+  poe K=  16 M= 1 PSNR=  10 ladderdet_eff RMSE med    5.850 p90      8.279  sat 0.001
+  poe K=  16 M= 1 PSNR=  10 ladderdet_eff@kap0.3 RMSE med    5.694 p90      7.858  sat 0.808
+  poe K=  16 M= 1 PSNR=  10 ladderdet_eff@kap1 RMSE med    5.758 p90      7.859  sat 0.942
+  poe K=  16 M= 1 PSNR=  10 ladderdet_eff_trunc@kap1 RMSE med    5.749 p90      7.881  sat 0.924
+  poe K=  16 M= 1 PSNR=  15 genie         RMSE med    5.619 p90      7.723  sat 0.000
+  poe K=  16 M= 1 PSNR=  15 ladder        RMSE med    5.612 p90      7.816  sat 0.000
+  poe K=  16 M= 1 PSNR=  15 fixed         RMSE med    5.669 p90      7.659  sat 0.205
+  poe K=  16 M= 1 PSNR=  15 ladder_hybrid RMSE med    5.637 p90      7.721  sat 0.000
+  poe K=  16 M= 1 PSNR=  15 genie_hybrid  RMSE med    5.616 p90      7.693  sat 0.000
+  poe K=  16 M= 1 PSNR=  15 ladder_chk    RMSE med    5.688 p90      7.734  sat 0.000
+  poe K=  16 M= 1 PSNR=  15 ladderdet     RMSE med    5.675 p90      7.766  sat 0.000
+  poe K=  16 M= 1 PSNR=  15 ladderdet_chk RMSE med    5.684 p90      7.818  sat 0.000
+  poe K=  16 M= 1 PSNR=  15 ladder_trunc  RMSE med    5.565 p90      7.593  sat 0.000
+  poe K=  16 M= 1 PSNR=  15 ladder_hybrid_trunc RMSE med    5.572 p90      7.620  sat 0.000
+  poe K=  16 M= 1 PSNR=  15 ladderdet_trunc RMSE med    5.626 p90      7.643  sat 0.000
+  poe K=  16 M= 1 PSNR=  15 ladderdet_chk_trunc RMSE med    5.612 p90      7.577  sat 0.000
+  poe K=  16 M= 1 PSNR=  15 awa           RMSE med    5.896 p90      8.806
+  poe K=  16 M= 1 PSNR=  15 pure          RMSE med    6.014 p90     10.172
+  poe K=  16 M= 1 PSNR=  15 simple        RMSE med    6.751 p90      9.146
+  poe K=  16 M= 1 PSNR=  15 airmoe        RMSE med    5.633 p90      7.683  sat 1.000
+  poe K=  16 M= 1 PSNR=  15 airmoe_hybrid RMSE med    5.676 p90      7.734  sat 1.000
+  poe K=  16 M= 1 PSNR=  15 airmoe_eff    RMSE med    5.628 p90      7.656  sat 1.000
+  poe K=  16 M= 1 PSNR=  15 ladder_eff@kap0.3 RMSE med    5.610 p90      7.617  sat 0.651
+  poe K=  16 M= 1 PSNR=  15 ladder_eff@kap1 RMSE med    5.647 p90      7.709  sat 0.816
+  poe K=  16 M= 1 PSNR=  15 ladderdet_eff RMSE med    5.674 p90      7.807  sat 0.000
+  poe K=  16 M= 1 PSNR=  15 ladderdet_eff@kap0.3 RMSE med    5.604 p90      7.638  sat 0.650
+  poe K=  16 M= 1 PSNR=  15 ladderdet_eff@kap1 RMSE med    5.629 p90      7.729  sat 0.816
+  poe K=  16 M= 1 PSNR=  15 ladderdet_eff_trunc@kap1 RMSE med    5.623 p90      7.628  sat 0.757
+  poe K=  16 M= 1 PSNR=  20 genie         RMSE med    5.540 p90      7.606  sat 0.000
+  poe K=  16 M= 1 PSNR=  20 ladder        RMSE med    5.550 p90      7.620  sat 0.000
+  poe K=  16 M= 1 PSNR=  20 fixed         RMSE med    5.603 p90      7.604  sat 0.205
+  poe K=  16 M= 1 PSNR=  20 ladder_hybrid RMSE med    5.572 p90      7.642  sat 0.000
+  poe K=  16 M= 1 PSNR=  20 genie_hybrid  RMSE med    5.585 p90      7.586  sat 0.000
+  poe K=  16 M= 1 PSNR=  20 ladder_chk    RMSE med    5.564 p90      7.626  sat 0.000
+  poe K=  16 M= 1 PSNR=  20 ladderdet     RMSE med    5.574 p90      7.635  sat 0.000
+  poe K=  16 M= 1 PSNR=  20 ladderdet_chk RMSE med    5.567 p90      7.590  sat 0.000
+  poe K=  16 M= 1 PSNR=  20 ladder_trunc  RMSE med    5.546 p90      7.533  sat 0.000
+  poe K=  16 M= 1 PSNR=  20 ladder_hybrid_trunc RMSE med    5.542 p90      7.591  sat 0.000
+  poe K=  16 M= 1 PSNR=  20 ladderdet_trunc RMSE med    5.538 p90      7.551  sat 0.000
+  poe K=  16 M= 1 PSNR=  20 ladderdet_chk_trunc RMSE med    5.555 p90      7.615  sat 0.000
+  poe K=  16 M= 1 PSNR=  20 awa           RMSE med    5.706 p90      7.942
+  poe K=  16 M= 1 PSNR=  20 pure          RMSE med    5.701 p90      8.216
+  poe K=  16 M= 1 PSNR=  20 simple        RMSE med    6.738 p90      9.125
+  poe K=  16 M= 1 PSNR=  20 airmoe        RMSE med    5.550 p90      7.589  sat 1.000
+  poe K=  16 M= 1 PSNR=  20 airmoe_hybrid RMSE med    5.601 p90      7.584  sat 1.000
+  poe K=  16 M= 1 PSNR=  20 airmoe_eff    RMSE med    5.577 p90      7.584  sat 1.000
+  poe K=  16 M= 1 PSNR=  20 ladder_eff@kap0.3 RMSE med    5.523 p90      7.612  sat 0.493
+  poe K=  16 M= 1 PSNR=  20 ladder_eff@kap1 RMSE med    5.577 p90      7.596  sat 0.659
+  poe K=  16 M= 1 PSNR=  20 ladderdet_eff RMSE med    5.585 p90      7.694  sat 0.000
+  poe K=  16 M= 1 PSNR=  20 ladderdet_eff@kap0.3 RMSE med    5.556 p90      7.628  sat 0.492
+  poe K=  16 M= 1 PSNR=  20 ladderdet_eff@kap1 RMSE med    5.569 p90      7.652  sat 0.658
+  poe K=  16 M= 1 PSNR=  20 ladderdet_eff_trunc@kap1 RMSE med    5.562 p90      7.616  sat 0.560
+  poe K=  16 M= 1 PSNR=  25 genie         RMSE med    5.527 p90      7.565  sat 0.000
+  poe K=  16 M= 1 PSNR=  25 ladder        RMSE med    5.524 p90      7.545  sat 0.000
+  poe K=  16 M= 1 PSNR=  25 fixed         RMSE med    5.590 p90      7.624  sat 0.205
+  poe K=  16 M= 1 PSNR=  25 ladder_hybrid RMSE med    5.540 p90      7.580  sat 0.000
+  poe K=  16 M= 1 PSNR=  25 genie_hybrid  RMSE med    5.527 p90      7.554  sat 0.000
+  poe K=  16 M= 1 PSNR=  25 ladder_chk    RMSE med    5.529 p90      7.615  sat 0.000
+  poe K=  16 M= 1 PSNR=  25 ladderdet     RMSE med    5.528 p90      7.589  sat 0.000
+  poe K=  16 M= 1 PSNR=  25 ladderdet_chk RMSE med    5.554 p90      7.604  sat 0.000
+  poe K=  16 M= 1 PSNR=  25 ladder_trunc  RMSE med    5.538 p90      7.547  sat 0.000
+  poe K=  16 M= 1 PSNR=  25 ladder_hybrid_trunc RMSE med    5.508 p90      7.573  sat 0.000
+  poe K=  16 M= 1 PSNR=  25 ladderdet_trunc RMSE med    5.531 p90      7.573  sat 0.000
+  poe K=  16 M= 1 PSNR=  25 ladderdet_chk_trunc RMSE med    5.544 p90      7.622  sat 0.000
+  poe K=  16 M= 1 PSNR=  25 awa           RMSE med    5.555 p90      7.669
+  poe K=  16 M= 1 PSNR=  25 pure          RMSE med    5.608 p90      7.732
+  poe K=  16 M= 1 PSNR=  25 simple        RMSE med    6.731 p90      9.110
+  poe K=  16 M= 1 PSNR=  25 airmoe        RMSE med    5.525 p90      7.549  sat 1.000
+  poe K=  16 M= 1 PSNR=  25 airmoe_hybrid RMSE med    5.560 p90      7.581  sat 1.000
+  poe K=  16 M= 1 PSNR=  25 airmoe_eff    RMSE med    5.528 p90      7.563  sat 1.000
+  poe K=  16 M= 1 PSNR=  25 ladder_eff@kap0.3 RMSE med    5.517 p90      7.554  sat 0.340
+  poe K=  16 M= 1 PSNR=  25 ladder_eff@kap1 RMSE med    5.527 p90      7.569  sat 0.500
+  poe K=  16 M= 1 PSNR=  25 ladderdet_eff RMSE med    5.533 p90      7.566  sat 0.000
+  poe K=  16 M= 1 PSNR=  25 ladderdet_eff@kap0.3 RMSE med    5.527 p90      7.549  sat 0.340
+  poe K=  16 M= 1 PSNR=  25 ladderdet_eff@kap1 RMSE med    5.526 p90      7.561  sat 0.500
+  poe K=  16 M= 1 PSNR=  25 ladderdet_eff_trunc@kap1 RMSE med    5.533 p90      7.561  sat 0.286
+  poe K=  16 M= 1 PSNR=  30 genie         RMSE med    5.502 p90      7.551  sat 0.000
+  poe K=  16 M= 1 PSNR=  30 ladder        RMSE med    5.528 p90      7.571  sat 0.000
+  poe K=  16 M= 1 PSNR=  30 fixed         RMSE med    5.596 p90      7.626  sat 0.205
+  poe K=  16 M= 1 PSNR=  30 ladder_hybrid RMSE med    5.506 p90      7.546  sat 0.000
+  poe K=  16 M= 1 PSNR=  30 genie_hybrid  RMSE med    5.508 p90      7.552  sat 0.000
+  poe K=  16 M= 1 PSNR=  30 ladder_chk    RMSE med    5.527 p90      7.574  sat 0.000
+  poe K=  16 M= 1 PSNR=  30 ladderdet     RMSE med    5.518 p90      7.562  sat 0.000
+  poe K=  16 M= 1 PSNR=  30 ladderdet_chk RMSE med    5.516 p90      7.559  sat 0.000
+  poe K=  16 M= 1 PSNR=  30 ladder_trunc  RMSE med    5.520 p90      7.513  sat 0.000
+  poe K=  16 M= 1 PSNR=  30 ladder_hybrid_trunc RMSE med    5.539 p90      7.556  sat 0.000
+  poe K=  16 M= 1 PSNR=  30 ladderdet_trunc RMSE med    5.517 p90      7.554  sat 0.000
+  poe K=  16 M= 1 PSNR=  30 ladderdet_chk_trunc RMSE med    5.539 p90      7.514  sat 0.000
+  poe K=  16 M= 1 PSNR=  30 awa           RMSE med    5.532 p90      7.627
+  poe K=  16 M= 1 PSNR=  30 pure          RMSE med    5.519 p90      7.595
+  poe K=  16 M= 1 PSNR=  30 simple        RMSE med    6.722 p90      9.085
+  poe K=  16 M= 1 PSNR=  30 airmoe        RMSE med    5.518 p90      7.527  sat 1.000
+  poe K=  16 M= 1 PSNR=  30 airmoe_hybrid RMSE med    5.519 p90      7.524  sat 1.000
+  poe K=  16 M= 1 PSNR=  30 airmoe_eff    RMSE med    5.516 p90      7.538  sat 1.000
+  poe K=  16 M= 1 PSNR=  30 ladder_eff@kap0.3 RMSE med    5.518 p90      7.563  sat 0.226
+  poe K=  16 M= 1 PSNR=  30 ladder_eff@kap1 RMSE med    5.520 p90      7.541  sat 0.347
+  poe K=  16 M= 1 PSNR=  30 ladderdet_eff RMSE med    5.506 p90      7.581  sat 0.000
+  poe K=  16 M= 1 PSNR=  30 ladderdet_eff@kap0.3 RMSE med    5.507 p90      7.573  sat 0.226
+  poe K=  16 M= 1 PSNR=  30 ladderdet_eff@kap1 RMSE med    5.521 p90      7.541  sat 0.347
+  poe K=  16 M= 1 PSNR=  30 ladderdet_eff_trunc@kap1 RMSE med    5.515 p90      7.522  sat 0.221
+  poe K=  16 M= 4 PSNR=   0 genie         RMSE med    6.296 p90      8.990  sat 0.000
+  poe K=  16 M= 4 PSNR=   0 ladder        RMSE med    6.635 p90      9.637  sat 0.000
+  poe K=  16 M= 4 PSNR=   0 fixed         RMSE med    6.921 p90      9.226  sat 0.191
+  poe K=  16 M= 4 PSNR=   0 ladder_hybrid RMSE med    6.469 p90      9.161  sat 0.000
+  poe K=  16 M= 4 PSNR=   0 genie_hybrid  RMSE med    6.276 p90      8.639  sat 0.000
+  poe K=  16 M= 4 PSNR=   0 ladder_chk    RMSE med    6.486 p90      8.981  sat 0.000
+  poe K=  16 M= 4 PSNR=   0 ladderdet     RMSE med    6.414 p90      8.677  sat 0.901
+  poe K=  16 M= 4 PSNR=   0 ladderdet_chk RMSE med    6.474 p90      8.754  sat 0.896
+  poe K=  16 M= 4 PSNR=   0 ladder_trunc  RMSE med    6.393 p90      8.877  sat 0.000
+  poe K=  16 M= 4 PSNR=   0 ladder_hybrid_trunc RMSE med    6.273 p90      8.468  sat 0.000
+  poe K=  16 M= 4 PSNR=   0 ladderdet_trunc RMSE med    6.453 p90      8.714  sat 0.899
+  poe K=  16 M= 4 PSNR=   0 ladderdet_chk_trunc RMSE med    6.494 p90      8.764  sat 0.899
+  poe K=  16 M= 4 PSNR=   0 awa           RMSE med    6.863 p90      9.453
+  poe K=  16 M= 4 PSNR=   0 pure          RMSE med   12.489 p90     69.421
+  poe K=  16 M= 4 PSNR=   0 simple        RMSE med    6.821 p90      9.385
+  poe K=  16 M= 4 PSNR=   0 airmoe        RMSE med    6.235 p90      8.373  sat 1.000
+  poe K=  16 M= 4 PSNR=   0 airmoe_hybrid RMSE med    6.375 p90      8.674  sat 1.000
+  poe K=  16 M= 4 PSNR=   0 airmoe_eff    RMSE med    6.199 p90      8.411  sat 1.000
+  poe K=  16 M= 4 PSNR=   0 ladder_eff@kap0.3 RMSE med    6.149 p90      8.207  sat 0.977
+  poe K=  16 M= 4 PSNR=   0 ladder_eff@kap1 RMSE med    6.152 p90      8.331  sat 1.000
+  poe K=  16 M= 4 PSNR=   0 ladderdet_eff RMSE med    6.367 p90      8.706  sat 0.902
+  poe K=  16 M= 4 PSNR=   0 ladderdet_eff@kap0.3 RMSE med    6.586 p90      8.951  sat 0.998
+  poe K=  16 M= 4 PSNR=   0 ladderdet_eff@kap1 RMSE med    6.588 p90      8.945  sat 0.999
+  poe K=  16 M= 4 PSNR=   0 ladderdet_eff_trunc@kap1 RMSE med    6.610 p90      8.888  sat 0.999
+  poe K=  16 M= 4 PSNR=   5 genie         RMSE med    5.769 p90      7.966  sat 0.000
+  poe K=  16 M= 4 PSNR=   5 ladder        RMSE med    5.930 p90      8.100  sat 0.000
+  poe K=  16 M= 4 PSNR=   5 fixed         RMSE med    5.996 p90      8.228  sat 0.191
+  poe K=  16 M= 4 PSNR=   5 ladder_hybrid RMSE med    5.875 p90      7.935  sat 0.000
+  poe K=  16 M= 4 PSNR=   5 genie_hybrid  RMSE med    5.778 p90      7.824  sat 0.000
+  poe K=  16 M= 4 PSNR=   5 ladder_chk    RMSE med    5.883 p90      8.103  sat 0.000
+  poe K=  16 M= 4 PSNR=   5 ladderdet     RMSE med    6.000 p90      8.251  sat 0.278
+  poe K=  16 M= 4 PSNR=   5 ladderdet_chk RMSE med    6.000 p90      8.074  sat 0.278
+  poe K=  16 M= 4 PSNR=   5 ladder_trunc  RMSE med    5.887 p90      7.940  sat 0.000
+  poe K=  16 M= 4 PSNR=   5 ladder_hybrid_trunc RMSE med    5.813 p90      7.861  sat 0.000
+  poe K=  16 M= 4 PSNR=   5 ladderdet_trunc RMSE med    5.957 p90      8.116  sat 0.280
+  poe K=  16 M= 4 PSNR=   5 ladderdet_chk_trunc RMSE med    5.953 p90      8.058  sat 0.284
+  poe K=  16 M= 4 PSNR=   5 awa           RMSE med    6.502 p90     11.196
+  poe K=  16 M= 4 PSNR=   5 pure          RMSE med    7.432 p90     26.734
+  poe K=  16 M= 4 PSNR=   5 simple        RMSE med    6.774 p90      9.165
+  poe K=  16 M= 4 PSNR=   5 airmoe        RMSE med    5.915 p90      7.979  sat 1.000
+  poe K=  16 M= 4 PSNR=   5 airmoe_hybrid RMSE med    6.015 p90      8.163  sat 1.000
+  poe K=  16 M= 4 PSNR=   5 airmoe_eff    RMSE med    5.910 p90      8.006  sat 1.000
+  poe K=  16 M= 4 PSNR=   5 ladder_eff@kap0.3 RMSE med    5.782 p90      7.873  sat 0.849
+  poe K=  16 M= 4 PSNR=   5 ladder_eff@kap1 RMSE med    5.906 p90      8.057  sat 0.980
+  poe K=  16 M= 4 PSNR=   5 ladderdet_eff RMSE med    5.926 p90      8.145  sat 0.273
+  poe K=  16 M= 4 PSNR=   5 ladderdet_eff@kap0.3 RMSE med    5.974 p90      8.098  sat 0.899
+  poe K=  16 M= 4 PSNR=   5 ladderdet_eff@kap1 RMSE med    6.058 p90      8.242  sat 0.986
+  poe K=  16 M= 4 PSNR=   5 ladderdet_eff_trunc@kap1 RMSE med    6.076 p90      8.264  sat 0.983
+  poe K=  16 M= 4 PSNR=  10 genie         RMSE med    5.628 p90      7.604  sat 0.000
+  poe K=  16 M= 4 PSNR=  10 ladder        RMSE med    5.659 p90      7.631  sat 0.000
+  poe K=  16 M= 4 PSNR=  10 fixed         RMSE med    5.698 p90      7.740  sat 0.191
+  poe K=  16 M= 4 PSNR=  10 ladder_hybrid RMSE med    5.610 p90      7.683  sat 0.000
+  poe K=  16 M= 4 PSNR=  10 genie_hybrid  RMSE med    5.592 p90      7.615  sat 0.000
+  poe K=  16 M= 4 PSNR=  10 ladder_chk    RMSE med    5.640 p90      7.678  sat 0.000
+  poe K=  16 M= 4 PSNR=  10 ladderdet     RMSE med    5.654 p90      7.719  sat 0.001
+  poe K=  16 M= 4 PSNR=  10 ladderdet_chk RMSE med    5.639 p90      7.691  sat 0.000
+  poe K=  16 M= 4 PSNR=  10 ladder_trunc  RMSE med    5.618 p90      7.706  sat 0.000
+  poe K=  16 M= 4 PSNR=  10 ladder_hybrid_trunc RMSE med    5.643 p90      7.685  sat 0.000
+  poe K=  16 M= 4 PSNR=  10 ladderdet_trunc RMSE med    5.663 p90      7.720  sat 0.000
+  poe K=  16 M= 4 PSNR=  10 ladderdet_chk_trunc RMSE med    5.632 p90      7.686  sat 0.000
+  poe K=  16 M= 4 PSNR=  10 awa           RMSE med    5.924 p90      8.473
+  poe K=  16 M= 4 PSNR=  10 pure          RMSE med    6.128 p90     10.304
+  poe K=  16 M= 4 PSNR=  10 simple        RMSE med    6.742 p90      9.130
+  poe K=  16 M= 4 PSNR=  10 airmoe        RMSE med    5.691 p90      7.756  sat 1.000
+  poe K=  16 M= 4 PSNR=  10 airmoe_hybrid RMSE med    5.750 p90      7.847  sat 1.000
+  poe K=  16 M= 4 PSNR=  10 airmoe_eff    RMSE med    5.686 p90      7.716  sat 1.000
+  poe K=  16 M= 4 PSNR=  10 ladder_eff@kap0.3 RMSE med    5.639 p90      7.692  sat 0.640
+  poe K=  16 M= 4 PSNR=  10 ladder_eff@kap1 RMSE med    5.686 p90      7.728  sat 0.857
+  poe K=  16 M= 4 PSNR=  10 ladderdet_eff RMSE med    5.642 p90      7.707  sat 0.000
+  poe K=  16 M= 4 PSNR=  10 ladderdet_eff@kap0.3 RMSE med    5.648 p90      7.716  sat 0.639
+  poe K=  16 M= 4 PSNR=  10 ladderdet_eff@kap1 RMSE med    5.713 p90      7.712  sat 0.856
+  poe K=  16 M= 4 PSNR=  10 ladderdet_eff_trunc@kap1 RMSE med    5.714 p90      7.780  sat 0.857
+  poe K=  16 M= 4 PSNR=  15 genie         RMSE med    5.553 p90      7.582  sat 0.000
+  poe K=  16 M= 4 PSNR=  15 ladder        RMSE med    5.583 p90      7.620  sat 0.000
+  poe K=  16 M= 4 PSNR=  15 fixed         RMSE med    5.613 p90      7.659  sat 0.191
+  poe K=  16 M= 4 PSNR=  15 ladder_hybrid RMSE med    5.566 p90      7.568  sat 0.000
+  poe K=  16 M= 4 PSNR=  15 genie_hybrid  RMSE med    5.563 p90      7.570  sat 0.000
+  poe K=  16 M= 4 PSNR=  15 ladder_chk    RMSE med    5.529 p90      7.570  sat 0.000
+  poe K=  16 M= 4 PSNR=  15 ladderdet     RMSE med    5.553 p90      7.633  sat 0.000
+  poe K=  16 M= 4 PSNR=  15 ladderdet_chk RMSE med    5.551 p90      7.560  sat 0.000
+  poe K=  16 M= 4 PSNR=  15 ladder_trunc  RMSE med    5.566 p90      7.620  sat 0.000
+  poe K=  16 M= 4 PSNR=  15 ladder_hybrid_trunc RMSE med    5.594 p90      7.634  sat 0.000
+  poe K=  16 M= 4 PSNR=  15 ladderdet_trunc RMSE med    5.555 p90      7.584  sat 0.000
+  poe K=  16 M= 4 PSNR=  15 ladderdet_chk_trunc RMSE med    5.545 p90      7.621  sat 0.000
+  poe K=  16 M= 4 PSNR=  15 awa           RMSE med    5.673 p90      7.749
+  poe K=  16 M= 4 PSNR=  15 pure          RMSE med    5.675 p90      8.029
+  poe K=  16 M= 4 PSNR=  15 simple        RMSE med    6.722 p90      9.090
+  poe K=  16 M= 4 PSNR=  15 airmoe        RMSE med    5.580 p90      7.568  sat 1.000
+  poe K=  16 M= 4 PSNR=  15 airmoe_hybrid RMSE med    5.625 p90      7.673  sat 1.000
+  poe K=  16 M= 4 PSNR=  15 airmoe_eff    RMSE med    5.584 p90      7.578  sat 1.000
+  poe K=  16 M= 4 PSNR=  15 ladder_eff@kap0.3 RMSE med    5.571 p90      7.593  sat 0.433
+  poe K=  16 M= 4 PSNR=  15 ladder_eff@kap1 RMSE med    5.589 p90      7.644  sat 0.650
+  poe K=  16 M= 4 PSNR=  15 ladderdet_eff RMSE med    5.569 p90      7.618  sat 0.000
+  poe K=  16 M= 4 PSNR=  15 ladderdet_eff@kap0.3 RMSE med    5.580 p90      7.635  sat 0.433
+  poe K=  16 M= 4 PSNR=  15 ladderdet_eff@kap1 RMSE med    5.597 p90      7.616  sat 0.650
+  poe K=  16 M= 4 PSNR=  15 ladderdet_eff_trunc@kap1 RMSE med    5.578 p90      7.621  sat 0.650
+  poe K=  16 M= 4 PSNR=  20 genie         RMSE med    5.524 p90      7.580  sat 0.000
+  poe K=  16 M= 4 PSNR=  20 ladder        RMSE med    5.534 p90      7.567  sat 0.000
+  poe K=  16 M= 4 PSNR=  20 fixed         RMSE med    5.591 p90      7.640  sat 0.191
+  poe K=  16 M= 4 PSNR=  20 ladder_hybrid RMSE med    5.516 p90      7.553  sat 0.000
+  poe K=  16 M= 4 PSNR=  20 genie_hybrid  RMSE med    5.508 p90      7.534  sat 0.000
+  poe K=  16 M= 4 PSNR=  20 ladder_chk    RMSE med    5.515 p90      7.538  sat 0.000
+  poe K=  16 M= 4 PSNR=  20 ladderdet     RMSE med    5.530 p90      7.536  sat 0.000
+  poe K=  16 M= 4 PSNR=  20 ladderdet_chk RMSE med    5.538 p90      7.553  sat 0.000
+  poe K=  16 M= 4 PSNR=  20 ladder_trunc  RMSE med    5.513 p90      7.521  sat 0.000
+  poe K=  16 M= 4 PSNR=  20 ladder_hybrid_trunc RMSE med    5.560 p90      7.625  sat 0.000
+  poe K=  16 M= 4 PSNR=  20 ladderdet_trunc RMSE med    5.539 p90      7.551  sat 0.000
+  poe K=  16 M= 4 PSNR=  20 ladderdet_chk_trunc RMSE med    5.571 p90      7.602  sat 0.000
+  poe K=  16 M= 4 PSNR=  20 awa           RMSE med    5.555 p90      7.716
+  poe K=  16 M= 4 PSNR=  20 pure          RMSE med    5.574 p90      7.699
+  poe K=  16 M= 4 PSNR=  20 simple        RMSE med    6.730 p90      9.113
+  poe K=  16 M= 4 PSNR=  20 airmoe        RMSE med    5.536 p90      7.575  sat 1.000
+  poe K=  16 M= 4 PSNR=  20 airmoe_hybrid RMSE med    5.554 p90      7.574  sat 1.000
+  poe K=  16 M= 4 PSNR=  20 airmoe_eff    RMSE med    5.530 p90      7.545  sat 1.000
+  poe K=  16 M= 4 PSNR=  20 ladder_eff@kap0.3 RMSE med    5.527 p90      7.549  sat 0.264
+  poe K=  16 M= 4 PSNR=  20 ladder_eff@kap1 RMSE med    5.529 p90      7.584  sat 0.441
+  poe K=  16 M= 4 PSNR=  20 ladderdet_eff RMSE med    5.532 p90      7.577  sat 0.000
+  poe K=  16 M= 4 PSNR=  20 ladderdet_eff@kap0.3 RMSE med    5.537 p90      7.564  sat 0.264
+  poe K=  16 M= 4 PSNR=  20 ladderdet_eff@kap1 RMSE med    5.553 p90      7.584  sat 0.441
+  poe K=  16 M= 4 PSNR=  20 ladderdet_eff_trunc@kap1 RMSE med    5.539 p90      7.571  sat 0.441
+  poe K=  16 M= 4 PSNR=  25 genie         RMSE med    5.521 p90      7.562  sat 0.000
+  poe K=  16 M= 4 PSNR=  25 ladder        RMSE med    5.521 p90      7.538  sat 0.000
+  poe K=  16 M= 4 PSNR=  25 fixed         RMSE med    5.603 p90      7.617  sat 0.191
+  poe K=  16 M= 4 PSNR=  25 ladder_hybrid RMSE med    5.529 p90      7.554  sat 0.000
+  poe K=  16 M= 4 PSNR=  25 genie_hybrid  RMSE med    5.517 p90      7.528  sat 0.000
+  poe K=  16 M= 4 PSNR=  25 ladder_chk    RMSE med    5.509 p90      7.532  sat 0.000
+  poe K=  16 M= 4 PSNR=  25 ladderdet     RMSE med    5.513 p90      7.528  sat 0.000
+  poe K=  16 M= 4 PSNR=  25 ladderdet_chk RMSE med    5.517 p90      7.559  sat 0.000
+  poe K=  16 M= 4 PSNR=  25 ladder_trunc  RMSE med    5.550 p90      7.608  sat 0.000
+  poe K=  16 M= 4 PSNR=  25 ladder_hybrid_trunc RMSE med    5.523 p90      7.545  sat 0.000
+  poe K=  16 M= 4 PSNR=  25 ladderdet_trunc RMSE med    5.523 p90      7.534  sat 0.000
+  poe K=  16 M= 4 PSNR=  25 ladderdet_chk_trunc RMSE med    5.519 p90      7.529  sat 0.000
+  poe K=  16 M= 4 PSNR=  25 awa           RMSE med    5.525 p90      7.523
+  poe K=  16 M= 4 PSNR=  25 pure          RMSE med    5.506 p90      7.548
+  poe K=  16 M= 4 PSNR=  25 simple        RMSE med    6.722 p90      9.102
+  poe K=  16 M= 4 PSNR=  25 airmoe        RMSE med    5.518 p90      7.542  sat 1.000
+  poe K=  16 M= 4 PSNR=  25 airmoe_hybrid RMSE med    5.514 p90      7.531  sat 1.000
+  poe K=  16 M= 4 PSNR=  25 airmoe_eff    RMSE med    5.535 p90      7.538  sat 1.000
+  poe K=  16 M= 4 PSNR=  25 ladder_eff@kap0.3 RMSE med    5.523 p90      7.562  sat 0.155
+  poe K=  16 M= 4 PSNR=  25 ladder_eff@kap1 RMSE med    5.524 p90      7.552  sat 0.270
+  poe K=  16 M= 4 PSNR=  25 ladderdet_eff RMSE med    5.516 p90      7.570  sat 0.000
+  poe K=  16 M= 4 PSNR=  25 ladderdet_eff@kap0.3 RMSE med    5.503 p90      7.529  sat 0.155
+  poe K=  16 M= 4 PSNR=  25 ladderdet_eff@kap1 RMSE med    5.534 p90      7.553  sat 0.270
+  poe K=  16 M= 4 PSNR=  25 ladderdet_eff_trunc@kap1 RMSE med    5.537 p90      7.559  sat 0.233
+  poe K=  16 M= 4 PSNR=  30 genie         RMSE med    5.526 p90      7.511  sat 0.000
+  poe K=  16 M= 4 PSNR=  30 ladder        RMSE med    5.503 p90      7.515  sat 0.000
+  poe K=  16 M= 4 PSNR=  30 fixed         RMSE med    5.604 p90      7.663  sat 0.191
+  poe K=  16 M= 4 PSNR=  30 ladder_hybrid RMSE med    5.517 p90      7.516  sat 0.000
+  poe K=  16 M= 4 PSNR=  30 genie_hybrid  RMSE med    5.515 p90      7.538  sat 0.000
+  poe K=  16 M= 4 PSNR=  30 ladder_chk    RMSE med    5.510 p90      7.531  sat 0.000
+  poe K=  16 M= 4 PSNR=  30 ladderdet     RMSE med    5.510 p90      7.548  sat 0.000
+  poe K=  16 M= 4 PSNR=  30 ladderdet_chk RMSE med    5.517 p90      7.518  sat 0.000
+  poe K=  16 M= 4 PSNR=  30 ladder_trunc  RMSE med    5.523 p90      7.539  sat 0.000
+  poe K=  16 M= 4 PSNR=  30 ladder_hybrid_trunc RMSE med    5.510 p90      7.538  sat 0.000
+  poe K=  16 M= 4 PSNR=  30 ladderdet_trunc RMSE med    5.517 p90      7.536  sat 0.000
+  poe K=  16 M= 4 PSNR=  30 ladderdet_chk_trunc RMSE med    5.528 p90      7.528  sat 0.000
+  poe K=  16 M= 4 PSNR=  30 awa           RMSE med    5.521 p90      7.528
+  poe K=  16 M= 4 PSNR=  30 pure          RMSE med    5.509 p90      7.529
+  poe K=  16 M= 4 PSNR=  30 simple        RMSE med    6.724 p90      9.087
+  poe K=  16 M= 4 PSNR=  30 airmoe        RMSE med    5.524 p90      7.556  sat 1.000
+  poe K=  16 M= 4 PSNR=  30 airmoe_hybrid RMSE med    5.524 p90      7.546  sat 1.000
+  poe K=  16 M= 4 PSNR=  30 airmoe_eff    RMSE med    5.511 p90      7.531  sat 1.000
+  poe K=  16 M= 4 PSNR=  30 ladder_eff@kap0.3 RMSE med    5.504 p90      7.538  sat 0.089
+  poe K=  16 M= 4 PSNR=  30 ladder_eff@kap1 RMSE med    5.509 p90      7.519  sat 0.159
+  poe K=  16 M= 4 PSNR=  30 ladderdet_eff RMSE med    5.510 p90      7.537  sat 0.000
+  poe K=  16 M= 4 PSNR=  30 ladderdet_eff@kap0.3 RMSE med    5.516 p90      7.529  sat 0.089
+  poe K=  16 M= 4 PSNR=  30 ladderdet_eff@kap1 RMSE med    5.516 p90      7.539  sat 0.158
+  poe K=  16 M= 4 PSNR=  30 ladderdet_eff_trunc@kap1 RMSE med    5.529 p90      7.552  sat 0.135
+[poe K=32] ideal RMSE med 6.033 dB p90 8.356; log10 weight range per instance: median 0.7, N_eff median 23.77 (283 s)
+  poe K=  32 M= 1 PSNR=   0 genie         RMSE med    6.837 p90     10.080  sat 0.000
+  poe K=  32 M= 1 PSNR=   0 ladder        RMSE med    7.040 p90     10.824  sat 0.000
+  poe K=  32 M= 1 PSNR=   0 fixed         RMSE med    7.176 p90      9.740  sat 0.218
+  poe K=  32 M= 1 PSNR=   0 ladder_hybrid RMSE med    7.015 p90     10.688  sat 0.000
+  poe K=  32 M= 1 PSNR=   0 genie_hybrid  RMSE med    6.817 p90     10.050  sat 0.000
+  poe K=  32 M= 1 PSNR=   0 ladder_chk    RMSE med    7.101 p90     10.572  sat 0.000
+  poe K=  32 M= 1 PSNR=   0 ladderdet     RMSE med    6.494 p90      9.049  sat 0.892
+  poe K=  32 M= 1 PSNR=   0 ladderdet_chk RMSE med    6.592 p90      9.087  sat 0.890
+  poe K=  32 M= 1 PSNR=   0 ladder_trunc  RMSE med    6.474 p90      8.901  sat 0.000
+  poe K=  32 M= 1 PSNR=   0 ladder_hybrid_trunc RMSE med    6.417 p90      8.689  sat 0.000
+  poe K=  32 M= 1 PSNR=   0 ladderdet_trunc RMSE med    6.469 p90      9.027  sat 0.861
+  poe K=  32 M= 1 PSNR=   0 ladderdet_chk_trunc RMSE med    6.525 p90      8.983  sat 0.865
+  poe K=  32 M= 1 PSNR=   0 awa           RMSE med    7.225 p90     11.143
+  poe K=  32 M= 1 PSNR=   0 pure          RMSE med   10.705 p90     57.000
+  poe K=  32 M= 1 PSNR=   0 simple        RMSE med    7.082 p90      9.990
+  poe K=  32 M= 1 PSNR=   0 airmoe        RMSE med    6.478 p90      8.991  sat 1.000
+  poe K=  32 M= 1 PSNR=   0 airmoe_hybrid RMSE med    6.593 p90      9.198  sat 1.000
+  poe K=  32 M= 1 PSNR=   0 airmoe_eff    RMSE med    6.475 p90      8.949  sat 1.000
+  poe K=  32 M= 1 PSNR=   0 ladder_eff@kap0.3 RMSE med    6.404 p90      8.870  sat 0.998
+  poe K=  32 M= 1 PSNR=   0 ladder_eff@kap1 RMSE med    6.460 p90      8.863  sat 1.000
+  poe K=  32 M= 1 PSNR=   0 ladderdet_eff RMSE med    6.521 p90      9.063  sat 0.892
+  poe K=  32 M= 1 PSNR=   0 ladderdet_eff@kap0.3 RMSE med    6.616 p90      9.343  sat 0.999
+  poe K=  32 M= 1 PSNR=   0 ladderdet_eff@kap1 RMSE med    6.694 p90      9.327  sat 0.999
+  poe K=  32 M= 1 PSNR=   0 ladderdet_eff_trunc@kap1 RMSE med    6.702 p90      9.318  sat 0.999
+  poe K=  32 M= 1 PSNR=   5 genie         RMSE med    6.446 p90      8.993  sat 0.000
+  poe K=  32 M= 1 PSNR=   5 ladder        RMSE med    6.485 p90      9.288  sat 0.000
+  poe K=  32 M= 1 PSNR=   5 fixed         RMSE med    6.399 p90      8.854  sat 0.218
+  poe K=  32 M= 1 PSNR=   5 ladder_hybrid RMSE med    6.454 p90      9.304  sat 0.000
+  poe K=  32 M= 1 PSNR=   5 genie_hybrid  RMSE med    6.371 p90      9.047  sat 0.000
+  poe K=  32 M= 1 PSNR=   5 ladder_chk    RMSE med    6.470 p90      9.108  sat 0.000
+  poe K=  32 M= 1 PSNR=   5 ladderdet     RMSE med    6.371 p90      9.173  sat 0.267
+  poe K=  32 M= 1 PSNR=   5 ladderdet_chk RMSE med    6.429 p90      9.092  sat 0.271
+  poe K=  32 M= 1 PSNR=   5 ladder_trunc  RMSE med    6.150 p90      8.622  sat 0.000
+  poe K=  32 M= 1 PSNR=   5 ladder_hybrid_trunc RMSE med    6.208 p90      8.555  sat 0.000
+  poe K=  32 M= 1 PSNR=   5 ladderdet_trunc RMSE med    6.270 p90      8.717  sat 0.246
+  poe K=  32 M= 1 PSNR=   5 ladderdet_chk_trunc RMSE med    6.261 p90      8.634  sat 0.261
+  poe K=  32 M= 1 PSNR=   5 awa           RMSE med    6.860 p90     11.031
+  poe K=  32 M= 1 PSNR=   5 pure          RMSE med    7.408 p90     22.977
+  poe K=  32 M= 1 PSNR=   5 simple        RMSE med    6.954 p90      9.687
+  poe K=  32 M= 1 PSNR=   5 airmoe        RMSE med    6.290 p90      8.720  sat 1.000
+  poe K=  32 M= 1 PSNR=   5 airmoe_hybrid RMSE med    6.411 p90      8.820  sat 1.000
+  poe K=  32 M= 1 PSNR=   5 airmoe_eff    RMSE med    6.318 p90      8.701  sat 1.000
+  poe K=  32 M= 1 PSNR=   5 ladder_eff@kap0.3 RMSE med    6.229 p90      8.623  sat 0.969
+  poe K=  32 M= 1 PSNR=   5 ladder_eff@kap1 RMSE med    6.276 p90      8.673  sat 0.998
+  poe K=  32 M= 1 PSNR=   5 ladderdet_eff RMSE med    6.417 p90      9.098  sat 0.272
+  poe K=  32 M= 1 PSNR=   5 ladderdet_eff@kap0.3 RMSE med    6.308 p90      8.779  sat 0.979
+  poe K=  32 M= 1 PSNR=   5 ladderdet_eff@kap1 RMSE med    6.418 p90      8.848  sat 0.998
+  poe K=  32 M= 1 PSNR=   5 ladderdet_eff_trunc@kap1 RMSE med    6.389 p90      8.823  sat 0.997
+  poe K=  32 M= 1 PSNR=  10 genie         RMSE med    6.192 p90      8.516  sat 0.000
+  poe K=  32 M= 1 PSNR=  10 ladder        RMSE med    6.219 p90      8.707  sat 0.000
+  poe K=  32 M= 1 PSNR=  10 fixed         RMSE med    6.188 p90      8.483  sat 0.218
+  poe K=  32 M= 1 PSNR=  10 ladder_hybrid RMSE med    6.197 p90      8.638  sat 0.000
+  poe K=  32 M= 1 PSNR=  10 genie_hybrid  RMSE med    6.192 p90      8.540  sat 0.000
+  poe K=  32 M= 1 PSNR=  10 ladder_chk    RMSE med    6.185 p90      8.633  sat 0.000
+  poe K=  32 M= 1 PSNR=  10 ladderdet     RMSE med    6.204 p90      8.650  sat 0.001
+  poe K=  32 M= 1 PSNR=  10 ladderdet_chk RMSE med    6.258 p90      8.807  sat 0.001
+  poe K=  32 M= 1 PSNR=  10 ladder_trunc  RMSE med    6.125 p90      8.516  sat 0.000
+  poe K=  32 M= 1 PSNR=  10 ladder_hybrid_trunc RMSE med    6.089 p90      8.457  sat 0.000
+  poe K=  32 M= 1 PSNR=  10 ladderdet_trunc RMSE med    6.098 p90      8.400  sat 0.000
+  poe K=  32 M= 1 PSNR=  10 ladderdet_chk_trunc RMSE med    6.135 p90      8.532  sat 0.000
+  poe K=  32 M= 1 PSNR=  10 awa           RMSE med    6.569 p90     10.898
+  poe K=  32 M= 1 PSNR=  10 pure          RMSE med    6.568 p90     11.135
+  poe K=  32 M= 1 PSNR=  10 simple        RMSE med    6.872 p90      9.560
+  poe K=  32 M= 1 PSNR=  10 airmoe        RMSE med    6.165 p90      8.559  sat 1.000
+  poe K=  32 M= 1 PSNR=  10 airmoe_hybrid RMSE med    6.211 p90      8.578  sat 1.000
+  poe K=  32 M= 1 PSNR=  10 airmoe_eff    RMSE med    6.176 p90      8.515  sat 1.000
+  poe K=  32 M= 1 PSNR=  10 ladder_eff@kap0.3 RMSE med    6.110 p90      8.520  sat 0.881
+  poe K=  32 M= 1 PSNR=  10 ladder_eff@kap1 RMSE med    6.177 p90      8.555  sat 0.972
+  poe K=  32 M= 1 PSNR=  10 ladderdet_eff RMSE med    6.239 p90      8.642  sat 0.000
+  poe K=  32 M= 1 PSNR=  10 ladderdet_eff@kap0.3 RMSE med    6.113 p90      8.472  sat 0.880
+  poe K=  32 M= 1 PSNR=  10 ladderdet_eff@kap1 RMSE med    6.171 p90      8.550  sat 0.971
+  poe K=  32 M= 1 PSNR=  10 ladderdet_eff_trunc@kap1 RMSE med    6.163 p90      8.564  sat 0.873
+  poe K=  32 M= 1 PSNR=  15 genie         RMSE med    6.074 p90      8.444  sat 0.000
+  poe K=  32 M= 1 PSNR=  15 ladder        RMSE med    6.081 p90      8.466  sat 0.000
+  poe K=  32 M= 1 PSNR=  15 fixed         RMSE med    6.122 p90      8.411  sat 0.218
+  poe K=  32 M= 1 PSNR=  15 ladder_hybrid RMSE med    6.113 p90      8.478  sat 0.000
+  poe K=  32 M= 1 PSNR=  15 genie_hybrid  RMSE med    6.083 p90      8.445  sat 0.000
+  poe K=  32 M= 1 PSNR=  15 ladder_chk    RMSE med    6.091 p90      8.450  sat 0.000
+  poe K=  32 M= 1 PSNR=  15 ladderdet     RMSE med    6.115 p90      8.479  sat 0.000
+  poe K=  32 M= 1 PSNR=  15 ladderdet_chk RMSE med    6.114 p90      8.481  sat 0.000
+  poe K=  32 M= 1 PSNR=  15 ladder_trunc  RMSE med    6.055 p90      8.425  sat 0.000
+  poe K=  32 M= 1 PSNR=  15 ladder_hybrid_trunc RMSE med    6.057 p90      8.353  sat 0.000
+  poe K=  32 M= 1 PSNR=  15 ladderdet_trunc RMSE med    6.059 p90      8.380  sat 0.000
+  poe K=  32 M= 1 PSNR=  15 ladderdet_chk_trunc RMSE med    6.051 p90      8.388  sat 0.000
+  poe K=  32 M= 1 PSNR=  15 awa           RMSE med    6.250 p90      9.084
+  poe K=  32 M= 1 PSNR=  15 pure          RMSE med    6.229 p90      9.075
+  poe K=  32 M= 1 PSNR=  15 simple        RMSE med    6.840 p90      9.500
+  poe K=  32 M= 1 PSNR=  15 airmoe        RMSE med    6.087 p90      8.416  sat 1.000
+  poe K=  32 M= 1 PSNR=  15 airmoe_hybrid RMSE med    6.124 p90      8.469  sat 1.000
+  poe K=  32 M= 1 PSNR=  15 airmoe_eff    RMSE med    6.106 p90      8.427  sat 1.000
+  poe K=  32 M= 1 PSNR=  15 ladder_eff@kap0.3 RMSE med    6.070 p90      8.357  sat 0.756
+  poe K=  32 M= 1 PSNR=  15 ladder_eff@kap1 RMSE med    6.079 p90      8.395  sat 0.886
+  poe K=  32 M= 1 PSNR=  15 ladderdet_eff RMSE med    6.145 p90      8.515  sat 0.000
+  poe K=  32 M= 1 PSNR=  15 ladderdet_eff@kap0.3 RMSE med    6.052 p90      8.425  sat 0.756
+  poe K=  32 M= 1 PSNR=  15 ladderdet_eff@kap1 RMSE med    6.105 p90      8.458  sat 0.885
+  poe K=  32 M= 1 PSNR=  15 ladderdet_eff_trunc@kap1 RMSE med    6.086 p90      8.410  sat 0.766
+  poe K=  32 M= 1 PSNR=  20 genie         RMSE med    6.062 p90      8.335  sat 0.000
+  poe K=  32 M= 1 PSNR=  20 ladder        RMSE med    6.080 p90      8.410  sat 0.000
+  poe K=  32 M= 1 PSNR=  20 fixed         RMSE med    6.088 p90      8.381  sat 0.218
+  poe K=  32 M= 1 PSNR=  20 ladder_hybrid RMSE med    6.066 p90      8.406  sat 0.000
+  poe K=  32 M= 1 PSNR=  20 genie_hybrid  RMSE med    6.059 p90      8.398  sat 0.000
+  poe K=  32 M= 1 PSNR=  20 ladder_chk    RMSE med    6.051 p90      8.388  sat 0.000
+  poe K=  32 M= 1 PSNR=  20 ladderdet     RMSE med    6.072 p90      8.373  sat 0.000
+  poe K=  32 M= 1 PSNR=  20 ladderdet_chk RMSE med    6.073 p90      8.429  sat 0.000
+  poe K=  32 M= 1 PSNR=  20 ladder_trunc  RMSE med    6.078 p90      8.397  sat 0.000
+  poe K=  32 M= 1 PSNR=  20 ladder_hybrid_trunc RMSE med    6.068 p90      8.399  sat 0.000
+  poe K=  32 M= 1 PSNR=  20 ladderdet_trunc RMSE med    6.066 p90      8.402  sat 0.000
+  poe K=  32 M= 1 PSNR=  20 ladderdet_chk_trunc RMSE med    6.073 p90      8.405  sat 0.000
+  poe K=  32 M= 1 PSNR=  20 awa           RMSE med    6.089 p90      8.630
+  poe K=  32 M= 1 PSNR=  20 pure          RMSE med    6.114 p90      8.544
+  poe K=  32 M= 1 PSNR=  20 simple        RMSE med    6.829 p90      9.506
+  poe K=  32 M= 1 PSNR=  20 airmoe        RMSE med    6.045 p90      8.372  sat 1.000
+  poe K=  32 M= 1 PSNR=  20 airmoe_hybrid RMSE med    6.075 p90      8.410  sat 1.000
+  poe K=  32 M= 1 PSNR=  20 airmoe_eff    RMSE med    6.063 p90      8.386  sat 1.000
+  poe K=  32 M= 1 PSNR=  20 ladder_eff@kap0.3 RMSE med    6.029 p90      8.362  sat 0.616
+  poe K=  32 M= 1 PSNR=  20 ladder_eff@kap1 RMSE med    6.056 p90      8.420  sat 0.762
+  poe K=  32 M= 1 PSNR=  20 ladderdet_eff RMSE med    6.056 p90      8.426  sat 0.000
+  poe K=  32 M= 1 PSNR=  20 ladderdet_eff@kap0.3 RMSE med    6.068 p90      8.359  sat 0.615
+  poe K=  32 M= 1 PSNR=  20 ladderdet_eff@kap1 RMSE med    6.058 p90      8.409  sat 0.762
+  poe K=  32 M= 1 PSNR=  20 ladderdet_eff_trunc@kap1 RMSE med    6.067 p90      8.415  sat 0.364
+  poe K=  32 M= 1 PSNR=  25 genie         RMSE med    6.026 p90      8.385  sat 0.000
+  poe K=  32 M= 1 PSNR=  25 ladder        RMSE med    6.044 p90      8.368  sat 0.000
+  poe K=  32 M= 1 PSNR=  25 fixed         RMSE med    6.092 p90      8.404  sat 0.218
+  poe K=  32 M= 1 PSNR=  25 ladder_hybrid RMSE med    6.058 p90      8.362  sat 0.000
+  poe K=  32 M= 1 PSNR=  25 genie_hybrid  RMSE med    6.024 p90      8.393  sat 0.000
+  poe K=  32 M= 1 PSNR=  25 ladder_chk    RMSE med    6.034 p90      8.393  sat 0.000
+  poe K=  32 M= 1 PSNR=  25 ladderdet     RMSE med    6.052 p90      8.371  sat 0.000
+  poe K=  32 M= 1 PSNR=  25 ladderdet_chk RMSE med    6.070 p90      8.378  sat 0.000
+  poe K=  32 M= 1 PSNR=  25 ladder_trunc  RMSE med    6.038 p90      8.358  sat 0.000
+  poe K=  32 M= 1 PSNR=  25 ladder_hybrid_trunc RMSE med    6.043 p90      8.358  sat 0.000
+  poe K=  32 M= 1 PSNR=  25 ladderdet_trunc RMSE med    6.029 p90      8.387  sat 0.000
+  poe K=  32 M= 1 PSNR=  25 ladderdet_chk_trunc RMSE med    6.047 p90      8.392  sat 0.000
+  poe K=  32 M= 1 PSNR=  25 awa           RMSE med    6.054 p90      8.401
+  poe K=  32 M= 1 PSNR=  25 pure          RMSE med    6.051 p90      8.408
+  poe K=  32 M= 1 PSNR=  25 simple        RMSE med    6.828 p90      9.508
+  poe K=  32 M= 1 PSNR=  25 airmoe        RMSE med    6.039 p90      8.389  sat 1.000
+  poe K=  32 M= 1 PSNR=  25 airmoe_hybrid RMSE med    6.048 p90      8.421  sat 1.000
+  poe K=  32 M= 1 PSNR=  25 airmoe_eff    RMSE med    6.038 p90      8.383  sat 1.000
+  poe K=  32 M= 1 PSNR=  25 ladder_eff@kap0.3 RMSE med    6.038 p90      8.384  sat 0.461
+  poe K=  32 M= 1 PSNR=  25 ladder_eff@kap1 RMSE med    6.042 p90      8.357  sat 0.622
+  poe K=  32 M= 1 PSNR=  25 ladderdet_eff RMSE med    6.028 p90      8.338  sat 0.000
+  poe K=  32 M= 1 PSNR=  25 ladderdet_eff@kap0.3 RMSE med    6.026 p90      8.374  sat 0.461
+  poe K=  32 M= 1 PSNR=  25 ladderdet_eff@kap1 RMSE med    6.029 p90      8.371  sat 0.622
+  poe K=  32 M= 1 PSNR=  25 ladderdet_eff_trunc@kap1 RMSE med    6.038 p90      8.369  sat 0.436
+  poe K=  32 M= 1 PSNR=  30 genie         RMSE med    6.035 p90      8.382  sat 0.000
+  poe K=  32 M= 1 PSNR=  30 ladder        RMSE med    6.037 p90      8.360  sat 0.000
+  poe K=  32 M= 1 PSNR=  30 fixed         RMSE med    6.058 p90      8.400  sat 0.218
+  poe K=  32 M= 1 PSNR=  30 ladder_hybrid RMSE med    6.023 p90      8.356  sat 0.000
+  poe K=  32 M= 1 PSNR=  30 genie_hybrid  RMSE med    6.043 p90      8.371  sat 0.000
+  poe K=  32 M= 1 PSNR=  30 ladder_chk    RMSE med    6.031 p90      8.360  sat 0.000
+  poe K=  32 M= 1 PSNR=  30 ladderdet     RMSE med    6.027 p90      8.362  sat 0.000
+  poe K=  32 M= 1 PSNR=  30 ladderdet_chk RMSE med    6.035 p90      8.362  sat 0.000
+  poe K=  32 M= 1 PSNR=  30 ladder_trunc  RMSE med    6.020 p90      8.355  sat 0.000
+  poe K=  32 M= 1 PSNR=  30 ladder_hybrid_trunc RMSE med    6.030 p90      8.376  sat 0.000
+  poe K=  32 M= 1 PSNR=  30 ladderdet_trunc RMSE med    6.032 p90      8.358  sat 0.000
+  poe K=  32 M= 1 PSNR=  30 ladderdet_chk_trunc RMSE med    6.028 p90      8.355  sat 0.000
+  poe K=  32 M= 1 PSNR=  30 awa           RMSE med    6.061 p90      8.407
+  poe K=  32 M= 1 PSNR=  30 pure          RMSE med    6.047 p90      8.385
+  poe K=  32 M= 1 PSNR=  30 simple        RMSE med    6.823 p90      9.511
+  poe K=  32 M= 1 PSNR=  30 airmoe        RMSE med    6.037 p90      8.353  sat 1.000
+  poe K=  32 M= 1 PSNR=  30 airmoe_hybrid RMSE med    6.048 p90      8.357  sat 1.000
+  poe K=  32 M= 1 PSNR=  30 airmoe_eff    RMSE med    6.034 p90      8.364  sat 1.000
+  poe K=  32 M= 1 PSNR=  30 ladder_eff@kap0.3 RMSE med    6.028 p90      8.379  sat 0.314
+  poe K=  32 M= 1 PSNR=  30 ladder_eff@kap1 RMSE med    6.026 p90      8.357  sat 0.471
+  poe K=  32 M= 1 PSNR=  30 ladderdet_eff RMSE med    6.035 p90      8.381  sat 0.000
+  poe K=  32 M= 1 PSNR=  30 ladderdet_eff@kap0.3 RMSE med    6.031 p90      8.351  sat 0.314
+  poe K=  32 M= 1 PSNR=  30 ladderdet_eff@kap1 RMSE med    6.040 p90      8.354  sat 0.470
+  poe K=  32 M= 1 PSNR=  30 ladderdet_eff_trunc@kap1 RMSE med    6.024 p90      8.350  sat 0.270
+  poe K=  32 M= 4 PSNR=   0 genie         RMSE med    6.403 p90      8.994  sat 0.000
+  poe K=  32 M= 4 PSNR=   0 ladder        RMSE med    6.532 p90      9.140  sat 0.000
+  poe K=  32 M= 4 PSNR=   0 fixed         RMSE med    6.570 p90      8.908  sat 0.188
+  poe K=  32 M= 4 PSNR=   0 ladder_hybrid RMSE med    6.504 p90      9.106  sat 0.000
+  poe K=  32 M= 4 PSNR=   0 genie_hybrid  RMSE med    6.361 p90      8.920  sat 0.000
+  poe K=  32 M= 4 PSNR=   0 ladder_chk    RMSE med    6.516 p90      9.003  sat 0.000
+  poe K=  32 M= 4 PSNR=   0 ladderdet     RMSE med    6.499 p90      8.997  sat 0.863
+  poe K=  32 M= 4 PSNR=   0 ladderdet_chk RMSE med    6.514 p90      9.053  sat 0.865
+  poe K=  32 M= 4 PSNR=   0 ladder_trunc  RMSE med    6.406 p90      8.817  sat 0.000
+  poe K=  32 M= 4 PSNR=   0 ladder_hybrid_trunc RMSE med    6.443 p90      8.746  sat 0.000
+  poe K=  32 M= 4 PSNR=   0 ladderdet_trunc RMSE med    6.478 p90      8.960  sat 0.859
+  poe K=  32 M= 4 PSNR=   0 ladderdet_chk_trunc RMSE med    6.535 p90      9.060  sat 0.863
+  poe K=  32 M= 4 PSNR=   0 awa           RMSE med    6.819 p90     10.170
+  poe K=  32 M= 4 PSNR=   0 pure          RMSE med    8.541 p90     32.677
+  poe K=  32 M= 4 PSNR=   0 simple        RMSE med    6.918 p90      9.626
+  poe K=  32 M= 4 PSNR=   0 airmoe        RMSE med    6.464 p90      8.952  sat 1.000
+  poe K=  32 M= 4 PSNR=   0 airmoe_hybrid RMSE med    6.563 p90      9.078  sat 1.000
+  poe K=  32 M= 4 PSNR=   0 airmoe_eff    RMSE med    6.441 p90      8.877  sat 1.000
+  poe K=  32 M= 4 PSNR=   0 ladder_eff@kap0.3 RMSE med    6.330 p90      8.750  sat 0.992
+  poe K=  32 M= 4 PSNR=   0 ladder_eff@kap1 RMSE med    6.409 p90      8.869  sat 1.000
+  poe K=  32 M= 4 PSNR=   0 ladderdet_eff RMSE med    6.478 p90      8.902  sat 0.861
+  poe K=  32 M= 4 PSNR=   0 ladderdet_eff@kap0.3 RMSE med    6.666 p90      9.276  sat 0.999
+  poe K=  32 M= 4 PSNR=   0 ladderdet_eff@kap1 RMSE med    6.684 p90      9.277  sat 0.999
+  poe K=  32 M= 4 PSNR=   0 ladderdet_eff_trunc@kap1 RMSE med    6.688 p90      9.280  sat 1.000
+  poe K=  32 M= 4 PSNR=   5 genie         RMSE med    6.164 p90      8.531  sat 0.000
+  poe K=  32 M= 4 PSNR=   5 ladder        RMSE med    6.222 p90      8.590  sat 0.000
+  poe K=  32 M= 4 PSNR=   5 fixed         RMSE med    6.268 p90      8.478  sat 0.188
+  poe K=  32 M= 4 PSNR=   5 ladder_hybrid RMSE med    6.223 p90      8.659  sat 0.000
+  poe K=  32 M= 4 PSNR=   5 genie_hybrid  RMSE med    6.172 p90      8.533  sat 0.000
+  poe K=  32 M= 4 PSNR=   5 ladder_chk    RMSE med    6.171 p90      8.616  sat 0.000
+  poe K=  32 M= 4 PSNR=   5 ladderdet     RMSE med    6.220 p90      8.680  sat 0.252
+  poe K=  32 M= 4 PSNR=   5 ladderdet_chk RMSE med    6.252 p90      8.676  sat 0.249
+  poe K=  32 M= 4 PSNR=   5 ladder_trunc  RMSE med    6.208 p90      8.589  sat 0.000
+  poe K=  32 M= 4 PSNR=   5 ladder_hybrid_trunc RMSE med    6.154 p90      8.495  sat 0.000
+  poe K=  32 M= 4 PSNR=   5 ladderdet_trunc RMSE med    6.221 p90      8.678  sat 0.265
+  poe K=  32 M= 4 PSNR=   5 ladderdet_chk_trunc RMSE med    6.272 p90      8.652  sat 0.264
+  poe K=  32 M= 4 PSNR=   5 awa           RMSE med    6.451 p90      9.484
+  poe K=  32 M= 4 PSNR=   5 pure          RMSE med    6.763 p90     12.184
+  poe K=  32 M= 4 PSNR=   5 simple        RMSE med    6.885 p90      9.576
+  poe K=  32 M= 4 PSNR=   5 airmoe        RMSE med    6.293 p90      8.677  sat 1.000
+  poe K=  32 M= 4 PSNR=   5 airmoe_hybrid RMSE med    6.340 p90      8.766  sat 1.000
+  poe K=  32 M= 4 PSNR=   5 airmoe_eff    RMSE med    6.265 p90      8.665  sat 1.000
+  poe K=  32 M= 4 PSNR=   5 ladder_eff@kap0.3 RMSE med    6.158 p90      8.542  sat 0.915
+  poe K=  32 M= 4 PSNR=   5 ladder_eff@kap1 RMSE med    6.238 p90      8.656  sat 0.992
+  poe K=  32 M= 4 PSNR=   5 ladderdet_eff RMSE med    6.258 p90      8.644  sat 0.250
+  poe K=  32 M= 4 PSNR=   5 ladderdet_eff@kap0.3 RMSE med    6.290 p90      8.677  sat 0.944
+  poe K=  32 M= 4 PSNR=   5 ladderdet_eff@kap1 RMSE med    6.395 p90      8.785  sat 0.994
+  poe K=  32 M= 4 PSNR=   5 ladderdet_eff_trunc@kap1 RMSE med    6.372 p90      8.833  sat 0.988
+  poe K=  32 M= 4 PSNR=  10 genie         RMSE med    6.062 p90      8.388  sat 0.000
+  poe K=  32 M= 4 PSNR=  10 ladder        RMSE med    6.100 p90      8.437  sat 0.000
+  poe K=  32 M= 4 PSNR=  10 fixed         RMSE med    6.162 p90      8.476  sat 0.188
+  poe K=  32 M= 4 PSNR=  10 ladder_hybrid RMSE med    6.074 p90      8.378  sat 0.000
+  poe K=  32 M= 4 PSNR=  10 genie_hybrid  RMSE med    6.075 p90      8.406  sat 0.000
+  poe K=  32 M= 4 PSNR=  10 ladder_chk    RMSE med    6.083 p90      8.398  sat 0.000
+  poe K=  32 M= 4 PSNR=  10 ladderdet     RMSE med    6.105 p90      8.471  sat 0.000
+  poe K=  32 M= 4 PSNR=  10 ladderdet_chk RMSE med    6.086 p90      8.423  sat 0.000
+  poe K=  32 M= 4 PSNR=  10 ladder_trunc  RMSE med    6.113 p90      8.387  sat 0.000
+  poe K=  32 M= 4 PSNR=  10 ladder_hybrid_trunc RMSE med    6.080 p90      8.430  sat 0.000
+  poe K=  32 M= 4 PSNR=  10 ladderdet_trunc RMSE med    6.086 p90      8.398  sat 0.000
+  poe K=  32 M= 4 PSNR=  10 ladderdet_chk_trunc RMSE med    6.115 p90      8.380  sat 0.000
+  poe K=  32 M= 4 PSNR=  10 awa           RMSE med    6.230 p90      8.793
+  poe K=  32 M= 4 PSNR=  10 pure          RMSE med    6.270 p90      9.123
+  poe K=  32 M= 4 PSNR=  10 simple        RMSE med    6.844 p90      9.506
+  poe K=  32 M= 4 PSNR=  10 airmoe        RMSE med    6.156 p90      8.506  sat 1.000
+  poe K=  32 M= 4 PSNR=  10 airmoe_hybrid RMSE med    6.187 p90      8.557  sat 1.000
+  poe K=  32 M= 4 PSNR=  10 airmoe_eff    RMSE med    6.165 p90      8.550  sat 1.000
+  poe K=  32 M= 4 PSNR=  10 ladder_eff@kap0.3 RMSE med    6.089 p90      8.446  sat 0.761
+  poe K=  32 M= 4 PSNR=  10 ladder_eff@kap1 RMSE med    6.157 p90      8.504  sat 0.921
+  poe K=  32 M= 4 PSNR=  10 ladderdet_eff RMSE med    6.074 p90      8.399  sat 0.000
+  poe K=  32 M= 4 PSNR=  10 ladderdet_eff@kap0.3 RMSE med    6.129 p90      8.474  sat 0.761
+  poe K=  32 M= 4 PSNR=  10 ladderdet_eff@kap1 RMSE med    6.150 p90      8.516  sat 0.920
+  poe K=  32 M= 4 PSNR=  10 ladderdet_eff_trunc@kap1 RMSE med    6.157 p90      8.523  sat 0.860
+  poe K=  32 M= 4 PSNR=  15 genie         RMSE med    6.047 p90      8.362  sat 0.000
+  poe K=  32 M= 4 PSNR=  15 ladder        RMSE med    6.055 p90      8.396  sat 0.000
+  poe K=  32 M= 4 PSNR=  15 fixed         RMSE med    6.121 p90      8.453  sat 0.188
+  poe K=  32 M= 4 PSNR=  15 ladder_hybrid RMSE med    6.054 p90      8.370  sat 0.000
+  poe K=  32 M= 4 PSNR=  15 genie_hybrid  RMSE med    6.026 p90      8.356  sat 0.000
+  poe K=  32 M= 4 PSNR=  15 ladder_chk    RMSE med    6.066 p90      8.397  sat 0.000
+  poe K=  32 M= 4 PSNR=  15 ladderdet     RMSE med    6.052 p90      8.372  sat 0.000
+  poe K=  32 M= 4 PSNR=  15 ladderdet_chk RMSE med    6.056 p90      8.380  sat 0.000
+  poe K=  32 M= 4 PSNR=  15 ladder_trunc  RMSE med    6.036 p90      8.324  sat 0.000
+  poe K=  32 M= 4 PSNR=  15 ladder_hybrid_trunc RMSE med    6.039 p90      8.331  sat 0.000
+  poe K=  32 M= 4 PSNR=  15 ladderdet_trunc RMSE med    6.031 p90      8.370  sat 0.000
+  poe K=  32 M= 4 PSNR=  15 ladderdet_chk_trunc RMSE med    6.077 p90      8.409  sat 0.000
+  poe K=  32 M= 4 PSNR=  15 awa           RMSE med    6.107 p90      8.570
+  poe K=  32 M= 4 PSNR=  15 pure          RMSE med    6.115 p90      8.500
+  poe K=  32 M= 4 PSNR=  15 simple        RMSE med    6.833 p90      9.515
+  poe K=  32 M= 4 PSNR=  15 airmoe        RMSE med    6.066 p90      8.410  sat 1.000
+  poe K=  32 M= 4 PSNR=  15 airmoe_hybrid RMSE med    6.105 p90      8.451  sat 1.000
+  poe K=  32 M= 4 PSNR=  15 airmoe_eff    RMSE med    6.080 p90      8.421  sat 1.000
+  poe K=  32 M= 4 PSNR=  15 ladder_eff@kap0.3 RMSE med    6.074 p90      8.394  sat 0.571
+  poe K=  32 M= 4 PSNR=  15 ladder_eff@kap1 RMSE med    6.088 p90      8.438  sat 0.771
+  poe K=  32 M= 4 PSNR=  15 ladderdet_eff RMSE med    6.049 p90      8.352  sat 0.000
+  poe K=  32 M= 4 PSNR=  15 ladderdet_eff@kap0.3 RMSE med    6.074 p90      8.411  sat 0.571
+  poe K=  32 M= 4 PSNR=  15 ladderdet_eff@kap1 RMSE med    6.079 p90      8.409  sat 0.770
+  poe K=  32 M= 4 PSNR=  15 ladderdet_eff_trunc@kap1 RMSE med    6.076 p90      8.439  sat 0.770
+  poe K=  32 M= 4 PSNR=  20 genie         RMSE med    6.029 p90      8.369  sat 0.000
+  poe K=  32 M= 4 PSNR=  20 ladder        RMSE med    6.035 p90      8.361  sat 0.000
+  poe K=  32 M= 4 PSNR=  20 fixed         RMSE med    6.103 p90      8.421  sat 0.188
+  poe K=  32 M= 4 PSNR=  20 ladder_hybrid RMSE med    6.030 p90      8.377  sat 0.000
+  poe K=  32 M= 4 PSNR=  20 genie_hybrid  RMSE med    6.032 p90      8.330  sat 0.000
+  poe K=  32 M= 4 PSNR=  20 ladder_chk    RMSE med    6.038 p90      8.365  sat 0.000
+  poe K=  32 M= 4 PSNR=  20 ladderdet     RMSE med    6.022 p90      8.355  sat 0.000
+  poe K=  32 M= 4 PSNR=  20 ladderdet_chk RMSE med    6.048 p90      8.380  sat 0.000
+  poe K=  32 M= 4 PSNR=  20 ladder_trunc  RMSE med    6.023 p90      8.390  sat 0.000
+  poe K=  32 M= 4 PSNR=  20 ladder_hybrid_trunc RMSE med    6.059 p90      8.379  sat 0.000
+  poe K=  32 M= 4 PSNR=  20 ladderdet_trunc RMSE med    6.027 p90      8.355  sat 0.000
+  poe K=  32 M= 4 PSNR=  20 ladderdet_chk_trunc RMSE med    6.024 p90      8.358  sat 0.000
+  poe K=  32 M= 4 PSNR=  20 awa           RMSE med    6.068 p90      8.391
+  poe K=  32 M= 4 PSNR=  20 pure          RMSE med    6.071 p90      8.485
+  poe K=  32 M= 4 PSNR=  20 simple        RMSE med    6.829 p90      9.514
+  poe K=  32 M= 4 PSNR=  20 airmoe        RMSE med    6.041 p90      8.399  sat 1.000
+  poe K=  32 M= 4 PSNR=  20 airmoe_hybrid RMSE med    6.068 p90      8.363  sat 1.000
+  poe K=  32 M= 4 PSNR=  20 airmoe_eff    RMSE med    6.053 p90      8.382  sat 1.000
+  poe K=  32 M= 4 PSNR=  20 ladder_eff@kap0.3 RMSE med    6.040 p90      8.369  sat 0.380
+  poe K=  32 M= 4 PSNR=  20 ladder_eff@kap1 RMSE med    6.059 p90      8.409  sat 0.581
+  poe K=  32 M= 4 PSNR=  20 ladderdet_eff RMSE med    6.045 p90      8.368  sat 0.000
+  poe K=  32 M= 4 PSNR=  20 ladderdet_eff@kap0.3 RMSE med    6.050 p90      8.378  sat 0.380
+  poe K=  32 M= 4 PSNR=  20 ladderdet_eff@kap1 RMSE med    6.063 p90      8.402  sat 0.580
+  poe K=  32 M= 4 PSNR=  20 ladderdet_eff_trunc@kap1 RMSE med    6.050 p90      8.404  sat 0.580
+  poe K=  32 M= 4 PSNR=  25 genie         RMSE med    6.041 p90      8.354  sat 0.000
+  poe K=  32 M= 4 PSNR=  25 ladder        RMSE med    6.029 p90      8.350  sat 0.000
+  poe K=  32 M= 4 PSNR=  25 fixed         RMSE med    6.113 p90      8.426  sat 0.188
+  poe K=  32 M= 4 PSNR=  25 ladder_hybrid RMSE med    6.029 p90      8.351  sat 0.000
+  poe K=  32 M= 4 PSNR=  25 genie_hybrid  RMSE med    6.031 p90      8.358  sat 0.000
+  poe K=  32 M= 4 PSNR=  25 ladder_chk    RMSE med    6.026 p90      8.381  sat 0.000
+  poe K=  32 M= 4 PSNR=  25 ladderdet     RMSE med    6.035 p90      8.369  sat 0.000
+  poe K=  32 M= 4 PSNR=  25 ladderdet_chk RMSE med    6.039 p90      8.381  sat 0.000
+  poe K=  32 M= 4 PSNR=  25 ladder_trunc  RMSE med    6.022 p90      8.370  sat 0.000
+  poe K=  32 M= 4 PSNR=  25 ladder_hybrid_trunc RMSE med    6.035 p90      8.345  sat 0.000
+  poe K=  32 M= 4 PSNR=  25 ladderdet_trunc RMSE med    6.054 p90      8.340  sat 0.000
+  poe K=  32 M= 4 PSNR=  25 ladderdet_chk_trunc RMSE med    6.037 p90      8.370  sat 0.000
+  poe K=  32 M= 4 PSNR=  25 awa           RMSE med    6.036 p90      8.340
+  poe K=  32 M= 4 PSNR=  25 pure          RMSE med    6.047 p90      8.394
+  poe K=  32 M= 4 PSNR=  25 simple        RMSE med    6.830 p90      9.516
+  poe K=  32 M= 4 PSNR=  25 airmoe        RMSE med    6.042 p90      8.375  sat 1.000
+  poe K=  32 M= 4 PSNR=  25 airmoe_hybrid RMSE med    6.034 p90      8.381  sat 1.000
+  poe K=  32 M= 4 PSNR=  25 airmoe_eff    RMSE med    6.053 p90      8.351  sat 1.000
+  poe K=  32 M= 4 PSNR=  25 ladder_eff@kap0.3 RMSE med    6.030 p90      8.368  sat 0.235
+  poe K=  32 M= 4 PSNR=  25 ladder_eff@kap1 RMSE med    6.029 p90      8.388  sat 0.388
+  poe K=  32 M= 4 PSNR=  25 ladderdet_eff RMSE med    6.031 p90      8.354  sat 0.000
+  poe K=  32 M= 4 PSNR=  25 ladderdet_eff@kap0.3 RMSE med    6.037 p90      8.378  sat 0.235
+  poe K=  32 M= 4 PSNR=  25 ladderdet_eff@kap1 RMSE med    6.035 p90      8.364  sat 0.388
+  poe K=  32 M= 4 PSNR=  25 ladderdet_eff_trunc@kap1 RMSE med    6.042 p90      8.349  sat 0.388
+  poe K=  32 M= 4 PSNR=  30 genie         RMSE med    6.019 p90      8.363  sat 0.000
+  poe K=  32 M= 4 PSNR=  30 ladder        RMSE med    6.035 p90      8.370  sat 0.000
+  poe K=  32 M= 4 PSNR=  30 fixed         RMSE med    6.097 p90      8.438  sat 0.188
+  poe K=  32 M= 4 PSNR=  30 ladder_hybrid RMSE med    6.027 p90      8.350  sat 0.000
+  poe K=  32 M= 4 PSNR=  30 genie_hybrid  RMSE med    6.037 p90      8.355  sat 0.000
+  poe K=  32 M= 4 PSNR=  30 ladder_chk    RMSE med    6.032 p90      8.358  sat 0.000
+  poe K=  32 M= 4 PSNR=  30 ladderdet     RMSE med    6.024 p90      8.368  sat 0.000
+  poe K=  32 M= 4 PSNR=  30 ladderdet_chk RMSE med    6.026 p90      8.361  sat 0.000
+  poe K=  32 M= 4 PSNR=  30 ladder_trunc  RMSE med    6.026 p90      8.367  sat 0.000
+  poe K=  32 M= 4 PSNR=  30 ladder_hybrid_trunc RMSE med    6.028 p90      8.369  sat 0.000
+  poe K=  32 M= 4 PSNR=  30 ladderdet_trunc RMSE med    6.078 p90      8.419  sat 0.000
+  poe K=  32 M= 4 PSNR=  30 ladderdet_chk_trunc RMSE med    6.040 p90      8.364  sat 0.000
+  poe K=  32 M= 4 PSNR=  30 awa           RMSE med    6.035 p90      8.405
+  poe K=  32 M= 4 PSNR=  30 pure          RMSE med    6.037 p90      8.344
+  poe K=  32 M= 4 PSNR=  30 simple        RMSE med    6.830 p90      9.523
+  poe K=  32 M= 4 PSNR=  30 airmoe        RMSE med    6.037 p90      8.374  sat 1.000
+  poe K=  32 M= 4 PSNR=  30 airmoe_hybrid RMSE med    6.027 p90      8.366  sat 1.000
+  poe K=  32 M= 4 PSNR=  30 airmoe_eff    RMSE med    6.035 p90      8.368  sat 1.000
+  poe K=  32 M= 4 PSNR=  30 ladder_eff@kap0.3 RMSE med    6.031 p90      8.351  sat 0.137
+  poe K=  32 M= 4 PSNR=  30 ladder_eff@kap1 RMSE med    6.028 p90      8.371  sat 0.240
+  poe K=  32 M= 4 PSNR=  30 ladderdet_eff RMSE med    6.028 p90      8.364  sat 0.000
+  poe K=  32 M= 4 PSNR=  30 ladderdet_eff@kap0.3 RMSE med    6.037 p90      8.362  sat 0.137
+  poe K=  32 M= 4 PSNR=  30 ladderdet_eff@kap1 RMSE med    6.031 p90      8.368  sat 0.239
+  poe K=  32 M= 4 PSNR=  30 ladderdet_eff_trunc@kap1 RMSE med    6.024 p90      8.364  sat 0.239
+done in 378 s -> results\local\field_poe_sw0_p8.json

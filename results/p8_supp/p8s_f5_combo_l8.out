@@ -1,0 +1,20 @@
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 238.72it/s]
+Token indices sequence length is longer than the specified maximum sequence length for this model (271903 > 131072). Running this sequence through the model will result in indexing errors
+[T=8192 N=32] S1 exact shard merge: max|dlogit| = 8.750e-01
+  fid T=8192 N=32: segment 1/4 x 12 cells (20 s, GPU peak 25.6 GiB)
+  fid T=8192 N=32: segment 2/4 x 12 cells (40 s, GPU peak 25.7 GiB)
+  fid T=8192 N=32: segment 3/4 x 12 cells (59 s, GPU peak 25.7 GiB)
+  fid T=8192 N=32: segment 4/4 x 12 cells (79 s, GPU peak 25.7 GiB)
+  fid T=8192 N=32 M= 4 SNR=-15.0 airmoe_eff@csi0.01 KL=0.2379 NLL+=+0.1831 top1=0.805 mass_loss=0.2434
+  fid T=8192 N=32 M= 4 SNR=-15.0 ladder_eff@kap1@fz256@csi0.01 KL=0.2521 NLL+=+0.1950 top1=0.793 mass_loss=0.1708
+  fid T=8192 N=32 M= 4 SNR=-12.5 airmoe_eff@csi0.01 KL=0.1977 NLL+=+0.1504 top1=0.819 mass_loss=0.2113
+  fid T=8192 N=32 M= 4 SNR=-12.5 ladder_eff@kap1@fz256@csi0.01 KL=0.2120 NLL+=+0.1643 top1=0.814 mass_loss=0.1506
+  fid T=8192 N=32 M= 4 SNR=-10.0 airmoe_eff@csi0.01 KL=0.1584 NLL+=+0.1187 top1=0.836 mass_loss=0.1810
+  fid T=8192 N=32 M= 4 SNR=-10.0 ladder_eff@kap1@fz256@csi0.01 KL=0.1745 NLL+=+0.1324 top1=0.829 mass_loss=0.1314
+  fid T=8192 N=32 M= 4 SNR=-7.5 airmoe_eff@csi0.01 KL=0.1236 NLL+=+0.0905 top1=0.860 mass_loss=0.1524
+  fid T=8192 N=32 M= 4 SNR=-7.5 ladder_eff@kap1@fz256@csi0.01 KL=0.1385 NLL+=+0.1034 top1=0.853 mass_loss=0.1134
+  fid T=8192 N=32 M= 4 SNR=-5.0 airmoe_eff@csi0.01 KL=0.0952 NLL+=+0.0676 top1=0.874 mass_loss=0.1261
+  fid T=8192 N=32 M= 4 SNR=-5.0 ladder_eff@kap1@fz256@csi0.01 KL=0.1081 NLL+=+0.0801 top1=0.868 mass_loss=0.0964
+  fid T=8192 N=32 M= 4 SNR=-2.5 airmoe_eff@csi0.01 KL=0.0724 NLL+=+0.0514 top1=0.889 mass_loss=0.1027
+  fid T=8192 N=32 M= 4 SNR=-2.5 ladder_eff@kap1@fz256@csi0.01 KL=0.0828 NLL+=+0.0609 top1=0.886 mass_loss=0.0809
+[T=8192 N=32] done, elapsed 87 s

@@ -1,0 +1,52 @@
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00, 134.14it/s]
+[T=8192 N=8] S1 exact shard merge: max|dlogit| = 9.391e+00
+  fid T=8192 N=8: segment 1/4 x 11 cells (25 s, GPU peak 10.2 GiB)
+  fid T=8192 N=8: segment 2/4 x 11 cells (50 s, GPU peak 10.2 GiB)
+  fid T=8192 N=8: segment 3/4 x 11 cells (70 s, GPU peak 10.2 GiB)
+  fid T=8192 N=8: segment 4/4 x 11 cells (81 s, GPU peak 10.2 GiB)
+  fid T=8192 N=8 M= 4 SNR= 0.0 ladderdet_eff@kap1 KL=0.2961 NLL+=+0.2196 top1=0.780 levels=29.1120 nodetect=0.5517 overflow=0.0000 det_under=0.5696 det_under12dB=0.3041 det_over10dB=0.1597 mass_loss=0.1762
+  fid T=8192 N=8 M= 4 SNR= 2.5 ladderdet_eff@kap1 KL=0.2649 NLL+=+0.2028 top1=0.793 levels=29.1120 nodetect=0.1871 overflow=0.0001 det_under=0.7763 det_under12dB=0.4539 det_over10dB=0.0427 mass_loss=0.2162
+  fid T=8192 N=8 M= 4 SNR= 5.0 ladderdet_eff@kap1 KL=0.1698 NLL+=+0.1246 top1=0.834 levels=29.1120 nodetect=0.0108 overflow=0.0002 det_under=0.6567 det_under12dB=0.3418 det_over10dB=0.0027 mass_loss=0.1779
+  fid T=8192 N=8 M= 4 SNR= 7.5 ladderdet_eff@kap1 KL=0.0549 NLL+=+0.0459 top1=0.895 levels=29.1120 nodetect=0.0000 overflow=0.0002 det_under=0.2797 det_under12dB=0.1072 det_over10dB=0.0009 mass_loss=0.0844
+  fid T=8192 N=8 M= 4 SNR=10.0 ladderdet_eff@kap1 KL=0.0212 NLL+=+0.0186 top1=0.935 levels=29.1120 nodetect=0.0000 overflow=0.0002 det_under=0.0492 det_under12dB=0.0159 det_over10dB=0.0008 mass_loss=0.0346
+  fid T=8192 N=8 M= 4 SNR=12.5 ladderdet_eff@kap1 KL=0.0130 NLL+=+0.0097 top1=0.947 levels=29.1120 nodetect=0.0000 overflow=0.0002 det_under=0.0037 det_under12dB=0.0011 det_over10dB=0.0008 mass_loss=0.0185
+  fid T=8192 N=8 M= 4 SNR=15.0 ladderdet_eff@kap1 KL=0.0086 NLL+=+0.0058 top1=0.959 levels=29.1120 nodetect=0.0000 overflow=0.0002 det_under=0.0003 det_under12dB=0.0001 det_over10dB=0.0008 mass_loss=0.0115
+  fid T=8192 N=8 M= 4 SNR=17.5 ladderdet_eff@kap1 KL=0.0061 NLL+=+0.0041 top1=0.966 levels=29.1120 nodetect=0.0000 overflow=0.0002 det_under=0.0002 det_under12dB=0.0000 det_over10dB=0.0008 mass_loss=0.0072
+  fid T=8192 N=8 M= 4 SNR=20.0 ladderdet_eff@kap1 KL=0.0044 NLL+=+0.0010 top1=0.973 levels=29.1120 nodetect=0.0000 overflow=0.0003 det_under=0.0002 det_under12dB=0.0000 det_over10dB=0.0007 mass_loss=0.0044
+  fid T=8192 N=8 M= 4 SNR=22.5 ladderdet_eff@kap1 KL=0.0033 NLL+=+0.0018 top1=0.978 levels=29.1120 nodetect=0.0000 overflow=0.0003 det_under=0.0002 det_under12dB=0.0000 det_over10dB=0.0007 mass_loss=0.0026
+  fid T=8192 N=8 M= 4 SNR=25.0 ladderdet_eff@kap1 KL=0.0026 NLL+=+0.0007 top1=0.983 levels=29.1120 nodetect=0.0000 overflow=0.0003 det_under=0.0003 det_under12dB=0.0000 det_over10dB=0.0007 mass_loss=0.0016
+[T=8192 N=8] done, elapsed 108 s
+[T=8192 N=32] S1 exact shard merge: max|dlogit| = 1.278e+01
+  fid T=8192 N=32: segment 1/4 x 11 cells (28 s, GPU peak 10.4 GiB)
+  fid T=8192 N=32: segment 2/4 x 11 cells (55 s, GPU peak 10.4 GiB)
+  fid T=8192 N=32: segment 3/4 x 11 cells (83 s, GPU peak 10.4 GiB)
+  fid T=8192 N=32: segment 4/4 x 11 cells (111 s, GPU peak 10.4 GiB)
+  fid T=8192 N=32 M= 4 SNR= 0.0 ladderdet_eff@kap1 KL=0.3678 NLL+=+0.2913 top1=0.766 levels=29.9497 nodetect=0.0069 overflow=0.0000 det_under=0.9516 det_under12dB=0.5631 det_over10dB=0.0035 mass_loss=0.2150
+  fid T=8192 N=32 M= 4 SNR= 2.5 ladderdet_eff@kap1 KL=0.2712 NLL+=+0.2059 top1=0.802 levels=29.9497 nodetect=0.0000 overflow=0.0001 det_under=0.8775 det_under12dB=0.4630 det_over10dB=0.0014 mass_loss=0.1911
+  fid T=8192 N=32 M= 4 SNR= 5.0 ladderdet_eff@kap1 KL=0.1227 NLL+=+0.0882 top1=0.869 levels=29.9497 nodetect=0.0000 overflow=0.0001 det_under=0.6390 det_under12dB=0.2607 det_over10dB=0.0011 mass_loss=0.1358
+  fid T=8192 N=32 M= 4 SNR= 7.5 ladderdet_eff@kap1 KL=0.0415 NLL+=+0.0323 top1=0.913 levels=29.9497 nodetect=0.0000 overflow=0.0001 det_under=0.2668 det_under12dB=0.0772 det_over10dB=0.0010 mass_loss=0.0673
+  fid T=8192 N=32 M= 4 SNR=10.0 ladderdet_eff@kap1 KL=0.0210 NLL+=+0.0192 top1=0.935 levels=29.9497 nodetect=0.0000 overflow=0.0002 det_under=0.0469 det_under12dB=0.0114 det_over10dB=0.0009 mass_loss=0.0326
+  fid T=8192 N=32 M= 4 SNR=12.5 ladderdet_eff@kap1 KL=0.0140 NLL+=+0.0144 top1=0.948 levels=29.9497 nodetect=0.0000 overflow=0.0002 det_under=0.0035 det_under12dB=0.0008 det_over10dB=0.0009 mass_loss=0.0200
+  fid T=8192 N=32 M= 4 SNR=15.0 ladderdet_eff@kap1 KL=0.0095 NLL+=+0.0092 top1=0.959 levels=29.9497 nodetect=0.0000 overflow=0.0002 det_under=0.0003 det_under12dB=0.0001 det_over10dB=0.0008 mass_loss=0.0133
+  fid T=8192 N=32 M= 4 SNR=17.5 ladderdet_eff@kap1 KL=0.0067 NLL+=+0.0078 top1=0.965 levels=29.9497 nodetect=0.0000 overflow=0.0002 det_under=0.0002 det_under12dB=0.0000 det_over10dB=0.0008 mass_loss=0.0087
+  fid T=8192 N=32 M= 4 SNR=20.0 ladderdet_eff@kap1 KL=0.0049 NLL+=+0.0058 top1=0.971 levels=29.9497 nodetect=0.0000 overflow=0.0003 det_under=0.0002 det_under12dB=0.0000 det_over10dB=0.0008 mass_loss=0.0055
+  fid T=8192 N=32 M= 4 SNR=22.5 ladderdet_eff@kap1 KL=0.0038 NLL+=+0.0043 top1=0.977 levels=29.9497 nodetect=0.0000 overflow=0.0003 det_under=0.0002 det_under12dB=0.0000 det_over10dB=0.0008 mass_loss=0.0034
+  fid T=8192 N=32 M= 4 SNR=25.0 ladderdet_eff@kap1 KL=0.0030 NLL+=+0.0027 top1=0.979 levels=29.9497 nodetect=0.0000 overflow=0.0003 det_under=0.0002 det_under12dB=0.0000 det_over10dB=0.0007 mass_loss=0.0021
+[T=8192 N=32] done, elapsed 271 s
+[T=8192 N=64] S1 exact shard merge: max|dlogit| = 1.178e+01
+  fid T=8192 N=64: segment 1/4 x 11 cells (29 s, GPU peak 10.5 GiB)
+  fid T=8192 N=64: segment 2/4 x 11 cells (60 s, GPU peak 10.5 GiB)
+  fid T=8192 N=64: segment 3/4 x 11 cells (89 s, GPU peak 10.5 GiB)
+  fid T=8192 N=64: segment 4/4 x 11 cells (119 s, GPU peak 10.5 GiB)
+  fid T=8192 N=64 M= 4 SNR= 0.0 ladderdet_eff@kap1 KL=0.3450 NLL+=+0.2740 top1=0.773 levels=30.2352 nodetect=0.0000 overflow=0.0000 det_under=0.9514 det_under12dB=0.5386 det_over10dB=0.0022 mass_loss=0.2000
+  fid T=8192 N=64 M= 4 SNR= 2.5 ladderdet_eff@kap1 KL=0.2411 NLL+=+0.1775 top1=0.807 levels=30.2352 nodetect=0.0000 overflow=0.0001 det_under=0.8712 det_under12dB=0.4371 det_over10dB=0.0015 mass_loss=0.1746
+  fid T=8192 N=64 M= 4 SNR= 5.0 ladderdet_eff@kap1 KL=0.1066 NLL+=+0.0713 top1=0.873 levels=30.2352 nodetect=0.0000 overflow=0.0001 det_under=0.6331 det_under12dB=0.2499 det_over10dB=0.0012 mass_loss=0.1228
+  fid T=8192 N=64 M= 4 SNR= 7.5 ladderdet_eff@kap1 KL=0.0399 NLL+=+0.0234 top1=0.914 levels=30.2352 nodetect=0.0000 overflow=0.0001 det_under=0.2642 det_under12dB=0.0780 det_over10dB=0.0011 mass_loss=0.0627
+  fid T=8192 N=64 M= 4 SNR=10.0 ladderdet_eff@kap1 KL=0.0209 NLL+=+0.0169 top1=0.940 levels=30.2352 nodetect=0.0000 overflow=0.0002 det_under=0.0462 det_under12dB=0.0117 det_over10dB=0.0010 mass_loss=0.0313
+  fid T=8192 N=64 M= 4 SNR=12.5 ladderdet_eff@kap1 KL=0.0131 NLL+=+0.0117 top1=0.951 levels=30.2352 nodetect=0.0000 overflow=0.0002 det_under=0.0034 det_under12dB=0.0008 det_over10dB=0.0009 mass_loss=0.0197
+  fid T=8192 N=64 M= 4 SNR=15.0 ladderdet_eff@kap1 KL=0.0088 NLL+=+0.0064 top1=0.961 levels=30.2352 nodetect=0.0000 overflow=0.0002 det_under=0.0003 det_under12dB=0.0001 det_over10dB=0.0009 mass_loss=0.0134
+  fid T=8192 N=64 M= 4 SNR=17.5 ladderdet_eff@kap1 KL=0.0063 NLL+=+0.0042 top1=0.967 levels=30.2352 nodetect=0.0000 overflow=0.0002 det_under=0.0002 det_under12dB=0.0000 det_over10dB=0.0008 mass_loss=0.0090
+  fid T=8192 N=64 M= 4 SNR=20.0 ladderdet_eff@kap1 KL=0.0048 NLL+=+0.0027 top1=0.974 levels=30.2352 nodetect=0.0000 overflow=0.0003 det_under=0.0002 det_under12dB=0.0000 det_over10dB=0.0008 mass_loss=0.0058
+  fid T=8192 N=64 M= 4 SNR=22.5 ladderdet_eff@kap1 KL=0.0037 NLL+=+0.0034 top1=0.977 levels=30.2352 nodetect=0.0000 overflow=0.0003 det_under=0.0002 det_under12dB=0.0000 det_over10dB=0.0008 mass_loss=0.0037
+  fid T=8192 N=64 M= 4 SNR=25.0 ladderdet_eff@kap1 KL=0.0028 NLL+=+0.0015 top1=0.979 levels=30.2352 nodetect=0.0000 overflow=0.0003 det_under=0.0002 det_under12dB=0.0000 det_over10dB=0.0008 mass_loss=0.0023
+[T=8192 N=64] done, elapsed 435 s

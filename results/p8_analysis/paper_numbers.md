@@ -1,0 +1,139 @@
+# Numbers behind the paper text (pwna/p8_tables.py); kappa = 1; dev-set score {'0.3': (1.4800416399710095, 0.014370906926477333), '1': (0.6784642457653334, 0.011728152454767148)}
+- M = 8, Qwen3-4B 8k N=8: 3.6 | 2.2 | 0.3 | 12.0 | 6.6 | 4.3 | 1.2 | $+$1.0 [$+$0.2, $+$1.6] | $-$5.4 [$-$6.5, $-$4.5]
+- M = 8, Qwen3-4B 8k N=32: 5.2 | 0.1 | $-$2.5 | 11.8 | 7.9 | 3.4 | $-$0.1 | $+$2.4 [$+$1.2, $+$3.5] | $-$8.0 [$-$9.4, $-$6.7]
+- M = 8, Qwen3-4B 8k N=64: 5.7 | 0.6 | $-$2.9 | 11.9 | 8.5 | 3.4 | $-$0.1 | $+$2.8 [$+$2.0, $+$3.8] | $-$8.6 [$-$9.5, $-$7.3]
+## Main table ranges (M = 4 and M = 8 rows)
+- Qwen3-4B: prop dig -0.1 to 8.4; prop tone 3.4 to 9.5; analog ladder 11.7 to 17.6; non-sat split 6.1 to 13.1; AirMoE-eff -3.0 to 7.8; AirMoE -0.2 to 7.1; genie 3.5 to 10.3; gap dig-best known 1.0 to 3.0; gap dig-split -9.5 to -4.7; tone-dig 1.0 to 4.7; analog ladder - dig 8.9 to 13.8
+  gap CI includes 0 at: []
+- Llama-3.1-8B: prop dig -8.4 to -1.0; prop tone 3.3 to 5.0; analog ladder 6.4 to 10.4; non-sat split 3.9 to 6.4; AirMoE-eff -8.6 to -3.3; AirMoE -0.8 to 2.0; genie 0.7 to 3.2; gap dig-best known 0.2 to 2.6; gap dig-split -12.3 to -7.2; tone-dig 5.9 to 11.7; analog ladder - dig 11.4 to 14.8
+  gap CI includes 0 at: [('8k', 64, 4)]
+- Qwen3-8B: prop dig -3.2 to 6.6; prop tone 2.5 to 7.2; analog ladder 10.9 to 17.1; non-sat split 4.5 to 11.3; AirMoE-eff -5.4 to 5.5; AirMoE -0.7 to 5.9; genie -0.0 to 8.4; gap dig-best known 0.3 to 4.1; gap dig-split -9.6 to -4.8; tone-dig 0.7 to 6.8; analog ladder - dig 10.6 to 15.7
+  gap CI includes 0 at: [('16k', 8, 4), ('32k', 128, 4)]
+- all: pd -8.4 to 8.4; pt 2.5 to 9.5; gap 0.2 to 4.1; gsplit -12.3 to -4.7; lad 6.4 to 17.6; split 3.9 to 13.1; eff -8.6 to 7.8; air -0.8 to 7.1; genie -0.0 to 10.3; tone_dig 0.7 to 11.7; lad_pd 8.9 to 15.7
+- prop dig minus genie: -9.1 to -1.8; prop dig minus AirMoE (exact D): -7.7 to 1.3; prop tone minus genie: -2.6 to 4.0; prop tone minus non-sat split: -5.1 to -0.2
+- N sweep (Qwen3-4B 8k M=4): N=4: dig 1.2, tone 5.4, known 0.5, zf 0.2; N=8: dig 2.8, tone 6.0, known 1.4, zf 0.0; N=16: dig 2.0, tone 5.0, known 0.3, zf 0.0; N=32: dig 1.5, tone 4.8, known -1.5, zf 0.0; N=64: dig 0.7, tone 4.5, known -2.1, zf 0.0; N=128: dig -0.1, tone 4.4, known -2.7, zf 0.0
+## One-round designs (Qwen3-4B 8k, M = 4, N = 8 / 32)
+- p8_f3_oneround fixed_eff@q0.5: -- / --
+- p8_f3_oneround fixed_eff@q0.9: 23.3 / 22.5
+- p8_f3_oneround fixed_eff@q0.99: -- / --
+- p8_f3_oneround lstale0_eff: 27.8 / 23.8
+- p8_f3_oneround lstale0_eff@kap1: 28.3 / 23.2
+- p8_f3_oneround lstale3_eff: 28.0 / 25.4
+- p8_f3_oneround lstale3_eff@kap1: 27.3 / 24.2
+- p7_f3_blind_q4 classical@q0.9: 32.7 / 37.4
+- p7_f3_blind_q4 csi@q0.9: 33.2 / 38.8
+- p7_f3_blind_q4 fixed@q0.5: -- / --
+- p7_f3_blind_q4 fixed@q0.9: 28.4 / 27.5
+- p7_f3_blind_q4 fixed@q0.99: -- / --
+- p7_f3_blind_q4 fixed_chk@q0.9: 24.7 / 24.0
+- p7_f3_blind_q4 fixed_chk@q0.99: -- / --
+- p7_f3_blind_l8 fixed@q0.5: -- / --
+- p7_f3_blind_l8 fixed@q0.9: 19.5 / 19.3
+- p7_f3_blind_l8 fixed@q0.99: 31.4 / 33.3
+- p7_f3_blind_l8 fixed_chk@q0.99: 29.9 / 31.8
+- p7_f3_blind_q8 fixed@q0.5: -- / --
+- p7_f3_blind_q8 fixed@q0.9: 28.5 / 28.2
+- p7_f3_blind_q8 fixed@q0.99: 46.2 / 47.2
+- p7_f3_blind_q8 fixed_chk@q0.99: 43.8 / 46.1
+## Paired gaps for the design study (N = 8 / 32 / 64)
+- A+B dig vs B exact-D dig: $-$0.1 [$-$1.1, $+$1.1] / $+$0.3 [$-$0.7, $+$1.3] / $+$0.1 [$-$1.0, $+$1.1]
+- A+B tone vs B analog tone: $-$3.0 [$-$4.3, $-$1.3] / $-$3.7 [$-$5.3, $-$2.1] / $-$1.3 [$-$2.5, $-$0.3]
+- A+B dig vs A dig: $-$3.9 [$-$4.4, $-$3.1] / $-$6.2 [$-$7.1, $-$5.3] / $-$7.0 [$-$8.1, $-$6.1]
+- A+B tone vs A tone: $-$1.4 [$-$2.6, $+$0.0] / $-$3.8 [$-$5.0, $-$2.4] / $-$3.6 [$-$4.8, $-$2.1]
+- A dig vs exact-D chk dig: $-$0.3 [$-$0.9, $-$0.1] / $-$0.0 [$-$0.5, $+$0.2] / $-$0.3 [$-$0.5, $+$0.0]
+- A tone vs exact-D chk tone: $-$1.0 [$-$1.8, $-$0.2] / $+$0.0 [$-$0.9, $+$1.0] / $+$0.0 [$-$0.6, $+$0.5]
+- kappa 3 vs 1 dig: $-$0.6 [$-$1.3, $-$0.1] / $-$0.8 [$-$1.3, $+$0.3] / $-$1.1 [$-$1.6, $-$0.6]
+- kappa 0.3 vs 1 dig: $+$1.1 [$+$0.6, $+$1.4] / $+$1.7 [$+$1.4, $+$2.1] / $+$2.1 [$+$1.6, $+$2.6]
+- tone vs dig (A+B k1): $+$3.2 [$+$1.9, $+$4.1] / $+$3.3 [$+$1.5, $+$4.9] / $+$3.8 [$+$2.1, $+$5.4]
+- tone nu8 vs dig: $+$1.8 [$+$0.6, $+$3.0] / $+$2.2 [$+$0.9, $+$3.4] / $+$2.7 [$+$1.6, $+$3.6]
+- AirMoE-eff vs AirMoE exact: $-$1.0 [$-$2.3, $+$0.4] / $-$2.6 [$-$3.9, $-$0.7] / $-$3.1 [$-$4.1, $-$1.8]
+- AirMoE exact vs genie: $-$2.7 [$-$4.1, $-$1.3] / $-$5.0 [$-$6.1, $-$3.9] / $-$5.4 [$-$6.7, $-$4.1]
+- prop dig vs genie: $-$2.2 [$-$2.9, $-$1.6] / $-$4.6 [$-$5.3, $-$3.7] / $-$5.7 [$-$6.6, $-$4.6]
+- prop dig vs AirMoE exact: $+$0.5 [$-$1.0, $+$2.0] / $+$0.4 [$-$0.8, $+$1.7] / $-$0.3 [$-$1.5, $+$1.3]
+- dig step 6 vs 3: $+$0.8 [$+$0.4, $+$1.0] / $+$1.0 [$+$0.6, $+$1.5] / $+$1.2 [$+$0.8, $+$1.6]
+- dig step 1.5 vs 3: $-$0.4 [$-$0.6, $-$0.1] / $-$0.4 [$-$0.7, $+$0.3] / $-$0.4 [$-$0.6, $+$1.0]
+- kappa1 vs off3 tone: $-$0.1 [$-$0.6, $+$0.5] / $-$1.1 [$-$2.4, $-$0.1] / $-$0.2 [$-$1.2, $+$0.2]
+## Handshake / saturation statistics, Qwen3-4B 8k, M = 4 (per SNR)
+- ladder_eff@kap1@fz256 N=8: -5 dB sat 1.000 loss 0.140; 0 dB sat 1.000 loss 0.095; 5 dB sat 0.961 loss 0.056; 10 dB sat 0.786 loss 0.028; 15 dB sat 0.545 loss 0.012; 20 dB sat 0.338 loss 0.004
+- ladder_eff@kap1@fz256 N=32: -5 dB sat 1.000 loss 0.123; 0 dB sat 1.000 loss 0.084; 5 dB sat 0.986 loss 0.052; 10 dB sat 0.892 loss 0.028; 15 dB sat 0.706 loss 0.013; 20 dB sat 0.491 loss 0.006
+- ladder_eff@kap1@fz256 N=64: -5 dB sat 1.000 loss 0.115; 0 dB sat 1.000 loss 0.079; 5 dB sat 0.989 loss 0.049; 10 dB sat 0.911 loss 0.027; 15 dB sat 0.748 loss 0.013; 20 dB sat 0.548 loss 0.006
+- ladderdet_eff@kap1 N=8: -5 dB sat 0.552 loss 0.103 under 0.239 ovf 3.8e-05; 0 dB sat 0.898 loss 0.224 under 0.764 ovf 5.3e-05; 5 dB sat 0.973 loss 0.106 under 0.324 ovf 1.7e-04; 10 dB sat 0.784 loss 0.027 under 0.001 ovf 2.0e-04; 15 dB sat 0.542 loss 0.012 under 0.000 ovf 2.4e-04; 20 dB sat 0.335 loss 0.004 under 0.000 ovf 2.7e-04
+- ladderdet_eff@kap1 N=32: -5 dB sat 0.962 loss 0.238 under 0.878 ovf 3.5e-05; 0 dB sat 0.998 loss 0.201 under 0.913 ovf 5.1e-05; 5 dB sat 0.989 loss 0.085 under 0.309 ovf 1.4e-04; 10 dB sat 0.890 loss 0.028 under 0.001 ovf 1.8e-04; 15 dB sat 0.703 loss 0.013 under 0.000 ovf 2.2e-04; 20 dB sat 0.488 loss 0.006 under 0.000 ovf 2.5e-04
+- ladderdet_eff@kap1 N=64: -5 dB sat 0.995 loss 0.225 under 0.936 ovf 4.0e-05; 0 dB sat 0.998 loss 0.187 under 0.906 ovf 5.5e-05; 5 dB sat 0.991 loss 0.079 under 0.305 ovf 1.4e-04; 10 dB sat 0.909 loss 0.027 under 0.001 ovf 1.8e-04; 15 dB sat 0.745 loss 0.013 under 0.000 ovf 2.1e-04; 20 dB sat 0.545 loss 0.006 under 0.000 ovf 2.5e-04
+- ladderdet_chk N=8: 0 dB sat 0.797 loss nan under 0.797 ovf 7.7e-05; 5 dB sat 0.322 loss nan under 0.322 ovf 3.3e-04; 10 dB sat 0.001 loss nan under 0.001 ovf 3.1e-04; 15 dB sat 0.000 loss nan under 0.000 ovf 3.2e-04; 20 dB sat 0.000 loss nan under 0.000 ovf 3.3e-04
+- ladderdet_chk N=32: 0 dB sat 0.923 loss nan under 0.923 ovf 8.3e-05; 5 dB sat 0.308 loss nan under 0.308 ovf 2.7e-04; 10 dB sat 0.001 loss nan under 0.001 ovf 3.2e-04; 15 dB sat 0.000 loss nan under 0.000 ovf 3.3e-04; 20 dB sat 0.000 loss nan under 0.000 ovf 3.4e-04
+- ladderdet_chk N=64: 0 dB sat 0.920 loss nan under 0.920 ovf 8.2e-05; 5 dB sat 0.307 loss nan under 0.307 ovf 2.8e-04; 10 dB sat 0.001 loss nan under 0.001 ovf 3.3e-04; 15 dB sat 0.000 loss nan under 0.000 ovf 3.3e-04; 20 dB sat 0.000 loss nan under 0.000 ovf 3.4e-04
+- ladder_chk N=8: 0 dB sat 0.000 loss nan; 5 dB sat 0.000 loss nan; 10 dB sat 0.000 loss nan; 15 dB sat 0.000 loss nan; 20 dB sat 0.000 loss nan
+- ladder_chk N=32: 0 dB sat 0.000 loss nan; 5 dB sat 0.000 loss nan; 10 dB sat 0.000 loss nan; 15 dB sat 0.000 loss nan; 20 dB sat 0.000 loss nan
+- ladder_chk N=64: 0 dB sat 0.000 loss nan; 5 dB sat 0.000 loss nan; 10 dB sat 0.000 loss nan; 15 dB sat 0.000 loss nan; 20 dB sat 0.000 loss nan
+## Realism: paired gaps prop dig vs AirMoE-eff and vs reference
+- perhead: dig - AirMoE-eff $+$2.8 [$+$1.6, $+$3.9]
+- static: dig - AirMoE-eff $+$2.5 [$+$1.7, $+$3.3]
+- coh2: dig - AirMoE-eff $+$2.4 [$+$1.3, $+$3.2]
+- coh4: dig - AirMoE-eff $+$2.3 [$+$1.4, $+$3.3]
+- ph5: dig - AirMoE-eff $+$2.7 [$+$1.4, $+$3.8]
+- ph10: dig - AirMoE-eff $+$2.5 [$+$1.4, $+$3.8]
+- ph20: dig - AirMoE-eff $+$2.1 [$+$0.9, $+$2.8]
+- ramp20: dig - AirMoE-eff $+$2.7 [$+$1.8, $+$3.9]
+- ramp45: dig - AirMoE-eff $+$2.4 [$+$1.2, $+$3.8]
+- sigw4: dig - AirMoE-eff $+$2.5 [$+$1.1, $+$3.3]
+- sigw8: dig - AirMoE-eff $+$2.7 [$+$1.1, $+$3.9]
+## NIAH: worst accuracy minus ceiling (percentage points) per policy, SNR, keys
+- ('airmoe_eff', 5.0, 1): -1.7
+- ('airmoe_eff', 5.0, 4): -4.2
+- ('airmoe_eff', 10.0, 1): +0.0
+- ('airmoe_eff', 10.0, 4): -0.8
+- ('airmoe_eff', 15.0, 1): +0.0
+- ('airmoe_eff', 15.0, 4): -0.8
+- ('airmoe_eff', 20.0, 1): +0.0
+- ('airmoe_eff', 20.0, 4): +0.0
+- ('airmoe_eff', 25.0, 1): +0.0
+- ('airmoe_eff', 25.0, 4): +0.0
+- ('ladder_eff@kap1@fz256', 5.0, 1): -1.7
+- ('ladder_eff@kap1@fz256', 5.0, 4): -3.3
+- ('ladder_eff@kap1@fz256', 10.0, 1): +0.0
+- ('ladder_eff@kap1@fz256', 10.0, 4): -0.8
+- ('ladder_eff@kap1@fz256', 15.0, 1): +0.0
+- ('ladder_eff@kap1@fz256', 15.0, 4): -0.8
+- ('ladder_eff@kap1@fz256', 20.0, 1): +0.0
+- ('ladder_eff@kap1@fz256', 20.0, 4): +0.0
+- ('ladder_eff@kap1@fz256', 25.0, 1): +0.0
+- ('ladder_eff@kap1@fz256', 25.0, 4): +0.0
+- ('ladderdet_eff@kap1', 5.0, 1): -30.0
+- ('ladderdet_eff@kap1', 5.0, 4): -51.7
+- ('ladderdet_eff@kap1', 10.0, 1): -1.7
+- ('ladderdet_eff@kap1', 10.0, 4): -1.7
+- ('ladderdet_eff@kap1', 15.0, 1): -1.7
+- ('ladderdet_eff@kap1', 15.0, 4): -0.8
+- ('ladderdet_eff@kap1', 20.0, 1): -1.7
+- ('ladderdet_eff@kap1', 20.0, 4): +0.0
+- ('ladderdet_eff@kap1', 25.0, 1): -0.8
+- ('ladderdet_eff@kap1', 25.0, 4): +0.0
+## Secure digital merge: minimum passing ring bits {('p8_f4_q4_8k', 'secdig'): 32, ('p8_f4_q4_8k', 'secdigo'): 12, ('p8_f4_q4_32k', 'secdig'): 36, ('p8_f4_q4_32k', 'secdigo'): 12, ('p8_f4_l8_8k', 'secdig'): 28, ('p8_f4_l8_8k', 'secdigo'): 10, ('p8_f4_q8_8k', 'secdig'): 28, ('p8_f4_q8_8k', 'secdigo'): 10}
+## Latency inputs: L = 32, measured levels 29.8, b_den = 37, b_glob = 36, b_inst = 12
+- 20 MHz N=4: prop_dig 46.2, prop_tone 51.4, sec_inst 66.4, sec_glob 109.2, known 41.4, zf_tdma 28.2, digital 58.5; sec_inst/best prop 1.44, sec_glob/best prop 2.36, best prop - known 4.8 ms, zf/best prop 0.61
+- 20 MHz N=8: prop_dig 51.2, prop_tone 51.4, sec_inst 96.8, sec_glob 200.4, known 41.7, zf_tdma 38.5, digital 99.0; sec_inst/best prop 1.89, sec_glob/best prop 3.91, best prop - known 9.5 ms, zf/best prop 0.75
+- 20 MHz N=16: prop_dig 61.3, prop_tone 51.4, sec_inst 157.6, sec_glob 382.7, known 42.4, zf_tdma 59.0, digital 180.1; sec_inst/best prop 3.07, sec_glob/best prop 7.45, best prop - known 9.0 ms, zf/best prop 1.15
+- 20 MHz N=32: prop_dig 82.0, prop_tone 52.1, sec_inst 279.1, sec_glob 747.4, known 43.6, zf_tdma 99.9, digital 342.2; sec_inst/best prop 5.36, sec_glob/best prop 14.36, best prop - known 8.4 ms, zf/best prop 1.92
+- 20 MHz N=64: prop_dig 128.0, prop_tone 57.9, sec_inst 522.3, sec_glob 1476.9, known 46.1, zf_tdma 181.8, digital 666.4; sec_inst/best prop 9.03, sec_glob/best prop 25.52, best prop - known 11.7 ms, zf/best prop 3.14
+- 20 MHz N=128: prop_dig 220.1, prop_tone 69.5, sec_inst 1008.6, sec_glob 2935.8, known 51.2, zf_tdma 345.7, digital 1314.8; sec_inst/best prop 14.51, sec_glob/best prop 42.25, best prop - known 18.3 ms, zf/best prop 4.97
+- 100 MHz N=4: prop_dig 38.0, prop_tone 39.1, sec_inst 42.1, sec_glob 36.2, known 37.1, zf_tdma 20.0, digital 26.1; sec_inst/best prop 1.11, sec_glob/best prop 0.95, best prop - known 1.0 ms, zf/best prop 0.53
+- 100 MHz N=8: prop_dig 39.0, prop_tone 39.1, sec_inst 48.2, sec_glob 54.5, known 37.1, zf_tdma 22.1, digital 34.2; sec_inst/best prop 1.23, sec_glob/best prop 1.40, best prop - known 1.9 ms, zf/best prop 0.57
+- 100 MHz N=16: prop_dig 41.1, prop_tone 39.1, sec_inst 60.3, sec_glob 90.9, known 37.3, zf_tdma 26.2, digital 50.4; sec_inst/best prop 1.54, sec_glob/best prop 2.33, best prop - known 1.8 ms, zf/best prop 0.67
+- 100 MHz N=32: prop_dig 45.2, prop_tone 39.2, sec_inst 84.6, sec_glob 163.9, known 37.5, zf_tdma 34.4, digital 82.8; sec_inst/best prop 2.16, sec_glob/best prop 4.18, best prop - known 1.7 ms, zf/best prop 0.88
+- 100 MHz N=64: prop_dig 54.4, prop_tone 40.4, sec_inst 133.3, sec_glob 309.8, known 38.0, zf_tdma 50.8, digital 147.7; sec_inst/best prop 3.30, sec_glob/best prop 7.67, best prop - known 2.3 ms, zf/best prop 1.26
+- 100 MHz N=128: prop_dig 72.8, prop_tone 42.7, sec_inst 230.5, sec_glob 601.6, known 39.0, zf_tdma 83.5, digital 277.4; sec_inst/best prop 5.40, sec_glob/best prop 14.09, best prop - known 3.7 ms, zf/best prop 1.96
+- 20 MHz N=8 with L = 16 (6 dB step, same required SNR assumed): dig 46.2, tone 46.3
+- 20 MHz N=32 with L = 16 (6 dB step, same required SNR assumed): dig 61.9, tone 46.9
+- 20 MHz N=128 with L = 16 (6 dB step, same required SNR assumed): dig 139.7, tone 64.4
+## Field, M = 1: RMSE at 0 / 10 / 20 dB
+- nw sw0 K=64 ideal 4.84: airmoe_eff 5.78/5.15/4.92; ladder_eff@kap1 6.17/5.19/4.92; ladderdet_eff@kap1 6.96/5.23/4.92; ladderdet_chk 7.00/5.69/4.97; ladderdet_trunc 7.20/5.69/5.04; awa 7.45/6.79/5.63; airmoe_hybrid 5.78/5.14/4.92; genie_hybrid 8.53/5.50/4.95; ladderdet_eff@kap0.3 6.92/5.31/4.94
+- nw sw0 K=256 ideal 3.93: airmoe_eff 4.27/4.03/3.93; ladder_eff@kap1 4.32/4.06/3.95; ladderdet_eff@kap1 4.41/4.04/3.95; ladderdet_chk 4.57/4.46/3.98; ladderdet_trunc 4.64/4.16/3.96; awa 7.16/5.63/4.43; airmoe_hybrid 4.60/4.10/3.96; genie_hybrid 5.86/4.34/3.96; ladderdet_eff@kap0.3 4.42/4.06/3.96
+- nw sw0 K=1024 ideal 3.63: airmoe_eff 3.75/3.67/3.63; ladder_eff@kap1 3.78/3.68/3.64; ladderdet_eff@kap1 3.87/3.70/3.65; ladderdet_chk 3.85/3.78/3.66; ladderdet_trunc 3.74/3.67/3.64; awa 6.21/4.49/3.76; airmoe_hybrid 3.96/3.71/3.65; genie_hybrid 4.35/3.74/3.65; ladderdet_eff@kap0.3 3.80/3.66/3.64
+- poe sw0 K=4 ideal 3.96: airmoe_eff 6.21/4.68/4.12; ladder_eff@kap1 6.85/4.80/4.14; ladderdet_eff@kap1 7.58/4.81/4.14; ladderdet_chk 7.96/5.14/4.23; ladderdet_trunc 8.56/5.37/4.22; awa 11.92/6.16/4.59; airmoe_hybrid 6.16/4.80/4.17; genie_hybrid 8.46/4.86/4.12; ladderdet_eff@kap0.3 7.85/4.88/4.15
+- poe sw0 K=32 ideal 6.03: airmoe_eff 6.47/6.18/6.06; ladder_eff@kap1 6.46/6.18/6.06; ladderdet_eff@kap1 6.69/6.17/6.06; ladderdet_chk 6.59/6.26/6.07; ladderdet_trunc 6.47/6.10/6.07; awa 7.23/6.57/6.09; airmoe_hybrid 6.59/6.21/6.07; genie_hybrid 6.82/6.19/6.06; ladderdet_eff@kap0.3 6.62/6.11/6.07
+- nw sw10 K=64 ideal 4.84: airmoe_eff 6.67/5.86/5.37; ladder_eff@kap1 9.45/6.85/5.64; ladderdet_eff@kap1 7.07/6.09/5.38; ladderdet_chk 7.13/6.39/5.70; ladderdet_trunc 7.38/6.80/5.91; awa 25.17/11.37/7.66; airmoe_hybrid 6.73/6.02/5.43; genie_hybrid 26.00/15.94/7.86; ladderdet_eff@kap0.3 7.02/6.17/5.43
+- nw sw10 K=256 ideal 3.93: airmoe_eff 4.86/4.37/4.08; ladder_eff@kap1 5.17/4.50/4.17; ladderdet_eff@kap1 5.11/4.45/4.16; ladderdet_chk 5.84/4.75/4.43; ladderdet_trunc 5.27/4.82/4.34; awa 18.97/8.45/7.29; airmoe_hybrid 5.94/4.93/4.34; genie_hybrid 24.66/13.63/6.03; ladderdet_eff@kap0.3 5.17/4.42/4.16
+- nw sw10 K=1024 ideal 3.63: airmoe_eff 4.01/3.83/3.70; ladder_eff@kap1 4.04/3.85/3.72; ladderdet_eff@kap1 4.25/3.82/3.74; ladderdet_chk 4.49/3.99/3.84; ladderdet_trunc 4.10/3.84/3.72; awa 10.66/7.39/6.55; airmoe_hybrid 5.02/4.23/3.87; genie_hybrid 19.99/8.74/4.62; ladderdet_eff@kap0.3 4.24/3.83/3.72
+- poe sw10 K=4 ideal 3.96: airmoe_eff 8.92/6.41/5.10; ladder_eff@kap1 13.47/8.08/5.52; ladderdet_eff@kap1 27.91/7.08/5.20; ladderdet_chk 26.07/7.46/5.56; ladderdet_trunc 13.58/7.58/5.75; awa 27.56/23.11/8.73; airmoe_hybrid 7.01/6.21/5.25; genie_hybrid 27.77/15.50/6.43; ladderdet_eff@kap0.3 28.05/7.24/5.25
+- poe sw10 K=32 ideal 6.03: airmoe_eff 6.70/6.48/6.22; ladder_eff@kap1 6.84/6.50/6.24; ladderdet_eff@kap1 7.12/6.49/6.31; ladderdet_chk 7.10/6.61/6.35; ladderdet_trunc 6.89/6.50/6.20; awa 19.20/10.96/7.44; airmoe_hybrid 7.06/6.70/6.37; genie_hybrid 21.43/10.26/6.98; ladderdet_eff@kap0.3 7.03/6.48/6.30

@@ -1,0 +1,251 @@
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 226.19it/s]
+Token indices sequence length is longer than the specified maximum sequence length for this model (271903 > 131072). Running this sequence through the model will result in indexing errors
+[T=16384 N=8] S1 exact shard merge: max|dlogit| = 9.062e-01
+  fid T=16384 N=8: segment 1/4 x 77 cells (104 s, GPU peak 19.9 GiB)
+  fid T=16384 N=8: segment 2/4 x 77 cells (208 s, GPU peak 19.9 GiB)
+  fid T=16384 N=8: segment 3/4 x 77 cells (313 s, GPU peak 19.9 GiB)
+  fid T=16384 N=8: segment 4/4 x 77 cells (418 s, GPU peak 19.9 GiB)
+  fid T=16384 N=8 M= 4 SNR= 0.0 airmoe_hybrid KL=0.0605 NLL+=+0.0660 top1=0.906 mass_loss=0.0624
+  fid T=16384 N=8 M= 4 SNR= 0.0 airmoe_eff    KL=0.0264 NLL+=+0.0256 top1=0.930 mass_loss=0.0630
+  fid T=16384 N=8 M= 4 SNR= 0.0 ladder_eff@kap0.3@fz256 KL=0.0383 NLL+=+0.0373 top1=0.916 mass_loss=0.0290
+  fid T=16384 N=8 M= 4 SNR= 0.0 ladder_eff@kap1@fz256 KL=0.0316 NLL+=+0.0310 top1=0.923 mass_loss=0.0530
+  fid T=16384 N=8 M= 4 SNR= 0.0 ladderdet_eff@kap0.3 KL=0.2149 NLL+=+0.2280 top1=0.836 levels=28.7422 nodetect=0.3770 overflow=0.0002 det_under=0.7517 det_under12dB=0.4059 det_over10dB=0.0579 mass_loss=0.1236
+  fid T=16384 N=8 M= 4 SNR= 0.0 ladderdet_eff@kap1 KL=0.2205 NLL+=+0.2369 top1=0.832 levels=28.7422 nodetect=0.3550 overflow=0.0002 det_under=0.7386 det_under12dB=0.3927 det_over10dB=0.0694 mass_loss=0.1353
+  fid T=16384 N=8 M= 4 SNR= 0.0 ladderdet_hybrid KL=0.4095 NLL+=+0.4234 top1=0.779 levels=28.7422 nodetect=0.3983 overflow=0.0003 det_under=0.7265 det_under12dB=0.3582 det_over10dB=0.0642 mass_loss=0.0610
+  fid T=16384 N=8 M= 4 SNR= 2.5 airmoe_hybrid KL=0.0318 NLL+=+0.0335 top1=0.923 mass_loss=0.0458
+  fid T=16384 N=8 M= 4 SNR= 2.5 airmoe_eff    KL=0.0175 NLL+=+0.0167 top1=0.941 mass_loss=0.0459
+  fid T=16384 N=8 M= 4 SNR= 2.5 ladder_eff@kap0.3@fz256 KL=0.0230 NLL+=+0.0218 top1=0.932 mass_loss=0.0207
+  fid T=16384 N=8 M= 4 SNR= 2.5 ladder_eff@kap1@fz256 KL=0.0198 NLL+=+0.0203 top1=0.938 mass_loss=0.0410
+  fid T=16384 N=8 M= 4 SNR= 2.5 ladderdet_eff@kap0.3 KL=0.1375 NLL+=+0.1446 top1=0.871 levels=28.7422 nodetect=0.0328 overflow=0.0007 det_under=0.7292 det_under12dB=0.3639 det_over10dB=0.0036 mass_loss=0.1076
+  fid T=16384 N=8 M= 4 SNR= 2.5 ladderdet_eff@kap1 KL=0.1410 NLL+=+0.1485 top1=0.869 levels=28.7422 nodetect=0.0307 overflow=0.0006 det_under=0.7311 det_under12dB=0.3577 det_over10dB=0.0039 mass_loss=0.1261
+  fid T=16384 N=8 M= 4 SNR= 2.5 ladderdet_hybrid KL=0.2765 NLL+=+0.2784 top1=0.813 levels=28.7422 nodetect=0.0334 overflow=0.0011 det_under=0.7099 det_under12dB=0.3241 det_over10dB=0.0038 mass_loss=0.0588
+  fid T=16384 N=8 M= 4 SNR= 5.0 airmoe_hybrid KL=0.0178 NLL+=+0.0163 top1=0.940 mass_loss=0.0322
+  fid T=16384 N=8 M= 4 SNR= 5.0 airmoe_eff    KL=0.0115 NLL+=+0.0099 top1=0.953 mass_loss=0.0322
+  fid T=16384 N=8 M= 4 SNR= 5.0 ladder_eff@kap0.3@fz256 KL=0.0142 NLL+=+0.0133 top1=0.948 mass_loss=0.0142
+  fid T=16384 N=8 M= 4 SNR= 5.0 ladder_eff@kap1@fz256 KL=0.0125 NLL+=+0.0114 top1=0.951 mass_loss=0.0304
+  fid T=16384 N=8 M= 4 SNR= 5.0 ladderdet_eff@kap0.3 KL=0.0431 NLL+=+0.0408 top1=0.920 levels=28.7422 nodetect=0.0000 overflow=0.0015 det_under=0.3204 det_under12dB=0.1017 det_over10dB=0.0005 mass_loss=0.0445
+  fid T=16384 N=8 M= 4 SNR= 5.0 ladderdet_eff@kap1 KL=0.0435 NLL+=+0.0482 top1=0.917 levels=28.7422 nodetect=0.0000 overflow=0.0012 det_under=0.3215 det_under12dB=0.1011 det_over10dB=0.0005 mass_loss=0.0605
+  fid T=16384 N=8 M= 4 SNR= 5.0 ladderdet_hybrid KL=0.0776 NLL+=+0.0815 top1=0.892 levels=28.7422 nodetect=0.0000 overflow=0.0025 det_under=0.3172 det_under12dB=0.0982 det_over10dB=0.0005 mass_loss=0.0265
+  fid T=16384 N=8 M= 4 SNR= 7.5 airmoe_hybrid KL=0.0102 NLL+=+0.0077 top1=0.956 mass_loss=0.0218
+  fid T=16384 N=8 M= 4 SNR= 7.5 airmoe_eff    KL=0.0074 NLL+=+0.0063 top1=0.961 mass_loss=0.0217
+  fid T=16384 N=8 M= 4 SNR= 7.5 ladder_eff@kap0.3@fz256 KL=0.0087 NLL+=+0.0072 top1=0.958 mass_loss=0.0094
+  fid T=16384 N=8 M= 4 SNR= 7.5 ladder_eff@kap1@fz256 KL=0.0079 NLL+=+0.0066 top1=0.959 mass_loss=0.0216
+  fid T=16384 N=8 M= 4 SNR= 7.5 ladderdet_eff@kap0.3 KL=0.0126 NLL+=+0.0108 top1=0.949 levels=28.7422 nodetect=0.0000 overflow=0.0021 det_under=0.0364 det_under12dB=0.0085 det_over10dB=0.0005 mass_loss=0.0127
+  fid T=16384 N=8 M= 4 SNR= 7.5 ladderdet_eff@kap1 KL=0.0120 NLL+=+0.0099 top1=0.952 levels=28.7422 nodetect=0.0000 overflow=0.0017 det_under=0.0363 det_under12dB=0.0084 det_over10dB=0.0005 mass_loss=0.0248
+  fid T=16384 N=8 M= 4 SNR= 7.5 ladderdet_hybrid KL=0.0190 NLL+=+0.0178 top1=0.939 levels=28.7422 nodetect=0.0000 overflow=0.0029 det_under=0.0370 det_under12dB=0.0087 det_over10dB=0.0005 mass_loss=0.0034
+  fid T=16384 N=8 M= 4 SNR=10.0 airmoe_hybrid KL=0.0060 NLL+=+0.0043 top1=0.963 mass_loss=0.0142
+  fid T=16384 N=8 M= 4 SNR=10.0 airmoe_eff    KL=0.0049 NLL+=+0.0037 top1=0.968 mass_loss=0.0142
+  fid T=16384 N=8 M= 4 SNR=10.0 ladder_eff@kap0.3@fz256 KL=0.0056 NLL+=+0.0045 top1=0.968 mass_loss=0.0060
+  fid T=16384 N=8 M= 4 SNR=10.0 ladder_eff@kap1@fz256 KL=0.0052 NLL+=+0.0040 top1=0.966 mass_loss=0.0148
+  fid T=16384 N=8 M= 4 SNR=10.0 ladderdet_eff@kap0.3 KL=0.0075 NLL+=+0.0064 top1=0.961 levels=28.7422 nodetect=0.0000 overflow=0.0024 det_under=0.0029 det_under12dB=0.0003 det_over10dB=0.0005 mass_loss=0.0066
+  fid T=16384 N=8 M= 4 SNR=10.0 ladderdet_eff@kap1 KL=0.0072 NLL+=+0.0054 top1=0.963 levels=28.7422 nodetect=0.0000 overflow=0.0020 det_under=0.0025 det_under12dB=0.0003 det_over10dB=0.0005 mass_loss=0.0153
+  fid T=16384 N=8 M= 4 SNR=10.0 ladderdet_hybrid KL=0.0103 NLL+=+0.0093 top1=0.957 levels=28.7422 nodetect=0.0000 overflow=0.0030 det_under=0.0036 det_under12dB=0.0005 det_over10dB=0.0005 mass_loss=0.0009
+  fid T=16384 N=8 M= 4 SNR=12.5 airmoe_hybrid KL=0.0036 NLL+=+0.0015 top1=0.972 mass_loss=0.0089
+  fid T=16384 N=8 M= 4 SNR=12.5 airmoe_eff    KL=0.0033 NLL+=+0.0023 top1=0.973 mass_loss=0.0089
+  fid T=16384 N=8 M= 4 SNR=12.5 ladder_eff@kap0.3@fz256 KL=0.0037 NLL+=+0.0033 top1=0.972 mass_loss=0.0037
+  fid T=16384 N=8 M= 4 SNR=12.5 ladder_eff@kap1@fz256 KL=0.0034 NLL+=+0.0024 top1=0.973 mass_loss=0.0098
+  fid T=16384 N=8 M= 4 SNR=12.5 ladderdet_eff@kap0.3 KL=0.0051 NLL+=+0.0039 top1=0.970 levels=28.7422 nodetect=0.0000 overflow=0.0025 det_under=0.0024 det_under12dB=0.0002 det_over10dB=0.0005 mass_loss=0.0044
+  fid T=16384 N=8 M= 4 SNR=12.5 ladderdet_eff@kap1 KL=0.0049 NLL+=+0.0038 top1=0.968 levels=28.7422 nodetect=0.0000 overflow=0.0022 det_under=0.0021 det_under12dB=0.0002 det_over10dB=0.0005 mass_loss=0.0103
+  fid T=16384 N=8 M= 4 SNR=12.5 ladderdet_hybrid KL=0.0065 NLL+=+0.0051 top1=0.967 levels=28.7422 nodetect=0.0000 overflow=0.0030 det_under=0.0029 det_under12dB=0.0003 det_over10dB=0.0005 mass_loss=0.0008
+  fid T=16384 N=8 M= 4 SNR=15.0 airmoe_hybrid KL=0.0024 NLL+=+0.0005 top1=0.977 mass_loss=0.0055
+  fid T=16384 N=8 M= 4 SNR=15.0 airmoe_eff    KL=0.0022 NLL+=+0.0008 top1=0.979 mass_loss=0.0055
+  fid T=16384 N=8 M= 4 SNR=15.0 ladder_eff@kap0.3@fz256 KL=0.0025 NLL+=+0.0013 top1=0.979 mass_loss=0.0023
+  fid T=16384 N=8 M= 4 SNR=15.0 ladder_eff@kap1@fz256 KL=0.0023 NLL+=+0.0007 top1=0.978 mass_loss=0.0062
+  fid T=16384 N=8 M= 4 SNR=15.0 ladderdet_eff@kap0.3 KL=0.0039 NLL+=+0.0027 top1=0.972 levels=28.7422 nodetect=0.0000 overflow=0.0026 det_under=0.0025 det_under12dB=0.0002 det_over10dB=0.0005 mass_loss=0.0030
+  fid T=16384 N=8 M= 4 SNR=15.0 ladderdet_eff@kap1 KL=0.0035 NLL+=+0.0021 top1=0.975 levels=28.7422 nodetect=0.0000 overflow=0.0023 det_under=0.0023 det_under12dB=0.0002 det_over10dB=0.0005 mass_loss=0.0068
+  fid T=16384 N=8 M= 4 SNR=15.0 ladderdet_hybrid KL=0.0045 NLL+=+0.0021 top1=0.974 levels=28.7422 nodetect=0.0000 overflow=0.0030 det_under=0.0029 det_under12dB=0.0003 det_over10dB=0.0005 mass_loss=0.0008
+  fid T=16384 N=8 M= 4 SNR=17.5 airmoe_hybrid KL=0.0017 NLL+=-0.0003 top1=0.980 mass_loss=0.0033
+  fid T=16384 N=8 M= 4 SNR=17.5 airmoe_eff    KL=0.0016 NLL+=-0.0000 top1=0.981 mass_loss=0.0033
+  fid T=16384 N=8 M= 4 SNR=17.5 ladder_eff@kap0.3@fz256 KL=0.0018 NLL+=+0.0007 top1=0.983 mass_loss=0.0014
+  fid T=16384 N=8 M= 4 SNR=17.5 ladder_eff@kap1@fz256 KL=0.0017 NLL+=-0.0001 top1=0.982 mass_loss=0.0039
+  fid T=16384 N=8 M= 4 SNR=17.5 ladderdet_eff@kap0.3 KL=0.0029 NLL+=+0.0008 top1=0.978 levels=28.7422 nodetect=0.0000 overflow=0.0027 det_under=0.0026 det_under12dB=0.0003 det_over10dB=0.0005 mass_loss=0.0021
+  fid T=16384 N=8 M= 4 SNR=17.5 ladderdet_eff@kap1 KL=0.0027 NLL+=+0.0009 top1=0.980 levels=28.7422 nodetect=0.0000 overflow=0.0025 det_under=0.0024 det_under12dB=0.0002 det_over10dB=0.0005 mass_loss=0.0045
+  fid T=16384 N=8 M= 4 SNR=17.5 ladderdet_hybrid KL=0.0033 NLL+=+0.0024 top1=0.977 levels=28.7422 nodetect=0.0000 overflow=0.0030 det_under=0.0029 det_under12dB=0.0003 det_over10dB=0.0005 mass_loss=0.0008
+  fid T=16384 N=8 M= 4 SNR=20.0 airmoe_hybrid KL=0.0013 NLL+=-0.0007 top1=0.984 mass_loss=0.0019
+  fid T=16384 N=8 M= 4 SNR=20.0 airmoe_eff    KL=0.0012 NLL+=-0.0009 top1=0.984 mass_loss=0.0019
+  fid T=16384 N=8 M= 4 SNR=20.0 ladder_eff@kap0.3@fz256 KL=0.0014 NLL+=+0.0006 top1=0.986 mass_loss=0.0009
+  fid T=16384 N=8 M= 4 SNR=20.0 ladder_eff@kap1@fz256 KL=0.0013 NLL+=+0.0000 top1=0.984 mass_loss=0.0024
+  fid T=16384 N=8 M= 4 SNR=20.0 ladderdet_eff@kap0.3 KL=0.0022 NLL+=+0.0003 top1=0.979 levels=28.7422 nodetect=0.0000 overflow=0.0027 det_under=0.0027 det_under12dB=0.0003 det_over10dB=0.0005 mass_loss=0.0016
+  fid T=16384 N=8 M= 4 SNR=20.0 ladderdet_eff@kap1 KL=0.0022 NLL+=-0.0000 top1=0.981 levels=28.7422 nodetect=0.0000 overflow=0.0026 det_under=0.0025 det_under12dB=0.0002 det_over10dB=0.0005 mass_loss=0.0031
+  fid T=16384 N=8 M= 4 SNR=20.0 ladderdet_hybrid KL=0.0026 NLL+=+0.0010 top1=0.982 levels=28.7422 nodetect=0.0000 overflow=0.0030 det_under=0.0029 det_under12dB=0.0003 det_over10dB=0.0005 mass_loss=0.0008
+  fid T=16384 N=8 M= 4 SNR=22.5 airmoe_hybrid KL=0.0010 NLL+=-0.0012 top1=0.985 mass_loss=0.0011
+  fid T=16384 N=8 M= 4 SNR=22.5 airmoe_eff    KL=0.0010 NLL+=-0.0007 top1=0.986 mass_loss=0.0011
+  fid T=16384 N=8 M= 4 SNR=22.5 ladder_eff@kap0.3@fz256 KL=0.0011 NLL+=-0.0003 top1=0.986 mass_loss=0.0005
+  fid T=16384 N=8 M= 4 SNR=22.5 ladder_eff@kap1@fz256 KL=0.0011 NLL+=+0.0002 top1=0.985 mass_loss=0.0015
+  fid T=16384 N=8 M= 4 SNR=22.5 ladderdet_eff@kap0.3 KL=0.0018 NLL+=-0.0003 top1=0.984 levels=28.7422 nodetect=0.0000 overflow=0.0028 det_under=0.0028 det_under12dB=0.0003 det_over10dB=0.0005 mass_loss=0.0013
+  fid T=16384 N=8 M= 4 SNR=22.5 ladderdet_eff@kap1 KL=0.0018 NLL+=-0.0005 top1=0.983 levels=28.7422 nodetect=0.0000 overflow=0.0027 det_under=0.0026 det_under12dB=0.0003 det_over10dB=0.0005 mass_loss=0.0022
+  fid T=16384 N=8 M= 4 SNR=22.5 ladderdet_hybrid KL=0.0021 NLL+=-0.0000 top1=0.981 levels=28.7422 nodetect=0.0000 overflow=0.0030 det_under=0.0029 det_under12dB=0.0003 det_over10dB=0.0005 mass_loss=0.0008
+  fid T=16384 N=8 M= 4 SNR=25.0 airmoe_hybrid KL=0.0009 NLL+=-0.0007 top1=0.984 mass_loss=0.0006
+  fid T=16384 N=8 M= 4 SNR=25.0 airmoe_eff    KL=0.0009 NLL+=-0.0002 top1=0.986 mass_loss=0.0006
+  fid T=16384 N=8 M= 4 SNR=25.0 ladder_eff@kap0.3@fz256 KL=0.0009 NLL+=-0.0008 top1=0.985 mass_loss=0.0003
+  fid T=16384 N=8 M= 4 SNR=25.0 ladder_eff@kap1@fz256 KL=0.0009 NLL+=-0.0004 top1=0.984 mass_loss=0.0009
+  fid T=16384 N=8 M= 4 SNR=25.0 ladderdet_eff@kap0.3 KL=0.0016 NLL+=-0.0009 top1=0.983 levels=28.7422 nodetect=0.0000 overflow=0.0028 det_under=0.0028 det_under12dB=0.0003 det_over10dB=0.0005 mass_loss=0.0011
+  fid T=16384 N=8 M= 4 SNR=25.0 ladderdet_eff@kap1 KL=0.0016 NLL+=+0.0003 top1=0.983 levels=28.7422 nodetect=0.0000 overflow=0.0027 det_under=0.0027 det_under12dB=0.0003 det_over10dB=0.0005 mass_loss=0.0016
+  fid T=16384 N=8 M= 4 SNR=25.0 ladderdet_hybrid KL=0.0019 NLL+=-0.0003 top1=0.983 levels=28.7422 nodetect=0.0000 overflow=0.0029 det_under=0.0029 det_under12dB=0.0003 det_over10dB=0.0005 mass_loss=0.0008
+[T=16384 N=8] done, elapsed 459 s
+[T=16384 N=32] S1 exact shard merge: max|dlogit| = 1.125e+00
+  fid T=16384 N=32: segment 1/4 x 77 cells (108 s, GPU peak 20.0 GiB)
+  fid T=16384 N=32: segment 2/4 x 77 cells (215 s, GPU peak 20.0 GiB)
+  fid T=16384 N=32: segment 3/4 x 77 cells (323 s, GPU peak 20.0 GiB)
+  fid T=16384 N=32: segment 4/4 x 77 cells (430 s, GPU peak 20.0 GiB)
+  fid T=16384 N=32 M= 4 SNR= 0.0 airmoe_hybrid KL=0.0683 NLL+=+0.0730 top1=0.905 mass_loss=0.0501
+  fid T=16384 N=32 M= 4 SNR= 0.0 airmoe_eff    KL=0.0283 NLL+=+0.0296 top1=0.931 mass_loss=0.0513
+  fid T=16384 N=32 M= 4 SNR= 0.0 ladder_eff@kap0.3@fz256 KL=0.0429 NLL+=+0.0427 top1=0.915 mass_loss=0.0250
+  fid T=16384 N=32 M= 4 SNR= 0.0 ladder_eff@kap1@fz256 KL=0.0340 NLL+=+0.0342 top1=0.923 mass_loss=0.0434
+  fid T=16384 N=32 M= 4 SNR= 0.0 ladderdet_eff@kap0.3 KL=0.1911 NLL+=+0.1993 top1=0.850 levels=30.1299 nodetect=0.0001 overflow=0.0002 det_under=0.8939 det_under12dB=0.4205 det_over10dB=0.0006 mass_loss=0.1029
+  fid T=16384 N=32 M= 4 SNR= 0.0 ladderdet_eff@kap1 KL=0.1977 NLL+=+0.2038 top1=0.848 levels=30.1299 nodetect=0.0000 overflow=0.0001 det_under=0.8895 det_under12dB=0.4002 det_over10dB=0.0007 mass_loss=0.1212
+  fid T=16384 N=32 M= 4 SNR= 0.0 ladderdet_hybrid KL=0.3012 NLL+=+0.3091 top1=0.811 levels=30.1299 nodetect=0.0000 overflow=0.0002 det_under=0.8949 det_under12dB=0.4203 det_over10dB=0.0005 mass_loss=0.0461
+  fid T=16384 N=32 M= 4 SNR= 2.5 airmoe_hybrid KL=0.0393 NLL+=+0.0420 top1=0.919 mass_loss=0.0384
+  fid T=16384 N=32 M= 4 SNR= 2.5 airmoe_eff    KL=0.0190 NLL+=+0.0189 top1=0.941 mass_loss=0.0387
+  fid T=16384 N=32 M= 4 SNR= 2.5 ladder_eff@kap0.3@fz256 KL=0.0266 NLL+=+0.0261 top1=0.933 mass_loss=0.0187
+  fid T=16384 N=32 M= 4 SNR= 2.5 ladder_eff@kap1@fz256 KL=0.0221 NLL+=+0.0215 top1=0.938 mass_loss=0.0342
+  fid T=16384 N=32 M= 4 SNR= 2.5 ladderdet_eff@kap0.3 KL=0.1072 NLL+=+0.1118 top1=0.890 levels=30.1299 nodetect=0.0000 overflow=0.0007 det_under=0.6822 det_under12dB=0.2129 det_over10dB=0.0006 mass_loss=0.0702
+  fid T=16384 N=32 M= 4 SNR= 2.5 ladderdet_eff@kap1 KL=0.1149 NLL+=+0.1174 top1=0.884 levels=30.1299 nodetect=0.0000 overflow=0.0005 det_under=0.6793 det_under12dB=0.2092 det_over10dB=0.0006 mass_loss=0.0863
+  fid T=16384 N=32 M= 4 SNR= 2.5 ladderdet_hybrid KL=0.1888 NLL+=+0.1875 top1=0.850 levels=30.1299 nodetect=0.0000 overflow=0.0010 det_under=0.6843 det_under12dB=0.2049 det_over10dB=0.0005 mass_loss=0.0343
+  fid T=16384 N=32 M= 4 SNR= 5.0 airmoe_hybrid KL=0.0219 NLL+=+0.0229 top1=0.936 mass_loss=0.0283
+  fid T=16384 N=32 M= 4 SNR= 5.0 airmoe_eff    KL=0.0126 NLL+=+0.0122 top1=0.948 mass_loss=0.0284
+  fid T=16384 N=32 M= 4 SNR= 5.0 ladder_eff@kap0.3@fz256 KL=0.0160 NLL+=+0.0150 top1=0.945 mass_loss=0.0135
+  fid T=16384 N=32 M= 4 SNR= 5.0 ladder_eff@kap1@fz256 KL=0.0144 NLL+=+0.0127 top1=0.949 mass_loss=0.0262
+  fid T=16384 N=32 M= 4 SNR= 5.0 ladderdet_eff@kap0.3 KL=0.0421 NLL+=+0.0421 top1=0.922 levels=30.1299 nodetect=0.0000 overflow=0.0015 det_under=0.2903 det_under12dB=0.0550 det_over10dB=0.0006 mass_loss=0.0308
+  fid T=16384 N=32 M= 4 SNR= 5.0 ladderdet_eff@kap1 KL=0.0412 NLL+=+0.0426 top1=0.922 levels=30.1299 nodetect=0.0000 overflow=0.0012 det_under=0.2886 det_under12dB=0.0544 det_over10dB=0.0006 mass_loss=0.0438
+  fid T=16384 N=32 M= 4 SNR= 5.0 ladderdet_hybrid KL=0.0621 NLL+=+0.0632 top1=0.907 levels=30.1299 nodetect=0.0000 overflow=0.0024 det_under=0.2948 det_under12dB=0.0580 det_over10dB=0.0005 mass_loss=0.0153
+  fid T=16384 N=32 M= 4 SNR= 7.5 airmoe_hybrid KL=0.0121 NLL+=+0.0113 top1=0.950 mass_loss=0.0202
+  fid T=16384 N=32 M= 4 SNR= 7.5 airmoe_eff    KL=0.0082 NLL+=+0.0068 top1=0.960 mass_loss=0.0203
+  fid T=16384 N=32 M= 4 SNR= 7.5 ladder_eff@kap0.3@fz256 KL=0.0100 NLL+=+0.0078 top1=0.954 mass_loss=0.0094
+  fid T=16384 N=32 M= 4 SNR= 7.5 ladder_eff@kap1@fz256 KL=0.0090 NLL+=+0.0076 top1=0.958 mass_loss=0.0195
+  fid T=16384 N=32 M= 4 SNR= 7.5 ladderdet_eff@kap0.3 KL=0.0142 NLL+=+0.0103 top1=0.950 levels=30.1299 nodetect=0.0000 overflow=0.0022 det_under=0.0336 det_under12dB=0.0048 det_over10dB=0.0005 mass_loss=0.0116
+  fid T=16384 N=32 M= 4 SNR= 7.5 ladderdet_eff@kap1 KL=0.0134 NLL+=+0.0109 top1=0.949 levels=30.1299 nodetect=0.0000 overflow=0.0018 det_under=0.0330 det_under12dB=0.0047 det_over10dB=0.0006 mass_loss=0.0215
+  fid T=16384 N=32 M= 4 SNR= 7.5 ladderdet_hybrid KL=0.0210 NLL+=+0.0169 top1=0.937 levels=30.1299 nodetect=0.0000 overflow=0.0029 det_under=0.0346 det_under12dB=0.0053 det_over10dB=0.0005 mass_loss=0.0023
+  fid T=16384 N=32 M= 4 SNR=10.0 airmoe_hybrid KL=0.0072 NLL+=+0.0050 top1=0.959 mass_loss=0.0140
+  fid T=16384 N=32 M= 4 SNR=10.0 airmoe_eff    KL=0.0054 NLL+=+0.0030 top1=0.966 mass_loss=0.0140
+  fid T=16384 N=32 M= 4 SNR=10.0 ladder_eff@kap0.3@fz256 KL=0.0065 NLL+=+0.0036 top1=0.962 mass_loss=0.0063
+  fid T=16384 N=32 M= 4 SNR=10.0 ladder_eff@kap1@fz256 KL=0.0060 NLL+=+0.0039 top1=0.964 mass_loss=0.0140
+  fid T=16384 N=32 M= 4 SNR=10.0 ladderdet_eff@kap0.3 KL=0.0089 NLL+=+0.0053 top1=0.960 levels=30.1299 nodetect=0.0000 overflow=0.0024 det_under=0.0029 det_under12dB=0.0005 det_over10dB=0.0005 mass_loss=0.0070
+  fid T=16384 N=32 M= 4 SNR=10.0 ladderdet_eff@kap1 KL=0.0084 NLL+=+0.0044 top1=0.959 levels=30.1299 nodetect=0.0000 overflow=0.0020 det_under=0.0025 det_under12dB=0.0004 det_over10dB=0.0006 mass_loss=0.0145
+  fid T=16384 N=32 M= 4 SNR=10.0 ladderdet_hybrid KL=0.0123 NLL+=+0.0093 top1=0.954 levels=30.1299 nodetect=0.0000 overflow=0.0030 det_under=0.0035 det_under12dB=0.0006 det_over10dB=0.0005 mass_loss=0.0009
+  fid T=16384 N=32 M= 4 SNR=12.5 airmoe_hybrid KL=0.0045 NLL+=+0.0024 top1=0.972 mass_loss=0.0094
+  fid T=16384 N=32 M= 4 SNR=12.5 airmoe_eff    KL=0.0037 NLL+=+0.0011 top1=0.973 mass_loss=0.0094
+  fid T=16384 N=32 M= 4 SNR=12.5 ladder_eff@kap0.3@fz256 KL=0.0044 NLL+=+0.0014 top1=0.971 mass_loss=0.0041
+  fid T=16384 N=32 M= 4 SNR=12.5 ladder_eff@kap1@fz256 KL=0.0039 NLL+=+0.0018 top1=0.974 mass_loss=0.0097
+  fid T=16384 N=32 M= 4 SNR=12.5 ladderdet_eff@kap0.3 KL=0.0063 NLL+=+0.0031 top1=0.966 levels=30.1299 nodetect=0.0000 overflow=0.0025 det_under=0.0025 det_under12dB=0.0004 det_over10dB=0.0005 mass_loss=0.0049
+  fid T=16384 N=32 M= 4 SNR=12.5 ladderdet_eff@kap1 KL=0.0061 NLL+=+0.0035 top1=0.966 levels=30.1299 nodetect=0.0000 overflow=0.0022 det_under=0.0022 det_under12dB=0.0003 det_over10dB=0.0005 mass_loss=0.0104
+  fid T=16384 N=32 M= 4 SNR=12.5 ladderdet_hybrid KL=0.0078 NLL+=+0.0062 top1=0.965 levels=30.1299 nodetect=0.0000 overflow=0.0030 det_under=0.0030 det_under12dB=0.0006 det_over10dB=0.0005 mass_loss=0.0009
+  fid T=16384 N=32 M= 4 SNR=15.0 airmoe_hybrid KL=0.0029 NLL+=+0.0003 top1=0.975 mass_loss=0.0061
+  fid T=16384 N=32 M= 4 SNR=15.0 airmoe_eff    KL=0.0025 NLL+=+0.0002 top1=0.980 mass_loss=0.0061
+  fid T=16384 N=32 M= 4 SNR=15.0 ladder_eff@kap0.3@fz256 KL=0.0029 NLL+=+0.0005 top1=0.977 mass_loss=0.0026
+  fid T=16384 N=32 M= 4 SNR=15.0 ladder_eff@kap1@fz256 KL=0.0027 NLL+=+0.0004 top1=0.977 mass_loss=0.0066
+  fid T=16384 N=32 M= 4 SNR=15.0 ladderdet_eff@kap0.3 KL=0.0045 NLL+=+0.0006 top1=0.974 levels=30.1299 nodetect=0.0000 overflow=0.0026 det_under=0.0026 det_under12dB=0.0005 det_over10dB=0.0005 mass_loss=0.0035
+  fid T=16384 N=32 M= 4 SNR=15.0 ladderdet_eff@kap1 KL=0.0045 NLL+=+0.0001 top1=0.973 levels=30.1299 nodetect=0.0000 overflow=0.0024 det_under=0.0023 det_under12dB=0.0004 det_over10dB=0.0005 mass_loss=0.0073
+  fid T=16384 N=32 M= 4 SNR=15.0 ladderdet_hybrid KL=0.0053 NLL+=+0.0017 top1=0.972 levels=30.1299 nodetect=0.0000 overflow=0.0030 det_under=0.0030 det_under12dB=0.0006 det_over10dB=0.0005 mass_loss=0.0009
+  fid T=16384 N=32 M= 4 SNR=17.5 airmoe_hybrid KL=0.0019 NLL+=-0.0004 top1=0.980 mass_loss=0.0038
+  fid T=16384 N=32 M= 4 SNR=17.5 airmoe_eff    KL=0.0018 NLL+=-0.0010 top1=0.981 mass_loss=0.0038
+  fid T=16384 N=32 M= 4 SNR=17.5 ladder_eff@kap0.3@fz256 KL=0.0020 NLL+=+0.0003 top1=0.981 mass_loss=0.0016
+  fid T=16384 N=32 M= 4 SNR=17.5 ladder_eff@kap1@fz256 KL=0.0019 NLL+=-0.0005 top1=0.983 mass_loss=0.0043
+  fid T=16384 N=32 M= 4 SNR=17.5 ladderdet_eff@kap0.3 KL=0.0035 NLL+=-0.0002 top1=0.977 levels=30.1299 nodetect=0.0000 overflow=0.0027 det_under=0.0027 det_under12dB=0.0005 det_over10dB=0.0005 mass_loss=0.0025
+  fid T=16384 N=32 M= 4 SNR=17.5 ladderdet_eff@kap1 KL=0.0034 NLL+=-0.0009 top1=0.974 levels=30.1299 nodetect=0.0000 overflow=0.0025 det_under=0.0025 det_under12dB=0.0004 det_over10dB=0.0005 mass_loss=0.0051
+  fid T=16384 N=32 M= 4 SNR=17.5 ladderdet_hybrid KL=0.0038 NLL+=+0.0005 top1=0.979 levels=30.1299 nodetect=0.0000 overflow=0.0030 det_under=0.0030 det_under12dB=0.0006 det_over10dB=0.0005 mass_loss=0.0009
+  fid T=16384 N=32 M= 4 SNR=20.0 airmoe_hybrid KL=0.0014 NLL+=-0.0017 top1=0.984 mass_loss=0.0023
+  fid T=16384 N=32 M= 4 SNR=20.0 airmoe_eff    KL=0.0013 NLL+=-0.0007 top1=0.985 mass_loss=0.0023
+  fid T=16384 N=32 M= 4 SNR=20.0 ladder_eff@kap0.3@fz256 KL=0.0014 NLL+=-0.0001 top1=0.985 mass_loss=0.0010
+  fid T=16384 N=32 M= 4 SNR=20.0 ladder_eff@kap1@fz256 KL=0.0014 NLL+=-0.0006 top1=0.983 mass_loss=0.0027
+  fid T=16384 N=32 M= 4 SNR=20.0 ladderdet_eff@kap0.3 KL=0.0028 NLL+=-0.0007 top1=0.978 levels=30.1299 nodetect=0.0000 overflow=0.0028 det_under=0.0028 det_under12dB=0.0005 det_over10dB=0.0005 mass_loss=0.0019
+  fid T=16384 N=32 M= 4 SNR=20.0 ladderdet_eff@kap1 KL=0.0027 NLL+=-0.0010 top1=0.983 levels=30.1299 nodetect=0.0000 overflow=0.0026 det_under=0.0026 det_under12dB=0.0005 det_over10dB=0.0005 mass_loss=0.0036
+  fid T=16384 N=32 M= 4 SNR=20.0 ladderdet_hybrid KL=0.0029 NLL+=+0.0000 top1=0.982 levels=30.1299 nodetect=0.0000 overflow=0.0030 det_under=0.0030 det_under12dB=0.0006 det_over10dB=0.0005 mass_loss=0.0009
+  fid T=16384 N=32 M= 4 SNR=22.5 airmoe_hybrid KL=0.0011 NLL+=-0.0020 top1=0.987 mass_loss=0.0014
+  fid T=16384 N=32 M= 4 SNR=22.5 airmoe_eff    KL=0.0011 NLL+=-0.0016 top1=0.986 mass_loss=0.0014
+  fid T=16384 N=32 M= 4 SNR=22.5 ladder_eff@kap0.3@fz256 KL=0.0011 NLL+=-0.0011 top1=0.985 mass_loss=0.0006
+  fid T=16384 N=32 M= 4 SNR=22.5 ladder_eff@kap1@fz256 KL=0.0011 NLL+=-0.0016 top1=0.986 mass_loss=0.0017
+  fid T=16384 N=32 M= 4 SNR=22.5 ladderdet_eff@kap0.3 KL=0.0023 NLL+=-0.0016 top1=0.981 levels=30.1299 nodetect=0.0000 overflow=0.0029 det_under=0.0028 det_under12dB=0.0005 det_over10dB=0.0005 mass_loss=0.0015
+  fid T=16384 N=32 M= 4 SNR=22.5 ladderdet_eff@kap1 KL=0.0023 NLL+=-0.0014 top1=0.982 levels=30.1299 nodetect=0.0000 overflow=0.0027 det_under=0.0027 det_under12dB=0.0005 det_over10dB=0.0005 mass_loss=0.0026
+  fid T=16384 N=32 M= 4 SNR=22.5 ladderdet_hybrid KL=0.0024 NLL+=-0.0003 top1=0.982 levels=30.1299 nodetect=0.0000 overflow=0.0030 det_under=0.0030 det_under12dB=0.0006 det_over10dB=0.0005 mass_loss=0.0009
+  fid T=16384 N=32 M= 4 SNR=25.0 airmoe_hybrid KL=0.0009 NLL+=-0.0008 top1=0.987 mass_loss=0.0008
+  fid T=16384 N=32 M= 4 SNR=25.0 airmoe_eff    KL=0.0009 NLL+=-0.0019 top1=0.986 mass_loss=0.0008
+  fid T=16384 N=32 M= 4 SNR=25.0 ladder_eff@kap0.3@fz256 KL=0.0010 NLL+=-0.0014 top1=0.988 mass_loss=0.0004
+  fid T=16384 N=32 M= 4 SNR=25.0 ladder_eff@kap1@fz256 KL=0.0010 NLL+=-0.0014 top1=0.986 mass_loss=0.0011
+  fid T=16384 N=32 M= 4 SNR=25.0 ladderdet_eff@kap0.3 KL=0.0020 NLL+=-0.0015 top1=0.984 levels=30.1299 nodetect=0.0000 overflow=0.0029 det_under=0.0029 det_under12dB=0.0005 det_over10dB=0.0005 mass_loss=0.0013
+  fid T=16384 N=32 M= 4 SNR=25.0 ladderdet_eff@kap1 KL=0.0020 NLL+=-0.0017 top1=0.985 levels=30.1299 nodetect=0.0000 overflow=0.0028 det_under=0.0028 det_under12dB=0.0005 det_over10dB=0.0005 mass_loss=0.0019
+  fid T=16384 N=32 M= 4 SNR=25.0 ladderdet_hybrid KL=0.0021 NLL+=-0.0018 top1=0.982 levels=30.1299 nodetect=0.0000 overflow=0.0030 det_under=0.0030 det_under12dB=0.0006 det_over10dB=0.0005 mass_loss=0.0009
+[T=16384 N=32] done, elapsed 938 s
+[T=16384 N=64] S1 exact shard merge: max|dlogit| = 8.438e-01
+  fid T=16384 N=64: segment 1/4 x 77 cells (112 s, GPU peak 20.0 GiB)
+  fid T=16384 N=64: segment 2/4 x 77 cells (225 s, GPU peak 20.0 GiB)
+  fid T=16384 N=64: segment 3/4 x 77 cells (338 s, GPU peak 20.0 GiB)
+  fid T=16384 N=64: segment 4/4 x 77 cells (449 s, GPU peak 20.0 GiB)
+  fid T=16384 N=64 M= 4 SNR= 0.0 airmoe_hybrid KL=0.0668 NLL+=+0.0730 top1=0.905 mass_loss=0.0435
+  fid T=16384 N=64 M= 4 SNR= 0.0 airmoe_eff    KL=0.0280 NLL+=+0.0304 top1=0.928 mass_loss=0.0446
+  fid T=16384 N=64 M= 4 SNR= 0.0 ladder_eff@kap0.3@fz256 KL=0.0416 NLL+=+0.0419 top1=0.919 mass_loss=0.0223
+  fid T=16384 N=64 M= 4 SNR= 0.0 ladder_eff@kap1@fz256 KL=0.0342 NLL+=+0.0350 top1=0.923 mass_loss=0.0382
+  fid T=16384 N=64 M= 4 SNR= 0.0 ladderdet_eff@kap0.3 KL=0.1716 NLL+=+0.1800 top1=0.858 levels=30.4912 nodetect=0.0000 overflow=0.0002 det_under=0.8811 det_under12dB=0.3375 det_over10dB=0.0006 mass_loss=0.0843
+  fid T=16384 N=64 M= 4 SNR= 0.0 ladderdet_eff@kap1 KL=0.1820 NLL+=+0.1908 top1=0.854 levels=30.4912 nodetect=0.0000 overflow=0.0002 det_under=0.8743 det_under12dB=0.3191 det_over10dB=0.0008 mass_loss=0.0997
+  fid T=16384 N=64 M= 4 SNR= 0.0 ladderdet_hybrid KL=0.2744 NLL+=+0.2778 top1=0.821 levels=30.4912 nodetect=0.0000 overflow=0.0003 det_under=0.8906 det_under12dB=0.3642 det_over10dB=0.0005 mass_loss=0.0369
+  fid T=16384 N=64 M= 4 SNR= 2.5 airmoe_hybrid KL=0.0391 NLL+=+0.0439 top1=0.918 mass_loss=0.0336
+  fid T=16384 N=64 M= 4 SNR= 2.5 airmoe_eff    KL=0.0180 NLL+=+0.0201 top1=0.939 mass_loss=0.0340
+  fid T=16384 N=64 M= 4 SNR= 2.5 ladder_eff@kap0.3@fz256 KL=0.0263 NLL+=+0.0274 top1=0.931 mass_loss=0.0167
+  fid T=16384 N=64 M= 4 SNR= 2.5 ladder_eff@kap1@fz256 KL=0.0216 NLL+=+0.0241 top1=0.936 mass_loss=0.0302
+  fid T=16384 N=64 M= 4 SNR= 2.5 ladderdet_eff@kap0.3 KL=0.0999 NLL+=+0.1061 top1=0.892 levels=30.4912 nodetect=0.0000 overflow=0.0007 det_under=0.6671 det_under12dB=0.1748 det_over10dB=0.0006 mass_loss=0.0579
+  fid T=16384 N=64 M= 4 SNR= 2.5 ladderdet_eff@kap1 KL=0.1083 NLL+=+0.1161 top1=0.887 levels=30.4912 nodetect=0.0000 overflow=0.0006 det_under=0.6628 det_under12dB=0.1708 det_over10dB=0.0007 mass_loss=0.0721
+  fid T=16384 N=64 M= 4 SNR= 2.5 ladderdet_hybrid KL=0.1686 NLL+=+0.1653 top1=0.858 levels=30.4912 nodetect=0.0000 overflow=0.0010 det_under=0.6782 det_under12dB=0.1826 det_over10dB=0.0005 mass_loss=0.0283
+  fid T=16384 N=64 M= 4 SNR= 5.0 airmoe_hybrid KL=0.0216 NLL+=+0.0234 top1=0.937 mass_loss=0.0251
+  fid T=16384 N=64 M= 4 SNR= 5.0 airmoe_eff    KL=0.0117 NLL+=+0.0128 top1=0.953 mass_loss=0.0253
+  fid T=16384 N=64 M= 4 SNR= 5.0 ladder_eff@kap0.3@fz256 KL=0.0164 NLL+=+0.0165 top1=0.946 mass_loss=0.0122
+  fid T=16384 N=64 M= 4 SNR= 5.0 ladder_eff@kap1@fz256 KL=0.0131 NLL+=+0.0149 top1=0.948 mass_loss=0.0233
+  fid T=16384 N=64 M= 4 SNR= 5.0 ladderdet_eff@kap0.3 KL=0.0372 NLL+=+0.0401 top1=0.925 levels=30.4912 nodetect=0.0000 overflow=0.0016 det_under=0.2827 det_under12dB=0.0479 det_over10dB=0.0006 mass_loss=0.0265
+  fid T=16384 N=64 M= 4 SNR= 5.0 ladderdet_eff@kap1 KL=0.0389 NLL+=+0.0433 top1=0.926 levels=30.4912 nodetect=0.0000 overflow=0.0013 det_under=0.2809 det_under12dB=0.0478 det_over10dB=0.0007 mass_loss=0.0377
+  fid T=16384 N=64 M= 4 SNR= 5.0 ladderdet_hybrid KL=0.0571 NLL+=+0.0591 top1=0.903 levels=30.4912 nodetect=0.0000 overflow=0.0025 det_under=0.2905 det_under12dB=0.0515 det_over10dB=0.0005 mass_loss=0.0124
+  fid T=16384 N=64 M= 4 SNR= 7.5 airmoe_hybrid KL=0.0120 NLL+=+0.0134 top1=0.949 mass_loss=0.0183
+  fid T=16384 N=64 M= 4 SNR= 7.5 airmoe_eff    KL=0.0077 NLL+=+0.0083 top1=0.959 mass_loss=0.0183
+  fid T=16384 N=64 M= 4 SNR= 7.5 ladder_eff@kap0.3@fz256 KL=0.0096 NLL+=+0.0090 top1=0.956 mass_loss=0.0087
+  fid T=16384 N=64 M= 4 SNR= 7.5 ladder_eff@kap1@fz256 KL=0.0084 NLL+=+0.0097 top1=0.960 mass_loss=0.0175
+  fid T=16384 N=64 M= 4 SNR= 7.5 ladderdet_eff@kap0.3 KL=0.0129 NLL+=+0.0113 top1=0.948 levels=30.4912 nodetect=0.0000 overflow=0.0023 det_under=0.0328 det_under12dB=0.0045 det_over10dB=0.0006 mass_loss=0.0107
+  fid T=16384 N=64 M= 4 SNR= 7.5 ladderdet_eff@kap1 KL=0.0121 NLL+=+0.0122 top1=0.949 levels=30.4912 nodetect=0.0000 overflow=0.0020 det_under=0.0321 det_under12dB=0.0043 det_over10dB=0.0006 mass_loss=0.0193
+  fid T=16384 N=64 M= 4 SNR= 7.5 ladderdet_hybrid KL=0.0208 NLL+=+0.0212 top1=0.935 levels=30.4912 nodetect=0.0000 overflow=0.0031 det_under=0.0345 det_under12dB=0.0049 det_over10dB=0.0005 mass_loss=0.0021
+  fid T=16384 N=64 M= 4 SNR=10.0 airmoe_hybrid KL=0.0072 NLL+=+0.0084 top1=0.957 mass_loss=0.0129
+  fid T=16384 N=64 M= 4 SNR=10.0 airmoe_eff    KL=0.0051 NLL+=+0.0049 top1=0.968 mass_loss=0.0129
+  fid T=16384 N=64 M= 4 SNR=10.0 ladder_eff@kap0.3@fz256 KL=0.0060 NLL+=+0.0067 top1=0.964 mass_loss=0.0060
+  fid T=16384 N=64 M= 4 SNR=10.0 ladder_eff@kap1@fz256 KL=0.0054 NLL+=+0.0059 top1=0.966 mass_loss=0.0127
+  fid T=16384 N=64 M= 4 SNR=10.0 ladderdet_eff@kap0.3 KL=0.0083 NLL+=+0.0090 top1=0.957 levels=30.4912 nodetect=0.0000 overflow=0.0026 det_under=0.0031 det_under12dB=0.0005 det_over10dB=0.0005 mass_loss=0.0068
+  fid T=16384 N=64 M= 4 SNR=10.0 ladderdet_eff@kap1 KL=0.0077 NLL+=+0.0078 top1=0.958 levels=30.4912 nodetect=0.0000 overflow=0.0022 det_under=0.0027 det_under12dB=0.0004 det_over10dB=0.0006 mass_loss=0.0133
+  fid T=16384 N=64 M= 4 SNR=10.0 ladderdet_hybrid KL=0.0120 NLL+=+0.0107 top1=0.948 levels=30.4912 nodetect=0.0000 overflow=0.0032 det_under=0.0037 det_under12dB=0.0007 det_over10dB=0.0005 mass_loss=0.0010
+  fid T=16384 N=64 M= 4 SNR=12.5 airmoe_hybrid KL=0.0044 NLL+=+0.0041 top1=0.969 mass_loss=0.0089
+  fid T=16384 N=64 M= 4 SNR=12.5 airmoe_eff    KL=0.0035 NLL+=+0.0034 top1=0.972 mass_loss=0.0089
+  fid T=16384 N=64 M= 4 SNR=12.5 ladder_eff@kap0.3@fz256 KL=0.0040 NLL+=+0.0038 top1=0.972 mass_loss=0.0040
+  fid T=16384 N=64 M= 4 SNR=12.5 ladder_eff@kap1@fz256 KL=0.0037 NLL+=+0.0032 top1=0.972 mass_loss=0.0090
+  fid T=16384 N=64 M= 4 SNR=12.5 ladderdet_eff@kap0.3 KL=0.0060 NLL+=+0.0055 top1=0.965 levels=30.4912 nodetect=0.0000 overflow=0.0027 det_under=0.0027 det_under12dB=0.0005 det_over10dB=0.0005 mass_loss=0.0049
+  fid T=16384 N=64 M= 4 SNR=12.5 ladderdet_eff@kap1 KL=0.0056 NLL+=+0.0052 top1=0.966 levels=30.4912 nodetect=0.0000 overflow=0.0024 det_under=0.0024 det_under12dB=0.0004 det_over10dB=0.0006 mass_loss=0.0097
+  fid T=16384 N=64 M= 4 SNR=12.5 ladderdet_hybrid KL=0.0079 NLL+=+0.0073 top1=0.960 levels=30.4912 nodetect=0.0000 overflow=0.0032 det_under=0.0032 det_under12dB=0.0007 det_over10dB=0.0005 mass_loss=0.0010
+  fid T=16384 N=64 M= 4 SNR=15.0 airmoe_hybrid KL=0.0028 NLL+=+0.0025 top1=0.973 mass_loss=0.0059
+  fid T=16384 N=64 M= 4 SNR=15.0 airmoe_eff    KL=0.0024 NLL+=+0.0022 top1=0.974 mass_loss=0.0059
+  fid T=16384 N=64 M= 4 SNR=15.0 ladder_eff@kap0.3@fz256 KL=0.0027 NLL+=+0.0030 top1=0.977 mass_loss=0.0026
+  fid T=16384 N=64 M= 4 SNR=15.0 ladder_eff@kap1@fz256 KL=0.0026 NLL+=+0.0025 top1=0.974 mass_loss=0.0062
+  fid T=16384 N=64 M= 4 SNR=15.0 ladderdet_eff@kap0.3 KL=0.0045 NLL+=+0.0036 top1=0.971 levels=30.4912 nodetect=0.0000 overflow=0.0028 det_under=0.0028 det_under12dB=0.0005 det_over10dB=0.0005 mass_loss=0.0035
+  fid T=16384 N=64 M= 4 SNR=15.0 ladderdet_eff@kap1 KL=0.0043 NLL+=+0.0034 top1=0.971 levels=30.4912 nodetect=0.0000 overflow=0.0026 det_under=0.0025 det_under12dB=0.0004 det_over10dB=0.0005 mass_loss=0.0070
+  fid T=16384 N=64 M= 4 SNR=15.0 ladderdet_hybrid KL=0.0055 NLL+=+0.0055 top1=0.969 levels=30.4912 nodetect=0.0000 overflow=0.0033 det_under=0.0032 det_under12dB=0.0007 det_over10dB=0.0005 mass_loss=0.0010
+  fid T=16384 N=64 M= 4 SNR=17.5 airmoe_hybrid KL=0.0019 NLL+=+0.0017 top1=0.978 mass_loss=0.0038
+  fid T=16384 N=64 M= 4 SNR=17.5 airmoe_eff    KL=0.0017 NLL+=+0.0012 top1=0.980 mass_loss=0.0038
+  fid T=16384 N=64 M= 4 SNR=17.5 ladder_eff@kap0.3@fz256 KL=0.0019 NLL+=+0.0014 top1=0.979 mass_loss=0.0017
+  fid T=16384 N=64 M= 4 SNR=17.5 ladder_eff@kap1@fz256 KL=0.0018 NLL+=+0.0010 top1=0.981 mass_loss=0.0042
+  fid T=16384 N=64 M= 4 SNR=17.5 ladderdet_eff@kap0.3 KL=0.0036 NLL+=+0.0027 top1=0.975 levels=30.4912 nodetect=0.0000 overflow=0.0029 det_under=0.0029 det_under12dB=0.0006 det_over10dB=0.0005 mass_loss=0.0026
+  fid T=16384 N=64 M= 4 SNR=17.5 ladderdet_eff@kap1 KL=0.0034 NLL+=+0.0020 top1=0.974 levels=30.4912 nodetect=0.0000 overflow=0.0027 det_under=0.0027 det_under12dB=0.0005 det_over10dB=0.0005 mass_loss=0.0050
+  fid T=16384 N=64 M= 4 SNR=17.5 ladderdet_hybrid KL=0.0041 NLL+=+0.0040 top1=0.974 levels=30.4912 nodetect=0.0000 overflow=0.0033 det_under=0.0032 det_under12dB=0.0007 det_over10dB=0.0005 mass_loss=0.0010
+  fid T=16384 N=64 M= 4 SNR=20.0 airmoe_hybrid KL=0.0014 NLL+=+0.0008 top1=0.983 mass_loss=0.0024
+  fid T=16384 N=64 M= 4 SNR=20.0 airmoe_eff    KL=0.0013 NLL+=+0.0005 top1=0.983 mass_loss=0.0024
+  fid T=16384 N=64 M= 4 SNR=20.0 ladder_eff@kap0.3@fz256 KL=0.0014 NLL+=+0.0005 top1=0.982 mass_loss=0.0010
+  fid T=16384 N=64 M= 4 SNR=20.0 ladder_eff@kap1@fz256 KL=0.0014 NLL+=+0.0008 top1=0.984 mass_loss=0.0027
+  fid T=16384 N=64 M= 4 SNR=20.0 ladderdet_eff@kap0.3 KL=0.0029 NLL+=+0.0021 top1=0.975 levels=30.4912 nodetect=0.0000 overflow=0.0030 det_under=0.0030 det_under12dB=0.0006 det_over10dB=0.0005 mass_loss=0.0020
+  fid T=16384 N=64 M= 4 SNR=20.0 ladderdet_eff@kap1 KL=0.0029 NLL+=+0.0015 top1=0.974 levels=30.4912 nodetect=0.0000 overflow=0.0028 det_under=0.0028 det_under12dB=0.0005 det_over10dB=0.0005 mass_loss=0.0036
+  fid T=16384 N=64 M= 4 SNR=20.0 ladderdet_hybrid KL=0.0032 NLL+=+0.0029 top1=0.975 levels=30.4912 nodetect=0.0000 overflow=0.0033 det_under=0.0032 det_under12dB=0.0007 det_over10dB=0.0005 mass_loss=0.0010
+  fid T=16384 N=64 M= 4 SNR=22.5 airmoe_hybrid KL=0.0011 NLL+=+0.0006 top1=0.984 mass_loss=0.0015
+  fid T=16384 N=64 M= 4 SNR=22.5 airmoe_eff    KL=0.0010 NLL+=+0.0004 top1=0.986 mass_loss=0.0015
+  fid T=16384 N=64 M= 4 SNR=22.5 ladder_eff@kap0.3@fz256 KL=0.0011 NLL+=+0.0013 top1=0.985 mass_loss=0.0006
+  fid T=16384 N=64 M= 4 SNR=22.5 ladder_eff@kap1@fz256 KL=0.0011 NLL+=+0.0009 top1=0.984 mass_loss=0.0017
+  fid T=16384 N=64 M= 4 SNR=22.5 ladderdet_eff@kap0.3 KL=0.0026 NLL+=+0.0011 top1=0.978 levels=30.4912 nodetect=0.0000 overflow=0.0031 det_under=0.0031 det_under12dB=0.0006 det_over10dB=0.0005 mass_loss=0.0016
+  fid T=16384 N=64 M= 4 SNR=22.5 ladderdet_eff@kap1 KL=0.0025 NLL+=+0.0014 top1=0.979 levels=30.4912 nodetect=0.0000 overflow=0.0029 det_under=0.0029 det_under12dB=0.0006 det_over10dB=0.0005 mass_loss=0.0027
+  fid T=16384 N=64 M= 4 SNR=22.5 ladderdet_hybrid KL=0.0027 NLL+=+0.0016 top1=0.979 levels=30.4912 nodetect=0.0000 overflow=0.0033 det_under=0.0032 det_under12dB=0.0007 det_over10dB=0.0005 mass_loss=0.0010
+  fid T=16384 N=64 M= 4 SNR=25.0 airmoe_hybrid KL=0.0009 NLL+=+0.0006 top1=0.985 mass_loss=0.0009
+  fid T=16384 N=64 M= 4 SNR=25.0 airmoe_eff    KL=0.0009 NLL+=+0.0005 top1=0.985 mass_loss=0.0009
+  fid T=16384 N=64 M= 4 SNR=25.0 ladder_eff@kap0.3@fz256 KL=0.0010 NLL+=+0.0009 top1=0.987 mass_loss=0.0004
+  fid T=16384 N=64 M= 4 SNR=25.0 ladder_eff@kap1@fz256 KL=0.0009 NLL+=+0.0010 top1=0.987 mass_loss=0.0011
+  fid T=16384 N=64 M= 4 SNR=25.0 ladderdet_eff@kap0.3 KL=0.0022 NLL+=+0.0006 top1=0.979 levels=30.4912 nodetect=0.0000 overflow=0.0032 det_under=0.0031 det_under12dB=0.0006 det_over10dB=0.0005 mass_loss=0.0014
+  fid T=16384 N=64 M= 4 SNR=25.0 ladderdet_eff@kap1 KL=0.0022 NLL+=-0.0002 top1=0.980 levels=30.4912 nodetect=0.0000 overflow=0.0030 det_under=0.0030 det_under12dB=0.0006 det_over10dB=0.0005 mass_loss=0.0021
+  fid T=16384 N=64 M= 4 SNR=25.0 ladderdet_hybrid KL=0.0024 NLL+=+0.0020 top1=0.981 levels=30.4912 nodetect=0.0000 overflow=0.0033 det_under=0.0032 det_under12dB=0.0007 det_over10dB=0.0005 mass_loss=0.0010
+[T=16384 N=64] done, elapsed 1444 s

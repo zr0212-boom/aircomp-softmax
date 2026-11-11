@@ -1,0 +1,16 @@
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00, 143.28it/s]
+[T=8192 N=8] S1 exact shard merge: max|dlogit| = 9.391e+00
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+  niah T=8192 clean acc=1.000 (n=60)
+  niah T=8192 N=8 M= 4 SNR=10.0 ladderdet     acc=0.992 (n=120)
+  niah T=8192 N=8 M= 4 SNR=10.0 ladderdet_chk acc=0.992 (n=120)
+  niah T=8192 N=8 M= 4 SNR=20.0 ladderdet     acc=0.992 (n=120)
+  niah T=8192 N=8 M= 4 SNR=20.0 ladderdet_chk acc=0.992 (n=120)
+[T=8192 N=8] done, elapsed 3263 s
+[T=8192 N=32] S1 exact shard merge: max|dlogit| = 1.278e+01
+  niah T=8192 clean acc=1.000 (n=60)
+  niah T=8192 N=32 M= 4 SNR=10.0 ladderdet     acc=0.992 (n=120)
+  niah T=8192 N=32 M= 4 SNR=10.0 ladderdet_chk acc=1.000 (n=120)
+  niah T=8192 N=32 M= 4 SNR=20.0 ladderdet     acc=0.992 (n=120)
+  niah T=8192 N=32 M= 4 SNR=20.0 ladderdet_chk acc=0.992 (n=120)
+[T=8192 N=32] done, elapsed 4899 s

@@ -1,0 +1,52 @@
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00, 144.54it/s]
+[T=8192 N=8] S1 exact shard merge: max|dlogit| = 9.391e+00
+  fid T=8192 N=8: segment 1/4 x 11 cells (20 s, GPU peak 10.2 GiB)
+  fid T=8192 N=8: segment 2/4 x 11 cells (39 s, GPU peak 10.2 GiB)
+  fid T=8192 N=8: segment 3/4 x 11 cells (59 s, GPU peak 10.2 GiB)
+  fid T=8192 N=8: segment 4/4 x 11 cells (78 s, GPU peak 10.2 GiB)
+  fid T=8192 N=8 M= 4 SNR= 0.0 zf_tdma       KL=0.0638 NLL+=+0.0435 top1=0.877
+  fid T=8192 N=8 M= 4 SNR= 2.5 zf_tdma       KL=0.0346 NLL+=+0.0247 top1=0.907
+  fid T=8192 N=8 M= 4 SNR= 5.0 zf_tdma       KL=0.0191 NLL+=+0.0128 top1=0.928
+  fid T=8192 N=8 M= 4 SNR= 7.5 zf_tdma       KL=0.0108 NLL+=+0.0060 top1=0.946
+  fid T=8192 N=8 M= 4 SNR=10.0 zf_tdma       KL=0.0062 NLL+=+0.0025 top1=0.959
+  fid T=8192 N=8 M= 4 SNR=12.5 zf_tdma       KL=0.0038 NLL+=+0.0017 top1=0.970
+  fid T=8192 N=8 M= 4 SNR=15.0 zf_tdma       KL=0.0024 NLL+=-0.0001 top1=0.977
+  fid T=8192 N=8 M= 4 SNR=17.5 zf_tdma       KL=0.0016 NLL+=+0.0003 top1=0.983
+  fid T=8192 N=8 M= 4 SNR=20.0 zf_tdma       KL=0.0012 NLL+=-0.0000 top1=0.987
+  fid T=8192 N=8 M= 4 SNR=22.5 zf_tdma       KL=0.0010 NLL+=-0.0016 top1=0.991
+  fid T=8192 N=8 M= 4 SNR=25.0 zf_tdma       KL=0.0008 NLL+=-0.0016 top1=0.988
+[T=8192 N=8] done, elapsed 86 s
+[T=8192 N=32] S1 exact shard merge: max|dlogit| = 1.278e+01
+  fid T=8192 N=32: segment 1/4 x 11 cells (32 s, GPU peak 10.3 GiB)
+  fid T=8192 N=32: segment 2/4 x 11 cells (62 s, GPU peak 10.3 GiB)
+  fid T=8192 N=32: segment 3/4 x 11 cells (91 s, GPU peak 10.3 GiB)
+  fid T=8192 N=32: segment 4/4 x 11 cells (126 s, GPU peak 10.3 GiB)
+  fid T=8192 N=32 M= 4 SNR= 0.0 zf_tdma       KL=0.0409 NLL+=+0.0353 top1=0.901
+  fid T=8192 N=32 M= 4 SNR= 2.5 zf_tdma       KL=0.0228 NLL+=+0.0197 top1=0.921
+  fid T=8192 N=32 M= 4 SNR= 5.0 zf_tdma       KL=0.0128 NLL+=+0.0109 top1=0.940
+  fid T=8192 N=32 M= 4 SNR= 7.5 zf_tdma       KL=0.0075 NLL+=+0.0060 top1=0.955
+  fid T=8192 N=32 M= 4 SNR=10.0 zf_tdma       KL=0.0044 NLL+=+0.0044 top1=0.969
+  fid T=8192 N=32 M= 4 SNR=12.5 zf_tdma       KL=0.0028 NLL+=+0.0022 top1=0.977
+  fid T=8192 N=32 M= 4 SNR=15.0 zf_tdma       KL=0.0018 NLL+=+0.0000 top1=0.982
+  fid T=8192 N=32 M= 4 SNR=17.5 zf_tdma       KL=0.0013 NLL+=-0.0007 top1=0.984
+  fid T=8192 N=32 M= 4 SNR=20.0 zf_tdma       KL=0.0010 NLL+=-0.0007 top1=0.989
+  fid T=8192 N=32 M= 4 SNR=22.5 zf_tdma       KL=0.0009 NLL+=-0.0002 top1=0.989
+  fid T=8192 N=32 M= 4 SNR=25.0 zf_tdma       KL=0.0008 NLL+=-0.0006 top1=0.989
+[T=8192 N=32] done, elapsed 218 s
+[T=8192 N=64] S1 exact shard merge: max|dlogit| = 1.178e+01
+  fid T=8192 N=64: segment 1/4 x 11 cells (52 s, GPU peak 11.0 GiB)
+  fid T=8192 N=64: segment 2/4 x 11 cells (104 s, GPU peak 11.0 GiB)
+  fid T=8192 N=64: segment 3/4 x 11 cells (156 s, GPU peak 11.0 GiB)
+  fid T=8192 N=64: segment 4/4 x 11 cells (209 s, GPU peak 11.0 GiB)
+  fid T=8192 N=64 M= 4 SNR= 0.0 zf_tdma       KL=0.0353 NLL+=+0.0325 top1=0.906
+  fid T=8192 N=64 M= 4 SNR= 2.5 zf_tdma       KL=0.0201 NLL+=+0.0186 top1=0.931
+  fid T=8192 N=64 M= 4 SNR= 5.0 zf_tdma       KL=0.0114 NLL+=+0.0115 top1=0.946
+  fid T=8192 N=64 M= 4 SNR= 7.5 zf_tdma       KL=0.0068 NLL+=+0.0068 top1=0.961
+  fid T=8192 N=64 M= 4 SNR=10.0 zf_tdma       KL=0.0041 NLL+=+0.0039 top1=0.973
+  fid T=8192 N=64 M= 4 SNR=12.5 zf_tdma       KL=0.0026 NLL+=+0.0022 top1=0.979
+  fid T=8192 N=64 M= 4 SNR=15.0 zf_tdma       KL=0.0017 NLL+=+0.0013 top1=0.985
+  fid T=8192 N=64 M= 4 SNR=17.5 zf_tdma       KL=0.0012 NLL+=+0.0006 top1=0.987
+  fid T=8192 N=64 M= 4 SNR=20.0 zf_tdma       KL=0.0010 NLL+=-0.0001 top1=0.988
+  fid T=8192 N=64 M= 4 SNR=22.5 zf_tdma       KL=0.0008 NLL+=+0.0008 top1=0.989
+  fid T=8192 N=64 M= 4 SNR=25.0 zf_tdma       KL=0.0007 NLL+=-0.0002 top1=0.992
+[T=8192 N=64] done, elapsed 435 s

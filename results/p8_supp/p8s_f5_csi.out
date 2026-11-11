@@ -1,0 +1,43 @@
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00, 135.44it/s]
+[T=8192 N=32] S1 exact shard merge: max|dlogit| = 1.278e+01
+  fid T=8192 N=32: segment 1/4 x 36 cells (53 s, GPU peak 10.3 GiB)
+  fid T=8192 N=32: segment 2/4 x 36 cells (106 s, GPU peak 10.6 GiB)
+  fid T=8192 N=32: segment 3/4 x 36 cells (159 s, GPU peak 10.6 GiB)
+  fid T=8192 N=32: segment 4/4 x 36 cells (212 s, GPU peak 10.6 GiB)
+  fid T=8192 N=32 M= 4 SNR=-15.0 airmoe_eff@csi0.01 KL=0.2608 NLL+=+0.2196 top1=0.793 mass_loss=0.2939
+  fid T=8192 N=32 M= 4 SNR=-15.0 ladder_eff@kap1@fz256@csi0.01 KL=0.3392 NLL+=+0.2784 top1=0.768 mass_loss=0.2136
+  fid T=8192 N=32 M= 4 SNR=-15.0 airmoe_eff@csi0.05 KL=0.2681 NLL+=+0.2261 top1=0.792 mass_loss=0.2909
+  fid T=8192 N=32 M= 4 SNR=-15.0 ladder_eff@kap1@fz256@csi0.05 KL=0.3471 NLL+=+0.2826 top1=0.763 mass_loss=0.2121
+  fid T=8192 N=32 M= 4 SNR=-15.0 airmoe_eff@csi0.1 KL=0.2758 NLL+=+0.2341 top1=0.788 mass_loss=0.2885
+  fid T=8192 N=32 M= 4 SNR=-15.0 ladder_eff@kap1@fz256@csi0.1 KL=0.3519 NLL+=+0.2842 top1=0.756 mass_loss=0.2102
+  fid T=8192 N=32 M= 4 SNR=-12.5 airmoe_eff@csi0.01 KL=0.2129 NLL+=+0.1777 top1=0.813 mass_loss=0.2600
+  fid T=8192 N=32 M= 4 SNR=-12.5 ladder_eff@kap1@fz256@csi0.01 KL=0.2787 NLL+=+0.2281 top1=0.788 mass_loss=0.1900
+  fid T=8192 N=32 M= 4 SNR=-12.5 airmoe_eff@csi0.05 KL=0.2206 NLL+=+0.1823 top1=0.811 mass_loss=0.2571
+  fid T=8192 N=32 M= 4 SNR=-12.5 ladder_eff@kap1@fz256@csi0.05 KL=0.2863 NLL+=+0.2312 top1=0.783 mass_loss=0.1885
+  fid T=8192 N=32 M= 4 SNR=-12.5 airmoe_eff@csi0.1 KL=0.2296 NLL+=+0.1916 top1=0.803 mass_loss=0.2546
+  fid T=8192 N=32 M= 4 SNR=-12.5 ladder_eff@kap1@fz256@csi0.1 KL=0.2929 NLL+=+0.2346 top1=0.779 mass_loss=0.1865
+  fid T=8192 N=32 M= 4 SNR=-10.0 airmoe_eff@csi0.01 KL=0.1705 NLL+=+0.1384 top1=0.831 mass_loss=0.2249
+  fid T=8192 N=32 M= 4 SNR=-10.0 ladder_eff@kap1@fz256@csi0.01 KL=0.2226 NLL+=+0.1809 top1=0.806 mass_loss=0.1666
+  fid T=8192 N=32 M= 4 SNR=-10.0 airmoe_eff@csi0.05 KL=0.1746 NLL+=+0.1390 top1=0.828 mass_loss=0.2220
+  fid T=8192 N=32 M= 4 SNR=-10.0 ladder_eff@kap1@fz256@csi0.05 KL=0.2290 NLL+=+0.1856 top1=0.804 mass_loss=0.1650
+  fid T=8192 N=32 M= 4 SNR=-10.0 airmoe_eff@csi0.1 KL=0.1864 NLL+=+0.1531 top1=0.822 mass_loss=0.2195
+  fid T=8192 N=32 M= 4 SNR=-10.0 ladder_eff@kap1@fz256@csi0.1 KL=0.2374 NLL+=+0.1895 top1=0.800 mass_loss=0.1632
+  fid T=8192 N=32 M= 4 SNR=-7.5 airmoe_eff@csi0.01 KL=0.1323 NLL+=+0.1044 top1=0.850 mass_loss=0.1903
+  fid T=8192 N=32 M= 4 SNR=-7.5 ladder_eff@kap1@fz256@csi0.01 KL=0.1737 NLL+=+0.1431 top1=0.821 mass_loss=0.1440
+  fid T=8192 N=32 M= 4 SNR=-7.5 airmoe_eff@csi0.05 KL=0.1365 NLL+=+0.1054 top1=0.846 mass_loss=0.1876
+  fid T=8192 N=32 M= 4 SNR=-7.5 ladder_eff@kap1@fz256@csi0.05 KL=0.1777 NLL+=+0.1424 top1=0.820 mass_loss=0.1425
+  fid T=8192 N=32 M= 4 SNR=-7.5 airmoe_eff@csi0.1 KL=0.1469 NLL+=+0.1173 top1=0.841 mass_loss=0.1850
+  fid T=8192 N=32 M= 4 SNR=-7.5 ladder_eff@kap1@fz256@csi0.1 KL=0.1870 NLL+=+0.1480 top1=0.817 mass_loss=0.1407
+  fid T=8192 N=32 M= 4 SNR=-5.0 airmoe_eff@csi0.01 KL=0.0980 NLL+=+0.0752 top1=0.867 mass_loss=0.1575
+  fid T=8192 N=32 M= 4 SNR=-5.0 ladder_eff@kap1@fz256@csi0.01 KL=0.1291 NLL+=+0.1059 top1=0.840 mass_loss=0.1226
+  fid T=8192 N=32 M= 4 SNR=-5.0 airmoe_eff@csi0.05 KL=0.1053 NLL+=+0.0810 top1=0.861 mass_loss=0.1549
+  fid T=8192 N=32 M= 4 SNR=-5.0 ladder_eff@kap1@fz256@csi0.05 KL=0.1348 NLL+=+0.1083 top1=0.838 mass_loss=0.1210
+  fid T=8192 N=32 M= 4 SNR=-5.0 airmoe_eff@csi0.1 KL=0.1134 NLL+=+0.0884 top1=0.856 mass_loss=0.1523
+  fid T=8192 N=32 M= 4 SNR=-5.0 ladder_eff@kap1@fz256@csi0.1 KL=0.1447 NLL+=+0.1163 top1=0.838 mass_loss=0.1194
+  fid T=8192 N=32 M= 4 SNR=-2.5 airmoe_eff@csi0.01 KL=0.0732 NLL+=+0.0571 top1=0.885 mass_loss=0.1271
+  fid T=8192 N=32 M= 4 SNR=-2.5 ladder_eff@kap1@fz256@csi0.01 KL=0.0938 NLL+=+0.0792 top1=0.863 mass_loss=0.1025
+  fid T=8192 N=32 M= 4 SNR=-2.5 airmoe_eff@csi0.05 KL=0.0795 NLL+=+0.0616 top1=0.877 mass_loss=0.1248
+  fid T=8192 N=32 M= 4 SNR=-2.5 ladder_eff@kap1@fz256@csi0.05 KL=0.1008 NLL+=+0.0822 top1=0.858 mass_loss=0.1010
+  fid T=8192 N=32 M= 4 SNR=-2.5 airmoe_eff@csi0.1 KL=0.0885 NLL+=+0.0710 top1=0.872 mass_loss=0.1224
+  fid T=8192 N=32 M= 4 SNR=-2.5 ladder_eff@kap1@fz256@csi0.1 KL=0.1119 NLL+=+0.0927 top1=0.857 mass_loss=0.0995
+[T=8192 N=32] done, elapsed 220 s

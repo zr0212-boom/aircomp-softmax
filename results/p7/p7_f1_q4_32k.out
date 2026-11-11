@@ -1,0 +1,101 @@
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00, 140.34it/s]
+[T=32768 N=32] S1 exact shard merge: max|dlogit| = 5.617e+00
+  fid T=32768 N=32: segment 1/4 x 44 cells (193 s, GPU peak 17.9 GiB)
+  fid T=32768 N=32: segment 2/4 x 44 cells (391 s, GPU peak 17.9 GiB)
+  fid T=32768 N=32: segment 3/4 x 44 cells (594 s, GPU peak 17.9 GiB)
+  fid T=32768 N=32: segment 4/4 x 44 cells (801 s, GPU peak 17.9 GiB)
+  fid T=32768 N=32 M= 4 SNR= 0.0 ladderdet     KL=0.4459 NLL+=+0.3853 top1=0.759 levels=29.8750 nodetect=0.0001 overflow=0.0001 det_under=0.9129 det_under12dB=0.6134 det_over10dB=0.0009
+  fid T=32768 N=32 M= 4 SNR= 0.0 ladderdet_chk KL=0.4234 NLL+=+0.3594 top1=0.767 levels=29.8750 nodetect=0.0001 overflow=0.0001 det_under=0.9137 det_under12dB=0.6184 det_over10dB=0.0009
+  fid T=32768 N=32 M= 4 SNR= 0.0 ladder_chk    KL=0.7410 NLL+=+0.6353 top1=0.658
+  fid T=32768 N=32 M= 4 SNR= 0.0 genie_hybrid  KL=0.5322 NLL+=+0.4401 top1=0.715
+  fid T=32768 N=32 M= 4 SNR= 2.5 ladderdet     KL=0.4709 NLL+=+0.3855 top1=0.742 levels=29.8750 nodetect=0.0000 overflow=0.0004 det_under=0.7096 det_under12dB=0.3156 det_over10dB=0.0008
+  fid T=32768 N=32 M= 4 SNR= 2.5 ladderdet_chk KL=0.3031 NLL+=+0.2444 top1=0.798 levels=29.8750 nodetect=0.0000 overflow=0.0002 det_under=0.7125 det_under12dB=0.3263 det_over10dB=0.0007
+  fid T=32768 N=32 M= 4 SNR= 2.5 ladder_chk    KL=0.4602 NLL+=+0.3796 top1=0.732
+  fid T=32768 N=32 M= 4 SNR= 2.5 genie_hybrid  KL=0.3210 NLL+=+0.2575 top1=0.775
+  fid T=32768 N=32 M= 4 SNR= 5.0 ladderdet     KL=0.6249 NLL+=+0.5480 top1=0.700 levels=29.8750 nodetect=0.0000 overflow=0.0008 det_under=0.3030 det_under12dB=0.0790 det_over10dB=0.0008
+  fid T=32768 N=32 M= 4 SNR= 5.0 ladderdet_chk KL=0.2610 NLL+=+0.2092 top1=0.791 levels=29.8750 nodetect=0.0000 overflow=0.0004 det_under=0.3058 det_under12dB=0.0862 det_over10dB=0.0007
+  fid T=32768 N=32 M= 4 SNR= 5.0 ladder_chk    KL=0.2759 NLL+=+0.2262 top1=0.792
+  fid T=32768 N=32 M= 4 SNR= 5.0 genie_hybrid  KL=0.1830 NLL+=+0.1513 top1=0.830
+  fid T=32768 N=32 M= 4 SNR= 7.5 ladderdet     KL=0.5146 NLL+=+0.4572 top1=0.723 levels=29.8750 nodetect=0.0000 overflow=0.0010 det_under=0.0337 det_under12dB=0.0071 det_over10dB=0.0008
+  fid T=32768 N=32 M= 4 SNR= 7.5 ladderdet_chk KL=0.1697 NLL+=+0.1384 top1=0.836 levels=29.8750 nodetect=0.0000 overflow=0.0004 det_under=0.0335 det_under12dB=0.0075 det_over10dB=0.0007
+  fid T=32768 N=32 M= 4 SNR= 7.5 ladder_chk    KL=0.1577 NLL+=+0.1329 top1=0.840
+  fid T=32768 N=32 M= 4 SNR= 7.5 genie_hybrid  KL=0.1011 NLL+=+0.0874 top1=0.866
+  fid T=32768 N=32 M= 4 SNR=10.0 ladderdet     KL=0.3153 NLL+=+0.2829 top1=0.795 levels=29.8750 nodetect=0.0000 overflow=0.0008 det_under=0.0014 det_under12dB=0.0003 det_over10dB=0.0008
+  fid T=32768 N=32 M= 4 SNR=10.0 ladderdet_chk KL=0.0987 NLL+=+0.0873 top1=0.871 levels=29.8750 nodetect=0.0000 overflow=0.0004 det_under=0.0009 det_under12dB=0.0002 det_over10dB=0.0007
+  fid T=32768 N=32 M= 4 SNR=10.0 ladder_chk    KL=0.0890 NLL+=+0.0776 top1=0.876
+  fid T=32768 N=32 M= 4 SNR=10.0 genie_hybrid  KL=0.0558 NLL+=+0.0527 top1=0.895
+  fid T=32768 N=32 M= 4 SNR=12.5 ladderdet     KL=0.1677 NLL+=+0.1535 top1=0.847 levels=29.8750 nodetect=0.0000 overflow=0.0006 det_under=0.0006 det_under12dB=0.0001 det_over10dB=0.0007
+  fid T=32768 N=32 M= 4 SNR=12.5 ladderdet_chk KL=0.0573 NLL+=+0.0540 top1=0.898 levels=29.8750 nodetect=0.0000 overflow=0.0004 det_under=0.0004 det_under12dB=0.0001 det_over10dB=0.0007
+  fid T=32768 N=32 M= 4 SNR=12.5 ladder_chk    KL=0.0488 NLL+=+0.0467 top1=0.907
+  fid T=32768 N=32 M= 4 SNR=12.5 genie_hybrid  KL=0.0308 NLL+=+0.0316 top1=0.925
+  fid T=32768 N=32 M= 4 SNR=15.0 ladderdet     KL=0.0847 NLL+=+0.0839 top1=0.889 levels=29.8750 nodetect=0.0000 overflow=0.0006 det_under=0.0005 det_under12dB=0.0001 det_over10dB=0.0007
+  fid T=32768 N=32 M= 4 SNR=15.0 ladderdet_chk KL=0.0344 NLL+=+0.0368 top1=0.927 levels=29.8750 nodetect=0.0000 overflow=0.0004 det_under=0.0004 det_under12dB=0.0001 det_over10dB=0.0007
+  fid T=32768 N=32 M= 4 SNR=15.0 ladder_chk    KL=0.0276 NLL+=+0.0316 top1=0.928
+  fid T=32768 N=32 M= 4 SNR=15.0 genie_hybrid  KL=0.0176 NLL+=+0.0211 top1=0.942
+  fid T=32768 N=32 M= 4 SNR=17.5 ladderdet     KL=0.0503 NLL+=+0.0507 top1=0.916 levels=29.8750 nodetect=0.0000 overflow=0.0005 det_under=0.0005 det_under12dB=0.0001 det_over10dB=0.0007
+  fid T=32768 N=32 M= 4 SNR=17.5 ladderdet_chk KL=0.0214 NLL+=+0.0227 top1=0.946 levels=29.8750 nodetect=0.0000 overflow=0.0004 det_under=0.0004 det_under12dB=0.0001 det_over10dB=0.0007
+  fid T=32768 N=32 M= 4 SNR=17.5 ladder_chk    KL=0.0155 NLL+=+0.0190 top1=0.953
+  fid T=32768 N=32 M= 4 SNR=17.5 genie_hybrid  KL=0.0103 NLL+=+0.0119 top1=0.963
+  fid T=32768 N=32 M= 4 SNR=20.0 ladderdet     KL=0.0272 NLL+=+0.0289 top1=0.941 levels=29.8750 nodetect=0.0000 overflow=0.0004 det_under=0.0004 det_under12dB=0.0001 det_over10dB=0.0007
+  fid T=32768 N=32 M= 4 SNR=20.0 ladderdet_chk KL=0.0140 NLL+=+0.0124 top1=0.961 levels=29.8750 nodetect=0.0000 overflow=0.0004 det_under=0.0004 det_under12dB=0.0001 det_over10dB=0.0007
+  fid T=32768 N=32 M= 4 SNR=20.0 ladder_chk    KL=0.0092 NLL+=+0.0107 top1=0.962
+  fid T=32768 N=32 M= 4 SNR=20.0 genie_hybrid  KL=0.0058 NLL+=+0.0081 top1=0.969
+  fid T=32768 N=32 M= 4 SNR=22.5 ladderdet     KL=0.0143 NLL+=+0.0146 top1=0.956 levels=29.8750 nodetect=0.0000 overflow=0.0004 det_under=0.0004 det_under12dB=0.0001 det_over10dB=0.0006
+  fid T=32768 N=32 M= 4 SNR=22.5 ladderdet_chk KL=0.0091 NLL+=+0.0065 top1=0.970 levels=29.8750 nodetect=0.0000 overflow=0.0004 det_under=0.0004 det_under12dB=0.0001 det_over10dB=0.0007
+  fid T=32768 N=32 M= 4 SNR=22.5 ladder_chk    KL=0.0051 NLL+=+0.0074 top1=0.975
+  fid T=32768 N=32 M= 4 SNR=22.5 genie_hybrid  KL=0.0035 NLL+=+0.0041 top1=0.978
+  fid T=32768 N=32 M= 4 SNR=25.0 ladderdet     KL=0.0082 NLL+=+0.0075 top1=0.966 levels=29.8750 nodetect=0.0000 overflow=0.0004 det_under=0.0004 det_under12dB=0.0001 det_over10dB=0.0007
+  fid T=32768 N=32 M= 4 SNR=25.0 ladderdet_chk KL=0.0061 NLL+=+0.0037 top1=0.972 levels=29.8750 nodetect=0.0000 overflow=0.0004 det_under=0.0004 det_under12dB=0.0001 det_over10dB=0.0006
+  fid T=32768 N=32 M= 4 SNR=25.0 ladder_chk    KL=0.0031 NLL+=+0.0023 top1=0.976
+  fid T=32768 N=32 M= 4 SNR=25.0 genie_hybrid  KL=0.0022 NLL+=+0.0031 top1=0.982
+[T=32768 N=32] done, elapsed 864 s
+[T=32768 N=128] S1 exact shard merge: max|dlogit| = 6.281e+00
+  fid T=32768 N=128: segment 1/4 x 44 cells (216 s, GPU peak 18.0 GiB)
+  fid T=32768 N=128: segment 2/4 x 44 cells (437 s, GPU peak 18.0 GiB)
+  fid T=32768 N=128: segment 3/4 x 44 cells (626 s, GPU peak 18.0 GiB)
+  fid T=32768 N=128: segment 4/4 x 44 cells (830 s, GPU peak 18.1 GiB)
+  fid T=32768 N=128 M= 4 SNR= 0.0 ladderdet     KL=0.3417 NLL+=+0.2914 top1=0.790 levels=30.3281 nodetect=0.0000 overflow=0.0001 det_under=0.9045 det_under12dB=0.5486 det_over10dB=0.0008
+  fid T=32768 N=128 M= 4 SNR= 0.0 ladderdet_chk KL=0.3126 NLL+=+0.2623 top1=0.795 levels=30.3281 nodetect=0.0000 overflow=0.0001 det_under=0.9045 det_under12dB=0.5482 det_over10dB=0.0008
+  fid T=32768 N=128 M= 4 SNR= 0.0 ladder_chk    KL=0.6129 NLL+=+0.5454 top1=0.691
+  fid T=32768 N=128 M= 4 SNR= 0.0 genie_hybrid  KL=0.4145 NLL+=+0.3680 top1=0.745
+  fid T=32768 N=128 M= 4 SNR= 2.5 ladderdet     KL=0.3847 NLL+=+0.3362 top1=0.762 levels=30.3281 nodetect=0.0000 overflow=0.0003 det_under=0.6919 det_under12dB=0.2547 det_over10dB=0.0008
+  fid T=32768 N=128 M= 4 SNR= 2.5 ladderdet_chk KL=0.2059 NLL+=+0.1530 top1=0.826 levels=30.3281 nodetect=0.0000 overflow=0.0002 det_under=0.6931 det_under12dB=0.2592 det_over10dB=0.0007
+  fid T=32768 N=128 M= 4 SNR= 2.5 ladder_chk    KL=0.3532 NLL+=+0.3123 top1=0.763
+  fid T=32768 N=128 M= 4 SNR= 2.5 genie_hybrid  KL=0.2364 NLL+=+0.2058 top1=0.809
+  fid T=32768 N=128 M= 4 SNR= 5.0 ladderdet     KL=0.4809 NLL+=+0.4315 top1=0.737 levels=30.3281 nodetect=0.0000 overflow=0.0006 det_under=0.2928 det_under12dB=0.0531 det_over10dB=0.0008
+  fid T=32768 N=128 M= 4 SNR= 5.0 ladderdet_chk KL=0.1769 NLL+=+0.1536 top1=0.830 levels=30.3281 nodetect=0.0000 overflow=0.0003 det_under=0.2937 det_under12dB=0.0556 det_over10dB=0.0007
+  fid T=32768 N=128 M= 4 SNR= 5.0 ladder_chk    KL=0.2004 NLL+=+0.1710 top1=0.822
+  fid T=32768 N=128 M= 4 SNR= 5.0 genie_hybrid  KL=0.1311 NLL+=+0.1145 top1=0.850
+  fid T=32768 N=128 M= 4 SNR= 7.5 ladderdet     KL=0.3760 NLL+=+0.3487 top1=0.774 levels=30.3281 nodetect=0.0000 overflow=0.0008 det_under=0.0321 det_under12dB=0.0040 det_over10dB=0.0008
+  fid T=32768 N=128 M= 4 SNR= 7.5 ladderdet_chk KL=0.1220 NLL+=+0.1081 top1=0.854 levels=30.3281 nodetect=0.0000 overflow=0.0004 det_under=0.0321 det_under12dB=0.0041 det_over10dB=0.0007
+  fid T=32768 N=128 M= 4 SNR= 7.5 ladder_chk    KL=0.1123 NLL+=+0.0984 top1=0.864
+  fid T=32768 N=128 M= 4 SNR= 7.5 genie_hybrid  KL=0.0741 NLL+=+0.0696 top1=0.885
+  fid T=32768 N=128 M= 4 SNR=10.0 ladderdet     KL=0.2313 NLL+=+0.2103 top1=0.822 levels=30.3281 nodetect=0.0000 overflow=0.0008 det_under=0.0013 det_under12dB=0.0003 det_over10dB=0.0007
+  fid T=32768 N=128 M= 4 SNR=10.0 ladderdet_chk KL=0.0730 NLL+=+0.0702 top1=0.887 levels=30.3281 nodetect=0.0000 overflow=0.0004 det_under=0.0009 det_under12dB=0.0001 det_over10dB=0.0007
+  fid T=32768 N=128 M= 4 SNR=10.0 ladder_chk    KL=0.0649 NLL+=+0.0605 top1=0.889
+  fid T=32768 N=128 M= 4 SNR=10.0 genie_hybrid  KL=0.0423 NLL+=+0.0395 top1=0.907
+  fid T=32768 N=128 M= 4 SNR=12.5 ladderdet     KL=0.1306 NLL+=+0.1276 top1=0.865 levels=30.3281 nodetect=0.0000 overflow=0.0007 det_under=0.0007 det_under12dB=0.0002 det_over10dB=0.0007
+  fid T=32768 N=128 M= 4 SNR=12.5 ladderdet_chk KL=0.0444 NLL+=+0.0465 top1=0.907 levels=30.3281 nodetect=0.0000 overflow=0.0004 det_under=0.0004 det_under12dB=0.0001 det_over10dB=0.0007
+  fid T=32768 N=128 M= 4 SNR=12.5 ladder_chk    KL=0.0376 NLL+=+0.0358 top1=0.918
+  fid T=32768 N=128 M= 4 SNR=12.5 genie_hybrid  KL=0.0243 NLL+=+0.0242 top1=0.929
+  fid T=32768 N=128 M= 4 SNR=15.0 ladderdet     KL=0.0679 NLL+=+0.0685 top1=0.898 levels=30.3281 nodetect=0.0000 overflow=0.0006 det_under=0.0006 det_under12dB=0.0001 det_over10dB=0.0007
+  fid T=32768 N=128 M= 4 SNR=15.0 ladderdet_chk KL=0.0261 NLL+=+0.0267 top1=0.932 levels=30.3281 nodetect=0.0000 overflow=0.0004 det_under=0.0004 det_under12dB=0.0001 det_over10dB=0.0007
+  fid T=32768 N=128 M= 4 SNR=15.0 ladder_chk    KL=0.0212 NLL+=+0.0206 top1=0.940
+  fid T=32768 N=128 M= 4 SNR=15.0 genie_hybrid  KL=0.0140 NLL+=+0.0147 top1=0.946
+  fid T=32768 N=128 M= 4 SNR=17.5 ladderdet     KL=0.0407 NLL+=+0.0438 top1=0.926 levels=30.3281 nodetect=0.0000 overflow=0.0005 det_under=0.0005 det_under12dB=0.0001 det_over10dB=0.0007
+  fid T=32768 N=128 M= 4 SNR=17.5 ladderdet_chk KL=0.0161 NLL+=+0.0182 top1=0.947 levels=30.3281 nodetect=0.0000 overflow=0.0004 det_under=0.0004 det_under12dB=0.0001 det_over10dB=0.0007
+  fid T=32768 N=128 M= 4 SNR=17.5 ladder_chk    KL=0.0120 NLL+=+0.0114 top1=0.950
+  fid T=32768 N=128 M= 4 SNR=17.5 genie_hybrid  KL=0.0080 NLL+=+0.0082 top1=0.960
+  fid T=32768 N=128 M= 4 SNR=20.0 ladderdet     KL=0.0173 NLL+=+0.0198 top1=0.945 levels=30.3281 nodetect=0.0000 overflow=0.0005 det_under=0.0004 det_under12dB=0.0001 det_over10dB=0.0007
+  fid T=32768 N=128 M= 4 SNR=20.0 ladderdet_chk KL=0.0100 NLL+=+0.0116 top1=0.955 levels=30.3281 nodetect=0.0000 overflow=0.0004 det_under=0.0004 det_under12dB=0.0001 det_over10dB=0.0007
+  fid T=32768 N=128 M= 4 SNR=20.0 ladder_chk    KL=0.0068 NLL+=+0.0071 top1=0.964
+  fid T=32768 N=128 M= 4 SNR=20.0 genie_hybrid  KL=0.0046 NLL+=+0.0046 top1=0.969
+  fid T=32768 N=128 M= 4 SNR=22.5 ladderdet     KL=0.0103 NLL+=+0.0114 top1=0.956 levels=30.3281 nodetect=0.0000 overflow=0.0004 det_under=0.0004 det_under12dB=0.0001 det_over10dB=0.0007
+  fid T=32768 N=128 M= 4 SNR=22.5 ladderdet_chk KL=0.0064 NLL+=+0.0074 top1=0.969 levels=30.3281 nodetect=0.0000 overflow=0.0004 det_under=0.0004 det_under12dB=0.0001 det_over10dB=0.0007
+  fid T=32768 N=128 M= 4 SNR=22.5 ladder_chk    KL=0.0039 NLL+=+0.0040 top1=0.972
+  fid T=32768 N=128 M= 4 SNR=22.5 genie_hybrid  KL=0.0028 NLL+=+0.0012 top1=0.977
+  fid T=32768 N=128 M= 4 SNR=25.0 ladderdet     KL=0.0063 NLL+=+0.0059 top1=0.967 levels=30.3281 nodetect=0.0000 overflow=0.0004 det_under=0.0004 det_under12dB=0.0001 det_over10dB=0.0007
+  fid T=32768 N=128 M= 4 SNR=25.0 ladderdet_chk KL=0.0043 NLL+=+0.0039 top1=0.973 levels=30.3281 nodetect=0.0000 overflow=0.0004 det_under=0.0004 det_under12dB=0.0001 det_over10dB=0.0007
+  fid T=32768 N=128 M= 4 SNR=25.0 ladder_chk    KL=0.0025 NLL+=+0.0010 top1=0.978
+  fid T=32768 N=128 M= 4 SNR=25.0 genie_hybrid  KL=0.0019 NLL+=+0.0010 top1=0.984
+[T=32768 N=128] done, elapsed 1788 s

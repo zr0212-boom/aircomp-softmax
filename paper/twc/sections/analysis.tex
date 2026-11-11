@@ -1,0 +1,90 @@
+%==============================================================================
+\section{Extreme-Value Analysis}
+\label{sec:analysis}
+%==============================================================================
+
+Throughout this section $M=1$, the weights $\{d_j\}$ of an instance are given, and the randomness is in the channels. Multi-antenna receivers are treated in Section~\ref{sec:regime}.
+
+\subsection{The Mass-Weighted Bottleneck}
+
+\begin{theorem}[Weighted bottleneck law]\label{thm:bottleneck}
+Let $g_j=\beta_j|\tilde h_j|^2$ with independent $|\tilde h_j|^2\sim\mathrm{Gamma}(m,1/m)$. For every $x>0$,
+\begin{equation}
+\Prob\{B\le x\}=\prod_{j=1}^N Q\!\left(m,\frac{m\,d_j^2}{\beta_j x}\right),
+\label{eq:bottleneck_m}
+\end{equation}
+where $Q(m,u)=\Gamma(m,u)/\Gamma(m)$ is the regularized upper incomplete gamma function. Under Rayleigh fading ($m=1$),
+\begin{equation}
+\Prob\{B\le x\}=e^{-S/x},\qquad S=\sum_{j=1}^N\frac{d_j^2}{\beta_j},
+\label{eq:bottleneck}
+\end{equation}
+i.e., $1/B$ is exponential with rate $S$ and $B$ is Fr\'echet with unit shape and scale $S$. If $\beta_j\equiv\beta$, then $S=D^2/(\beta\Neff)$.
+\end{theorem}
+
+The proof (Appendix~\ref{app:proofs}) uses only the independence of the links: $B\le x$ if and only if $g_j\ge d_j^2/x$ for every $j$. For $d_j\equiv1$ and $\beta_j\equiv1$, \eqref{eq:bottleneck} is the law of the worst channel used in~\cite[Cor.~2]{liu2020scaling} and~\cite[Lemma~5]{chen2024view}. With private weights the relevant scale is not the number of devices but the second moment of the mass profile: devices that hold no mass do not limit the alignment, however weak their channels are.
+
+\begin{corollary}[Median, tail and diversity]\label{cor:tail}
+Under Rayleigh fading, $\mathrm{median}(B)=S/\ln2$, $\Prob\{B>x\}\sim S/x$ as $x\to\infty$, and $\E[B]=\infty$. The normalized genie noise variance on $\hat D$ satisfies
+\begin{equation}
+\frac{B/P}{D^2}=\frac{S}{D^2}\cdot\frac{1}{\snr}\cdot\frac{B}{S},\qquad \frac{S}{B}\sim\mathrm{Exp}(1),
+\label{eq:effective_snr}
+\end{equation}
+and $S/D^2=1/\Neff$ for unit gains: the participation ratio multiplies the SNR, while the exponential factor yields diversity order one. Under Nakagami-$m$ fading,
+\begin{equation}
+\Prob\{B>x\}\sim\frac{m^m}{\Gamma(m+1)}\sum_{j=1}^N\Big(\frac{d_j^2}{\beta_j}\Big)^m x^{-m},\quad x\to\infty,
+\label{eq:tail_m}
+\end{equation}
+so $\E[B^k]<\infty$ if and only if $k<m$.
+\end{corollary}
+
+\begin{corollary}[Coherence blocks]\label{cor:coherence}
+If one instance spans $C$ coherence blocks with independent Rayleigh gains $g_{jc}$ of mean $\beta_j$ and every device backs off uniformly to its weakest block, the bottleneck $B_C=\max_j\max_cd_j^2/g_{jc}$ satisfies $\Prob\{B_C\le x\}=e^{-CS/x}$: Theorem~\ref{thm:bottleneck} with $S$ replaced by $CS$, i.e., a penalty of $10\log_{10}C$~dB at every quantile.
+\end{corollary}
+
+Since $\E[B]=\infty$ for any weights, averaged-MSE criteria are unstable for inversion-based ratio estimators, which is why~\cite{sato2026awa} reports medians; we characterize quantiles and outage probabilities.
+
+\subsection{Denominator Outage and Moments of the Ratio}
+
+\begin{theorem}[Denominator outage]\label{thm:outage}
+Under genie scaling, Rayleigh fading and $\beta_j\equiv1$, the squared relative error of the over-the-air denominator exceeds $\epsilon>0$ with probability
+\begin{equation}
+\begin{aligned}
+p_{\rm out}(\epsilon)&\triangleq\Prob\Big\{\frac{(\hat D-d_A-D)^2}{D^2}>\epsilon\Big\}\\
+&=1-\Big(1+\frac{2}{\epsilon\,\snr\,\Neff}\Big)^{-\frac12},
+\end{aligned}
+\label{eq:outage}
+\end{equation}
+and $p_{\rm out}(\epsilon)\sim1/(\epsilon\,\snr\,\Neff)$ as $\snr\to\infty$. With heterogeneous gains, $\Neff$ is replaced by $D^2/S$. With circularly symmetric complex noise of unit variance the outage is $1/(1+\epsilon\,\snr\,\Neff)$, with the same asymptote.
+\end{theorem}
+
+Theorem~\ref{thm:outage} quantifies the two effects that govern the analog denominator: the diversity order is one, as for a single Rayleigh link, and the weights enter only through $\Neff$, which acts as an SNR offset of $10\log_{10}\Neff$~dB. Concentrated weights---for instance attention dominated by one shard---lose this offset.
+
+\begin{proposition}[Moments of the ratio]\label{prop:moments}
+For any $\eta$ chosen independently of the noise: (i) without a floor, $\E\|\hat\vn/\hat D\|=\infty$; (ii) with the anchor floor $\max\{\hat D,d_A\}$, $d_A>0$, and genie scaling, $\E\|\hat\vo\|^k<\infty$ if and only if $\E[B^{k/2}]<\infty$, i.e., $k<2m$; (iii) with the projection floor~\eqref{eq:estimator}, $\|\hat\vo\|\le V_{\max}$ almost surely.
+\end{proposition}
+
+Part~(ii) shows that an anchor alone does not tame the estimator under Rayleigh fading ($m=1$): the second moment is infinite. Part~(iii) is the reason for the projection floor of Section~\ref{sec:design}.
+
+\subsection{Weight-Blind Scalar Designs}
+
+A design is \emph{weight-blind} if the scale of an instance is a function of public quantities only, for example offline statistics of the weights, $\eta^2=P\tau$ with $\tau$ fixed. Devices then decide locally whether they can invert their channels; those that cannot saturate.
+
+\begin{theorem}[Saturation law]\label{thm:saturation}
+Under Rayleigh fading and $\eta^2=P\tau$ independent of the instance, the probability that at least one device saturates is
+\begin{equation}
+p_{\rm sat}(S)=1-e^{-\tau S}.
+\label{eq:psat}
+\end{equation}
+If $S$ is random across instances, independent of the channels, the average saturation probability is $1-\mathcal{L}_S(\tau)$, where $\mathcal{L}_S$ is the Laplace transform of $S$. If $\tau$ is designed for saturation probability $\delta$ from an estimate $\hat S$, i.e., $\tau=\ln\frac{1}{1-\delta}/\hat S$, the actual probability is $1-(1-\delta)^{S/\hat S}$.
+\end{theorem}
+
+\begin{corollary}[Price of blindness]\label{cor:blind}
+Let $\tau_\delta$ solve $1-\mathcal{L}_S(\tau_\delta)=\delta$; on an instance with scale $S$ the noise variance of the blind design, $1/(P\tau_\delta)$, exceeds the genie noise variance $B/P$ by a factor whose median is $\ln2/(\tau_\delta S)$. (i) If $\E[S]<\infty$, then as $\delta\to0$, $\tau_\delta=\delta/\E[S]\,(1+o(1))$ and
+\begin{equation}
+\frac{\ln 2}{\tau_\delta S}=\frac{\ln2}{\delta}\cdot\frac{\E[S]}{S}\,(1+o(1)).
+\label{eq:price}
+\end{equation}
+(ii) If $S$ is heavy-tailed, $\Prob\{S>s\}=s^{-\alpha}\varsigma(s)$ with $0<\alpha<1$ and $\varsigma$ slowly varying, then $1-\mathcal{L}_S(\tau)\sim\Gamma(1-\alpha)\tau^\alpha\varsigma(1/\tau)$ as $\tau\to0$, so $\tau_\delta$ is regularly varying in $\delta$ with index $1/\alpha$, and the median penalty grows as $\delta^{-1/\alpha}$ up to a slowly varying factor.
+\end{corollary}
+
+The penalty in~\eqref{eq:price} is driven by $\E[S]/S$, i.e., by the dispersion of the bottleneck scale across instances, and part~(ii) shows that it grows faster than any power $\delta^{-1}$ when this dispersion has an infinite mean. For attention, $\log_{10}S$ spans 2.0--3.7 decades between the 10th and 90th percentiles within one head (Section~\ref{sec:exp}). A weight-blind scale is then either tens of decibels too conservative for typical queries or saturates frequently, and neither more SNR nor more antennas removes this trade-off. In Section~\ref{sec:exp}, the best fixed quantile needs 19--28~dB, a more conservative one up to 47~dB, and a more aggressive one never reaches the target.

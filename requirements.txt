@@ -1,0 +1,11 @@
+# Theory checks, analysis and figures
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8
+
+# LLM experiments (GPU server)
+torch>=2.7            # RTX 5090 (sm_120) needs a CUDA 12.8 build
+transformers==4.57.6
+accelerate>=1.0
+modelscope            # optional: model downloads from ModelScope
+pyarrow               # optional: converting the wikitext-103 parquet corpus

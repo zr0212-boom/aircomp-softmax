@@ -1,0 +1,5 @@
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00, 127.01it/s]
+prep N=8: 294912 weight vectors
+prep N=16: 294912 weight vectors
+prep N=32: 294912 weight vectors
+prep N=64: 294912 weight vectors

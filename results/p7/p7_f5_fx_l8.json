@@ -1,0 +1,79 @@
+{
+ "model": "/root/autodl-tmp/models/Llama-3.1-8B-Instruct",
+ "config": {
+  "model": "/root/autodl-tmp/models/Llama-3.1-8B-Instruct",
+  "contexts": [
+   8192
+  ],
+  "Ns": [
+   8,
+   32
+  ],
+  "M": 4,
+  "ladder_db": 3.0,
+  "guard": 2,
+  "n_draw": 8,
+  "eps": [
+   0.0001,
+   1e-06
+  ],
+  "anchor": 64,
+  "eval": 256,
+  "text_file": "/root/autodl-tmp/corpora/wikitext103_valtest.txt",
+  "out": "/root/autodl-tmp/pwna_results/p7/p7_f5_fx_l8.json"
+ },
+ "rows": [
+  {
+   "T": 8192,
+   "N": 8,
+   "M": 4,
+   "frac_eval_above_global_scale": 0.0113677978515625,
+   "bits_global_eps0.0001": {
+    "median": 20.0,
+    "p999": 30.0,
+    "max": 32.0
+   },
+   "bits_handshake_eps0.0001": {
+    "median": 19.0,
+    "p999": 24.0,
+    "max": 26.0
+   },
+   "bits_global_eps1e-06": {
+    "median": 27.0,
+    "p999": 37.0,
+    "max": 39.0
+   },
+   "bits_handshake_eps1e-06": {
+    "median": 26.0,
+    "p999": 31.0,
+    "max": 33.0
+   }
+  },
+  {
+   "T": 8192,
+   "N": 32,
+   "M": 4,
+   "frac_eval_above_global_scale": 0.0103759765625,
+   "bits_global_eps0.0001": {
+    "median": 24.0,
+    "p999": 33.0,
+    "max": 35.0
+   },
+   "bits_handshake_eps0.0001": {
+    "median": 23.0,
+    "p999": 28.0,
+    "max": 30.0
+   },
+   "bits_global_eps1e-06": {
+    "median": 31.0,
+    "p999": 40.0,
+    "max": 42.0
+   },
+   "bits_handshake_eps1e-06": {
+    "median": 30.0,
+    "p999": 35.0,
+    "max": 37.0
+   }
+  }
+ ]
+}

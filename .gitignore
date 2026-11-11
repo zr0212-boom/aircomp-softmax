@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# LaTeX build artifacts (paper/*/.latexmkrc sends them to build/)
+paper/**/build/
+paper/**/*.aux
+paper/**/*.fls
+paper/**/*.fdb_latexmk
+paper/**/*.synctex.gz
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp

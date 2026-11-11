@@ -1,0 +1,22 @@
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:00<00:00, 222.04it/s]
+Token indices sequence length is longer than the specified maximum sequence length for this model (281000 > 131072). Running this sequence through the model will result in indexing errors
+[T=8192 N=32] S1 exact shard merge: max|dlogit| = 1.641e+00
+  fid T=8192 N=32: segment 1/4 x 14 cells (23 s, GPU peak 17.9 GiB)
+  fid T=8192 N=32: segment 2/4 x 14 cells (46 s, GPU peak 17.9 GiB)
+  fid T=8192 N=32: segment 3/4 x 14 cells (69 s, GPU peak 17.9 GiB)
+  fid T=8192 N=32: segment 4/4 x 14 cells (93 s, GPU peak 17.9 GiB)
+  fid T=8192 N=32 M= 4 SNR=20.0 secdig@b20    KL=0.8102 NLL+=+0.8089 top1=0.660
+  fid T=8192 N=32 M= 4 SNR=20.0 secdig@b24    KL=0.4011 NLL+=+0.3329 top1=0.749
+  fid T=8192 N=32 M= 4 SNR=20.0 secdig@b28    KL=0.0460 NLL+=+0.0369 top1=0.907
+  fid T=8192 N=32 M= 4 SNR=20.0 secdig@b32    KL=0.0047 NLL+=+0.0031 top1=0.960
+  fid T=8192 N=32 M= 4 SNR=20.0 secdig@b36    KL=0.0012 NLL+=+0.0018 top1=0.982
+  fid T=8192 N=32 M= 4 SNR=20.0 secdig@b40    KL=0.0008 NLL+=+0.0024 top1=0.988
+  fid T=8192 N=32 M= 4 SNR=20.0 secdig@b40@m16 KL=0.0047 NLL+=+0.0028 top1=0.959
+  fid T=8192 N=32 M= 4 SNR=20.0 secdigo@b8    KL=0.1765 NLL+=+0.1853 top1=0.833
+  fid T=8192 N=32 M= 4 SNR=20.0 secdigo@b10   KL=0.0207 NLL+=+0.0266 top1=0.925
+  fid T=8192 N=32 M= 4 SNR=20.0 secdigo@b12   KL=0.0027 NLL+=+0.0019 top1=0.973
+  fid T=8192 N=32 M= 4 SNR=20.0 secdigo@b14   KL=0.0010 NLL+=+0.0015 top1=0.982
+  fid T=8192 N=32 M= 4 SNR=20.0 secdigo@b16   KL=0.0008 NLL+=+0.0010 top1=0.986
+  fid T=8192 N=32 M= 4 SNR=20.0 secdigo@b20   KL=0.0008 NLL+=+0.0023 top1=0.977
+  fid T=8192 N=32 M= 4 SNR=20.0 digbf16       KL=0.0009 NLL+=+0.0013 top1=0.983
+[T=8192 N=32] done, elapsed 104 s

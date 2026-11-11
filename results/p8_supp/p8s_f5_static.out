@@ -1,0 +1,19 @@
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00, 134.32it/s]
+[T=8192 N=32] S1 exact shard merge: max|dlogit| = 1.278e+01
+  fid T=8192 N=32: segment 1/4 x 12 cells (23 s, GPU peak 10.2 GiB)
+  fid T=8192 N=32: segment 2/4 x 12 cells (46 s, GPU peak 10.2 GiB)
+  fid T=8192 N=32: segment 3/4 x 12 cells (69 s, GPU peak 10.2 GiB)
+  fid T=8192 N=32: segment 4/4 x 12 cells (93 s, GPU peak 10.2 GiB)
+  fid T=8192 N=32 M= 4 SNR=-15.0 airmoe_eff    KL=0.2675 NLL+=+0.2312 top1=0.795 mass_loss=0.2941
+  fid T=8192 N=32 M= 4 SNR=-15.0 ladder_eff@kap1@fz256 KL=0.3393 NLL+=+0.2808 top1=0.765 mass_loss=0.2141
+  fid T=8192 N=32 M= 4 SNR=-12.5 airmoe_eff    KL=0.2195 NLL+=+0.1845 top1=0.813 mass_loss=0.2606
+  fid T=8192 N=32 M= 4 SNR=-12.5 ladder_eff@kap1@fz256 KL=0.2803 NLL+=+0.2260 top1=0.789 mass_loss=0.1907
+  fid T=8192 N=32 M= 4 SNR=-10.0 airmoe_eff    KL=0.1749 NLL+=+0.1388 top1=0.828 mass_loss=0.2259
+  fid T=8192 N=32 M= 4 SNR=-10.0 ladder_eff@kap1@fz256 KL=0.2249 NLL+=+0.1806 top1=0.808 mass_loss=0.1675
+  fid T=8192 N=32 M= 4 SNR=-7.5 airmoe_eff    KL=0.1370 NLL+=+0.1037 top1=0.847 mass_loss=0.1914
+  fid T=8192 N=32 M= 4 SNR=-7.5 ladder_eff@kap1@fz256 KL=0.1756 NLL+=+0.1407 top1=0.825 mass_loss=0.1447
+  fid T=8192 N=32 M= 4 SNR=-5.0 airmoe_eff    KL=0.1022 NLL+=+0.0729 top1=0.867 mass_loss=0.1584
+  fid T=8192 N=32 M= 4 SNR=-5.0 ladder_eff@kap1@fz256 KL=0.1325 NLL+=+0.1039 top1=0.845 mass_loss=0.1231
+  fid T=8192 N=32 M= 4 SNR=-2.5 airmoe_eff    KL=0.0727 NLL+=+0.0499 top1=0.885 mass_loss=0.1279
+  fid T=8192 N=32 M= 4 SNR=-2.5 ladder_eff@kap1@fz256 KL=0.0972 NLL+=+0.0753 top1=0.860 mass_loss=0.1030
+[T=8192 N=32] done, elapsed 106 s

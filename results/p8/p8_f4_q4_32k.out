@@ -1,0 +1,41 @@
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00, 132.67it/s]
+[T=32768 N=32] S1 exact shard merge: max|dlogit| = 5.617e+00
+  fid T=32768 N=32: segment 1/4 x 14 cells (63 s, GPU peak 17.9 GiB)
+  fid T=32768 N=32: segment 2/4 x 14 cells (127 s, GPU peak 17.9 GiB)
+  fid T=32768 N=32: segment 3/4 x 14 cells (191 s, GPU peak 17.9 GiB)
+  fid T=32768 N=32: segment 4/4 x 14 cells (255 s, GPU peak 17.9 GiB)
+  fid T=32768 N=32 M= 4 SNR=20.0 secdig@b20    KL=1.1019 NLL+=+1.0039 top1=0.633
+  fid T=32768 N=32 M= 4 SNR=20.0 secdig@b24    KL=0.7169 NLL+=+0.6745 top1=0.677
+  fid T=32768 N=32 M= 4 SNR=20.0 secdig@b28    KL=0.2060 NLL+=+0.2010 top1=0.831
+  fid T=32768 N=32 M= 4 SNR=20.0 secdig@b32    KL=0.0101 NLL+=+0.0141 top1=0.951
+  fid T=32768 N=32 M= 4 SNR=20.0 secdig@b36    KL=0.0015 NLL+=+0.0018 top1=0.987
+  fid T=32768 N=32 M= 4 SNR=20.0 secdig@b40    KL=0.0007 NLL+=-0.0001 top1=0.991
+  fid T=32768 N=32 M= 4 SNR=20.0 secdig@b40@m16 KL=0.0102 NLL+=+0.0136 top1=0.953
+  fid T=32768 N=32 M= 4 SNR=20.0 secdigo@b8    KL=0.2023 NLL+=+0.2171 top1=0.834
+  fid T=32768 N=32 M= 4 SNR=20.0 secdigo@b10   KL=0.0206 NLL+=+0.0242 top1=0.938
+  fid T=32768 N=32 M= 4 SNR=20.0 secdigo@b12   KL=0.0050 NLL+=+0.0062 top1=0.977
+  fid T=32768 N=32 M= 4 SNR=20.0 secdigo@b14   KL=0.0012 NLL+=+0.0000 top1=0.985
+  fid T=32768 N=32 M= 4 SNR=20.0 secdigo@b16   KL=0.0007 NLL+=-0.0005 top1=0.994
+  fid T=32768 N=32 M= 4 SNR=20.0 secdigo@b20   KL=0.0007 NLL+=-0.0010 top1=0.992
+  fid T=32768 N=32 M= 4 SNR=20.0 digbf16       KL=0.0007 NLL+=+0.0005 top1=0.987
+[T=32768 N=32] done, elapsed 295 s
+[T=32768 N=128] S1 exact shard merge: max|dlogit| = 6.281e+00
+  fid T=32768 N=128: segment 1/4 x 14 cells (87 s, GPU peak 18.0 GiB)
+  fid T=32768 N=128: segment 2/4 x 14 cells (174 s, GPU peak 18.0 GiB)
+  fid T=32768 N=128: segment 3/4 x 14 cells (251 s, GPU peak 18.0 GiB)
+  fid T=32768 N=128: segment 4/4 x 14 cells (333 s, GPU peak 18.0 GiB)
+  fid T=32768 N=128 M= 4 SNR=20.0 secdig@b20    KL=1.0126 NLL+=+0.8700 top1=0.634
+  fid T=32768 N=128 M= 4 SNR=20.0 secdig@b24    KL=0.9237 NLL+=+0.8674 top1=0.653
+  fid T=32768 N=128 M= 4 SNR=20.0 secdig@b28    KL=0.4499 NLL+=+0.4295 top1=0.740
+  fid T=32768 N=128 M= 4 SNR=20.0 secdig@b32    KL=0.0985 NLL+=+0.0815 top1=0.890
+  fid T=32768 N=128 M= 4 SNR=20.0 secdig@b36    KL=0.0047 NLL+=+0.0076 top1=0.966
+  fid T=32768 N=128 M= 4 SNR=20.0 secdig@b40    KL=0.0008 NLL+=+0.0010 top1=0.986
+  fid T=32768 N=128 M= 4 SNR=20.0 secdig@b40@m16 KL=0.0985 NLL+=+0.0842 top1=0.891
+  fid T=32768 N=128 M= 4 SNR=20.0 secdigo@b8    KL=1.2899 NLL+=+1.0593 top1=0.598
+  fid T=32768 N=128 M= 4 SNR=20.0 secdigo@b10   KL=0.2600 NLL+=+0.2488 top1=0.810
+  fid T=32768 N=128 M= 4 SNR=20.0 secdigo@b12   KL=0.0328 NLL+=+0.0387 top1=0.926
+  fid T=32768 N=128 M= 4 SNR=20.0 secdigo@b14   KL=0.0059 NLL+=+0.0074 top1=0.976
+  fid T=32768 N=128 M= 4 SNR=20.0 secdigo@b16   KL=0.0017 NLL+=-0.0013 top1=0.985
+  fid T=32768 N=128 M= 4 SNR=20.0 secdigo@b20   KL=0.0007 NLL+=+0.0002 top1=0.988
+  fid T=32768 N=128 M= 4 SNR=20.0 digbf16       KL=0.0007 NLL+=-0.0006 top1=0.990
+[T=32768 N=128] done, elapsed 666 s

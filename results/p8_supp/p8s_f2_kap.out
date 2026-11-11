@@ -1,0 +1,13 @@
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00, 131.99it/s]
+[T=8192 N=64] S1 exact shard merge: max|dlogit| = 1.178e+01
+  fid T=8192 N=64: segment 1/4 x 6 cells (7 s, GPU peak 10.4 GiB)
+  fid T=8192 N=64: segment 2/4 x 6 cells (13 s, GPU peak 10.4 GiB)
+  fid T=8192 N=64: segment 3/4 x 6 cells (19 s, GPU peak 10.4 GiB)
+  fid T=8192 N=64: segment 4/4 x 6 cells (26 s, GPU peak 10.4 GiB)
+  fid T=8192 N=64 M= 4 SNR=-15.0 ladder_eff@kap3@fz256 KL=0.2605 NLL+=+0.2274 top1=0.798 mass_loss=0.2510
+  fid T=8192 N=64 M= 4 SNR=-12.5 ladder_eff@kap3@fz256 KL=0.2167 NLL+=+0.1838 top1=0.814 mass_loss=0.2282
+  fid T=8192 N=64 M= 4 SNR=-10.0 ladder_eff@kap3@fz256 KL=0.1779 NLL+=+0.1480 top1=0.830 mass_loss=0.2045
+  fid T=8192 N=64 M= 4 SNR=-7.5 ladder_eff@kap3@fz256 KL=0.1423 NLL+=+0.1151 top1=0.850 mass_loss=0.1808
+  fid T=8192 N=64 M= 4 SNR=-5.0 ladder_eff@kap3@fz256 KL=0.1097 NLL+=+0.0887 top1=0.863 mass_loss=0.1577
+  fid T=8192 N=64 M= 4 SNR=-2.5 ladder_eff@kap3@fz256 KL=0.0817 NLL+=+0.0660 top1=0.878 mass_loss=0.1357
+[T=8192 N=64] done, elapsed 33 s

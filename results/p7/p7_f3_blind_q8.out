@@ -1,0 +1,54 @@
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:00<00:00, 226.57it/s]
+Token indices sequence length is longer than the specified maximum sequence length for this model (281000 > 131072). Running this sequence through the model will result in indexing errors
+[T=8192 N=8] S1 exact shard merge: max|dlogit| = 2.047e+00
+  fid T=8192 N=8: segment 1/4 x 20 cells (29 s, GPU peak 17.9 GiB)
+  fid T=8192 N=8: segment 2/4 x 20 cells (58 s, GPU peak 17.9 GiB)
+  fid T=8192 N=8: segment 3/4 x 20 cells (87 s, GPU peak 17.9 GiB)
+  fid T=8192 N=8: segment 4/4 x 20 cells (116 s, GPU peak 17.9 GiB)
+  fid T=8192 N=8 M= 4 SNR=10.0 fixed@q0.5    KL=0.2047 NLL+=+0.1299 top1=0.823
+  fid T=8192 N=8 M= 4 SNR=10.0 fixed@q0.9    KL=1.8232 NLL+=+1.5207 top1=0.468
+  fid T=8192 N=8 M= 4 SNR=10.0 fixed@q0.99   KL=10.0217 NLL+=+9.7017 top1=0.019
+  fid T=8192 N=8 M= 4 SNR=10.0 fixed_chk@q0.99 KL=9.8917 NLL+=+9.5596 top1=0.019
+  fid T=8192 N=8 M= 4 SNR=20.0 fixed@q0.5    KL=0.1681 NLL+=+0.1095 top1=0.849
+  fid T=8192 N=8 M= 4 SNR=20.0 fixed@q0.9    KL=0.2373 NLL+=+0.1475 top1=0.812
+  fid T=8192 N=8 M= 4 SNR=20.0 fixed@q0.99   KL=4.8653 NLL+=+4.5201 top1=0.162
+  fid T=8192 N=8 M= 4 SNR=20.0 fixed_chk@q0.99 KL=4.3058 NLL+=+3.9637 top1=0.200
+  fid T=8192 N=8 M= 4 SNR=30.0 fixed@q0.5    KL=0.1621 NLL+=+0.1005 top1=0.851
+  fid T=8192 N=8 M= 4 SNR=30.0 fixed@q0.9    KL=0.0457 NLL+=+0.0332 top1=0.918
+  fid T=8192 N=8 M= 4 SNR=30.0 fixed@q0.99   KL=1.1240 NLL+=+0.8560 top1=0.579
+  fid T=8192 N=8 M= 4 SNR=30.0 fixed_chk@q0.99 KL=0.9264 NLL+=+0.6633 top1=0.611
+  fid T=8192 N=8 M= 4 SNR=40.0 fixed@q0.5    KL=0.1615 NLL+=+0.1017 top1=0.853
+  fid T=8192 N=8 M= 4 SNR=40.0 fixed@q0.9    KL=0.0252 NLL+=+0.0170 top1=0.942
+  fid T=8192 N=8 M= 4 SNR=40.0 fixed@q0.99   KL=0.1837 NLL+=+0.1163 top1=0.825
+  fid T=8192 N=8 M= 4 SNR=40.0 fixed_chk@q0.99 KL=0.1306 NLL+=+0.0748 top1=0.861
+  fid T=8192 N=8 M= 4 SNR=50.0 fixed@q0.5    KL=0.1623 NLL+=+0.1020 top1=0.848
+  fid T=8192 N=8 M= 4 SNR=50.0 fixed@q0.9    KL=0.0179 NLL+=+0.0083 top1=0.948
+  fid T=8192 N=8 M= 4 SNR=50.0 fixed@q0.99   KL=0.0256 NLL+=+0.0089 top1=0.926
+  fid T=8192 N=8 M= 4 SNR=50.0 fixed_chk@q0.99 KL=0.0216 NLL+=+0.0095 top1=0.934
+[T=8192 N=8] done, elapsed 148 s
+[T=8192 N=32] S1 exact shard merge: max|dlogit| = 1.641e+00
+  fid T=8192 N=32: segment 1/4 x 20 cells (30 s, GPU peak 18.0 GiB)
+  fid T=8192 N=32: segment 2/4 x 20 cells (60 s, GPU peak 18.0 GiB)
+  fid T=8192 N=32: segment 3/4 x 20 cells (89 s, GPU peak 18.1 GiB)
+  fid T=8192 N=32: segment 4/4 x 20 cells (119 s, GPU peak 18.1 GiB)
+  fid T=8192 N=32 M= 4 SNR=10.0 fixed@q0.5    KL=0.1882 NLL+=+0.1137 top1=0.835
+  fid T=8192 N=32 M= 4 SNR=10.0 fixed@q0.9    KL=1.8160 NLL+=+1.5350 top1=0.473
+  fid T=8192 N=32 M= 4 SNR=10.0 fixed@q0.99   KL=10.3728 NLL+=+10.0584 top1=0.017
+  fid T=8192 N=32 M= 4 SNR=10.0 fixed_chk@q0.99 KL=10.2882 NLL+=+9.9444 top1=0.017
+  fid T=8192 N=32 M= 4 SNR=20.0 fixed@q0.5    KL=0.1537 NLL+=+0.0874 top1=0.855
+  fid T=8192 N=32 M= 4 SNR=20.0 fixed@q0.9    KL=0.2699 NLL+=+0.1642 top1=0.798
+  fid T=8192 N=32 M= 4 SNR=20.0 fixed@q0.99   KL=5.4890 NLL+=+5.1579 top1=0.128
+  fid T=8192 N=32 M= 4 SNR=20.0 fixed_chk@q0.99 KL=5.1405 NLL+=+4.8106 top1=0.146
+  fid T=8192 N=32 M= 4 SNR=30.0 fixed@q0.5    KL=0.1506 NLL+=+0.0830 top1=0.854
+  fid T=8192 N=32 M= 4 SNR=30.0 fixed@q0.9    KL=0.0424 NLL+=+0.0253 top1=0.909
+  fid T=8192 N=32 M= 4 SNR=30.0 fixed@q0.99   KL=1.3492 NLL+=+1.0650 top1=0.538
+  fid T=8192 N=32 M= 4 SNR=30.0 fixed_chk@q0.99 KL=1.1964 NLL+=+0.9098 top1=0.568
+  fid T=8192 N=32 M= 4 SNR=40.0 fixed@q0.5    KL=0.1507 NLL+=+0.0829 top1=0.857
+  fid T=8192 N=32 M= 4 SNR=40.0 fixed@q0.9    KL=0.0261 NLL+=+0.0138 top1=0.934
+  fid T=8192 N=32 M= 4 SNR=40.0 fixed@q0.99   KL=0.2300 NLL+=+0.1450 top1=0.809
+  fid T=8192 N=32 M= 4 SNR=40.0 fixed_chk@q0.99 KL=0.1690 NLL+=+0.0951 top1=0.840
+  fid T=8192 N=32 M= 4 SNR=50.0 fixed@q0.5    KL=0.1510 NLL+=+0.0831 top1=0.856
+  fid T=8192 N=32 M= 4 SNR=50.0 fixed@q0.9    KL=0.0203 NLL+=+0.0057 top1=0.941
+  fid T=8192 N=32 M= 4 SNR=50.0 fixed@q0.99   KL=0.0337 NLL+=+0.0131 top1=0.918
+  fid T=8192 N=32 M= 4 SNR=50.0 fixed_chk@q0.99 KL=0.0338 NLL+=+0.0210 top1=0.925
+[T=8192 N=32] done, elapsed 301 s

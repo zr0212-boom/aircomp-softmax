@@ -1,0 +1,138 @@
+%==============================================================================
+\section{Converse and Designs}
+\label{sec:design}
+%==============================================================================
+
+Section~\ref{sec:analysis} shows that the scale must track the bottleneck of each instance, which no public statistic can do when the weights are dispersed. We therefore let the FC learn a coarse version of the bottleneck, and nothing else, before the aggregation.
+
+\subsection{Anonymous Ladder Handshake}
+
+The devices and the FC agree on a ladder of $L$ levels with step $\Delta$~dB per head, $\ell_{\min}\le\ell\le\ell_{\max}$, calibrated offline to cover the range of $B$ with a margin. Algorithm~\ref{alg:ladder} lists the protocol in its general form, with a public constant $\kappa\ge0$; for $\kappa=0$ and the analog ratio~\eqref{eq:estimator} it is the plain \emph{analog ladder}. Every device quantizes its own report upward and announces its level; the FC learns the highest occupied level $\ell^\star=\max_j\ell_j$, which for $\kappa=0$ is the quantized maximum of $d_j^2/g_j$.
+
+\begin{algorithm}[t]
+\caption{Proposed protocol (one layer)}
+\label{alg:ladder}
+\begin{algorithmic}[1]
+\State FC broadcasts the queries of the $H$ heads and the shifts $c$.
+\State Device $j$ computes $(d_j,\obar_j)$ for every head and its level $\ell_j=\lceil 10\log_{10}(d_j^2/\tilde g_j)/\Delta\rceil$, clipped to $[\ell_{\min},\ell_{\max}]$, with the noise-matched gain $\tilde g_j=(\sqrt{g_j}+\sqrt{\kappa/P})^2$.
+\State Handshake: the devices announce $\ell_j$ by tones or by a thermometer code through the secure aggregation; the FC obtains $\hat\ell$ per head and broadcasts it.
+\State Device $j$ transmits $\obar_j/\sigma_o$ with precoder~\eqref{eq:precoder}, $\eta^2=P\,10^{-\hat\ell\Delta/10}$, and contributes its arrived weight $a_j=\min\{d_j,\sqrt{Pg_j}/\eta\}$ to the secure aggregation.
+\State FC forms $\hat\vo_{\rm eff}$ by~\eqref{eq:split_eff}.
+\end{algorithmic}
+\end{algorithm}
+
+\begin{proposition}[Ladder gap]\label{prop:ladder}
+Let $\kappa=0$. If $10\log_{10}B\le\ell_{\max}\Delta$ and $\hat\ell=\ell^\star$, no device saturates and the noise variance $1/\eta^2$ satisfies
+\begin{equation}
+\frac{B}{P}\le\frac{1}{\eta^2}\le10^{\Delta/10}\,\frac{B}{P}.
+\label{eq:ladder_gap}
+\end{equation}
+The FC learns only $\ell^\star$, one of $L$ values per head; it learns neither which device attains the maximum nor any weight.
+\end{proposition}
+
+The penalty relative to the genie is therefore at most $\Delta$~dB for every instance, and about $\Delta/2$~dB on average when $10\log_{10}B$ is spread over many steps. The handshake costs one additional round trip per layer. It can be realized in two ways.
+
+\emph{Tone handshake.} Device $j$ transmits an unmodulated tone of power $P$ on $\nu$ resource elements (REs) of its level, spread over the band, and the FC sets $\hat\ell=\max\{\ell:E_\ell>\theta\}$, where $E_\ell$ is the energy of level $\ell$ over its $\nu$ REs and the $M$ antennas. The tones are non-coherent, so the devices need no CSI for them, and tones of several devices on one level add energy. A false alarm above $\ell^\star$ wastes SNR, and a miss of $\ell^\star$ saturates the devices on that level. Let $P(a,x)$ and $Q(a,x)=1-P(a,x)$ denote the regularized lower and upper incomplete gamma functions.
+
+\begin{proposition}[Tone detection]\label{prop:detection}
+Let the $\nu$ REs of a level be separated by more than the coherence bandwidth, so that the channel of device $j$ is $\mathcal{CN}(0,\beta_j)$ independently across REs and FC antennas, and let the noise be complex with variance one per real dimension. Then $E_\ell$ is Gamma distributed with shape $M\nu$ and scale $P S_\ell+2$, where $S_\ell=\sum_{j:\ell_j=\ell}\beta_j$. With the threshold $\theta$ given by $Q(M\nu,\theta/2)=\alpha/L$,
+\begin{align}
+\Prob\{\hat\ell>\ell^\star\}&\le\alpha,\\
+\Prob\{\hat\ell<\ell^\star\}&\le P\Big(M\nu,\frac{\theta}{PS_{\ell^\star}+2}\Big)\le\frac{1}{(M\nu)!}\Big(\frac{\theta}{PS_{\ell^\star}}\Big)^{M\nu}.
+\label{eq:miss}
+\end{align}
+\end{proposition}
+
+The tone handshake thus has diversity order $M\nu$, whereas the data link has diversity order one (Theorem~\ref{thm:outage}), and it costs only $HL\nu$ REs per layer whatever $N$ is. Its weakness is the low-SNR regime: for $L=32$ and $\alpha=10^{-3}$, a single device of unit gain on the top level is missed with probability $10^{-2}$ at 16.0, 11.7, 8.5 and 5.9~dB for $M\nu=4$, 8, 16 and 32. Devices above $\ell_{\max}$ announce an extra overflow level.
+
+\emph{Digital handshake.} The handshake can instead run through the secure aggregation that the split ratio needs anyway. In thermometer form, device $j$ sends, for every level $\ell$, the value $\rho_{j\ell}\mathbb{1}\{\ell\le\ell_j\}$ in $\mathbb{Z}_q$ with a fresh uniformly random $\rho_{j\ell}$, under pairwise-cancelling masks. The sum of level $\ell$ is zero if no device is at or above $\ell$ and uniformly distributed otherwise, so the FC learns $\ell^\star$ and nothing else, up to a false zero of probability $1/q$ per occupied level, and the handshake is as reliable as the digital link at any SNR. The cost is $NHL\log_2q$ bits per layer, e.g., 262~kbit for $N=32$, $H=32$, $L=32$ and $q=256$; unlike the tones, it grows with $N$. In our measurements the range of $B$ within one head, from the 0.1\% to the 99.9\% quantile with margins, takes about 30 levels of 3~dB.
+
+A tone detector observes more than $\ell^\star$, namely the energy of every level.
+
+\begin{proposition}[Leakage of the handshake]\label{prop:leakage}
+Let $Y$ be the handshake observation of the FC for one head and query and $\mathbf{d}=(d_1,\dots,d_N)$. (i) With the digital handshake, $Y$ is a randomized function of $\ell^\star$, so $I(\mathbf{d};Y\mid\mathbf{g})\le\log_2(L+1)$ bits, and $Y$ is invariant to permutations of the devices. (ii) With tones on REs whose per-device channels are unknown to the FC, and equal large-scale gains, $Y$ depends on $\mathbf{d}$ only through the histogram of levels, so $I(\mathbf{d};Y\mid\mathbf{g})\le\log_2\binom{N+L}{N}$ bits.
+\end{proposition}
+
+For $N=32$ and $L=32$, the bounds are 5 and 61 bits per head and query, against 512 bits for revealing 16-bit weights. An FC that knows the per-device channels on the tone REs could attribute tones to devices by spatial matched filtering when $M>1$; anonymity against such an FC requires the digital handshake.
+
+\subsection{What a Quantized Non-Saturating Scale Can Achieve}
+
+A scale is \emph{non-saturating} if $1/\eta^2\ge B/P$ for every instance. Let the FC choose $\eta$ as a function of a message $m\in\{1,\dots,K\}$ that it receives about the instance, and write $X=10\log_{10}B$ and $\pi=10\log_{10}(P/\eta^2)-X\ge0$ for the penalty in decibels relative to the genie scale.
+
+\begin{theorem}[Converse for quantized scales]\label{thm:converse}
+For every non-saturating scale that depends on the instance only through a $K$-valued message, deterministic or randomized, the mean penalty satisfies $\E[\pi]\ge\min_{\mathcal{P}}\sum_{k}\E[(\sup\mathcal{C}_k-X)\mathbb{1}\{X\in\mathcal{C}_k\}]$, where the minimum is over partitions $\mathcal{P}=\{\mathcal{C}_k\}$ of the support of $X$ into $K$ intervals. (i) If $X$ is uniform on an interval of width $W$~dB, $\E[\pi]\ge W/(2K)$, with equality for the ladder of $K$ levels and step $\Delta=W/K$. (ii) If $X$ has a density $f$ on an interval of width $W$, the minimum is $(\int\!\sqrt{f})^2/(2K)\,(1+o(1))$ as $K\to\infty$, attained by a ladder whose local step is proportional to $f^{-1/2}$; it never exceeds $W/(2K)$, the penalty of the uniform ladder.
+\end{theorem}
+
+\begin{corollary}[Privacy--accuracy trade-off]\label{cor:tradeoff}
+A non-saturating handshake that reveals at most $k$ bits per head and instance pays a mean penalty of at least $W2^{-k-1}$~dB on a uniform range of width $W$; the ladder with the digital handshake, which reveals $\log_2(L+1)$ bits, attains $\Delta/2=W/(2L)$. Halving the penalty costs one bit of leakage.
+\end{corollary}
+
+For $W\approx90$~dB and the 5 bits of a 32-level ladder, the bound is 1.4~dB. Theorem~\ref{thm:converse} is a converse only for non-saturating designs: the ladder cannot be improved by a cleverer message, only by accepting saturation. Known-weight designs do exactly this. The scale of~\cite{yang2026airmoe} minimizes $\sum_j(d_j-a_j)^2+1/\eta^2$ over $\eta$ given all weights, and in our experiments it needs up to 7~dB less SNR than the genie scale~\eqref{eq:genie}. The two components below make saturation harmless and controlled without revealing any weight.
+
+\subsection{Component A: Saturation-Aware Split Ratio}
+
+\begin{lemma}\label{lem:projection}
+Since $\vo$ is a convex combination of vectors of norm at most $V_{\max}$, the true denominator satisfies $d_A+D\ge\max\{d_A,\|\vn_A+\sum_jd_j\obar_j\|/V_{\max}\}$. The estimator~\eqref{eq:estimator} satisfies $\|\hat\vo\|\le V_{\max}$, and it coincides with $\hat\vn/\hat D$ whenever $\hat D\ge\max\{d_A,\|\hat\vn\|/V_{\max}\}$.
+\end{lemma}
+
+This convex-hull projection uses one offline constant per layer and head, the largest value norm with a 10\% margin, and it makes all moments finite (Proposition~\ref{prop:moments}); we apply it to every estimator. The denominator is a single scalar per device and head, whereas the numerator has $d_v$ components. This asymmetry suggests a \emph{split ratio}: the numerator is sent over the air and the denominator digitally, through secure aggregation~\cite{bonawitz2017secagg} so that the FC does not learn which shard is relevant to the query. Device $j$ sends $\mathrm{fx}(d_j)+r_j \bmod 2^{b}$, where $\mathrm{fx}(\cdot)$ is a fixed-point encoding and $\{r_j\}$ are pairwise-cancelling masks, the FC recovers $D=\sum_jd_j$ and forms
+\begin{equation}
+\hat\vo_{\rm split}=\frac{\hat\vn}{\max\{d_A+D,\ \|\hat\vn\|/V_{\max}\}}.
+\label{eq:split}
+\end{equation}
+The denominator noise disappears, but the two ratios react differently to errors in the arrived weights.
+
+\begin{proposition}[Self-consistency]\label{prop:selfconsistency}
+Let device $j$ arrive with weight $\lambda_jd_j$ in all streams, $\lambda_j>0$, and ignore the noise. The analog ratio
+\begin{equation}
+\tilde\vo=\frac{\vn_A+\sum_j\lambda_jd_j\obar_j}{d_A+\sum_j\lambda_jd_j}
+\end{equation}
+is a convex combination of $\{\vn_A/d_A,\obar_1,\dots,\obar_N\}$, and $\tilde\vo=\vo$ whenever the $\obar_j$ of the affected devices coincide with $\vo$. The split ratio with the exact denominator gives
+\begin{equation}
+\tilde\vo_{\rm split}=\vo-\frac{\sum_j(1-\lambda_j)d_j\obar_j}{d_A+D},
+\end{equation}
+a bias proportional to the attenuated mass.
+\end{proposition}
+
+Saturation ($\lambda_j=a_j/d_j<1$) thus only re-weights the analog ratio, whereas it shrinks~\eqref{eq:split} toward the anchor. With the exact denominator the scale must never saturate, which confines the design to Theorem~\ref{thm:converse} and requires a handshake that never underestimates $B$; a tone handshake then needs an overflow fallback and a consistency check of $D$ against the analog denominator. We call this design the \emph{non-saturating split ratio} and use it as a reference.
+
+The remedy is that, after the handshake, the scale $\eta$ is public, so device $j$ knows the weight with which it actually arrives, $a_j=\min\{d_j,\sqrt{Pg_j}/\eta\}$. In the \emph{saturation-aware split ratio} it contributes $a_j$ instead of $d_j$ to the secure aggregation, and the FC forms
+\begin{equation}
+\hat\vo_{\rm eff}=\frac{\hat\vn}{\max\{d_A+A,\ \|\hat\vn\|/V_{\max}\}},\qquad A=\sum_ja_j.
+\label{eq:split_eff}
+\end{equation}
+
+\begin{proposition}[Saturation-aware split ratio]\label{prop:eff}
+For every scale $\eta$, (i) without noise, $\hat\vo_{\rm eff}$ is the convex combination $\tilde\vo=(\vn_A+\sum_ja_j\obar_j)/(d_A+A)$ of $\{\vn_A/d_A,\obar_1,\dots,\obar_N\}$; (ii) its deviation from the target is
+\begin{equation}
+\tilde\vo-\vo=-\frac{\sum_j(d_j-a_j)(\obar_j-\tilde\vo)}{d_A+D},
+\label{eq:eff_bias}
+\end{equation}
+which vanishes when the outputs of the saturated devices coincide with the aggregate; (iii) with noise, the error is the numerator noise $\sigma_o\vz/(\eta(d_A+A))$ plus~\eqref{eq:eff_bias}, and the FC learns $A$ instead of $D$.
+\end{proposition}
+
+A missed level, an overflow, a false zero of the digital handshake or a deliberately small scale now only re-weights the devices, as in the analog ratio, while the denominator stays noise-free. No fallback or consistency check is needed.
+
+\emph{Secure-aggregation details.} Key agreement is amortized over a decoding session: every pair of devices agrees on a seed once~\cite{bonawitz2017secagg}, and the masks of each layer, head and token are expanded from the seeds with a pseudorandom generator; a device that misses a slot is handled by the double masking of~\cite{bonawitz2017secagg} at the cost of one extra exchange. The fixed-point range follows from the handshake: $a_j\le\sqrt{Pg_j}/\eta\le V$ with the public scale $V=\sqrt{P\max_ig_i}/\eta$, so $a_j/V\in[0,1]$ by construction. A relative precision $\epsilon$ of the denominator needs $F=\lceil\log_2(NV/(2\epsilon(d_A+A)))\rceil$ fractional bits and a ring of $b=F+\lceil\log_2(N+1)\rceil$ bits. Measured on the three LLMs of Section~\ref{sec:exp} at 8k context with $M=4$, $N\le32$ and the non-saturating scale, which gives the largest $V$, the median is 26--31 bits and $b\le\FXBITS$ bits suffice at $\epsilon=10^{-6}$. An offline global scale needs only 1--2 more bits in the median, but about 1\% of the instances exceed it.
+
+\subsection{Component B: Noise-Matched Level Report}
+
+With the saturation-aware denominator, the remaining question is how much saturation to accept, and it must be answered without the weights. Let $c_j=\sqrt{Pg_j}$ and fix $\kappa\ge0$. Device $j$ announces the level of
+\begin{equation}
+r_j=\frac{d_j}{c_j+\sqrt\kappa}
+\label{eq:kappa_report}
+\end{equation}
+instead of $d_j/c_j$, which is step~2 of Algorithm~\ref{alg:ladder} since $Pr_j^2=d_j^2/\tilde g_j$, and the FC sets $1/\eta=u$ with $u$ the quantized maximum of the reports. The device needs only its own $d_j$ and $g_j$ and the public $P$ and $\kappa$; the FC still learns only the highest level, so Proposition~\ref{prop:leakage} is unchanged.
+
+\begin{proposition}[Noise-matched report]\label{prop:kappa}
+Let $u=\max_jr_j$ and $\tilde B=Pu^2$. (i) Every device's saturation distortion is at most $\kappa$ times the noise variance per stream: $(d_j-a_j)^2\le\kappa u^2=\kappa/\eta^2$, deterministically. (ii) $\tilde B\le B$, with equality for $\kappa=0$, and $\tilde B\le P\max_jd_j^2/\kappa$, so the noise variance is bounded for $\kappa>0$ whatever the channels. (iii) Under Rayleigh fading,
+\begin{equation}
+\Prob\{\tilde B\le x\}=\exp\Big(-\sum_{j=1}^N\frac{1}{\beta_j}\Big(\frac{d_j}{\sqrt x}-\sqrt{\frac{\kappa}{P}}\Big)_+^2\Big),
+\label{eq:kappa_law}
+\end{equation}
+which reduces to Theorem~\ref{thm:bottleneck} for $\kappa=0$ and equals one for $x\ge P\max_jd_j^2/\kappa$.
+\end{proposition}
+
+Part~(ii) removes the heavy tail behind Corollary~\ref{cor:tail} and Proposition~\ref{prop:moments}: the bottleneck is no longer Fr\'echet but bounded, and the diversity-one outage of Theorem~\ref{thm:outage} turns into a bounded distortion. Part~(i) is a per-device form of the bias--variance balance that the known-weight scale of~\cite{yang2026airmoe} strikes centrally: no device's distortion exceeds $\kappa$ noise variances, and devices in a deep fade, which set $B$ in Theorem~\ref{thm:bottleneck}, are capped automatically, so that weak links need no truncation rule. The rule is not optimal for the sum distortion, since each device meets its own budget regardless of how many others saturate; this is the price of not knowing the weights, and Section~\ref{sec:exp} quantifies it. The parameter $\kappa$ is the single design constant; we fix it on a development corpus and use it unchanged for every model, context and $N$.
+
+Component~B does not strictly need component~A: by part~(i) the bias of the exact-denominator ratio~\eqref{eq:split} is also bounded when the handshake is exact. Component~A is what makes the design robust to a handshake that errs, at no cost in resources or leakage.

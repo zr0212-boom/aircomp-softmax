@@ -1,0 +1,1012 @@
+[nw K=64] ideal RMSE med 4.845 dB p90 6.613; log10 weight range per instance: median 57.7, N_eff median 2.98 (1 s)
+  nw K=  64 M= 1 PSNR=   0 genie         RMSE med   26.124 p90     32.307  sat 0.000
+  nw K=  64 M= 1 PSNR=   0 ladder        RMSE med   27.249 p90     33.252  sat 0.000
+  nw K=  64 M= 1 PSNR=   0 fixed         RMSE med   30.503 p90     35.964  sat 0.197
+  nw K=  64 M= 1 PSNR=   0 ladder_hybrid RMSE med   27.523 p90     33.771  sat 0.000
+  nw K=  64 M= 1 PSNR=   0 genie_hybrid  RMSE med   26.005 p90     32.441  sat 0.000
+  nw K=  64 M= 1 PSNR=   0 ladder_chk    RMSE med   27.553 p90     33.725  sat 0.000
+  nw K=  64 M= 1 PSNR=   0 ladderdet     RMSE med    7.244 p90     10.730  sat 0.991
+  nw K=  64 M= 1 PSNR=   0 ladderdet_chk RMSE med    7.127 p90     10.033  sat 0.991
+  nw K=  64 M= 1 PSNR=   0 ladder_trunc  RMSE med    8.317 p90     13.283  sat 0.000
+  nw K=  64 M= 1 PSNR=   0 ladder_hybrid_trunc RMSE med    7.390 p90     10.009  sat 0.000
+  nw K=  64 M= 1 PSNR=   0 ladderdet_trunc RMSE med    7.385 p90     10.698  sat 0.989
+  nw K=  64 M= 1 PSNR=   0 ladderdet_chk_trunc RMSE med    7.155 p90     10.107  sat 0.990
+  nw K=  64 M= 1 PSNR=   0 awa           RMSE med   25.166 p90    156.336
+  nw K=  64 M= 1 PSNR=   0 pure          RMSE med   28.611 p90    156.680
+  nw K=  64 M= 1 PSNR=   0 simple        RMSE med   15.129 p90     42.899
+  nw K=  64 M= 1 PSNR=   0 airmoe        RMSE med    7.697 p90     11.637  sat 1.000
+  nw K=  64 M= 1 PSNR=   0 airmoe_hybrid RMSE med    6.725 p90      9.247  sat 1.000
+  nw K=  64 M= 1 PSNR=   0 airmoe_eff    RMSE med    6.666 p90      8.950  sat 1.000
+  nw K=  64 M= 1 PSNR=   0 ladder_eff@kap0.3 RMSE med   11.856 p90     17.349  sat 0.998
+  nw K=  64 M= 1 PSNR=   0 ladder_eff@kap1 RMSE med    9.453 p90     14.235  sat 1.000
+  nw K=  64 M= 1 PSNR=   0 ladderdet_eff RMSE med    7.090 p90      9.979  sat 0.990
+  nw K=  64 M= 1 PSNR=   0 ladderdet_eff@kap0.3 RMSE med    7.017 p90      9.769  sat 0.998
+  nw K=  64 M= 1 PSNR=   0 ladderdet_eff@kap1 RMSE med    7.069 p90      9.844  sat 0.999
+  nw K=  64 M= 1 PSNR=   0 ladderdet_eff_trunc@kap1 RMSE med    6.997 p90      9.797  sat 0.999
+  nw K=  64 M= 1 PSNR=   5 genie         RMSE med   23.575 p90     29.901  sat 0.000
+  nw K=  64 M= 1 PSNR=   5 ladder        RMSE med   24.322 p90     30.845  sat 0.000
+  nw K=  64 M= 1 PSNR=   5 fixed         RMSE med   29.432 p90     35.134  sat 0.197
+  nw K=  64 M= 1 PSNR=   5 ladder_hybrid RMSE med   22.562 p90     29.376  sat 0.000
+  nw K=  64 M= 1 PSNR=   5 genie_hybrid  RMSE med   20.979 p90     27.964  sat 0.000
+  nw K=  64 M= 1 PSNR=   5 ladder_chk    RMSE med   22.601 p90     29.299  sat 0.000
+  nw K=  64 M= 1 PSNR=   5 ladderdet     RMSE med    7.016 p90     11.185  sat 0.967
+  nw K=  64 M= 1 PSNR=   5 ladderdet_chk RMSE med    6.747 p90      9.688  sat 0.966
+  nw K=  64 M= 1 PSNR=   5 ladder_trunc  RMSE med    7.383 p90     10.625  sat 0.000
+  nw K=  64 M= 1 PSNR=   5 ladder_hybrid_trunc RMSE med    6.947 p90      9.455  sat 0.000
+  nw K=  64 M= 1 PSNR=   5 ladderdet_trunc RMSE med    7.073 p90     10.895  sat 0.963
+  nw K=  64 M= 1 PSNR=   5 ladderdet_chk_trunc RMSE med    6.828 p90      9.649  sat 0.965
+  nw K=  64 M= 1 PSNR=   5 awa           RMSE med   18.344 p90    103.942
+  nw K=  64 M= 1 PSNR=   5 pure          RMSE med   28.209 p90    160.799
+  nw K=  64 M= 1 PSNR=   5 simple        RMSE med   10.667 p90     23.994
+  nw K=  64 M= 1 PSNR=   5 airmoe        RMSE med    7.247 p90     11.182  sat 1.000
+  nw K=  64 M= 1 PSNR=   5 airmoe_hybrid RMSE med    6.302 p90      8.697  sat 1.000
+  nw K=  64 M= 1 PSNR=   5 airmoe_eff    RMSE med    6.293 p90      8.439  sat 1.000
+  nw K=  64 M= 1 PSNR=   5 ladder_eff@kap0.3 RMSE med    9.514 p90     15.120  sat 0.994
+  nw K=  64 M= 1 PSNR=   5 ladder_eff@kap1 RMSE med    7.932 p90     11.891  sat 0.998
+  nw K=  64 M= 1 PSNR=   5 ladderdet_eff RMSE med    6.716 p90      9.499  sat 0.966
+  nw K=  64 M= 1 PSNR=   5 ladderdet_eff@kap0.3 RMSE med    6.590 p90      9.087  sat 0.995
+  nw K=  64 M= 1 PSNR=   5 ladderdet_eff@kap1 RMSE med    6.644 p90      9.145  sat 0.997
+  nw K=  64 M= 1 PSNR=   5 ladderdet_eff_trunc@kap1 RMSE med    6.631 p90      9.200  sat 0.992
+  nw K=  64 M= 1 PSNR=  10 genie         RMSE med   19.649 p90     26.246  sat 0.000
+  nw K=  64 M= 1 PSNR=  10 ladder        RMSE med   21.282 p90     28.081  sat 0.000
+  nw K=  64 M= 1 PSNR=  10 fixed         RMSE med   27.208 p90     33.181  sat 0.197
+  nw K=  64 M= 1 PSNR=  10 ladder_hybrid RMSE med   17.479 p90     24.659  sat 0.000
+  nw K=  64 M= 1 PSNR=  10 genie_hybrid  RMSE med   15.943 p90     22.725  sat 0.000
+  nw K=  64 M= 1 PSNR=  10 ladder_chk    RMSE med   17.405 p90     24.645  sat 0.000
+  nw K=  64 M= 1 PSNR=  10 ladderdet     RMSE med    6.848 p90     11.942  sat 0.905
+  nw K=  64 M= 1 PSNR=  10 ladderdet_chk RMSE med    6.387 p90      9.200  sat 0.904
+  nw K=  64 M= 1 PSNR=  10 ladder_trunc  RMSE med    6.864 p90      9.486  sat 0.000
+  nw K=  64 M= 1 PSNR=  10 ladder_hybrid_trunc RMSE med    6.500 p90      8.791  sat 0.000
+  nw K=  64 M= 1 PSNR=  10 ladderdet_trunc RMSE med    6.801 p90     11.590  sat 0.858
+  nw K=  64 M= 1 PSNR=  10 ladderdet_chk_trunc RMSE med    6.388 p90      9.015  sat 0.881
+  nw K=  64 M= 1 PSNR=  10 awa           RMSE med   11.369 p90     58.348
+  nw K=  64 M= 1 PSNR=  10 pure          RMSE med   26.709 p90    150.983
+  nw K=  64 M= 1 PSNR=  10 simple        RMSE med    8.717 p90     15.716
+  nw K=  64 M= 1 PSNR=  10 airmoe        RMSE med    6.584 p90      9.948  sat 1.000
+  nw K=  64 M= 1 PSNR=  10 airmoe_hybrid RMSE med    6.023 p90      8.210  sat 1.000
+  nw K=  64 M= 1 PSNR=  10 airmoe_eff    RMSE med    5.859 p90      7.993  sat 1.000
+  nw K=  64 M= 1 PSNR=  10 ladder_eff@kap0.3 RMSE med    7.835 p90     12.299  sat 0.983
+  nw K=  64 M= 1 PSNR=  10 ladder_eff@kap1 RMSE med    6.849 p90     10.170  sat 0.995
+  nw K=  64 M= 1 PSNR=  10 ladderdet_eff RMSE med    6.278 p90      8.994  sat 0.903
+  nw K=  64 M= 1 PSNR=  10 ladderdet_eff@kap0.3 RMSE med    6.175 p90      8.510  sat 0.985
+  nw K=  64 M= 1 PSNR=  10 ladderdet_eff@kap1 RMSE med    6.087 p90      8.415  sat 0.994
+  nw K=  64 M= 1 PSNR=  10 ladderdet_eff_trunc@kap1 RMSE med    6.089 p90      8.428  sat 0.993
+  nw K=  64 M= 1 PSNR=  15 genie         RMSE med   15.843 p90     22.697  sat 0.000
+  nw K=  64 M= 1 PSNR=  15 ladder        RMSE med   17.254 p90     24.090  sat 0.000
+  nw K=  64 M= 1 PSNR=  15 fixed         RMSE med   23.968 p90     30.114  sat 0.197
+  nw K=  64 M= 1 PSNR=  15 ladder_hybrid RMSE med   12.396 p90     19.739  sat 0.000
+  nw K=  64 M= 1 PSNR=  15 genie_hybrid  RMSE med   11.334 p90     18.356  sat 0.000
+  nw K=  64 M= 1 PSNR=  15 ladder_chk    RMSE med   12.605 p90     20.094  sat 0.000
+  nw K=  64 M= 1 PSNR=  15 ladderdet     RMSE med    6.480 p90     11.959  sat 0.788
+  nw K=  64 M= 1 PSNR=  15 ladderdet_chk RMSE med    5.985 p90      8.634  sat 0.786
+  nw K=  64 M= 1 PSNR=  15 ladder_trunc  RMSE med    6.412 p90      8.851  sat 0.000
+  nw K=  64 M= 1 PSNR=  15 ladder_hybrid_trunc RMSE med    6.073 p90      8.190  sat 0.000
+  nw K=  64 M= 1 PSNR=  15 ladderdet_trunc RMSE med    6.377 p90     10.510  sat 0.483
+  nw K=  64 M= 1 PSNR=  15 ladderdet_chk_trunc RMSE med    6.014 p90      8.408  sat 0.737
+  nw K=  64 M= 1 PSNR=  15 awa           RMSE med    8.437 p90     23.863
+  nw K=  64 M= 1 PSNR=  15 pure          RMSE med   27.862 p90    153.831
+  nw K=  64 M= 1 PSNR=  15 simple        RMSE med    7.844 p90     11.892
+  nw K=  64 M= 1 PSNR=  15 airmoe        RMSE med    6.104 p90      9.009  sat 1.000
+  nw K=  64 M= 1 PSNR=  15 airmoe_hybrid RMSE med    5.694 p90      7.729  sat 1.000
+  nw K=  64 M= 1 PSNR=  15 airmoe_eff    RMSE med    5.593 p90      7.556  sat 1.000
+  nw K=  64 M= 1 PSNR=  15 ladder_eff@kap0.3 RMSE med    6.749 p90     10.225  sat 0.952
+  nw K=  64 M= 1 PSNR=  15 ladder_eff@kap1 RMSE med    6.193 p90      8.923  sat 0.983
+  nw K=  64 M= 1 PSNR=  15 ladderdet_eff RMSE med    5.912 p90      8.445  sat 0.788
+  nw K=  64 M= 1 PSNR=  15 ladderdet_eff@kap0.3 RMSE med    5.698 p90      7.868  sat 0.957
+  nw K=  64 M= 1 PSNR=  15 ladderdet_eff@kap1 RMSE med    5.659 p90      7.900  sat 0.982
+  nw K=  64 M= 1 PSNR=  15 ladderdet_eff_trunc@kap1 RMSE med    5.663 p90      7.852  sat 0.980
+  nw K=  64 M= 1 PSNR=  20 genie         RMSE med   12.119 p90     19.331  sat 0.000
+  nw K=  64 M= 1 PSNR=  20 ladder        RMSE med   13.107 p90     20.086  sat 0.000
+  nw K=  64 M= 1 PSNR=  20 fixed         RMSE med   19.593 p90     25.863  sat 0.197
+  nw K=  64 M= 1 PSNR=  20 ladder_hybrid RMSE med    8.623 p90     15.709  sat 0.000
+  nw K=  64 M= 1 PSNR=  20 genie_hybrid  RMSE med    7.862 p90     14.801  sat 0.000
+  nw K=  64 M= 1 PSNR=  20 ladder_chk    RMSE med    8.678 p90     16.235  sat 0.000
+  nw K=  64 M= 1 PSNR=  20 ladderdet     RMSE med    6.132 p90     11.218  sat 0.605
+  nw K=  64 M= 1 PSNR=  20 ladderdet_chk RMSE med    5.697 p90      8.166  sat 0.611
+  nw K=  64 M= 1 PSNR=  20 ladder_trunc  RMSE med    5.862 p90      8.139  sat 0.000
+  nw K=  64 M= 1 PSNR=  20 ladder_hybrid_trunc RMSE med    5.598 p90      7.694  sat 0.000
+  nw K=  64 M= 1 PSNR=  20 ladderdet_trunc RMSE med    5.915 p90      8.353  sat 0.212
+  nw K=  64 M= 1 PSNR=  20 ladderdet_chk_trunc RMSE med    5.649 p90      7.772  sat 0.452
+  nw K=  64 M= 1 PSNR=  20 awa           RMSE med    7.661 p90     12.541
+  nw K=  64 M= 1 PSNR=  20 pure          RMSE med   25.515 p90    148.507
+  nw K=  64 M= 1 PSNR=  20 simple        RMSE med    7.379 p90     10.501
+  nw K=  64 M= 1 PSNR=  20 airmoe        RMSE med    5.684 p90      8.160  sat 1.000
+  nw K=  64 M= 1 PSNR=  20 airmoe_hybrid RMSE med    5.429 p90      7.357  sat 1.000
+  nw K=  64 M= 1 PSNR=  20 airmoe_eff    RMSE med    5.366 p90      7.270  sat 1.000
+  nw K=  64 M= 1 PSNR=  20 ladder_eff@kap0.3 RMSE med    5.951 p90      8.782  sat 0.890
+  nw K=  64 M= 1 PSNR=  20 ladder_eff@kap1 RMSE med    5.637 p90      7.898  sat 0.954
+  nw K=  64 M= 1 PSNR=  20 ladderdet_eff RMSE med    5.685 p90      8.180  sat 0.609
+  nw K=  64 M= 1 PSNR=  20 ladderdet_eff@kap0.3 RMSE med    5.428 p90      7.447  sat 0.898
+  nw K=  64 M= 1 PSNR=  20 ladderdet_eff@kap1 RMSE med    5.375 p90      7.346  sat 0.955
+  nw K=  64 M= 1 PSNR=  20 ladderdet_eff_trunc@kap1 RMSE med    5.428 p90      7.337  sat 0.922
+  nw K=  64 M= 1 PSNR=  25 genie         RMSE med    7.625 p90     15.505  sat 0.000
+  nw K=  64 M= 1 PSNR=  25 ladder        RMSE med    8.502 p90     16.812  sat 0.000
+  nw K=  64 M= 1 PSNR=  25 fixed         RMSE med   13.752 p90     20.047  sat 0.197
+  nw K=  64 M= 1 PSNR=  25 ladder_hybrid RMSE med    6.586 p90     12.143  sat 0.000
+  nw K=  64 M= 1 PSNR=  25 genie_hybrid  RMSE med    6.333 p90     11.365  sat 0.000
+  nw K=  64 M= 1 PSNR=  25 ladder_chk    RMSE med    6.601 p90     12.417  sat 0.000
+  nw K=  64 M= 1 PSNR=  25 ladderdet     RMSE med    5.841 p90     10.447  sat 0.399
+  nw K=  64 M= 1 PSNR=  25 ladderdet_chk RMSE med    5.488 p90      7.713  sat 0.401
+  nw K=  64 M= 1 PSNR=  25 ladder_trunc  RMSE med    5.527 p90      7.555  sat 0.000
+  nw K=  64 M= 1 PSNR=  25 ladder_hybrid_trunc RMSE med    5.277 p90      7.242  sat 0.000
+  nw K=  64 M= 1 PSNR=  25 ladderdet_trunc RMSE med    5.520 p90      7.574  sat 0.044
+  nw K=  64 M= 1 PSNR=  25 ladderdet_chk_trunc RMSE med    5.285 p90      7.278  sat 0.108
+  nw K=  64 M= 1 PSNR=  25 awa           RMSE med    7.302 p90     10.486
+  nw K=  64 M= 1 PSNR=  25 pure          RMSE med   21.933 p90    139.172
+  nw K=  64 M= 1 PSNR=  25 simple        RMSE med    7.252 p90     10.088
+  nw K=  64 M= 1 PSNR=  25 airmoe        RMSE med    5.308 p90      7.479  sat 1.000
+  nw K=  64 M= 1 PSNR=  25 airmoe_hybrid RMSE med    5.209 p90      7.073  sat 1.000
+  nw K=  64 M= 1 PSNR=  25 airmoe_eff    RMSE med    5.233 p90      7.015  sat 1.000
+  nw K=  64 M= 1 PSNR=  25 ladder_eff@kap0.3 RMSE med    5.481 p90      7.771  sat 0.785
+  nw K=  64 M= 1 PSNR=  25 ladder_eff@kap1 RMSE med    5.291 p90      7.289  sat 0.893
+  nw K=  64 M= 1 PSNR=  25 ladderdet_eff RMSE med    5.393 p90      7.633  sat 0.398
+  nw K=  64 M= 1 PSNR=  25 ladderdet_eff@kap0.3 RMSE med    5.271 p90      7.223  sat 0.795
+  nw K=  64 M= 1 PSNR=  25 ladderdet_eff@kap1 RMSE med    5.202 p90      7.092  sat 0.893
+  nw K=  64 M= 1 PSNR=  25 ladderdet_eff_trunc@kap1 RMSE med    5.206 p90      7.047  sat 0.879
+  nw K=  64 M= 1 PSNR=  30 genie         RMSE med    5.907 p90     12.659  sat 0.000
+  nw K=  64 M= 1 PSNR=  30 ladder        RMSE med    6.229 p90     13.380  sat 0.000
+  nw K=  64 M= 1 PSNR=  30 fixed         RMSE med    8.340 p90     14.370  sat 0.197
+  nw K=  64 M= 1 PSNR=  30 ladder_hybrid RMSE med    5.661 p90      8.826  sat 0.000
+  nw K=  64 M= 1 PSNR=  30 genie_hybrid  RMSE med    5.512 p90      8.359  sat 0.000
+  nw K=  64 M= 1 PSNR=  30 ladder_chk    RMSE med    5.718 p90      9.196  sat 0.000
+  nw K=  64 M= 1 PSNR=  30 ladderdet     RMSE med    5.532 p90      8.915  sat 0.220
+  nw K=  64 M= 1 PSNR=  30 ladderdet_chk RMSE med    5.286 p90      7.385  sat 0.219
+  nw K=  64 M= 1 PSNR=  30 ladder_trunc  RMSE med    5.236 p90      7.200  sat 0.000
+  nw K=  64 M= 1 PSNR=  30 ladder_hybrid_trunc RMSE med    5.116 p90      6.978  sat 0.000
+  nw K=  64 M= 1 PSNR=  30 ladderdet_trunc RMSE med    5.264 p90      7.359  sat 0.068
+  nw K=  64 M= 1 PSNR=  30 ladderdet_chk_trunc RMSE med    5.119 p90      6.937  sat 0.067
+  nw K=  64 M= 1 PSNR=  30 awa           RMSE med    7.083 p90      9.935
+  nw K=  64 M= 1 PSNR=  30 pure          RMSE med   15.496 p90     80.247
+  nw K=  64 M= 1 PSNR=  30 simple        RMSE med    7.153 p90      9.834
+  nw K=  64 M= 1 PSNR=  30 airmoe        RMSE med    5.121 p90      7.053  sat 1.000
+  nw K=  64 M= 1 PSNR=  30 airmoe_hybrid RMSE med    5.049 p90      6.835  sat 1.000
+  nw K=  64 M= 1 PSNR=  30 airmoe_eff    RMSE med    5.036 p90      6.805  sat 1.000
+  nw K=  64 M= 1 PSNR=  30 ladder_eff@kap0.3 RMSE med    5.165 p90      7.152  sat 0.642
+  nw K=  64 M= 1 PSNR=  30 ladder_eff@kap1 RMSE med    5.121 p90      6.992  sat 0.791
+  nw K=  64 M= 1 PSNR=  30 ladderdet_eff RMSE med    5.214 p90      7.274  sat 0.221
+  nw K=  64 M= 1 PSNR=  30 ladderdet_eff@kap0.3 RMSE med    5.106 p90      6.922  sat 0.650
+  nw K=  64 M= 1 PSNR=  30 ladderdet_eff@kap1 RMSE med    5.035 p90      6.907  sat 0.791
+  nw K=  64 M= 1 PSNR=  30 ladderdet_eff_trunc@kap1 RMSE med    5.083 p90      6.970  sat 0.791
+  nw K=  64 M= 4 PSNR=   0 genie         RMSE med   25.669 p90     32.169  sat 0.000
+  nw K=  64 M= 4 PSNR=   0 ladder        RMSE med   26.705 p90     32.725  sat 0.000
+  nw K=  64 M= 4 PSNR=   0 fixed         RMSE med   30.186 p90     35.889  sat 0.199
+  nw K=  64 M= 4 PSNR=   0 ladder_hybrid RMSE med   26.702 p90     32.895  sat 0.000
+  nw K=  64 M= 4 PSNR=   0 genie_hybrid  RMSE med   24.963 p90     31.610  sat 0.000
+  nw K=  64 M= 4 PSNR=   0 ladder_chk    RMSE med   26.601 p90     32.740  sat 0.000
+  nw K=  64 M= 4 PSNR=   0 ladderdet     RMSE med    7.310 p90     10.512  sat 0.989
+  nw K=  64 M= 4 PSNR=   0 ladderdet_chk RMSE med    7.159 p90     10.118  sat 0.989
+  nw K=  64 M= 4 PSNR=   0 ladder_trunc  RMSE med    8.156 p90     13.353  sat 0.000
+  nw K=  64 M= 4 PSNR=   0 ladder_hybrid_trunc RMSE med    7.354 p90      9.985  sat 0.000
+  nw K=  64 M= 4 PSNR=   0 ladderdet_trunc RMSE med    7.259 p90     10.740  sat 0.988
+  nw K=  64 M= 4 PSNR=   0 ladderdet_chk_trunc RMSE med    7.163 p90     10.142  sat 0.985
+  nw K=  64 M= 4 PSNR=   0 awa           RMSE med   22.197 p90    124.964
+  nw K=  64 M= 4 PSNR=   0 pure          RMSE med   27.903 p90    163.869
+  nw K=  64 M= 4 PSNR=   0 simple        RMSE med   11.755 p90     21.378
+  nw K=  64 M= 4 PSNR=   0 airmoe        RMSE med    7.625 p90     11.533  sat 1.000
+  nw K=  64 M= 4 PSNR=   0 airmoe_hybrid RMSE med    6.669 p90      9.256  sat 1.000
+  nw K=  64 M= 4 PSNR=   0 airmoe_eff    RMSE med    6.752 p90      8.906  sat 1.000
+  nw K=  64 M= 4 PSNR=   0 ladder_eff@kap0.3 RMSE med   11.612 p90     17.540  sat 0.998
+  nw K=  64 M= 4 PSNR=   0 ladder_eff@kap1 RMSE med    9.224 p90     14.098  sat 1.000
+  nw K=  64 M= 4 PSNR=   0 ladderdet_eff RMSE med    7.079 p90      9.932  sat 0.990
+  nw K=  64 M= 4 PSNR=   0 ladderdet_eff@kap0.3 RMSE med    7.038 p90      9.738  sat 0.998
+  nw K=  64 M= 4 PSNR=   0 ladderdet_eff@kap1 RMSE med    7.023 p90      9.780  sat 0.999
+  nw K=  64 M= 4 PSNR=   0 ladderdet_eff_trunc@kap1 RMSE med    7.029 p90      9.782  sat 0.999
+  nw K=  64 M= 4 PSNR=   5 genie         RMSE med   22.730 p90     29.595  sat 0.000
+  nw K=  64 M= 4 PSNR=   5 ladder        RMSE med   23.921 p90     30.097  sat 0.000
+  nw K=  64 M= 4 PSNR=   5 fixed         RMSE med   28.737 p90     34.875  sat 0.199
+  nw K=  64 M= 4 PSNR=   5 ladder_hybrid RMSE med   21.294 p90     28.337  sat 0.000
+  nw K=  64 M= 4 PSNR=   5 genie_hybrid  RMSE med   19.674 p90     26.823  sat 0.000
+  nw K=  64 M= 4 PSNR=   5 ladder_chk    RMSE med   21.571 p90     28.451  sat 0.000
+  nw K=  64 M= 4 PSNR=   5 ladderdet     RMSE med    6.995 p90     10.725  sat 0.965
+  nw K=  64 M= 4 PSNR=   5 ladderdet_chk RMSE med    6.767 p90      9.574  sat 0.965
+  nw K=  64 M= 4 PSNR=   5 ladder_trunc  RMSE med    7.228 p90     10.526  sat 0.000
+  nw K=  64 M= 4 PSNR=   5 ladder_hybrid_trunc RMSE med    6.932 p90      9.441  sat 0.000
+  nw K=  64 M= 4 PSNR=   5 ladderdet_trunc RMSE med    7.084 p90     10.857  sat 0.890
+  nw K=  64 M= 4 PSNR=   5 ladderdet_chk_trunc RMSE med    6.771 p90      9.578  sat 0.965
+  nw K=  64 M= 4 PSNR=   5 awa           RMSE med   12.588 p90     61.058
+  nw K=  64 M= 4 PSNR=   5 pure          RMSE med   28.324 p90    166.751
+  nw K=  64 M= 4 PSNR=   5 simple        RMSE med    9.013 p90     14.287
+  nw K=  64 M= 4 PSNR=   5 airmoe        RMSE med    7.123 p90     10.959  sat 1.000
+  nw K=  64 M= 4 PSNR=   5 airmoe_hybrid RMSE med    6.383 p90      8.760  sat 1.000
+  nw K=  64 M= 4 PSNR=   5 airmoe_eff    RMSE med    6.200 p90      8.416  sat 1.000
+  nw K=  64 M= 4 PSNR=   5 ladder_eff@kap0.3 RMSE med    9.207 p90     14.426  sat 0.994
+  nw K=  64 M= 4 PSNR=   5 ladder_eff@kap1 RMSE med    7.752 p90     11.788  sat 0.999
+  nw K=  64 M= 4 PSNR=   5 ladderdet_eff RMSE med    6.688 p90      9.482  sat 0.965
+  nw K=  64 M= 4 PSNR=   5 ladderdet_eff@kap0.3 RMSE med    6.631 p90      9.220  sat 0.994
+  nw K=  64 M= 4 PSNR=   5 ladderdet_eff@kap1 RMSE med    6.618 p90      9.087  sat 0.998
+  nw K=  64 M= 4 PSNR=   5 ladderdet_eff_trunc@kap1 RMSE med    6.607 p90      9.052  sat 0.998
+  nw K=  64 M= 4 PSNR=  10 genie         RMSE med   19.111 p90     26.099  sat 0.000
+  nw K=  64 M= 4 PSNR=  10 ladder        RMSE med   20.093 p90     27.150  sat 0.000
+  nw K=  64 M= 4 PSNR=  10 fixed         RMSE med   26.509 p90     32.284  sat 0.199
+  nw K=  64 M= 4 PSNR=  10 ladder_hybrid RMSE med   15.971 p90     23.155  sat 0.000
+  nw K=  64 M= 4 PSNR=  10 genie_hybrid  RMSE med   14.587 p90     21.640  sat 0.000
+  nw K=  64 M= 4 PSNR=  10 ladder_chk    RMSE med   15.920 p90     23.168  sat 0.000
+  nw K=  64 M= 4 PSNR=  10 ladderdet     RMSE med    6.691 p90     11.443  sat 0.900
+  nw K=  64 M= 4 PSNR=  10 ladderdet_chk RMSE med    6.374 p90      9.084  sat 0.900
+  nw K=  64 M= 4 PSNR=  10 ladder_trunc  RMSE med    6.881 p90     10.179  sat 0.000
+  nw K=  64 M= 4 PSNR=  10 ladder_hybrid_trunc RMSE med    6.463 p90      8.868  sat 0.000
+  nw K=  64 M= 4 PSNR=  10 ladderdet_trunc RMSE med    6.671 p90     11.206  sat 0.890
+  nw K=  64 M= 4 PSNR=  10 ladderdet_chk_trunc RMSE med    6.391 p90      9.185  sat 0.901
+  nw K=  64 M= 4 PSNR=  10 awa           RMSE med    8.627 p90     18.596
+  nw K=  64 M= 4 PSNR=  10 pure          RMSE med   28.745 p90    143.067
+  nw K=  64 M= 4 PSNR=  10 simple        RMSE med    7.897 p90     11.345
+  nw K=  64 M= 4 PSNR=  10 airmoe        RMSE med    6.471 p90      9.803  sat 1.000
+  nw K=  64 M= 4 PSNR=  10 airmoe_hybrid RMSE med    5.968 p90      8.180  sat 1.000
+  nw K=  64 M= 4 PSNR=  10 airmoe_eff    RMSE med    5.856 p90      7.944  sat 1.000
+  nw K=  64 M= 4 PSNR=  10 ladder_eff@kap0.3 RMSE med    7.611 p90     11.868  sat 0.980
+  nw K=  64 M= 4 PSNR=  10 ladder_eff@kap1 RMSE med    6.840 p90     10.180  sat 0.994
+  nw K=  64 M= 4 PSNR=  10 ladderdet_eff RMSE med    6.302 p90      9.009  sat 0.899
+  nw K=  64 M= 4 PSNR=  10 ladderdet_eff@kap0.3 RMSE med    6.130 p90      8.440  sat 0.982
+  nw K=  64 M= 4 PSNR=  10 ladderdet_eff@kap1 RMSE med    6.047 p90      8.382  sat 0.993
+  nw K=  64 M= 4 PSNR=  10 ladderdet_eff_trunc@kap1 RMSE med    6.051 p90      8.432  sat 0.991
+  nw K=  64 M= 4 PSNR=  15 genie         RMSE med   15.097 p90     22.247  sat 0.000
+  nw K=  64 M= 4 PSNR=  15 ladder        RMSE med   16.397 p90     23.115  sat 0.000
+  nw K=  64 M= 4 PSNR=  15 fixed         RMSE med   22.988 p90     29.174  sat 0.199
+  nw K=  64 M= 4 PSNR=  15 ladder_hybrid RMSE med   11.174 p90     17.879  sat 0.000
+  nw K=  64 M= 4 PSNR=  15 genie_hybrid  RMSE med    9.687 p90     16.818  sat 0.000
+  nw K=  64 M= 4 PSNR=  15 ladder_chk    RMSE med   11.141 p90     18.236  sat 0.000
+  nw K=  64 M= 4 PSNR=  15 ladderdet     RMSE med    6.417 p90     11.726  sat 0.779
+  nw K=  64 M= 4 PSNR=  15 ladderdet_chk RMSE med    6.046 p90      8.684  sat 0.777
+  nw K=  64 M= 4 PSNR=  15 ladder_trunc  RMSE med    6.481 p90      9.999  sat 0.000
+  nw K=  64 M= 4 PSNR=  15 ladder_hybrid_trunc RMSE med    5.967 p90      8.187  sat 0.000
+  nw K=  64 M= 4 PSNR=  15 ladderdet_trunc RMSE med    6.304 p90      9.048  sat 0.256
+  nw K=  64 M= 4 PSNR=  15 ladderdet_chk_trunc RMSE med    5.916 p90      8.207  sat 0.589
+  nw K=  64 M= 4 PSNR=  15 awa           RMSE med    7.545 p90     10.878
+  nw K=  64 M= 4 PSNR=  15 pure          RMSE med   26.194 p90    153.624
+  nw K=  64 M= 4 PSNR=  15 simple        RMSE med    7.360 p90     10.155
+  nw K=  64 M= 4 PSNR=  15 airmoe        RMSE med    5.993 p90      8.837  sat 1.000
+  nw K=  64 M= 4 PSNR=  15 airmoe_hybrid RMSE med    5.604 p90      7.660  sat 1.000
+  nw K=  64 M= 4 PSNR=  15 airmoe_eff    RMSE med    5.548 p90      7.605  sat 1.000
+  nw K=  64 M= 4 PSNR=  15 ladder_eff@kap0.3 RMSE med    6.566 p90      9.706  sat 0.945
+  nw K=  64 M= 4 PSNR=  15 ladder_eff@kap1 RMSE med    6.082 p90      8.718  sat 0.981
+  nw K=  64 M= 4 PSNR=  15 ladderdet_eff RMSE med    5.966 p90      8.387  sat 0.776
+  nw K=  64 M= 4 PSNR=  15 ladderdet_eff@kap0.3 RMSE med    5.678 p90      7.904  sat 0.952
+  nw K=  64 M= 4 PSNR=  15 ladderdet_eff@kap1 RMSE med    5.627 p90      7.671  sat 0.981
+  nw K=  64 M= 4 PSNR=  15 ladderdet_eff_trunc@kap1 RMSE med    5.644 p90      7.734  sat 0.981
+  nw K=  64 M= 4 PSNR=  20 genie         RMSE med   10.408 p90     17.803  sat 0.000
+  nw K=  64 M= 4 PSNR=  20 ladder        RMSE med   11.830 p90     18.883  sat 0.000
+  nw K=  64 M= 4 PSNR=  20 fixed         RMSE med   17.979 p90     24.406  sat 0.199
+  nw K=  64 M= 4 PSNR=  20 ladder_hybrid RMSE med    7.686 p90     13.782  sat 0.000
+  nw K=  64 M= 4 PSNR=  20 genie_hybrid  RMSE med    6.884 p90     12.081  sat 0.000
+  nw K=  64 M= 4 PSNR=  20 ladder_chk    RMSE med    7.628 p90     13.568  sat 0.000
+  nw K=  64 M= 4 PSNR=  20 ladderdet     RMSE med    6.118 p90     11.255  sat 0.596
+  nw K=  64 M= 4 PSNR=  20 ladderdet_chk RMSE med    5.683 p90      7.898  sat 0.593
+  nw K=  64 M= 4 PSNR=  20 ladder_trunc  RMSE med    5.817 p90      8.148  sat 0.000
+  nw K=  64 M= 4 PSNR=  20 ladder_hybrid_trunc RMSE med    5.598 p90      7.605  sat 0.000
+  nw K=  64 M= 4 PSNR=  20 ladderdet_trunc RMSE med    5.904 p90      8.892  sat 0.326
+  nw K=  64 M= 4 PSNR=  20 ladderdet_chk_trunc RMSE med    5.541 p90      7.684  sat 0.328
+  nw K=  64 M= 4 PSNR=  20 awa           RMSE med    7.204 p90      9.934
+  nw K=  64 M= 4 PSNR=  20 pure          RMSE med   24.404 p90    120.640
+  nw K=  64 M= 4 PSNR=  20 simple        RMSE med    7.150 p90      9.866
+  nw K=  64 M= 4 PSNR=  20 airmoe        RMSE med    5.601 p90      8.127  sat 1.000
+  nw K=  64 M= 4 PSNR=  20 airmoe_hybrid RMSE med    5.310 p90      7.308  sat 1.000
+  nw K=  64 M= 4 PSNR=  20 airmoe_eff    RMSE med    5.286 p90      7.245  sat 1.000
+  nw K=  64 M= 4 PSNR=  20 ladder_eff@kap0.3 RMSE med    5.850 p90      8.266  sat 0.874
+  nw K=  64 M= 4 PSNR=  20 ladder_eff@kap1 RMSE med    5.586 p90      7.748  sat 0.948
+  nw K=  64 M= 4 PSNR=  20 ladderdet_eff RMSE med    5.671 p90      7.927  sat 0.595
+  nw K=  64 M= 4 PSNR=  20 ladderdet_eff@kap0.3 RMSE med    5.385 p90      7.379  sat 0.886
+  nw K=  64 M= 4 PSNR=  20 ladderdet_eff@kap1 RMSE med    5.347 p90      7.370  sat 0.948
+  nw K=  64 M= 4 PSNR=  20 ladderdet_eff_trunc@kap1 RMSE med    5.372 p90      7.266  sat 0.934
+  nw K=  64 M= 4 PSNR=  25 genie         RMSE med    6.703 p90     14.325  sat 0.000
+  nw K=  64 M= 4 PSNR=  25 ladder        RMSE med    7.366 p90     14.806  sat 0.000
+  nw K=  64 M= 4 PSNR=  25 fixed         RMSE med   12.228 p90     18.719  sat 0.199
+  nw K=  64 M= 4 PSNR=  25 ladder_hybrid RMSE med    6.098 p90      9.613  sat 0.000
+  nw K=  64 M= 4 PSNR=  25 genie_hybrid  RMSE med    5.825 p90      8.636  sat 0.000
+  nw K=  64 M= 4 PSNR=  25 ladder_chk    RMSE med    6.056 p90      9.435  sat 0.000
+  nw K=  64 M= 4 PSNR=  25 ladderdet     RMSE med    5.725 p90      9.548  sat 0.387
+  nw K=  64 M= 4 PSNR=  25 ladderdet_chk RMSE med    5.437 p90      7.502  sat 0.385
+  nw K=  64 M= 4 PSNR=  25 ladder_trunc  RMSE med    5.486 p90      7.831  sat 0.000
+  nw K=  64 M= 4 PSNR=  25 ladder_hybrid_trunc RMSE med    5.326 p90      7.138  sat 0.000
+  nw K=  64 M= 4 PSNR=  25 ladderdet_trunc RMSE med    5.431 p90      7.531  sat 0.047
+  nw K=  64 M= 4 PSNR=  25 ladderdet_chk_trunc RMSE med    5.297 p90      7.208  sat 0.114
+  nw K=  64 M= 4 PSNR=  25 awa           RMSE med    7.012 p90     11.181
+  nw K=  64 M= 4 PSNR=  25 pure          RMSE med   20.179 p90    113.665
+  nw K=  64 M= 4 PSNR=  25 simple        RMSE med    7.089 p90      9.766
+  nw K=  64 M= 4 PSNR=  25 airmoe        RMSE med    5.360 p90      7.467  sat 1.000
+  nw K=  64 M= 4 PSNR=  25 airmoe_hybrid RMSE med    5.168 p90      6.979  sat 1.000
+  nw K=  64 M= 4 PSNR=  25 airmoe_eff    RMSE med    5.126 p90      7.008  sat 1.000
+  nw K=  64 M= 4 PSNR=  25 ladder_eff@kap0.3 RMSE med    5.394 p90      7.537  sat 0.760
+  nw K=  64 M= 4 PSNR=  25 ladder_eff@kap1 RMSE med    5.243 p90      7.229  sat 0.878
+  nw K=  64 M= 4 PSNR=  25 ladderdet_eff RMSE med    5.407 p90      7.399  sat 0.388
+  nw K=  64 M= 4 PSNR=  25 ladderdet_eff@kap0.3 RMSE med    5.270 p90      7.115  sat 0.772
+  nw K=  64 M= 4 PSNR=  25 ladderdet_eff@kap1 RMSE med    5.141 p90      7.072  sat 0.879
+  nw K=  64 M= 4 PSNR=  25 ladderdet_eff_trunc@kap1 RMSE med    5.157 p90      7.015  sat 0.866
+  nw K=  64 M= 4 PSNR=  30 genie         RMSE med    5.577 p90      9.936  sat 0.000
+  nw K=  64 M= 4 PSNR=  30 ladder        RMSE med    5.860 p90     11.375  sat 0.000
+  nw K=  64 M= 4 PSNR=  30 fixed         RMSE med    7.438 p90     13.482  sat 0.199
+  nw K=  64 M= 4 PSNR=  30 ladder_hybrid RMSE med    5.383 p90      7.514  sat 0.000
+  nw K=  64 M= 4 PSNR=  30 genie_hybrid  RMSE med    5.216 p90      7.302  sat 0.000
+  nw K=  64 M= 4 PSNR=  30 ladder_chk    RMSE med    5.432 p90      7.638  sat 0.000
+  nw K=  64 M= 4 PSNR=  30 ladderdet     RMSE med    5.406 p90      8.400  sat 0.208
+  nw K=  64 M= 4 PSNR=  30 ladderdet_chk RMSE med    5.246 p90      7.092  sat 0.209
+  nw K=  64 M= 4 PSNR=  30 ladder_trunc  RMSE med    5.239 p90      7.140  sat 0.000
+  nw K=  64 M= 4 PSNR=  30 ladder_hybrid_trunc RMSE med    5.092 p90      6.945  sat 0.000
+  nw K=  64 M= 4 PSNR=  30 ladderdet_trunc RMSE med    5.223 p90      7.146  sat 0.018
+  nw K=  64 M= 4 PSNR=  30 ladderdet_chk_trunc RMSE med    5.148 p90      7.023  sat 0.018
+  nw K=  64 M= 4 PSNR=  30 awa           RMSE med    6.451 p90      8.954
+  nw K=  64 M= 4 PSNR=  30 pure          RMSE med   13.556 p90     75.974
+  nw K=  64 M= 4 PSNR=  30 simple        RMSE med    7.065 p90      9.701
+  nw K=  64 M= 4 PSNR=  30 airmoe        RMSE med    5.121 p90      7.099  sat 1.000
+  nw K=  64 M= 4 PSNR=  30 airmoe_hybrid RMSE med    5.019 p90      6.824  sat 1.000
+  nw K=  64 M= 4 PSNR=  30 airmoe_eff    RMSE med    5.013 p90      6.844  sat 1.000
+  nw K=  64 M= 4 PSNR=  30 ladder_eff@kap0.3 RMSE med    5.117 p90      7.044  sat 0.614
+  nw K=  64 M= 4 PSNR=  30 ladder_eff@kap1 RMSE med    5.037 p90      6.879  sat 0.767
+  nw K=  64 M= 4 PSNR=  30 ladderdet_eff RMSE med    5.142 p90      6.992  sat 0.209
+  nw K=  64 M= 4 PSNR=  30 ladderdet_eff@kap0.3 RMSE med    5.058 p90      6.864  sat 0.625
+  nw K=  64 M= 4 PSNR=  30 ladderdet_eff@kap1 RMSE med    5.029 p90      6.848  sat 0.767
+  nw K=  64 M= 4 PSNR=  30 ladderdet_eff_trunc@kap1 RMSE med    5.027 p90      6.845  sat 0.651
+[nw K=256] ideal RMSE med 3.931 dB p90 5.193; log10 weight range per instance: median 63.7, N_eff median 10.59 (164 s)
+  nw K= 256 M= 1 PSNR=   0 genie         RMSE med   27.130 p90     32.851  sat 0.000
+  nw K= 256 M= 1 PSNR=   0 ladder        RMSE med   27.866 p90     33.736  sat 0.000
+  nw K= 256 M= 1 PSNR=   0 fixed         RMSE med   29.958 p90     35.477  sat 0.197
+  nw K= 256 M= 1 PSNR=   0 ladder_hybrid RMSE med   26.525 p90     32.176  sat 0.000
+  nw K= 256 M= 1 PSNR=   0 genie_hybrid  RMSE med   24.663 p90     30.642  sat 0.000
+  nw K= 256 M= 1 PSNR=   0 ladder_chk    RMSE med   26.432 p90     32.136  sat 0.000
+  nw K= 256 M= 1 PSNR=   0 ladderdet     RMSE med    6.093 p90     11.540  sat 0.998
+  nw K= 256 M= 1 PSNR=   0 ladderdet_chk RMSE med    5.845 p90     10.200  sat 0.998
+  nw K= 256 M= 1 PSNR=   0 ladder_trunc  RMSE med    8.518 p90     14.462  sat 0.000
+  nw K= 256 M= 1 PSNR=   0 ladder_hybrid_trunc RMSE med    6.580 p90      8.881  sat 0.000
+  nw K= 256 M= 1 PSNR=   0 ladderdet_trunc RMSE med    5.271 p90      7.407  sat 0.995
+  nw K= 256 M= 1 PSNR=   0 ladderdet_chk_trunc RMSE med    5.202 p90      6.963  sat 0.990
+  nw K= 256 M= 1 PSNR=   0 awa           RMSE med   18.965 p90    105.681
+  nw K= 256 M= 1 PSNR=   0 pure          RMSE med   28.428 p90    161.796
+  nw K= 256 M= 1 PSNR=   0 simple        RMSE med   10.725 p90     24.053
+  nw K= 256 M= 1 PSNR=   0 airmoe        RMSE med    5.263 p90      7.475  sat 1.000
+  nw K= 256 M= 1 PSNR=   0 airmoe_hybrid RMSE med    5.938 p90      7.940  sat 1.000
+  nw K= 256 M= 1 PSNR=   0 airmoe_eff    RMSE med    4.858 p90      6.459  sat 1.000
+  nw K= 256 M= 1 PSNR=   0 ladder_eff@kap0.3 RMSE med    5.725 p90      7.953  sat 1.000
+  nw K= 256 M= 1 PSNR=   0 ladder_eff@kap1 RMSE med    5.175 p90      7.015  sat 1.000
+  nw K= 256 M= 1 PSNR=   0 ladderdet_eff RMSE med    5.195 p90      7.084  sat 0.998
+  nw K= 256 M= 1 PSNR=   0 ladderdet_eff@kap0.3 RMSE med    5.173 p90      7.016  sat 0.999
+  nw K= 256 M= 1 PSNR=   0 ladderdet_eff@kap1 RMSE med    5.108 p90      6.963  sat 0.999
+  nw K= 256 M= 1 PSNR=   0 ladderdet_eff_trunc@kap1 RMSE med    4.951 p90      6.565  sat 0.999
+  nw K= 256 M= 1 PSNR=   5 genie         RMSE med   23.625 p90     29.850  sat 0.000
+  nw K= 256 M= 1 PSNR=   5 ladder        RMSE med   24.710 p90     30.931  sat 0.000
+  nw K= 256 M= 1 PSNR=   5 fixed         RMSE med   28.755 p90     34.454  sat 0.197
+  nw K= 256 M= 1 PSNR=   5 ladder_hybrid RMSE med   20.848 p90     27.237  sat 0.000
+  nw K= 256 M= 1 PSNR=   5 genie_hybrid  RMSE med   18.826 p90     25.570  sat 0.000
+  nw K= 256 M= 1 PSNR=   5 ladder_chk    RMSE med   20.773 p90     27.308  sat 0.000
+  nw K= 256 M= 1 PSNR=   5 ladderdet     RMSE med    5.101 p90      7.910  sat 0.994
+  nw K= 256 M= 1 PSNR=   5 ladderdet_chk RMSE med    4.996 p90      7.034  sat 0.993
+  nw K= 256 M= 1 PSNR=   5 ladder_trunc  RMSE med    6.356 p90      9.485  sat 0.000
+  nw K= 256 M= 1 PSNR=   5 ladder_hybrid_trunc RMSE med    5.678 p90      7.872  sat 0.000
+  nw K= 256 M= 1 PSNR=   5 ladderdet_trunc RMSE med    4.976 p90      7.263  sat 0.985
+  nw K= 256 M= 1 PSNR=   5 ladderdet_chk_trunc RMSE med    4.898 p90      6.651  sat 0.973
+  nw K= 256 M= 1 PSNR=   5 awa           RMSE med   11.167 p90     57.448
+  nw K= 256 M= 1 PSNR=   5 pure          RMSE med   29.678 p90    171.585
+  nw K= 256 M= 1 PSNR=   5 simple        RMSE med    8.749 p90     15.657
+  nw K= 256 M= 1 PSNR=   5 airmoe        RMSE med    4.825 p90      6.577  sat 1.000
+  nw K= 256 M= 1 PSNR=   5 airmoe_hybrid RMSE med    5.385 p90      7.202  sat 1.000
+  nw K= 256 M= 1 PSNR=   5 airmoe_eff    RMSE med    4.589 p90      6.082  sat 1.000
+  nw K= 256 M= 1 PSNR=   5 ladder_eff@kap0.3 RMSE med    5.164 p90      6.962  sat 1.000
+  nw K= 256 M= 1 PSNR=   5 ladder_eff@kap1 RMSE med    4.764 p90      6.356  sat 1.000
+  nw K= 256 M= 1 PSNR=   5 ladderdet_eff RMSE med    4.780 p90      6.408  sat 0.994
+  nw K= 256 M= 1 PSNR=   5 ladderdet_eff@kap0.3 RMSE med    4.687 p90      6.169  sat 0.999
+  nw K= 256 M= 1 PSNR=   5 ladderdet_eff@kap1 RMSE med    4.633 p90      6.147  sat 0.999
+  nw K= 256 M= 1 PSNR=   5 ladderdet_eff_trunc@kap1 RMSE med    4.620 p90      6.155  sat 0.999
+  nw K= 256 M= 1 PSNR=  10 genie         RMSE med   19.505 p90     26.476  sat 0.000
+  nw K= 256 M= 1 PSNR=  10 ladder        RMSE med   21.131 p90     27.742  sat 0.000
+  nw K= 256 M= 1 PSNR=  10 fixed         RMSE med   25.829 p90     31.707  sat 0.197
+  nw K= 256 M= 1 PSNR=  10 ladder_hybrid RMSE med   15.114 p90     21.930  sat 0.000
+  nw K= 256 M= 1 PSNR=  10 genie_hybrid  RMSE med   13.629 p90     20.710  sat 0.000
+  nw K= 256 M= 1 PSNR=  10 ladder_chk    RMSE med   15.335 p90     21.842  sat 0.000
+  nw K= 256 M= 1 PSNR=  10 ladderdet     RMSE med    4.768 p90      7.474  sat 0.973
+  nw K= 256 M= 1 PSNR=  10 ladderdet_chk RMSE med    4.747 p90      6.463  sat 0.973
+  nw K= 256 M= 1 PSNR=  10 ladder_trunc  RMSE med    5.425 p90      7.941  sat 0.000
+  nw K= 256 M= 1 PSNR=  10 ladder_hybrid_trunc RMSE med    5.047 p90      6.723  sat 0.000
+  nw K= 256 M= 1 PSNR=  10 ladderdet_trunc RMSE med    4.821 p90      7.613  sat 0.965
+  nw K= 256 M= 1 PSNR=  10 ladderdet_chk_trunc RMSE med    4.695 p90      6.471  sat 0.973
+  nw K= 256 M= 1 PSNR=  10 awa           RMSE med    8.450 p90     23.736
+  nw K= 256 M= 1 PSNR=  10 pure          RMSE med   28.908 p90    163.700
+  nw K= 256 M= 1 PSNR=  10 simple        RMSE med    7.789 p90     11.666
+  nw K= 256 M= 1 PSNR=  10 airmoe        RMSE med    4.512 p90      6.127  sat 1.000
+  nw K= 256 M= 1 PSNR=  10 airmoe_hybrid RMSE med    4.934 p90      6.538  sat 1.000
+  nw K= 256 M= 1 PSNR=  10 airmoe_eff    RMSE med    4.374 p90      5.852  sat 1.000
+  nw K= 256 M= 1 PSNR=  10 ladder_eff@kap0.3 RMSE med    4.779 p90      6.424  sat 1.000
+  nw K= 256 M= 1 PSNR=  10 ladder_eff@kap1 RMSE med    4.500 p90      5.959  sat 1.000
+  nw K= 256 M= 1 PSNR=  10 ladderdet_eff RMSE med    4.552 p90      6.219  sat 0.974
+  nw K= 256 M= 1 PSNR=  10 ladderdet_eff@kap0.3 RMSE med    4.416 p90      5.894  sat 0.999
+  nw K= 256 M= 1 PSNR=  10 ladderdet_eff@kap1 RMSE med    4.448 p90      5.879  sat 0.999
+  nw K= 256 M= 1 PSNR=  10 ladderdet_eff_trunc@kap1 RMSE med    4.419 p90      5.913  sat 0.999
+  nw K= 256 M= 1 PSNR=  15 genie         RMSE med   14.934 p90     21.930  sat 0.000
+  nw K= 256 M= 1 PSNR=  15 ladder        RMSE med   16.233 p90     23.376  sat 0.000
+  nw K= 256 M= 1 PSNR=  15 fixed         RMSE med   21.493 p90     27.857  sat 0.197
+  nw K= 256 M= 1 PSNR=  15 ladder_hybrid RMSE med   10.023 p90     17.237  sat 0.000
+  nw K= 256 M= 1 PSNR=  15 genie_hybrid  RMSE med    8.841 p90     15.758  sat 0.000
+  nw K= 256 M= 1 PSNR=  15 ladder_chk    RMSE med   10.145 p90     17.129  sat 0.000
+  nw K= 256 M= 1 PSNR=  15 ladderdet     RMSE med    4.728 p90      7.997  sat 0.913
+  nw K= 256 M= 1 PSNR=  15 ladderdet_chk RMSE med    4.567 p90      6.261  sat 0.913
+  nw K= 256 M= 1 PSNR=  15 ladder_trunc  RMSE med    4.727 p90      6.536  sat 0.000
+  nw K= 256 M= 1 PSNR=  15 ladder_hybrid_trunc RMSE med    4.539 p90      6.032  sat 0.000
+  nw K= 256 M= 1 PSNR=  15 ladderdet_trunc RMSE med    4.616 p90      6.702  sat 0.818
+  nw K= 256 M= 1 PSNR=  15 ladderdet_chk_trunc RMSE med    4.487 p90      5.980  sat 0.300
+  nw K= 256 M= 1 PSNR=  15 awa           RMSE med    7.687 p90     12.018
+  nw K= 256 M= 1 PSNR=  15 pure          RMSE med   26.645 p90    150.154
+  nw K= 256 M= 1 PSNR=  15 simple        RMSE med    7.441 p90     10.456
+  nw K= 256 M= 1 PSNR=  15 airmoe        RMSE med    4.320 p90      5.760  sat 1.000
+  nw K= 256 M= 1 PSNR=  15 airmoe_hybrid RMSE med    4.623 p90      6.061  sat 1.000
+  nw K= 256 M= 1 PSNR=  15 airmoe_eff    RMSE med    4.195 p90      5.551  sat 1.000
+  nw K= 256 M= 1 PSNR=  15 ladder_eff@kap0.3 RMSE med    4.481 p90      5.982  sat 0.998
+  nw K= 256 M= 1 PSNR=  15 ladder_eff@kap1 RMSE med    4.301 p90      5.727  sat 1.000
+  nw K= 256 M= 1 PSNR=  15 ladderdet_eff RMSE med    4.480 p90      6.121  sat 0.915
+  nw K= 256 M= 1 PSNR=  15 ladderdet_eff@kap0.3 RMSE med    4.288 p90      5.686  sat 0.998
+  nw K= 256 M= 1 PSNR=  15 ladderdet_eff@kap1 RMSE med    4.299 p90      5.689  sat 0.999
+  nw K= 256 M= 1 PSNR=  15 ladderdet_eff_trunc@kap1 RMSE med    4.264 p90      5.671  sat 0.999
+  nw K= 256 M= 1 PSNR=  20 genie         RMSE med    9.867 p90     17.717  sat 0.000
+  nw K= 256 M= 1 PSNR=  20 ladder        RMSE med   12.179 p90     18.639  sat 0.000
+  nw K= 256 M= 1 PSNR=  20 fixed         RMSE med   15.235 p90     21.456  sat 0.197
+  nw K= 256 M= 1 PSNR=  20 ladder_hybrid RMSE med    6.631 p90     12.801  sat 0.000
+  nw K= 256 M= 1 PSNR=  20 genie_hybrid  RMSE med    6.026 p90     12.242  sat 0.000
+  nw K= 256 M= 1 PSNR=  20 ladder_chk    RMSE med    6.734 p90     13.349  sat 0.000
+  nw K= 256 M= 1 PSNR=  20 ladderdet     RMSE med    4.555 p90      8.001  sat 0.785
+  nw K= 256 M= 1 PSNR=  20 ladderdet_chk RMSE med    4.426 p90      6.123  sat 0.785
+  nw K= 256 M= 1 PSNR=  20 ladder_trunc  RMSE med    4.352 p90      5.910  sat 0.000
+  nw K= 256 M= 1 PSNR=  20 ladder_hybrid_trunc RMSE med    4.260 p90      5.643  sat 0.000
+  nw K= 256 M= 1 PSNR=  20 ladderdet_trunc RMSE med    4.339 p90      5.759  sat 0.268
+  nw K= 256 M= 1 PSNR=  20 ladderdet_chk_trunc RMSE med    4.215 p90      5.579  sat 0.269
+  nw K= 256 M= 1 PSNR=  20 awa           RMSE med    7.292 p90     10.642
+  nw K= 256 M= 1 PSNR=  20 pure          RMSE med   22.189 p90    126.291
+  nw K= 256 M= 1 PSNR=  20 simple        RMSE med    7.239 p90      9.851
+  nw K= 256 M= 1 PSNR=  20 airmoe        RMSE med    4.189 p90      5.506  sat 1.000
+  nw K= 256 M= 1 PSNR=  20 airmoe_hybrid RMSE med    4.336 p90      5.692  sat 1.000
+  nw K= 256 M= 1 PSNR=  20 airmoe_eff    RMSE med    4.081 p90      5.473  sat 1.000
+  nw K= 256 M= 1 PSNR=  20 ladder_eff@kap0.3 RMSE med    4.302 p90      5.728  sat 0.989
+  nw K= 256 M= 1 PSNR=  20 ladder_eff@kap1 RMSE med    4.166 p90      5.519  sat 0.998
+  nw K= 256 M= 1 PSNR=  20 ladderdet_eff RMSE med    4.359 p90      6.027  sat 0.788
+  nw K= 256 M= 1 PSNR=  20 ladderdet_eff@kap0.3 RMSE med    4.162 p90      5.540  sat 0.990
+  nw K= 256 M= 1 PSNR=  20 ladderdet_eff@kap1 RMSE med    4.158 p90      5.553  sat 0.998
+  nw K= 256 M= 1 PSNR=  20 ladderdet_eff_trunc@kap1 RMSE med    4.167 p90      5.488  sat 0.981
+  nw K= 256 M= 1 PSNR=  25 genie         RMSE med    5.621 p90     13.849  sat 0.000
+  nw K= 256 M= 1 PSNR=  25 ladder        RMSE med    6.543 p90     14.847  sat 0.000
+  nw K= 256 M= 1 PSNR=  25 fixed         RMSE med    7.989 p90     14.696  sat 0.197
+  nw K= 256 M= 1 PSNR=  25 ladder_hybrid RMSE med    5.145 p90      9.188  sat 0.000
+  nw K= 256 M= 1 PSNR=  25 genie_hybrid  RMSE med    4.895 p90      7.981  sat 0.000
+  nw K= 256 M= 1 PSNR=  25 ladder_chk    RMSE med    5.145 p90      9.177  sat 0.000
+  nw K= 256 M= 1 PSNR=  25 ladderdet     RMSE med    4.445 p90      6.918  sat 0.586
+  nw K= 256 M= 1 PSNR=  25 ladderdet_chk RMSE med    4.330 p90      5.993  sat 0.586
+  nw K= 256 M= 1 PSNR=  25 ladder_trunc  RMSE med    4.157 p90      5.515  sat 0.000
+  nw K= 256 M= 1 PSNR=  25 ladder_hybrid_trunc RMSE med    4.094 p90      5.434  sat 0.000
+  nw K= 256 M= 1 PSNR=  25 ladderdet_trunc RMSE med    4.153 p90      5.546  sat 0.157
+  nw K= 256 M= 1 PSNR=  25 ladderdet_chk_trunc RMSE med    4.126 p90      5.470  sat 0.059
+  nw K= 256 M= 1 PSNR=  25 awa           RMSE med    6.848 p90     12.484
+  nw K= 256 M= 1 PSNR=  25 pure          RMSE med   15.271 p90     89.765
+  nw K= 256 M= 1 PSNR=  25 simple        RMSE med    7.182 p90      9.700
+  nw K= 256 M= 1 PSNR=  25 airmoe        RMSE med    4.080 p90      5.438  sat 1.000
+  nw K= 256 M= 1 PSNR=  25 airmoe_hybrid RMSE med    4.197 p90      5.511  sat 1.000
+  nw K= 256 M= 1 PSNR=  25 airmoe_eff    RMSE med    4.063 p90      5.393  sat 1.000
+  nw K= 256 M= 1 PSNR=  25 ladder_eff@kap0.3 RMSE med    4.119 p90      5.494  sat 0.956
+  nw K= 256 M= 1 PSNR=  25 ladder_eff@kap1 RMSE med    4.074 p90      5.368  sat 0.990
+  nw K= 256 M= 1 PSNR=  25 ladderdet_eff RMSE med    4.298 p90      5.845  sat 0.586
+  nw K= 256 M= 1 PSNR=  25 ladderdet_eff@kap0.3 RMSE med    4.095 p90      5.431  sat 0.959
+  nw K= 256 M= 1 PSNR=  25 ladderdet_eff@kap1 RMSE med    4.059 p90      5.394  sat 0.988
+  nw K= 256 M= 1 PSNR=  25 ladderdet_eff_trunc@kap1 RMSE med    4.097 p90      5.416  sat 0.910
+  nw K= 256 M= 1 PSNR=  30 genie         RMSE med    4.647 p90     10.097  sat 0.000
+  nw K= 256 M= 1 PSNR=  30 ladder        RMSE med    4.814 p90     11.585  sat 0.000
+  nw K= 256 M= 1 PSNR=  30 fixed         RMSE med    4.932 p90      8.292  sat 0.197
+  nw K= 256 M= 1 PSNR=  30 ladder_hybrid RMSE med    4.490 p90      6.555  sat 0.000
+  nw K= 256 M= 1 PSNR=  30 genie_hybrid  RMSE med    4.335 p90      6.135  sat 0.000
+  nw K= 256 M= 1 PSNR=  30 ladder_chk    RMSE med    4.469 p90      6.488  sat 0.000
+  nw K= 256 M= 1 PSNR=  30 ladderdet     RMSE med    4.254 p90      6.347  sat 0.363
+  nw K= 256 M= 1 PSNR=  30 ladderdet_chk RMSE med    4.201 p90      5.681  sat 0.363
+  nw K= 256 M= 1 PSNR=  30 ladder_trunc  RMSE med    4.071 p90      5.397  sat 0.000
+  nw K= 256 M= 1 PSNR=  30 ladder_hybrid_trunc RMSE med    4.028 p90      5.313  sat 0.000
+  nw K= 256 M= 1 PSNR=  30 ladderdet_trunc RMSE med    4.045 p90      5.388  sat 0.024
+  nw K= 256 M= 1 PSNR=  30 ladderdet_chk_trunc RMSE med    4.032 p90      5.330  sat 0.102
+  nw K= 256 M= 1 PSNR=  30 awa           RMSE med    5.904 p90     16.701
+  nw K= 256 M= 1 PSNR=  30 pure          RMSE med    8.751 p90     50.396
+  nw K= 256 M= 1 PSNR=  30 simple        RMSE med    7.145 p90      9.630
+  nw K= 256 M= 1 PSNR=  30 airmoe        RMSE med    4.020 p90      5.324  sat 1.000
+  nw K= 256 M= 1 PSNR=  30 airmoe_hybrid RMSE med    4.064 p90      5.391  sat 1.000
+  nw K= 256 M= 1 PSNR=  30 airmoe_eff    RMSE med    4.004 p90      5.336  sat 1.000
+  nw K= 256 M= 1 PSNR=  30 ladder_eff@kap0.3 RMSE med    4.041 p90      5.356  sat 0.870
+  nw K= 256 M= 1 PSNR=  30 ladder_eff@kap1 RMSE med    4.021 p90      5.306  sat 0.958
+  nw K= 256 M= 1 PSNR=  30 ladderdet_eff RMSE med    4.168 p90      5.691  sat 0.363
+  nw K= 256 M= 1 PSNR=  30 ladderdet_eff@kap0.3 RMSE med    3.984 p90      5.342  sat 0.876
+  nw K= 256 M= 1 PSNR=  30 ladderdet_eff@kap1 RMSE med    4.002 p90      5.299  sat 0.958
+  nw K= 256 M= 1 PSNR=  30 ladderdet_eff_trunc@kap1 RMSE med    4.041 p90      5.372  sat 0.715
+  nw K= 256 M= 4 PSNR=   0 genie         RMSE med   26.512 p90     32.495  sat 0.000
+  nw K= 256 M= 4 PSNR=   0 ladder        RMSE med   27.439 p90     33.620  sat 0.000
+  nw K= 256 M= 4 PSNR=   0 fixed         RMSE med   29.610 p90     35.299  sat 0.200
+  nw K= 256 M= 4 PSNR=   0 ladder_hybrid RMSE med   25.595 p90     31.683  sat 0.000
+  nw K= 256 M= 4 PSNR=   0 genie_hybrid  RMSE med   23.741 p90     29.920  sat 0.000
+  nw K= 256 M= 4 PSNR=   0 ladder_chk    RMSE med   25.733 p90     31.776  sat 0.000
+  nw K= 256 M= 4 PSNR=   0 ladderdet     RMSE med    5.628 p90      9.569  sat 0.999
+  nw K= 256 M= 4 PSNR=   0 ladderdet_chk RMSE med    5.486 p90      8.692  sat 0.998
+  nw K= 256 M= 4 PSNR=   0 ladder_trunc  RMSE med    8.378 p90     14.403  sat 0.000
+  nw K= 256 M= 4 PSNR=   0 ladder_hybrid_trunc RMSE med    6.572 p90      8.984  sat 0.000
+  nw K= 256 M= 4 PSNR=   0 ladderdet_trunc RMSE med    5.347 p90      7.757  sat 0.994
+  nw K= 256 M= 4 PSNR=   0 ladderdet_chk_trunc RMSE med    5.250 p90      7.352  sat 0.994
+  nw K= 256 M= 4 PSNR=   0 awa           RMSE med   12.911 p90     51.613
+  nw K= 256 M= 4 PSNR=   0 pure          RMSE med   30.528 p90    163.165
+  nw K= 256 M= 4 PSNR=   0 simple        RMSE med    9.006 p90     13.269
+  nw K= 256 M= 4 PSNR=   0 airmoe        RMSE med    5.254 p90      7.549  sat 1.000
+  nw K= 256 M= 4 PSNR=   0 airmoe_hybrid RMSE med    5.907 p90      7.924  sat 1.000
+  nw K= 256 M= 4 PSNR=   0 airmoe_eff    RMSE med    4.925 p90      6.479  sat 1.000
+  nw K= 256 M= 4 PSNR=   0 ladder_eff@kap0.3 RMSE med    5.753 p90      7.944  sat 1.000
+  nw K= 256 M= 4 PSNR=   0 ladder_eff@kap1 RMSE med    5.149 p90      7.030  sat 1.000
+  nw K= 256 M= 4 PSNR=   0 ladderdet_eff RMSE med    5.054 p90      6.783  sat 0.999
+  nw K= 256 M= 4 PSNR=   0 ladderdet_eff@kap0.3 RMSE med    4.968 p90      6.702  sat 0.999
+  nw K= 256 M= 4 PSNR=   0 ladderdet_eff@kap1 RMSE med    4.943 p90      6.681  sat 0.999
+  nw K= 256 M= 4 PSNR=   0 ladderdet_eff_trunc@kap1 RMSE med    4.942 p90      6.599  sat 0.999
+  nw K= 256 M= 4 PSNR=   5 genie         RMSE med   23.392 p90     29.742  sat 0.000
+  nw K= 256 M= 4 PSNR=   5 ladder        RMSE med   24.444 p90     30.836  sat 0.000
+  nw K= 256 M= 4 PSNR=   5 fixed         RMSE med   28.050 p90     33.809  sat 0.200
+  nw K= 256 M= 4 PSNR=   5 ladder_hybrid RMSE med   19.553 p90     25.833  sat 0.000
+  nw K= 256 M= 4 PSNR=   5 genie_hybrid  RMSE med   17.734 p90     23.993  sat 0.000
+  nw K= 256 M= 4 PSNR=   5 ladder_chk    RMSE med   19.782 p90     26.089  sat 0.000
+  nw K= 256 M= 4 PSNR=   5 ladderdet     RMSE med    5.008 p90      7.388  sat 0.994
+  nw K= 256 M= 4 PSNR=   5 ladderdet_chk RMSE med    4.937 p90      6.769  sat 0.994
+  nw K= 256 M= 4 PSNR=   5 ladder_trunc  RMSE med    6.338 p90      9.470  sat 0.000
+  nw K= 256 M= 4 PSNR=   5 ladder_hybrid_trunc RMSE med    5.675 p90      7.670  sat 0.000
+  nw K= 256 M= 4 PSNR=   5 ladderdet_trunc RMSE med    5.046 p90      7.504  sat 0.989
+  nw K= 256 M= 4 PSNR=   5 ladderdet_chk_trunc RMSE med    4.933 p90      6.632  sat 0.971
+  nw K= 256 M= 4 PSNR=   5 awa           RMSE med    8.573 p90     15.132
+  nw K= 256 M= 4 PSNR=   5 pure          RMSE med   28.954 p90    164.973
+  nw K= 256 M= 4 PSNR=   5 simple        RMSE med    7.875 p90     10.977
+  nw K= 256 M= 4 PSNR=   5 airmoe        RMSE med    4.834 p90      6.630  sat 1.000
+  nw K= 256 M= 4 PSNR=   5 airmoe_hybrid RMSE med    5.350 p90      7.126  sat 1.000
+  nw K= 256 M= 4 PSNR=   5 airmoe_eff    RMSE med    4.583 p90      6.015  sat 1.000
+  nw K= 256 M= 4 PSNR=   5 ladder_eff@kap0.3 RMSE med    5.036 p90      6.979  sat 1.000
+  nw K= 256 M= 4 PSNR=   5 ladder_eff@kap1 RMSE med    4.756 p90      6.321  sat 1.000
+  nw K= 256 M= 4 PSNR=   5 ladderdet_eff RMSE med    4.759 p90      6.407  sat 0.993
+  nw K= 256 M= 4 PSNR=   5 ladderdet_eff@kap0.3 RMSE med    4.613 p90      6.125  sat 0.999
+  nw K= 256 M= 4 PSNR=   5 ladderdet_eff@kap1 RMSE med    4.653 p90      6.150  sat 0.999
+  nw K= 256 M= 4 PSNR=   5 ladderdet_eff_trunc@kap1 RMSE med    4.643 p90      6.159  sat 0.999
+  nw K= 256 M= 4 PSNR=  10 genie         RMSE med   18.945 p90     25.616  sat 0.000
+  nw K= 256 M= 4 PSNR=  10 ladder        RMSE med   20.459 p90     27.421  sat 0.000
+  nw K= 256 M= 4 PSNR=  10 fixed         RMSE med   25.145 p90     31.000  sat 0.200
+  nw K= 256 M= 4 PSNR=  10 ladder_hybrid RMSE med   13.729 p90     20.255  sat 0.000
+  nw K= 256 M= 4 PSNR=  10 genie_hybrid  RMSE med   12.101 p90     18.432  sat 0.000
+  nw K= 256 M= 4 PSNR=  10 ladder_chk    RMSE med   13.717 p90     20.404  sat 0.000
+  nw K= 256 M= 4 PSNR=  10 ladderdet     RMSE med    4.801 p90      7.570  sat 0.973
+  nw K= 256 M= 4 PSNR=  10 ladderdet_chk RMSE med    4.737 p90      6.431  sat 0.974
+  nw K= 256 M= 4 PSNR=  10 ladder_trunc  RMSE med    5.333 p90      7.636  sat 0.000
+  nw K= 256 M= 4 PSNR=  10 ladder_hybrid_trunc RMSE med    4.969 p90      6.675  sat 0.000
+  nw K= 256 M= 4 PSNR=  10 ladderdet_trunc RMSE med    4.805 p90      7.342  sat 0.967
+  nw K= 256 M= 4 PSNR=  10 ladderdet_chk_trunc RMSE med    4.698 p90      6.284  sat 0.826
+  nw K= 256 M= 4 PSNR=  10 awa           RMSE med    7.513 p90     10.304
+  nw K= 256 M= 4 PSNR=  10 pure          RMSE med   28.041 p90    152.142
+  nw K= 256 M= 4 PSNR=  10 simple        RMSE med    7.405 p90     10.050
+  nw K= 256 M= 4 PSNR=  10 airmoe        RMSE med    4.542 p90      5.982  sat 1.000
+  nw K= 256 M= 4 PSNR=  10 airmoe_hybrid RMSE med    4.942 p90      6.528  sat 1.000
+  nw K= 256 M= 4 PSNR=  10 airmoe_eff    RMSE med    4.364 p90      5.776  sat 1.000
+  nw K= 256 M= 4 PSNR=  10 ladder_eff@kap0.3 RMSE med    4.770 p90      6.323  sat 1.000
+  nw K= 256 M= 4 PSNR=  10 ladder_eff@kap1 RMSE med    4.469 p90      5.981  sat 1.000
+  nw K= 256 M= 4 PSNR=  10 ladderdet_eff RMSE med    4.569 p90      6.211  sat 0.973
+  nw K= 256 M= 4 PSNR=  10 ladderdet_eff@kap0.3 RMSE med    4.439 p90      5.877  sat 0.999
+  nw K= 256 M= 4 PSNR=  10 ladderdet_eff@kap1 RMSE med    4.424 p90      5.869  sat 0.999
+  nw K= 256 M= 4 PSNR=  10 ladderdet_eff_trunc@kap1 RMSE med    4.471 p90      5.853  sat 0.999
+  nw K= 256 M= 4 PSNR=  15 genie         RMSE med   14.109 p90     20.958  sat 0.000
+  nw K= 256 M= 4 PSNR=  15 ladder        RMSE med   15.414 p90     22.305  sat 0.000
+  nw K= 256 M= 4 PSNR=  15 fixed         RMSE med   20.457 p90     26.555  sat 0.200
+  nw K= 256 M= 4 PSNR=  15 ladder_hybrid RMSE med    8.909 p90     15.021  sat 0.000
+  nw K= 256 M= 4 PSNR=  15 genie_hybrid  RMSE med    7.774 p90     13.227  sat 0.000
+  nw K= 256 M= 4 PSNR=  15 ladder_chk    RMSE med    8.843 p90     15.081  sat 0.000
+  nw K= 256 M= 4 PSNR=  15 ladderdet     RMSE med    4.694 p90      7.394  sat 0.912
+  nw K= 256 M= 4 PSNR=  15 ladderdet_chk RMSE med    4.561 p90      6.245  sat 0.909
+  nw K= 256 M= 4 PSNR=  15 ladder_trunc  RMSE med    4.687 p90      6.515  sat 0.000
+  nw K= 256 M= 4 PSNR=  15 ladder_hybrid_trunc RMSE med    4.528 p90      6.065  sat 0.000
+  nw K= 256 M= 4 PSNR=  15 ladderdet_trunc RMSE med    4.596 p90      6.408  sat 0.703
+  nw K= 256 M= 4 PSNR=  15 ladderdet_chk_trunc RMSE med    4.458 p90      5.878  sat 0.572
+  nw K= 256 M= 4 PSNR=  15 awa           RMSE med    7.222 p90      9.881
+  nw K= 256 M= 4 PSNR=  15 pure          RMSE med   26.581 p90    150.313
+  nw K= 256 M= 4 PSNR=  15 simple        RMSE med    7.235 p90      9.671
+  nw K= 256 M= 4 PSNR=  15 airmoe        RMSE med    4.314 p90      5.751  sat 1.000
+  nw K= 256 M= 4 PSNR=  15 airmoe_hybrid RMSE med    4.611 p90      6.084  sat 1.000
+  nw K= 256 M= 4 PSNR=  15 airmoe_eff    RMSE med    4.227 p90      5.639  sat 1.000
+  nw K= 256 M= 4 PSNR=  15 ladder_eff@kap0.3 RMSE med    4.479 p90      6.049  sat 0.998
+  nw K= 256 M= 4 PSNR=  15 ladder_eff@kap1 RMSE med    4.309 p90      5.697  sat 1.000
+  nw K= 256 M= 4 PSNR=  15 ladderdet_eff RMSE med    4.384 p90      5.991  sat 0.914
+  nw K= 256 M= 4 PSNR=  15 ladderdet_eff@kap0.3 RMSE med    4.287 p90      5.625  sat 0.998
+  nw K= 256 M= 4 PSNR=  15 ladderdet_eff@kap1 RMSE med    4.288 p90      5.637  sat 0.999
+  nw K= 256 M= 4 PSNR=  15 ladderdet_eff_trunc@kap1 RMSE med    4.286 p90      5.667  sat 0.999
+  nw K= 256 M= 4 PSNR=  20 genie         RMSE med    8.550 p90     16.051  sat 0.000
+  nw K= 256 M= 4 PSNR=  20 ladder        RMSE med   10.220 p90     17.519  sat 0.000
+  nw K= 256 M= 4 PSNR=  20 fixed         RMSE med   13.624 p90     19.887  sat 0.200
+  nw K= 256 M= 4 PSNR=  20 ladder_hybrid RMSE med    6.041 p90     10.202  sat 0.000
+  nw K= 256 M= 4 PSNR=  20 genie_hybrid  RMSE med    5.538 p90      9.004  sat 0.000
+  nw K= 256 M= 4 PSNR=  20 ladder_chk    RMSE med    6.103 p90     10.300  sat 0.000
+  nw K= 256 M= 4 PSNR=  20 ladderdet     RMSE med    4.622 p90      7.321  sat 0.779
+  nw K= 256 M= 4 PSNR=  20 ladderdet_chk RMSE med    4.412 p90      6.002  sat 0.780
+  nw K= 256 M= 4 PSNR=  20 ladder_trunc  RMSE med    4.429 p90      5.912  sat 0.000
+  nw K= 256 M= 4 PSNR=  20 ladder_hybrid_trunc RMSE med    4.234 p90      5.574  sat 0.000
+  nw K= 256 M= 4 PSNR=  20 ladderdet_trunc RMSE med    4.320 p90      5.772  sat 0.265
+  nw K= 256 M= 4 PSNR=  20 ladderdet_chk_trunc RMSE med    4.314 p90      5.690  sat 0.589
+  nw K= 256 M= 4 PSNR=  20 awa           RMSE med    6.765 p90      9.645
+  nw K= 256 M= 4 PSNR=  20 pure          RMSE med   21.365 p90    129.546
+  nw K= 256 M= 4 PSNR=  20 simple        RMSE med    7.156 p90      9.605
+  nw K= 256 M= 4 PSNR=  20 airmoe        RMSE med    4.177 p90      5.485  sat 1.000
+  nw K= 256 M= 4 PSNR=  20 airmoe_hybrid RMSE med    4.305 p90      5.743  sat 1.000
+  nw K= 256 M= 4 PSNR=  20 airmoe_eff    RMSE med    4.130 p90      5.398  sat 1.000
+  nw K= 256 M= 4 PSNR=  20 ladder_eff@kap0.3 RMSE med    4.245 p90      5.681  sat 0.988
+  nw K= 256 M= 4 PSNR=  20 ladder_eff@kap1 RMSE med    4.168 p90      5.518  sat 0.998
+  nw K= 256 M= 4 PSNR=  20 ladderdet_eff RMSE med    4.328 p90      5.990  sat 0.780
+  nw K= 256 M= 4 PSNR=  20 ladderdet_eff@kap0.3 RMSE med    4.163 p90      5.478  sat 0.989
+  nw K= 256 M= 4 PSNR=  20 ladderdet_eff@kap1 RMSE med    4.167 p90      5.478  sat 0.997
+  nw K= 256 M= 4 PSNR=  20 ladderdet_eff_trunc@kap1 RMSE med    4.162 p90      5.475  sat 0.996
+  nw K= 256 M= 4 PSNR=  25 genie         RMSE med    5.263 p90     12.152  sat 0.000
+  nw K= 256 M= 4 PSNR=  25 ladder        RMSE med    5.734 p90     13.342  sat 0.000
+  nw K= 256 M= 4 PSNR=  25 fixed         RMSE med    6.785 p90     13.334  sat 0.200
+  nw K= 256 M= 4 PSNR=  25 ladder_hybrid RMSE med    4.825 p90      7.122  sat 0.000
+  nw K= 256 M= 4 PSNR=  25 genie_hybrid  RMSE med    4.604 p90      6.391  sat 0.000
+  nw K= 256 M= 4 PSNR=  25 ladder_chk    RMSE med    4.825 p90      7.080  sat 0.000
+  nw K= 256 M= 4 PSNR=  25 ladderdet     RMSE med    4.383 p90      6.454  sat 0.579
+  nw K= 256 M= 4 PSNR=  25 ladderdet_chk RMSE med    4.278 p90      5.818  sat 0.580
+  nw K= 256 M= 4 PSNR=  25 ladder_trunc  RMSE med    4.187 p90      5.494  sat 0.000
+  nw K= 256 M= 4 PSNR=  25 ladder_hybrid_trunc RMSE med    4.142 p90      5.472  sat 0.000
+  nw K= 256 M= 4 PSNR=  25 ladderdet_trunc RMSE med    4.156 p90      5.474  sat 0.151
+  nw K= 256 M= 4 PSNR=  25 ladderdet_chk_trunc RMSE med    4.162 p90      5.464  sat 0.062
+  nw K= 256 M= 4 PSNR=  25 awa           RMSE med    6.373 p90     13.762
+  nw K= 256 M= 4 PSNR=  25 pure          RMSE med   13.521 p90     79.941
+  nw K= 256 M= 4 PSNR=  25 simple        RMSE med    7.128 p90      9.603
+  nw K= 256 M= 4 PSNR=  25 airmoe        RMSE med    4.064 p90      5.416  sat 1.000
+  nw K= 256 M= 4 PSNR=  25 airmoe_hybrid RMSE med    4.188 p90      5.490  sat 1.000
+  nw K= 256 M= 4 PSNR=  25 airmoe_eff    RMSE med    4.030 p90      5.375  sat 1.000
+  nw K= 256 M= 4 PSNR=  25 ladder_eff@kap0.3 RMSE med    4.127 p90      5.474  sat 0.952
+  nw K= 256 M= 4 PSNR=  25 ladder_eff@kap1 RMSE med    4.076 p90      5.386  sat 0.989
+  nw K= 256 M= 4 PSNR=  25 ladderdet_eff RMSE med    4.215 p90      5.748  sat 0.580
+  nw K= 256 M= 4 PSNR=  25 ladderdet_eff@kap0.3 RMSE med    4.061 p90      5.434  sat 0.958
+  nw K= 256 M= 4 PSNR=  25 ladderdet_eff@kap1 RMSE med    4.055 p90      5.366  sat 0.989
+  nw K= 256 M= 4 PSNR=  25 ladderdet_eff_trunc@kap1 RMSE med    4.056 p90      5.351  sat 0.985
+  nw K= 256 M= 4 PSNR=  30 genie         RMSE med    4.425 p90      6.813  sat 0.000
+  nw K= 256 M= 4 PSNR=  30 ladder        RMSE med    4.573 p90      7.800  sat 0.000
+  nw K= 256 M= 4 PSNR=  30 fixed         RMSE med    4.777 p90      7.109  sat 0.200
+  nw K= 256 M= 4 PSNR=  30 ladder_hybrid RMSE med    4.292 p90      5.813  sat 0.000
+  nw K= 256 M= 4 PSNR=  30 genie_hybrid  RMSE med    4.205 p90      5.646  sat 0.000
+  nw K= 256 M= 4 PSNR=  30 ladder_chk    RMSE med    4.318 p90      5.871  sat 0.000
+  nw K= 256 M= 4 PSNR=  30 ladderdet     RMSE med    4.208 p90      5.812  sat 0.354
+  nw K= 256 M= 4 PSNR=  30 ladderdet_chk RMSE med    4.122 p90      5.498  sat 0.355
+  nw K= 256 M= 4 PSNR=  30 ladder_trunc  RMSE med    4.055 p90      5.366  sat 0.000
+  nw K= 256 M= 4 PSNR=  30 ladder_hybrid_trunc RMSE med    4.016 p90      5.313  sat 0.000
+  nw K= 256 M= 4 PSNR=  30 ladderdet_trunc RMSE med    4.051 p90      5.369  sat 0.100
+  nw K= 256 M= 4 PSNR=  30 ladderdet_chk_trunc RMSE med    4.026 p90      5.312  sat 0.099
+  nw K= 256 M= 4 PSNR=  30 awa           RMSE med    5.459 p90      8.072
+  nw K= 256 M= 4 PSNR=  30 pure          RMSE med    6.886 p90     35.066
+  nw K= 256 M= 4 PSNR=  30 simple        RMSE med    7.127 p90      9.575
+  nw K= 256 M= 4 PSNR=  30 airmoe        RMSE med    4.026 p90      5.328  sat 1.000
+  nw K= 256 M= 4 PSNR=  30 airmoe_hybrid RMSE med    4.081 p90      5.394  sat 1.000
+  nw K= 256 M= 4 PSNR=  30 airmoe_eff    RMSE med    3.998 p90      5.280  sat 1.000
+  nw K= 256 M= 4 PSNR=  30 ladder_eff@kap0.3 RMSE med    4.020 p90      5.353  sat 0.862
+  nw K= 256 M= 4 PSNR=  30 ladder_eff@kap1 RMSE med    4.016 p90      5.304  sat 0.955
+  nw K= 256 M= 4 PSNR=  30 ladderdet_eff RMSE med    4.077 p90      5.479  sat 0.353
+  nw K= 256 M= 4 PSNR=  30 ladderdet_eff@kap0.3 RMSE med    4.017 p90      5.314  sat 0.869
+  nw K= 256 M= 4 PSNR=  30 ladderdet_eff@kap1 RMSE med    3.994 p90      5.328  sat 0.955
+  nw K= 256 M= 4 PSNR=  30 ladderdet_eff_trunc@kap1 RMSE med    4.026 p90      5.310  sat 0.954
+[nw K=1024] ideal RMSE med 3.631 dB p90 4.754; log10 weight range per instance: median 66.8, N_eff median 42.77 (689 s)
+  nw K=1024 M= 1 PSNR=   0 genie         RMSE med   25.467 p90     31.221  sat 0.000
+  nw K=1024 M= 1 PSNR=   0 ladder        RMSE med   26.268 p90     32.250  sat 0.000
+  nw K=1024 M= 1 PSNR=   0 fixed         RMSE med   28.779 p90     34.336  sat 0.198
+  nw K=1024 M= 1 PSNR=   0 ladder_hybrid RMSE med   22.037 p90     28.396  sat 0.000
+  nw K=1024 M= 1 PSNR=   0 genie_hybrid  RMSE med   19.992 p90     26.366  sat 0.000
+  nw K=1024 M= 1 PSNR=   0 ladder_chk    RMSE med   21.801 p90     28.019  sat 0.000
+  nw K=1024 M= 1 PSNR=   0 ladderdet     RMSE med    4.663 p90      7.021  sat 0.999
+  nw K=1024 M= 1 PSNR=   0 ladderdet_chk RMSE med    4.493 p90      6.200  sat 0.999
+  nw K=1024 M= 1 PSNR=   0 ladder_trunc  RMSE med    5.329 p90      9.027  sat 0.000
+  nw K=1024 M= 1 PSNR=   0 ladder_hybrid_trunc RMSE med    4.595 p90      6.047  sat 0.000
+  nw K=1024 M= 1 PSNR=   0 ladderdet_trunc RMSE med    4.097 p90      5.503  sat 0.993
+  nw K=1024 M= 1 PSNR=   0 ladderdet_chk_trunc RMSE med    4.135 p90      5.496  sat 0.994
+  nw K=1024 M= 1 PSNR=   0 awa           RMSE med   10.664 p90     49.940
+  nw K=1024 M= 1 PSNR=   0 pure          RMSE med   29.805 p90    160.760
+  nw K=1024 M= 1 PSNR=   0 simple        RMSE med    8.410 p90     13.916
+  nw K=1024 M= 1 PSNR=   0 airmoe        RMSE med    4.083 p90      5.302  sat 1.000
+  nw K=1024 M= 1 PSNR=   0 airmoe_hybrid RMSE med    5.018 p90      6.788  sat 1.000
+  nw K=1024 M= 1 PSNR=   0 airmoe_eff    RMSE med    4.008 p90      5.271  sat 1.000
+  nw K=1024 M= 1 PSNR=   0 ladder_eff@kap0.3 RMSE med    4.002 p90      5.325  sat 1.000
+  nw K=1024 M= 1 PSNR=   0 ladder_eff@kap1 RMSE med    4.045 p90      5.313  sat 1.000
+  nw K=1024 M= 1 PSNR=   0 ladderdet_eff RMSE med    4.230 p90      5.687  sat 0.999
+  nw K=1024 M= 1 PSNR=   0 ladderdet_eff@kap0.3 RMSE med    4.241 p90      5.569  sat 0.999
+  nw K=1024 M= 1 PSNR=   0 ladderdet_eff@kap1 RMSE med    4.251 p90      5.612  sat 0.999
+  nw K=1024 M= 1 PSNR=   0 ladderdet_eff_trunc@kap1 RMSE med    4.029 p90      5.311  sat 0.999
+  nw K=1024 M= 1 PSNR=   5 genie         RMSE med   21.153 p90     27.467  sat 0.000
+  nw K=1024 M= 1 PSNR=   5 ladder        RMSE med   22.393 p90     28.555  sat 0.000
+  nw K=1024 M= 1 PSNR=   5 fixed         RMSE med   26.068 p90     32.158  sat 0.198
+  nw K=1024 M= 1 PSNR=   5 ladder_hybrid RMSE med   15.822 p90     22.479  sat 0.000
+  nw K=1024 M= 1 PSNR=   5 genie_hybrid  RMSE med   13.788 p90     20.938  sat 0.000
+  nw K=1024 M= 1 PSNR=   5 ladder_chk    RMSE med   15.715 p90     22.271  sat 0.000
+  nw K=1024 M= 1 PSNR=   5 ladderdet     RMSE med    4.083 p90      5.563  sat 0.998
+  nw K=1024 M= 1 PSNR=   5 ladderdet_chk RMSE med    4.232 p90      5.581  sat 0.998
+  nw K=1024 M= 1 PSNR=   5 ladder_trunc  RMSE med    4.273 p90      5.829  sat 0.000
+  nw K=1024 M= 1 PSNR=   5 ladder_hybrid_trunc RMSE med    4.067 p90      5.421  sat 0.000
+  nw K=1024 M= 1 PSNR=   5 ladderdet_trunc RMSE med    3.963 p90      5.246  sat 0.962
+  nw K=1024 M= 1 PSNR=   5 ladderdet_chk_trunc RMSE med    4.039 p90      5.259  sat 0.885
+  nw K=1024 M= 1 PSNR=   5 awa           RMSE med    8.174 p90     19.414
+  nw K=1024 M= 1 PSNR=   5 pure          RMSE med   28.330 p90    155.816
+  nw K=1024 M= 1 PSNR=   5 simple        RMSE med    7.594 p90     11.195
+  nw K=1024 M= 1 PSNR=   5 airmoe        RMSE med    3.939 p90      5.135  sat 1.000
+  nw K=1024 M= 1 PSNR=   5 airmoe_hybrid RMSE med    4.612 p90      6.150  sat 1.000
+  nw K=1024 M= 1 PSNR=   5 airmoe_eff    RMSE med    3.907 p90      5.135  sat 1.000
+  nw K=1024 M= 1 PSNR=   5 ladder_eff@kap0.3 RMSE med    3.903 p90      5.126  sat 1.000
+  nw K=1024 M= 1 PSNR=   5 ladder_eff@kap1 RMSE med    3.915 p90      5.141  sat 1.000
+  nw K=1024 M= 1 PSNR=   5 ladderdet_eff RMSE med    3.971 p90      5.221  sat 0.997
+  nw K=1024 M= 1 PSNR=   5 ladderdet_eff@kap0.3 RMSE med    3.907 p90      5.177  sat 0.999
+  nw K=1024 M= 1 PSNR=   5 ladderdet_eff@kap1 RMSE med    3.940 p90      5.183  sat 0.999
+  nw K=1024 M= 1 PSNR=   5 ladderdet_eff_trunc@kap1 RMSE med    3.899 p90      5.128  sat 1.000
+  nw K=1024 M= 1 PSNR=  10 genie         RMSE med   15.884 p90     22.758  sat 0.000
+  nw K=1024 M= 1 PSNR=  10 ladder        RMSE med   17.807 p90     24.533  sat 0.000
+  nw K=1024 M= 1 PSNR=  10 fixed         RMSE med   21.915 p90     28.091  sat 0.198
+  nw K=1024 M= 1 PSNR=  10 ladder_hybrid RMSE med   10.325 p90     17.163  sat 0.000
+  nw K=1024 M= 1 PSNR=  10 genie_hybrid  RMSE med    8.737 p90     15.655  sat 0.000
+  nw K=1024 M= 1 PSNR=  10 ladder_chk    RMSE med   10.342 p90     17.110  sat 0.000
+  nw K=1024 M= 1 PSNR=  10 ladderdet     RMSE med    3.913 p90      5.280  sat 0.990
+  nw K=1024 M= 1 PSNR=  10 ladderdet_chk RMSE med    3.989 p90      5.330  sat 0.990
+  nw K=1024 M= 1 PSNR=  10 ladder_trunc  RMSE med    3.910 p90      5.184  sat 0.000
+  nw K=1024 M= 1 PSNR=  10 ladder_hybrid_trunc RMSE med    3.838 p90      5.031  sat 0.000
+  nw K=1024 M= 1 PSNR=  10 ladderdet_trunc RMSE med    3.842 p90      5.142  sat 0.914
+  nw K=1024 M= 1 PSNR=  10 ladderdet_chk_trunc RMSE med    3.841 p90      5.095  sat 0.844
+  nw K=1024 M= 1 PSNR=  10 awa           RMSE med    7.390 p90     11.199
+  nw K=1024 M= 1 PSNR=  10 pure          RMSE med   27.677 p90    156.407
+  nw K=1024 M= 1 PSNR=  10 simple        RMSE med    7.186 p90     10.162
+  nw K=1024 M= 1 PSNR=  10 airmoe        RMSE med    3.845 p90      5.048  sat 1.000
+  nw K=1024 M= 1 PSNR=  10 airmoe_hybrid RMSE med    4.232 p90      5.649  sat 1.000
+  nw K=1024 M= 1 PSNR=  10 airmoe_eff    RMSE med    3.833 p90      5.020  sat 1.000
+  nw K=1024 M= 1 PSNR=  10 ladder_eff@kap0.3 RMSE med    3.820 p90      4.994  sat 1.000
+  nw K=1024 M= 1 PSNR=  10 ladder_eff@kap1 RMSE med    3.846 p90      5.005  sat 1.000
+  nw K=1024 M= 1 PSNR=  10 ladderdet_eff RMSE med    3.851 p90      5.117  sat 0.990
+  nw K=1024 M= 1 PSNR=  10 ladderdet_eff@kap0.3 RMSE med    3.829 p90      5.019  sat 0.999
+  nw K=1024 M= 1 PSNR=  10 ladderdet_eff@kap1 RMSE med    3.822 p90      4.977  sat 1.000
+  nw K=1024 M= 1 PSNR=  10 ladderdet_eff_trunc@kap1 RMSE med    3.835 p90      5.021  sat 0.999
+  nw K=1024 M= 1 PSNR=  15 genie         RMSE med   10.907 p90     18.569  sat 0.000
+  nw K=1024 M= 1 PSNR=  15 ladder        RMSE med   12.506 p90     19.594  sat 0.000
+  nw K=1024 M= 1 PSNR=  15 fixed         RMSE med   15.335 p90     21.967  sat 0.198
+  nw K=1024 M= 1 PSNR=  15 ladder_hybrid RMSE med    6.576 p90     12.254  sat 0.000
+  nw K=1024 M= 1 PSNR=  15 genie_hybrid  RMSE med    5.909 p90     11.171  sat 0.000
+  nw K=1024 M= 1 PSNR=  15 ladder_chk    RMSE med    6.715 p90     12.618  sat 0.000
+  nw K=1024 M= 1 PSNR=  15 ladderdet     RMSE med    3.880 p90      5.278  sat 0.963
+  nw K=1024 M= 1 PSNR=  15 ladderdet_chk RMSE med    3.923 p90      5.150  sat 0.963
+  nw K=1024 M= 1 PSNR=  15 ladder_trunc  RMSE med    3.798 p90      4.993  sat 0.000
+  nw K=1024 M= 1 PSNR=  15 ladder_hybrid_trunc RMSE med    3.781 p90      4.943  sat 0.000
+  nw K=1024 M= 1 PSNR=  15 ladderdet_trunc RMSE med    3.784 p90      4.942  sat 0.728
+  nw K=1024 M= 1 PSNR=  15 ladderdet_chk_trunc RMSE med    3.775 p90      4.972  sat 0.731
+  nw K=1024 M= 1 PSNR=  15 awa           RMSE med    6.999 p90     10.223
+  nw K=1024 M= 1 PSNR=  15 pure          RMSE med   22.844 p90    138.903
+  nw K=1024 M= 1 PSNR=  15 simple        RMSE med    7.003 p90      9.833
+  nw K=1024 M= 1 PSNR=  15 airmoe        RMSE med    3.750 p90      4.923  sat 1.000
+  nw K=1024 M= 1 PSNR=  15 airmoe_hybrid RMSE med    4.035 p90      5.270  sat 1.000
+  nw K=1024 M= 1 PSNR=  15 airmoe_eff    RMSE med    3.757 p90      4.913  sat 1.000
+  nw K=1024 M= 1 PSNR=  15 ladder_eff@kap0.3 RMSE med    3.743 p90      4.920  sat 1.000
+  nw K=1024 M= 1 PSNR=  15 ladder_eff@kap1 RMSE med    3.759 p90      4.931  sat 1.000
+  nw K=1024 M= 1 PSNR=  15 ladderdet_eff RMSE med    3.825 p90      5.122  sat 0.964
+  nw K=1024 M= 1 PSNR=  15 ladderdet_eff@kap0.3 RMSE med    3.752 p90      4.970  sat 0.999
+  nw K=1024 M= 1 PSNR=  15 ladderdet_eff@kap1 RMSE med    3.782 p90      4.951  sat 0.999
+  nw K=1024 M= 1 PSNR=  15 ladderdet_eff_trunc@kap1 RMSE med    3.767 p90      4.960  sat 0.999
+  nw K=1024 M= 1 PSNR=  20 genie         RMSE med    5.619 p90     13.952  sat 0.000
+  nw K=1024 M= 1 PSNR=  20 ladder        RMSE med    6.282 p90     15.282  sat 0.000
+  nw K=1024 M= 1 PSNR=  20 fixed         RMSE med    7.450 p90     14.037  sat 0.198
+  nw K=1024 M= 1 PSNR=  20 ladder_hybrid RMSE med    4.922 p90      8.351  sat 0.000
+  nw K=1024 M= 1 PSNR=  20 genie_hybrid  RMSE med    4.619 p90      7.494  sat 0.000
+  nw K=1024 M= 1 PSNR=  20 ladder_chk    RMSE med    4.979 p90      8.646  sat 0.000
+  nw K=1024 M= 1 PSNR=  20 ladderdet     RMSE med    3.859 p90      5.232  sat 0.890
+  nw K=1024 M= 1 PSNR=  20 ladderdet_chk RMSE med    3.844 p90      5.073  sat 0.890
+  nw K=1024 M= 1 PSNR=  20 ladder_trunc  RMSE med    3.713 p90      4.901  sat 0.000
+  nw K=1024 M= 1 PSNR=  20 ladder_hybrid_trunc RMSE med    3.692 p90      4.850  sat 0.000
+  nw K=1024 M= 1 PSNR=  20 ladderdet_trunc RMSE med    3.716 p90      4.830  sat 0.445
+  nw K=1024 M= 1 PSNR=  20 ladderdet_chk_trunc RMSE med    3.681 p90      4.868  sat 0.441
+  nw K=1024 M= 1 PSNR=  20 awa           RMSE med    6.553 p90     10.640
+  nw K=1024 M= 1 PSNR=  20 pure          RMSE med   15.357 p90     99.967
+  nw K=1024 M= 1 PSNR=  20 simple        RMSE med    6.979 p90      9.584
+  nw K=1024 M= 1 PSNR=  20 airmoe        RMSE med    3.727 p90      4.862  sat 1.000
+  nw K=1024 M= 1 PSNR=  20 airmoe_hybrid RMSE med    3.871 p90      5.080  sat 1.000
+  nw K=1024 M= 1 PSNR=  20 airmoe_eff    RMSE med    3.703 p90      4.857  sat 1.000
+  nw K=1024 M= 1 PSNR=  20 ladder_eff@kap0.3 RMSE med    3.691 p90      4.862  sat 1.000
+  nw K=1024 M= 1 PSNR=  20 ladder_eff@kap1 RMSE med    3.718 p90      4.890  sat 1.000
+  nw K=1024 M= 1 PSNR=  20 ladderdet_eff RMSE med    3.788 p90      5.010  sat 0.890
+  nw K=1024 M= 1 PSNR=  20 ladderdet_eff@kap0.3 RMSE med    3.721 p90      4.900  sat 0.999
+  nw K=1024 M= 1 PSNR=  20 ladderdet_eff@kap1 RMSE med    3.745 p90      4.933  sat 0.999
+  nw K=1024 M= 1 PSNR=  20 ladderdet_eff_trunc@kap1 RMSE med    3.750 p90      4.894  sat 0.999
+  nw K=1024 M= 1 PSNR=  25 genie         RMSE med    4.323 p90      9.557  sat 0.000
+  nw K=1024 M= 1 PSNR=  25 ladder        RMSE med    4.572 p90     11.265  sat 0.000
+  nw K=1024 M= 1 PSNR=  25 fixed         RMSE med    4.572 p90      6.741  sat 0.198
+  nw K=1024 M= 1 PSNR=  25 ladder_hybrid RMSE med    4.194 p90      6.075  sat 0.000
+  nw K=1024 M= 1 PSNR=  25 genie_hybrid  RMSE med    4.047 p90      5.698  sat 0.000
+  nw K=1024 M= 1 PSNR=  25 ladder_chk    RMSE med    4.193 p90      5.931  sat 0.000
+  nw K=1024 M= 1 PSNR=  25 ladderdet     RMSE med    3.798 p90      5.262  sat 0.744
+  nw K=1024 M= 1 PSNR=  25 ladderdet_chk RMSE med    3.768 p90      5.016  sat 0.742
+  nw K=1024 M= 1 PSNR=  25 ladder_trunc  RMSE med    3.734 p90      4.922  sat 0.000
+  nw K=1024 M= 1 PSNR=  25 ladder_hybrid_trunc RMSE med    3.654 p90      4.815  sat 0.000
+  nw K=1024 M= 1 PSNR=  25 ladderdet_trunc RMSE med    3.659 p90      4.818  sat 0.175
+  nw K=1024 M= 1 PSNR=  25 ladderdet_chk_trunc RMSE med    3.678 p90      4.823  sat 0.366
+  nw K=1024 M= 1 PSNR=  25 awa           RMSE med    5.629 p90     13.128
+  nw K=1024 M= 1 PSNR=  25 pure          RMSE med    7.651 p90     51.889
+  nw K=1024 M= 1 PSNR=  25 simple        RMSE med    6.887 p90      9.604
+  nw K=1024 M= 1 PSNR=  25 airmoe        RMSE med    3.682 p90      4.817  sat 1.000
+  nw K=1024 M= 1 PSNR=  25 airmoe_hybrid RMSE med    3.772 p90      4.935  sat 1.000
+  nw K=1024 M= 1 PSNR=  25 airmoe_eff    RMSE med    3.683 p90      4.823  sat 1.000
+  nw K=1024 M= 1 PSNR=  25 ladder_eff@kap0.3 RMSE med    3.693 p90      4.824  sat 0.999
+  nw K=1024 M= 1 PSNR=  25 ladder_eff@kap1 RMSE med    3.695 p90      4.822  sat 1.000
+  nw K=1024 M= 1 PSNR=  25 ladderdet_eff RMSE med    3.757 p90      4.979  sat 0.744
+  nw K=1024 M= 1 PSNR=  25 ladderdet_eff@kap0.3 RMSE med    3.674 p90      4.833  sat 0.999
+  nw K=1024 M= 1 PSNR=  25 ladderdet_eff@kap1 RMSE med    3.706 p90      4.863  sat 0.999
+  nw K=1024 M= 1 PSNR=  25 ladderdet_eff_trunc@kap1 RMSE med    3.671 p90      4.836  sat 0.989
+  nw K=1024 M= 1 PSNR=  30 genie         RMSE med    3.901 p90      5.578  sat 0.000
+  nw K=1024 M= 1 PSNR=  30 ladder        RMSE med    3.983 p90      6.050  sat 0.000
+  nw K=1024 M= 1 PSNR=  30 fixed         RMSE med    3.947 p90      5.182  sat 0.198
+  nw K=1024 M= 1 PSNR=  30 ladder_hybrid RMSE med    3.867 p90      5.219  sat 0.000
+  nw K=1024 M= 1 PSNR=  30 genie_hybrid  RMSE med    3.795 p90      5.122  sat 0.000
+  nw K=1024 M= 1 PSNR=  30 ladder_chk    RMSE med    3.857 p90      5.184  sat 0.000
+  nw K=1024 M= 1 PSNR=  30 ladderdet     RMSE med    3.749 p90      5.052  sat 0.535
+  nw K=1024 M= 1 PSNR=  30 ladderdet_chk RMSE med    3.723 p90      4.922  sat 0.534
+  nw K=1024 M= 1 PSNR=  30 ladder_trunc  RMSE med    3.645 p90      4.830  sat 0.000
+  nw K=1024 M= 1 PSNR=  30 ladder_hybrid_trunc RMSE med    3.642 p90      4.780  sat 0.000
+  nw K=1024 M= 1 PSNR=  30 ladderdet_trunc RMSE med    3.664 p90      4.772  sat 0.129
+  nw K=1024 M= 1 PSNR=  30 ladderdet_chk_trunc RMSE med    3.671 p90      4.796  sat 0.370
+  nw K=1024 M= 1 PSNR=  30 awa           RMSE med    4.940 p90     17.976
+  nw K=1024 M= 1 PSNR=  30 pure          RMSE med    4.887 p90     17.708
+  nw K=1024 M= 1 PSNR=  30 simple        RMSE med    6.901 p90      9.532
+  nw K=1024 M= 1 PSNR=  30 airmoe        RMSE med    3.668 p90      4.794  sat 1.000
+  nw K=1024 M= 1 PSNR=  30 airmoe_hybrid RMSE med    3.715 p90      4.866  sat 1.000
+  nw K=1024 M= 1 PSNR=  30 airmoe_eff    RMSE med    3.675 p90      4.779  sat 1.000
+  nw K=1024 M= 1 PSNR=  30 ladder_eff@kap0.3 RMSE med    3.665 p90      4.776  sat 0.990
+  nw K=1024 M= 1 PSNR=  30 ladder_eff@kap1 RMSE med    3.674 p90      4.815  sat 0.999
+  nw K=1024 M= 1 PSNR=  30 ladderdet_eff RMSE med    3.733 p90      4.878  sat 0.532
+  nw K=1024 M= 1 PSNR=  30 ladderdet_eff@kap0.3 RMSE med    3.665 p90      4.792  sat 0.991
+  nw K=1024 M= 1 PSNR=  30 ladderdet_eff@kap1 RMSE med    3.679 p90      4.793  sat 0.999
+  nw K=1024 M= 1 PSNR=  30 ladderdet_eff_trunc@kap1 RMSE med    3.661 p90      4.813  sat 0.978
+  nw K=1024 M= 4 PSNR=   0 genie         RMSE med   24.943 p90     30.884  sat 0.000
+  nw K=1024 M= 4 PSNR=   0 ladder        RMSE med   25.794 p90     31.728  sat 0.000
+  nw K=1024 M= 4 PSNR=   0 fixed         RMSE med   28.385 p90     34.161  sat 0.203
+  nw K=1024 M= 4 PSNR=   0 ladder_hybrid RMSE med   21.048 p90     26.758  sat 0.000
+  nw K=1024 M= 4 PSNR=   0 genie_hybrid  RMSE med   18.704 p90     25.163  sat 0.000
+  nw K=1024 M= 4 PSNR=   0 ladder_chk    RMSE med   21.050 p90     26.906  sat 0.000
+  nw K=1024 M= 4 PSNR=   0 ladderdet     RMSE med    4.659 p90      7.023  sat 0.999
+  nw K=1024 M= 4 PSNR=   0 ladderdet_chk RMSE med    4.492 p90      6.121  sat 0.999
+  nw K=1024 M= 4 PSNR=   0 ladder_trunc  RMSE med    5.320 p90     10.225  sat 0.000
+  nw K=1024 M= 4 PSNR=   0 ladder_hybrid_trunc RMSE med    4.530 p90      6.083  sat 0.000
+  nw K=1024 M= 4 PSNR=   0 ladderdet_trunc RMSE med    4.163 p90      5.517  sat 0.993
+  nw K=1024 M= 4 PSNR=   0 ladderdet_chk_trunc RMSE med    4.186 p90      5.564  sat 0.976
+  nw K=1024 M= 4 PSNR=   0 awa           RMSE med    8.046 p90     13.106
+  nw K=1024 M= 4 PSNR=   0 pure          RMSE med   31.872 p90    187.614
+  nw K=1024 M= 4 PSNR=   0 simple        RMSE med    7.617 p90     10.621
+  nw K=1024 M= 4 PSNR=   0 airmoe        RMSE med    4.063 p90      5.327  sat 1.000
+  nw K=1024 M= 4 PSNR=   0 airmoe_hybrid RMSE med    5.031 p90      6.798  sat 1.000
+  nw K=1024 M= 4 PSNR=   0 airmoe_eff    RMSE med    4.014 p90      5.282  sat 1.000
+  nw K=1024 M= 4 PSNR=   0 ladder_eff@kap0.3 RMSE med    3.986 p90      5.289  sat 1.000
+  nw K=1024 M= 4 PSNR=   0 ladder_eff@kap1 RMSE med    4.029 p90      5.297  sat 1.000
+  nw K=1024 M= 4 PSNR=   0 ladderdet_eff RMSE med    4.263 p90      5.618  sat 0.999
+  nw K=1024 M= 4 PSNR=   0 ladderdet_eff@kap0.3 RMSE med    4.242 p90      5.606  sat 0.999
+  nw K=1024 M= 4 PSNR=   0 ladderdet_eff@kap1 RMSE med    4.229 p90      5.611  sat 0.999
+  nw K=1024 M= 4 PSNR=   0 ladderdet_eff_trunc@kap1 RMSE med    4.013 p90      5.259  sat 0.999
+  nw K=1024 M= 4 PSNR=   5 genie         RMSE med   20.383 p90     26.768  sat 0.000
+  nw K=1024 M= 4 PSNR=   5 ladder        RMSE med   21.489 p90     28.187  sat 0.000
+  nw K=1024 M= 4 PSNR=   5 fixed         RMSE med   25.513 p90     31.353  sat 0.203
+  nw K=1024 M= 4 PSNR=   5 ladder_hybrid RMSE med   14.548 p90     20.793  sat 0.000
+  nw K=1024 M= 4 PSNR=   5 genie_hybrid  RMSE med   12.938 p90     19.086  sat 0.000
+  nw K=1024 M= 4 PSNR=   5 ladder_chk    RMSE med   14.573 p90     20.791  sat 0.000
+  nw K=1024 M= 4 PSNR=   5 ladderdet     RMSE med    4.098 p90      5.562  sat 0.997
+  nw K=1024 M= 4 PSNR=   5 ladderdet_chk RMSE med    4.219 p90      5.575  sat 0.997
+  nw K=1024 M= 4 PSNR=   5 ladder_trunc  RMSE med    4.266 p90      5.776  sat 0.000
+  nw K=1024 M= 4 PSNR=   5 ladder_hybrid_trunc RMSE med    4.099 p90      5.419  sat 0.000
+  nw K=1024 M= 4 PSNR=   5 ladderdet_trunc RMSE med    3.965 p90      5.342  sat 0.991
+  nw K=1024 M= 4 PSNR=   5 ladderdet_chk_trunc RMSE med    4.015 p90      5.238  sat 0.876
+  nw K=1024 M= 4 PSNR=   5 awa           RMSE med    7.197 p90     10.178
+  nw K=1024 M= 4 PSNR=   5 pure          RMSE med   31.654 p90    162.231
+  nw K=1024 M= 4 PSNR=   5 simple        RMSE med    7.157 p90      9.876
+  nw K=1024 M= 4 PSNR=   5 airmoe        RMSE med    3.917 p90      5.143  sat 1.000
+  nw K=1024 M= 4 PSNR=   5 airmoe_hybrid RMSE med    4.591 p90      6.127  sat 1.000
+  nw K=1024 M= 4 PSNR=   5 airmoe_eff    RMSE med    3.906 p90      5.135  sat 1.000
+  nw K=1024 M= 4 PSNR=   5 ladder_eff@kap0.3 RMSE med    3.882 p90      5.103  sat 1.000
+  nw K=1024 M= 4 PSNR=   5 ladder_eff@kap1 RMSE med    3.922 p90      5.125  sat 1.000
+  nw K=1024 M= 4 PSNR=   5 ladderdet_eff RMSE med    3.951 p90      5.283  sat 0.997
+  nw K=1024 M= 4 PSNR=   5 ladderdet_eff@kap0.3 RMSE med    3.886 p90      5.182  sat 0.999
+  nw K=1024 M= 4 PSNR=   5 ladderdet_eff@kap1 RMSE med    3.924 p90      5.200  sat 0.999
+  nw K=1024 M= 4 PSNR=   5 ladderdet_eff_trunc@kap1 RMSE med    3.913 p90      5.115  sat 0.999
+  nw K=1024 M= 4 PSNR=  10 genie         RMSE med   15.096 p90     21.990  sat 0.000
+  nw K=1024 M= 4 PSNR=  10 ladder        RMSE med   16.773 p90     23.715  sat 0.000
+  nw K=1024 M= 4 PSNR=  10 fixed         RMSE med   20.481 p90     26.966  sat 0.203
+  nw K=1024 M= 4 PSNR=  10 ladder_hybrid RMSE med    9.208 p90     15.022  sat 0.000
+  nw K=1024 M= 4 PSNR=  10 genie_hybrid  RMSE med    7.987 p90     13.333  sat 0.000
+  nw K=1024 M= 4 PSNR=  10 ladder_chk    RMSE med    9.246 p90     15.340  sat 0.000
+  nw K=1024 M= 4 PSNR=  10 ladderdet     RMSE med    3.942 p90      5.320  sat 0.991
+  nw K=1024 M= 4 PSNR=  10 ladderdet_chk RMSE med    4.010 p90      5.345  sat 0.989
+  nw K=1024 M= 4 PSNR=  10 ladder_trunc  RMSE med    3.898 p90      5.208  sat 0.000
+  nw K=1024 M= 4 PSNR=  10 ladder_hybrid_trunc RMSE med    3.823 p90      5.012  sat 0.000
+  nw K=1024 M= 4 PSNR=  10 ladderdet_trunc RMSE med    3.888 p90      5.089  sat 0.622
+  nw K=1024 M= 4 PSNR=  10 ladderdet_chk_trunc RMSE med    3.829 p90      5.034  sat 0.623
+  nw K=1024 M= 4 PSNR=  10 awa           RMSE med    6.950 p90      9.730
+  nw K=1024 M= 4 PSNR=  10 pure          RMSE med   28.601 p90    154.153
+  nw K=1024 M= 4 PSNR=  10 simple        RMSE med    7.006 p90      9.582
+  nw K=1024 M= 4 PSNR=  10 airmoe        RMSE med    3.825 p90      5.035  sat 1.000
+  nw K=1024 M= 4 PSNR=  10 airmoe_hybrid RMSE med    4.252 p90      5.656  sat 1.000
+  nw K=1024 M= 4 PSNR=  10 airmoe_eff    RMSE med    3.820 p90      5.049  sat 1.000
+  nw K=1024 M= 4 PSNR=  10 ladder_eff@kap0.3 RMSE med    3.819 p90      4.997  sat 1.000
+  nw K=1024 M= 4 PSNR=  10 ladder_eff@kap1 RMSE med    3.827 p90      5.041  sat 1.000
+  nw K=1024 M= 4 PSNR=  10 ladderdet_eff RMSE med    3.886 p90      5.140  sat 0.990
+  nw K=1024 M= 4 PSNR=  10 ladderdet_eff@kap0.3 RMSE med    3.823 p90      5.023  sat 0.999
+  nw K=1024 M= 4 PSNR=  10 ladderdet_eff@kap1 RMSE med    3.788 p90      5.041  sat 0.999
+  nw K=1024 M= 4 PSNR=  10 ladderdet_eff_trunc@kap1 RMSE med    3.790 p90      5.010  sat 0.999
+  nw K=1024 M= 4 PSNR=  15 genie         RMSE med    8.969 p90     17.111  sat 0.000
+  nw K=1024 M= 4 PSNR=  15 ladder        RMSE med   11.376 p90     18.326  sat 0.000
+  nw K=1024 M= 4 PSNR=  15 fixed         RMSE med   13.836 p90     19.943  sat 0.203
+  nw K=1024 M= 4 PSNR=  15 ladder_hybrid RMSE med    6.045 p90     10.152  sat 0.000
+  nw K=1024 M= 4 PSNR=  15 genie_hybrid  RMSE med    5.482 p90      8.463  sat 0.000
+  nw K=1024 M= 4 PSNR=  15 ladder_chk    RMSE med    6.063 p90     10.382  sat 0.000
+  nw K=1024 M= 4 PSNR=  15 ladderdet     RMSE med    3.906 p90      5.350  sat 0.960
+  nw K=1024 M= 4 PSNR=  15 ladderdet_chk RMSE med    3.898 p90      5.126  sat 0.961
+  nw K=1024 M= 4 PSNR=  15 ladder_trunc  RMSE med    3.770 p90      4.992  sat 0.000
+  nw K=1024 M= 4 PSNR=  15 ladder_hybrid_trunc RMSE med    3.789 p90      4.969  sat 0.000
+  nw K=1024 M= 4 PSNR=  15 ladderdet_trunc RMSE med    3.743 p90      4.957  sat 0.594
+  nw K=1024 M= 4 PSNR=  15 ladderdet_chk_trunc RMSE med    3.739 p90      4.943  sat 0.732
+  nw K=1024 M= 4 PSNR=  15 awa           RMSE med    6.498 p90      9.145
+  nw K=1024 M= 4 PSNR=  15 pure          RMSE med   21.433 p90    108.668
+  nw K=1024 M= 4 PSNR=  15 simple        RMSE med    6.917 p90      9.563
+  nw K=1024 M= 4 PSNR=  15 airmoe        RMSE med    3.757 p90      4.947  sat 1.000
+  nw K=1024 M= 4 PSNR=  15 airmoe_hybrid RMSE med    4.014 p90      5.306  sat 1.000
+  nw K=1024 M= 4 PSNR=  15 airmoe_eff    RMSE med    3.759 p90      4.897  sat 1.000
+  nw K=1024 M= 4 PSNR=  15 ladder_eff@kap0.3 RMSE med    3.739 p90      4.899  sat 1.000
+  nw K=1024 M= 4 PSNR=  15 ladder_eff@kap1 RMSE med    3.761 p90      4.902  sat 1.000
+  nw K=1024 M= 4 PSNR=  15 ladderdet_eff RMSE med    3.813 p90      5.073  sat 0.960
+  nw K=1024 M= 4 PSNR=  15 ladderdet_eff@kap0.3 RMSE med    3.770 p90      4.951  sat 0.999
+  nw K=1024 M= 4 PSNR=  15 ladderdet_eff@kap1 RMSE med    3.781 p90      4.998  sat 0.999
+  nw K=1024 M= 4 PSNR=  15 ladderdet_eff_trunc@kap1 RMSE med    3.764 p90      4.973  sat 0.999
+  nw K=1024 M= 4 PSNR=  20 genie         RMSE med    5.093 p90     12.103  sat 0.000
+  nw K=1024 M= 4 PSNR=  20 ladder        RMSE med    5.761 p90     13.365  sat 0.000
+  nw K=1024 M= 4 PSNR=  20 fixed         RMSE med    6.335 p90     12.824  sat 0.203
+  nw K=1024 M= 4 PSNR=  20 ladder_hybrid RMSE med    4.669 p90      6.712  sat 0.000
+  nw K=1024 M= 4 PSNR=  20 genie_hybrid  RMSE med    4.329 p90      6.203  sat 0.000
+  nw K=1024 M= 4 PSNR=  20 ladder_chk    RMSE med    4.632 p90      6.920  sat 0.000
+  nw K=1024 M= 4 PSNR=  20 ladderdet     RMSE med    3.842 p90      5.230  sat 0.880
+  nw K=1024 M= 4 PSNR=  20 ladderdet_chk RMSE med    3.835 p90      5.057  sat 0.878
+  nw K=1024 M= 4 PSNR=  20 ladder_trunc  RMSE med    3.700 p90      4.887  sat 0.000
+  nw K=1024 M= 4 PSNR=  20 ladder_hybrid_trunc RMSE med    3.712 p90      4.878  sat 0.000
+  nw K=1024 M= 4 PSNR=  20 ladderdet_trunc RMSE med    3.679 p90      4.845  sat 0.447
+  nw K=1024 M= 4 PSNR=  20 ladderdet_chk_trunc RMSE med    3.692 p90      4.860  sat 0.450
+  nw K=1024 M= 4 PSNR=  20 awa           RMSE med    5.968 p90     10.348
+  nw K=1024 M= 4 PSNR=  20 pure          RMSE med   12.055 p90     80.623
+  nw K=1024 M= 4 PSNR=  20 simple        RMSE med    6.910 p90      9.551
+  nw K=1024 M= 4 PSNR=  20 airmoe        RMSE med    3.720 p90      4.874  sat 1.000
+  nw K=1024 M= 4 PSNR=  20 airmoe_hybrid RMSE med    3.894 p90      5.083  sat 1.000
+  nw K=1024 M= 4 PSNR=  20 airmoe_eff    RMSE med    3.712 p90      4.870  sat 1.000
+  nw K=1024 M= 4 PSNR=  20 ladder_eff@kap0.3 RMSE med    3.700 p90      4.831  sat 1.000
+  nw K=1024 M= 4 PSNR=  20 ladder_eff@kap1 RMSE med    3.701 p90      4.865  sat 1.000
+  nw K=1024 M= 4 PSNR=  20 ladderdet_eff RMSE med    3.790 p90      4.977  sat 0.880
+  nw K=1024 M= 4 PSNR=  20 ladderdet_eff@kap0.3 RMSE med    3.728 p90      4.882  sat 0.999
+  nw K=1024 M= 4 PSNR=  20 ladderdet_eff@kap1 RMSE med    3.732 p90      4.901  sat 0.999
+  nw K=1024 M= 4 PSNR=  20 ladderdet_eff_trunc@kap1 RMSE med    3.711 p90      4.862  sat 0.998
+  nw K=1024 M= 4 PSNR=  25 genie         RMSE med    4.110 p90      6.165  sat 0.000
+  nw K=1024 M= 4 PSNR=  25 ladder        RMSE med    4.296 p90      7.310  sat 0.000
+  nw K=1024 M= 4 PSNR=  25 fixed         RMSE med    4.403 p90      6.214  sat 0.203
+  nw K=1024 M= 4 PSNR=  25 ladder_hybrid RMSE med    4.015 p90      5.395  sat 0.000
+  nw K=1024 M= 4 PSNR=  25 genie_hybrid  RMSE med    3.921 p90      5.266  sat 0.000
+  nw K=1024 M= 4 PSNR=  25 ladder_chk    RMSE med    4.009 p90      5.457  sat 0.000
+  nw K=1024 M= 4 PSNR=  25 ladderdet     RMSE med    3.793 p90      5.026  sat 0.731
+  nw K=1024 M= 4 PSNR=  25 ladderdet_chk RMSE med    3.765 p90      4.915  sat 0.732
+  nw K=1024 M= 4 PSNR=  25 ladder_trunc  RMSE med    3.677 p90      4.827  sat 0.000
+  nw K=1024 M= 4 PSNR=  25 ladder_hybrid_trunc RMSE med    3.645 p90      4.823  sat 0.000
+  nw K=1024 M= 4 PSNR=  25 ladderdet_trunc RMSE med    3.660 p90      4.806  sat 0.174
+  nw K=1024 M= 4 PSNR=  25 ladderdet_chk_trunc RMSE med    3.671 p90      4.801  sat 0.366
+  nw K=1024 M= 4 PSNR=  25 awa           RMSE med    5.147 p90      7.145
+  nw K=1024 M= 4 PSNR=  25 pure          RMSE med    6.147 p90     27.717
+  nw K=1024 M= 4 PSNR=  25 simple        RMSE med    6.898 p90      9.543
+  nw K=1024 M= 4 PSNR=  25 airmoe        RMSE med    3.686 p90      4.841  sat 1.000
+  nw K=1024 M= 4 PSNR=  25 airmoe_hybrid RMSE med    3.774 p90      4.940  sat 1.000
+  nw K=1024 M= 4 PSNR=  25 airmoe_eff    RMSE med    3.689 p90      4.817  sat 1.000
+  nw K=1024 M= 4 PSNR=  25 ladder_eff@kap0.3 RMSE med    3.675 p90      4.794  sat 0.999
+  nw K=1024 M= 4 PSNR=  25 ladder_eff@kap1 RMSE med    3.670 p90      4.816  sat 1.000
+  nw K=1024 M= 4 PSNR=  25 ladderdet_eff RMSE med    3.769 p90      4.964  sat 0.728
+  nw K=1024 M= 4 PSNR=  25 ladderdet_eff@kap0.3 RMSE med    3.686 p90      4.841  sat 0.999
+  nw K=1024 M= 4 PSNR=  25 ladderdet_eff@kap1 RMSE med    3.702 p90      4.872  sat 0.999
+  nw K=1024 M= 4 PSNR=  25 ladderdet_eff_trunc@kap1 RMSE med    3.679 p90      4.842  sat 0.989
+  nw K=1024 M= 4 PSNR=  30 genie         RMSE med    3.809 p90      5.069  sat 0.000
+  nw K=1024 M= 4 PSNR=  30 ladder        RMSE med    3.879 p90      5.264  sat 0.000
+  nw K=1024 M= 4 PSNR=  30 fixed         RMSE med    3.865 p90      5.101  sat 0.203
+  nw K=1024 M= 4 PSNR=  30 ladder_hybrid RMSE med    3.777 p90      4.970  sat 0.000
+  nw K=1024 M= 4 PSNR=  30 genie_hybrid  RMSE med    3.730 p90      4.916  sat 0.000
+  nw K=1024 M= 4 PSNR=  30 ladder_chk    RMSE med    3.766 p90      4.994  sat 0.000
+  nw K=1024 M= 4 PSNR=  30 ladderdet     RMSE med    3.762 p90      4.966  sat 0.521
+  nw K=1024 M= 4 PSNR=  30 ladderdet_chk RMSE med    3.704 p90      4.860  sat 0.520
+  nw K=1024 M= 4 PSNR=  30 ladder_trunc  RMSE med    3.653 p90      4.795  sat 0.000
+  nw K=1024 M= 4 PSNR=  30 ladder_hybrid_trunc RMSE med    3.660 p90      4.781  sat 0.000
+  nw K=1024 M= 4 PSNR=  30 ladderdet_trunc RMSE med    3.660 p90      4.783  sat 0.250
+  nw K=1024 M= 4 PSNR=  30 ladderdet_chk_trunc RMSE med    3.654 p90      4.778  sat 0.129
+  nw K=1024 M= 4 PSNR=  30 awa           RMSE med    4.491 p90      7.086
+  nw K=1024 M= 4 PSNR=  30 pure          RMSE med    4.500 p90      7.761
+  nw K=1024 M= 4 PSNR=  30 simple        RMSE med    6.892 p90      9.527
+  nw K=1024 M= 4 PSNR=  30 airmoe        RMSE med    3.668 p90      4.788  sat 1.000
+  nw K=1024 M= 4 PSNR=  30 airmoe_hybrid RMSE med    3.724 p90      4.847  sat 1.000
+  nw K=1024 M= 4 PSNR=  30 airmoe_eff    RMSE med    3.674 p90      4.795  sat 1.000
+  nw K=1024 M= 4 PSNR=  30 ladder_eff@kap0.3 RMSE med    3.661 p90      4.797  sat 0.989
+  nw K=1024 M= 4 PSNR=  30 ladder_eff@kap1 RMSE med    3.655 p90      4.802  sat 0.999
+  nw K=1024 M= 4 PSNR=  30 ladderdet_eff RMSE med    3.694 p90      4.863  sat 0.523
+  nw K=1024 M= 4 PSNR=  30 ladderdet_eff@kap0.3 RMSE med    3.668 p90      4.791  sat 0.990
+  nw K=1024 M= 4 PSNR=  30 ladderdet_eff@kap1 RMSE med    3.675 p90      4.804  sat 0.999
+  nw K=1024 M= 4 PSNR=  30 ladderdet_eff_trunc@kap1 RMSE med    3.668 p90      4.810  sat 0.998
+done in 1013 s -> results\local\field_nw_sw10_p8.json

@@ -1,0 +1,139 @@
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00, 132.96it/s]
+[T=8192 N=8] S1 exact shard merge: max|dlogit| = 9.391e+00
+  fid T=8192 N=8: segment 1/4 x 63 cells (98 s, GPU peak 10.2 GiB)
+  fid T=8192 N=8: segment 2/4 x 63 cells (157 s, GPU peak 10.2 GiB)
+  fid T=8192 N=8: segment 3/4 x 63 cells (267 s, GPU peak 10.2 GiB)
+  fid T=8192 N=8: segment 4/4 x 63 cells (403 s, GPU peak 10.2 GiB)
+  fid T=8192 N=8 M= 4 SNR= 0.0 fixed_eff@q0.5 KL=0.3637 NLL+=+0.2700 top1=0.737 mass_loss=0.0881
+  fid T=8192 N=8 M= 4 SNR= 0.0 fixed_eff@q0.9 KL=8.7580 NLL+=+8.4773 top1=0.031 mass_loss=0.0189
+  fid T=8192 N=8 M= 4 SNR= 0.0 fixed_eff@q0.99 KL=10.7228 NLL+=+10.2352 top1=0.006 mass_loss=0.0150
+  fid T=8192 N=8 M= 4 SNR= 0.0 lstale0_eff   KL=2.8127 NLL+=+2.5968 top1=0.368 mass_loss=0.0713
+  fid T=8192 N=8 M= 4 SNR= 0.0 lstale3_eff   KL=4.0907 NLL+=+3.8842 top1=0.248 mass_loss=0.0571
+  fid T=8192 N=8 M= 4 SNR= 0.0 lstale0_eff@kap1 KL=0.9394 NLL+=+0.8213 top1=0.640 mass_loss=0.1218
+  fid T=8192 N=8 M= 4 SNR= 0.0 lstale3_eff@kap1 KL=1.4526 NLL+=+1.2958 top1=0.558 mass_loss=0.0924
+  fid T=8192 N=8 M= 4 SNR= 5.0 fixed_eff@q0.5 KL=0.2007 NLL+=+0.1419 top1=0.813 mass_loss=0.0956
+  fid T=8192 N=8 M= 4 SNR= 5.0 fixed_eff@q0.9 KL=5.1220 NLL+=+4.9033 top1=0.146 mass_loss=0.0156
+  fid T=8192 N=8 M= 4 SNR= 5.0 fixed_eff@q0.99 KL=10.6133 NLL+=+10.1650 top1=0.010 mass_loss=0.0099
+  fid T=8192 N=8 M= 4 SNR= 5.0 lstale0_eff   KL=1.3396 NLL+=+1.1810 top1=0.573 mass_loss=0.0693
+  fid T=8192 N=8 M= 4 SNR= 5.0 lstale3_eff   KL=2.1399 NLL+=+1.9380 top1=0.459 mass_loss=0.0532
+  fid T=8192 N=8 M= 4 SNR= 5.0 lstale0_eff@kap1 KL=0.5988 NLL+=+0.5065 top1=0.720 mass_loss=0.1027
+  fid T=8192 N=8 M= 4 SNR= 5.0 lstale3_eff@kap1 KL=0.9349 NLL+=+0.8044 top1=0.651 mass_loss=0.0763
+  fid T=8192 N=8 M= 4 SNR=10.0 fixed_eff@q0.5 KL=0.1636 NLL+=+0.1149 top1=0.832 mass_loss=0.0986
+  fid T=8192 N=8 M= 4 SNR=10.0 fixed_eff@q0.9 KL=1.7731 NLL+=+1.5897 top1=0.454 mass_loss=0.0168
+  fid T=8192 N=8 M= 4 SNR=10.0 fixed_eff@q0.99 KL=10.1904 NLL+=+9.7878 top1=0.015 mass_loss=0.0059
+  fid T=8192 N=8 M= 4 SNR=10.0 lstale0_eff   KL=0.5701 NLL+=+0.4784 top1=0.727 mass_loss=0.0700
+  fid T=8192 N=8 M= 4 SNR=10.0 lstale3_eff   KL=0.9576 NLL+=+0.8366 top1=0.649 mass_loss=0.0520
+  fid T=8192 N=8 M= 4 SNR=10.0 lstale0_eff@kap1 KL=0.3206 NLL+=+0.2745 top1=0.791 mass_loss=0.0900
+  fid T=8192 N=8 M= 4 SNR=10.0 lstale3_eff@kap1 KL=0.5185 NLL+=+0.4275 top1=0.746 mass_loss=0.0665
+  fid T=8192 N=8 M= 4 SNR=15.0 fixed_eff@q0.5 KL=0.1544 NLL+=+0.1065 top1=0.840 mass_loss=0.0995
+  fid T=8192 N=8 M= 4 SNR=15.0 fixed_eff@q0.9 KL=0.4678 NLL+=+0.3529 top1=0.713 mass_loss=0.0198
+  fid T=8192 N=8 M= 4 SNR=15.0 fixed_eff@q0.99 KL=8.9295 NLL+=+8.6029 top1=0.024 mass_loss=0.0034
+  fid T=8192 N=8 M= 4 SNR=15.0 lstale0_eff   KL=0.2217 NLL+=+0.1927 top1=0.826 mass_loss=0.0705
+  fid T=8192 N=8 M= 4 SNR=15.0 lstale3_eff   KL=0.3565 NLL+=+0.3005 top1=0.788 mass_loss=0.0518
+  fid T=8192 N=8 M= 4 SNR=15.0 lstale0_eff@kap1 KL=0.1584 NLL+=+0.1415 top1=0.842 mass_loss=0.0824
+  fid T=8192 N=8 M= 4 SNR=15.0 lstale3_eff@kap1 KL=0.2434 NLL+=+0.2025 top1=0.813 mass_loss=0.0604
+  fid T=8192 N=8 M= 4 SNR=20.0 fixed_eff@q0.5 KL=0.1516 NLL+=+0.1045 top1=0.843 mass_loss=0.0999
+  fid T=8192 N=8 M= 4 SNR=20.0 fixed_eff@q0.9 KL=0.1189 NLL+=+0.0814 top1=0.847 mass_loss=0.0222
+  fid T=8192 N=8 M= 4 SNR=20.0 fixed_eff@q0.99 KL=6.5716 NLL+=+6.3280 top1=0.083 mass_loss=0.0022
+  fid T=8192 N=8 M= 4 SNR=20.0 lstale0_eff   KL=0.0955 NLL+=+0.0873 top1=0.870 mass_loss=0.0709
+  fid T=8192 N=8 M= 4 SNR=20.0 lstale3_eff   KL=0.1368 NLL+=+0.1199 top1=0.853 mass_loss=0.0518
+  fid T=8192 N=8 M= 4 SNR=20.0 lstale0_eff@kap1 KL=0.0893 NLL+=+0.0772 top1=0.875 mass_loss=0.0778
+  fid T=8192 N=8 M= 4 SNR=20.0 lstale3_eff@kap1 KL=0.1149 NLL+=+0.1021 top1=0.862 mass_loss=0.0568
+  fid T=8192 N=8 M= 4 SNR=25.0 fixed_eff@q0.5 KL=0.1506 NLL+=+0.1045 top1=0.840 mass_loss=0.0999
+  fid T=8192 N=8 M= 4 SNR=25.0 fixed_eff@q0.9 KL=0.0466 NLL+=+0.0340 top1=0.900 mass_loss=0.0231
+  fid T=8192 N=8 M= 4 SNR=25.0 fixed_eff@q0.99 KL=3.8625 NLL+=+3.6464 top1=0.227 mass_loss=0.0020
+  fid T=8192 N=8 M= 4 SNR=25.0 lstale0_eff   KL=0.0627 NLL+=+0.0594 top1=0.893 mass_loss=0.0711
+  fid T=8192 N=8 M= 4 SNR=25.0 lstale3_eff   KL=0.0686 NLL+=+0.0620 top1=0.892 mass_loss=0.0518
+  fid T=8192 N=8 M= 4 SNR=25.0 lstale0_eff@kap1 KL=0.0615 NLL+=+0.0590 top1=0.890 mass_loss=0.0750
+  fid T=8192 N=8 M= 4 SNR=25.0 lstale3_eff@kap1 KL=0.0658 NLL+=+0.0579 top1=0.893 mass_loss=0.0546
+  fid T=8192 N=8 M= 4 SNR=30.0 fixed_eff@q0.5 KL=0.1507 NLL+=+0.1050 top1=0.841 mass_loss=0.0999
+  fid T=8192 N=8 M= 4 SNR=30.0 fixed_eff@q0.9 KL=0.0262 NLL+=+0.0152 top1=0.926 mass_loss=0.0237
+  fid T=8192 N=8 M= 4 SNR=30.0 fixed_eff@q0.99 KL=1.7878 NLL+=+1.6208 top1=0.459 mass_loss=0.0021
+  fid T=8192 N=8 M= 4 SNR=30.0 lstale0_eff   KL=0.0471 NLL+=+0.0428 top1=0.906 mass_loss=0.0712
+  fid T=8192 N=8 M= 4 SNR=30.0 lstale3_eff   KL=0.0432 NLL+=+0.0418 top1=0.908 mass_loss=0.0518
+  fid T=8192 N=8 M= 4 SNR=30.0 lstale0_eff@kap1 KL=0.0477 NLL+=+0.0452 top1=0.905 mass_loss=0.0734
+  fid T=8192 N=8 M= 4 SNR=30.0 lstale3_eff@kap1 KL=0.0438 NLL+=+0.0408 top1=0.909 mass_loss=0.0535
+  fid T=8192 N=8 M= 4 SNR=40.0 fixed_eff@q0.5 KL=0.1503 NLL+=+0.1035 top1=0.841 mass_loss=0.1000
+  fid T=8192 N=8 M= 4 SNR=40.0 fixed_eff@q0.9 KL=0.0157 NLL+=+0.0054 top1=0.942 mass_loss=0.0241
+  fid T=8192 N=8 M= 4 SNR=40.0 fixed_eff@q0.99 KL=0.4400 NLL+=+0.3338 top1=0.711 mass_loss=0.0022
+  fid T=8192 N=8 M= 4 SNR=40.0 lstale0_eff   KL=0.0368 NLL+=+0.0320 top1=0.918 mass_loss=0.0714
+  fid T=8192 N=8 M= 4 SNR=40.0 lstale3_eff   KL=0.0283 NLL+=+0.0237 top1=0.927 mass_loss=0.0520
+  fid T=8192 N=8 M= 4 SNR=40.0 lstale0_eff@kap1 KL=0.0371 NLL+=+0.0307 top1=0.914 mass_loss=0.0721
+  fid T=8192 N=8 M= 4 SNR=40.0 lstale3_eff@kap1 KL=0.0280 NLL+=+0.0234 top1=0.927 mass_loss=0.0525
+  fid T=8192 N=8 M= 4 SNR=50.0 fixed_eff@q0.5 KL=0.1506 NLL+=+0.1053 top1=0.840 mass_loss=0.1000
+  fid T=8192 N=8 M= 4 SNR=50.0 fixed_eff@q0.9 KL=0.0149 NLL+=+0.0038 top1=0.946 mass_loss=0.0241
+  fid T=8192 N=8 M= 4 SNR=50.0 fixed_eff@q0.99 KL=0.2312 NLL+=+0.1611 top1=0.781 mass_loss=0.0025
+  fid T=8192 N=8 M= 4 SNR=50.0 lstale0_eff   KL=0.0343 NLL+=+0.0286 top1=0.921 mass_loss=0.0715
+  fid T=8192 N=8 M= 4 SNR=50.0 lstale3_eff   KL=0.0249 NLL+=+0.0195 top1=0.929 mass_loss=0.0521
+  fid T=8192 N=8 M= 4 SNR=50.0 lstale0_eff@kap1 KL=0.0345 NLL+=+0.0278 top1=0.919 mass_loss=0.0717
+  fid T=8192 N=8 M= 4 SNR=50.0 lstale3_eff@kap1 KL=0.0249 NLL+=+0.0190 top1=0.929 mass_loss=0.0522
+[T=8192 N=8] done, elapsed 435 s
+[T=8192 N=32] S1 exact shard merge: max|dlogit| = 1.278e+01
+  fid T=8192 N=32: segment 1/4 x 63 cells (130 s, GPU peak 10.3 GiB)
+  fid T=8192 N=32: segment 2/4 x 63 cells (292 s, GPU peak 10.4 GiB)
+  fid T=8192 N=32: segment 3/4 x 63 cells (460 s, GPU peak 10.4 GiB)
+  fid T=8192 N=32: segment 4/4 x 63 cells (633 s, GPU peak 10.4 GiB)
+  fid T=8192 N=32 M= 4 SNR= 0.0 fixed_eff@q0.5 KL=0.3003 NLL+=+0.2147 top1=0.763 mass_loss=0.0680
+  fid T=8192 N=32 M= 4 SNR= 0.0 fixed_eff@q0.9 KL=8.5833 NLL+=+8.2951 top1=0.034 mass_loss=0.0127
+  fid T=8192 N=32 M= 4 SNR= 0.0 fixed_eff@q0.99 KL=10.6735 NLL+=+10.1679 top1=0.005 mass_loss=0.0091
+  fid T=8192 N=32 M= 4 SNR= 0.0 lstale0_eff   KL=2.4135 NLL+=+2.2107 top1=0.425 mass_loss=0.0532
+  fid T=8192 N=32 M= 4 SNR= 0.0 lstale3_eff   KL=3.7728 NLL+=+3.5499 top1=0.277 mass_loss=0.0420
+  fid T=8192 N=32 M= 4 SNR= 0.0 lstale0_eff@kap1 KL=0.5733 NLL+=+0.4648 top1=0.721 mass_loss=0.1079
+  fid T=8192 N=32 M= 4 SNR= 0.0 lstale3_eff@kap1 KL=0.8458 NLL+=+0.7051 top1=0.656 mass_loss=0.0817
+  fid T=8192 N=32 M= 4 SNR= 5.0 fixed_eff@q0.5 KL=0.1774 NLL+=+0.1130 top1=0.821 mass_loss=0.0718
+  fid T=8192 N=32 M= 4 SNR= 5.0 fixed_eff@q0.9 KL=4.7825 NLL+=+4.5707 top1=0.171 mass_loss=0.0114
+  fid T=8192 N=32 M= 4 SNR= 5.0 fixed_eff@q0.99 KL=10.4976 NLL+=+10.0340 top1=0.011 mass_loss=0.0058
+  fid T=8192 N=32 M= 4 SNR= 5.0 lstale0_eff   KL=1.1345 NLL+=+0.9957 top1=0.610 mass_loss=0.0527
+  fid T=8192 N=32 M= 4 SNR= 5.0 lstale3_eff   KL=1.7340 NLL+=+1.5416 top1=0.515 mass_loss=0.0396
+  fid T=8192 N=32 M= 4 SNR= 5.0 lstale0_eff@kap1 KL=0.3905 NLL+=+0.3227 top1=0.765 mass_loss=0.0880
+  fid T=8192 N=32 M= 4 SNR= 5.0 lstale3_eff@kap1 KL=0.5811 NLL+=+0.4907 top1=0.711 mass_loss=0.0658
+  fid T=8192 N=32 M= 4 SNR=10.0 fixed_eff@q0.5 KL=0.1489 NLL+=+0.0899 top1=0.845 mass_loss=0.0732
+  fid T=8192 N=32 M= 4 SNR=10.0 fixed_eff@q0.9 KL=1.5392 NLL+=+1.3743 top1=0.488 mass_loss=0.0126
+  fid T=8192 N=32 M= 4 SNR=10.0 fixed_eff@q0.99 KL=10.1454 NLL+=+9.7425 top1=0.017 mass_loss=0.0035
+  fid T=8192 N=32 M= 4 SNR=10.0 lstale0_eff   KL=0.4672 NLL+=+0.3925 top1=0.741 mass_loss=0.0527
+  fid T=8192 N=32 M= 4 SNR=10.0 lstale3_eff   KL=0.7537 NLL+=+0.6425 top1=0.677 mass_loss=0.0392
+  fid T=8192 N=32 M= 4 SNR=10.0 lstale0_eff@kap1 KL=0.2336 NLL+=+0.1929 top1=0.810 mass_loss=0.0747
+  fid T=8192 N=32 M= 4 SNR=10.0 lstale3_eff@kap1 KL=0.3503 NLL+=+0.2891 top1=0.780 mass_loss=0.0553
+  fid T=8192 N=32 M= 4 SNR=15.0 fixed_eff@q0.5 KL=0.1411 NLL+=+0.0827 top1=0.851 mass_loss=0.0738
+  fid T=8192 N=32 M= 4 SNR=15.0 fixed_eff@q0.9 KL=0.3971 NLL+=+0.2948 top1=0.732 mass_loss=0.0148
+  fid T=8192 N=32 M= 4 SNR=15.0 fixed_eff@q0.99 KL=9.0076 NLL+=+8.6890 top1=0.024 mass_loss=0.0020
+  fid T=8192 N=32 M= 4 SNR=15.0 lstale0_eff   KL=0.1953 NLL+=+0.1600 top1=0.831 mass_loss=0.0532
+  fid T=8192 N=32 M= 4 SNR=15.0 lstale3_eff   KL=0.3045 NLL+=+0.2576 top1=0.788 mass_loss=0.0389
+  fid T=8192 N=32 M= 4 SNR=15.0 lstale0_eff@kap1 KL=0.1330 NLL+=+0.1093 top1=0.857 mass_loss=0.0664
+  fid T=8192 N=32 M= 4 SNR=15.0 lstale3_eff@kap1 KL=0.1909 NLL+=+0.1581 top1=0.833 mass_loss=0.0488
+  fid T=8192 N=32 M= 4 SNR=20.0 fixed_eff@q0.5 KL=0.1380 NLL+=+0.0812 top1=0.856 mass_loss=0.0739
+  fid T=8192 N=32 M= 4 SNR=20.0 fixed_eff@q0.9 KL=0.1087 NLL+=+0.0729 top1=0.853 mass_loss=0.0166
+  fid T=8192 N=32 M= 4 SNR=20.0 fixed_eff@q0.99 KL=6.7176 NLL+=+6.4754 top1=0.081 mass_loss=0.0015
+  fid T=8192 N=32 M= 4 SNR=20.0 lstale0_eff   KL=0.0933 NLL+=+0.0717 top1=0.875 mass_loss=0.0535
+  fid T=8192 N=32 M= 4 SNR=20.0 lstale3_eff   KL=0.1220 NLL+=+0.0971 top1=0.860 mass_loss=0.0392
+  fid T=8192 N=32 M= 4 SNR=20.0 lstale0_eff@kap1 KL=0.0810 NLL+=+0.0626 top1=0.881 mass_loss=0.0612
+  fid T=8192 N=32 M= 4 SNR=20.0 lstale3_eff@kap1 KL=0.0977 NLL+=+0.0791 top1=0.878 mass_loss=0.0449
+  fid T=8192 N=32 M= 4 SNR=25.0 fixed_eff@q0.5 KL=0.1374 NLL+=+0.0809 top1=0.857 mass_loss=0.0740
+  fid T=8192 N=32 M= 4 SNR=25.0 fixed_eff@q0.9 KL=0.0452 NLL+=+0.0267 top1=0.906 mass_loss=0.0174
+  fid T=8192 N=32 M= 4 SNR=25.0 fixed_eff@q0.99 KL=4.0514 NLL+=+3.8388 top1=0.224 mass_loss=0.0014
+  fid T=8192 N=32 M= 4 SNR=25.0 lstale0_eff   KL=0.0571 NLL+=+0.0429 top1=0.897 mass_loss=0.0537
+  fid T=8192 N=32 M= 4 SNR=25.0 lstale3_eff   KL=0.0645 NLL+=+0.0520 top1=0.895 mass_loss=0.0393
+  fid T=8192 N=32 M= 4 SNR=25.0 lstale0_eff@kap1 KL=0.0582 NLL+=+0.0427 top1=0.897 mass_loss=0.0581
+  fid T=8192 N=32 M= 4 SNR=25.0 lstale3_eff@kap1 KL=0.0586 NLL+=+0.0448 top1=0.896 mass_loss=0.0425
+  fid T=8192 N=32 M= 4 SNR=30.0 fixed_eff@q0.5 KL=0.1372 NLL+=+0.0802 top1=0.856 mass_loss=0.0740
+  fid T=8192 N=32 M= 4 SNR=30.0 fixed_eff@q0.9 KL=0.0258 NLL+=+0.0098 top1=0.929 mass_loss=0.0178
+  fid T=8192 N=32 M= 4 SNR=30.0 fixed_eff@q0.99 KL=1.9503 NLL+=+1.7757 top1=0.437 mass_loss=0.0015
+  fid T=8192 N=32 M= 4 SNR=30.0 lstale0_eff   KL=0.0435 NLL+=+0.0273 top1=0.909 mass_loss=0.0538
+  fid T=8192 N=32 M= 4 SNR=30.0 lstale3_eff   KL=0.0400 NLL+=+0.0264 top1=0.912 mass_loss=0.0393
+  fid T=8192 N=32 M= 4 SNR=30.0 lstale0_eff@kap1 KL=0.0439 NLL+=+0.0284 top1=0.908 mass_loss=0.0563
+  fid T=8192 N=32 M= 4 SNR=30.0 lstale3_eff@kap1 KL=0.0392 NLL+=+0.0265 top1=0.912 mass_loss=0.0412
+  fid T=8192 N=32 M= 4 SNR=40.0 fixed_eff@q0.5 KL=0.1372 NLL+=+0.0814 top1=0.855 mass_loss=0.0740
+  fid T=8192 N=32 M= 4 SNR=40.0 fixed_eff@q0.9 KL=0.0172 NLL+=+0.0021 top1=0.947 mass_loss=0.0180
+  fid T=8192 N=32 M= 4 SNR=40.0 fixed_eff@q0.99 KL=0.4837 NLL+=+0.3737 top1=0.700 mass_loss=0.0017
+  fid T=8192 N=32 M= 4 SNR=40.0 lstale0_eff   KL=0.0342 NLL+=+0.0196 top1=0.922 mass_loss=0.0539
+  fid T=8192 N=32 M= 4 SNR=40.0 lstale3_eff   KL=0.0266 NLL+=+0.0134 top1=0.930 mass_loss=0.0394
+  fid T=8192 N=32 M= 4 SNR=40.0 lstale0_eff@kap1 KL=0.0347 NLL+=+0.0195 top1=0.922 mass_loss=0.0547
+  fid T=8192 N=32 M= 4 SNR=40.0 lstale3_eff@kap1 KL=0.0267 NLL+=+0.0141 top1=0.930 mass_loss=0.0400
+  fid T=8192 N=32 M= 4 SNR=50.0 fixed_eff@q0.5 KL=0.1368 NLL+=+0.0803 top1=0.856 mass_loss=0.0741
+  fid T=8192 N=32 M= 4 SNR=50.0 fixed_eff@q0.9 KL=0.0163 NLL+=+0.0013 top1=0.950 mass_loss=0.0180
+  fid T=8192 N=32 M= 4 SNR=50.0 fixed_eff@q0.99 KL=0.2390 NLL+=+0.1667 top1=0.778 mass_loss=0.0019
+  fid T=8192 N=32 M= 4 SNR=50.0 lstale0_eff   KL=0.0320 NLL+=+0.0168 top1=0.925 mass_loss=0.0539
+  fid T=8192 N=32 M= 4 SNR=50.0 lstale3_eff   KL=0.0235 NLL+=+0.0115 top1=0.937 mass_loss=0.0394
+  fid T=8192 N=32 M= 4 SNR=50.0 lstale0_eff@kap1 KL=0.0320 NLL+=+0.0179 top1=0.922 mass_loss=0.0542
+  fid T=8192 N=32 M= 4 SNR=50.0 lstale3_eff@kap1 KL=0.0238 NLL+=+0.0114 top1=0.934 mass_loss=0.0396
+[T=8192 N=32] done, elapsed 1105 s
